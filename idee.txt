@@ -1,0 +1,9 @@
+idee side mini projet devweb :
+
+site ecommerce
+site bibliotheque
+Gestion des commandes dans un magasin en ligne.
+Suivi des clients et des factures dans une entreprise.
+gestion d etudiant
+gestion de photo
+review de film
