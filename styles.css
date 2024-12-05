@@ -1,0 +1,122 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1c1c1c;
+    color: #f4f4f4;
+}
+
+span{
+    color: #f4f4f4;
+}
+
+
+header {
+    background-color: #111;
+    padding: 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo {
+    font-size: 1.5em;
+    color: #ff7b7b;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+}
+
+.navbar ul li {
+    margin-left: 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #f4f4f4;
+    font-size: 1em;
+}
+
+.navbar ul li a:hover {
+    color: #ff7b7b;
+}
+
+
+.movie-grid {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: space-around;
+}
+
+.movie-card {
+    background-color: #222;
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 8px;
+    text-align: center;
+    color: #f4f4f4;
+}
+
+.movie-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.movie-card h3 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.movie-card .rating {
+    font-size: 1.1em;
+}
+
+
+.movie-reviews {
+    padding: 20px;
+}
+
+.movie-reviews h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.review {
+    background-color: #333;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+.review h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.review p {
+    font-size: 1.1em;
+}
+
+@media (max-width: 768px) {
+    .movie-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .movie-card {
+        width: 80%;
+    }
+}
