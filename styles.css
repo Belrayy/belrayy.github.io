@@ -120,3 +120,30 @@ header {
         width: 80%;
     }
 }
+
+#movies-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.movie-card {
+    width: 150px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.movie-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.movie-card h3 {
+    font-size: 1em;
+    margin: 10px 0;
+}
+
+.movie-card .rating {
+    font-size: 1.2em;
+    color: gold;
+}
