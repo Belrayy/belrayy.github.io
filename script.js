@@ -35,7 +35,7 @@ async function loadMovies() {
 
     try {
         // Fetch the JSON file
-        const response = await fetch('scrap/movies_fixed.json');
+        const response = await fetch('scrap/movies/movies_cleaned.json');
         const movies = await response.json();
 
         // Loop through each movie in the JSON and create a movie card
@@ -65,4 +65,47 @@ async function loadMovies() {
 
 // Call the function to load and display movies
 loadMovies();
+
+
+async function loadLatestMovies() {
+    const container = document.getElementById("movies-latest");
+
+    try {
+        // Fetch the JSON file
+        const response = await fetch('scrap/movies/movies_cleaned.json');
+        const movies = await response.json();
+
+        // Sort movies by release date (descending order)
+        movies.sort((a, b) => new Date(b.release_date) - new Date(a.release_date));
+
+        // Get the 5 latest movies
+        const latestMovies = movies.slice(0, 5);
+
+        // Loop through each movie and create a movie card
+        latestMovies.forEach(movie => {
+            // Calculate the star rating (round to nearest whole number)
+            const starRating = Math.round(movie.vote_average / 2); // Convert 10-point scale to 5-star scale
+            const stars = "★".repeat(starRating) + "☆".repeat(5 - starRating);
+
+            // Create the movie card HTML
+            const movieCard = document.createElement("div");
+            movieCard.className = "movie-card";
+            movieCard.innerHTML = `
+                <img src="${movie.poster_path}" alt="${movie.title}">
+                <h3>${movie.title}</h3>
+                <p class="release-date">${movie.release_date}</p>
+                <p class="overview">${movie.overview}</p>
+                <p class="rating">${stars}</p>
+            `;
+
+            // Append the movie card to the container
+            container.appendChild(movieCard);
+        });
+    } catch (error) {
+        console.error("Error loading movies:", error);
+    }
+}
+
+// Call the function to load and display the latest movies
+loadLatestMovies();
 
