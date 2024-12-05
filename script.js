@@ -1,22 +1,30 @@
-function setLanguage(language) {
+// Function to change the language and save preference to localStorage
+function changeLanguage(language) {
     // Save the selected language to localStorage
     localStorage.setItem('language', language);
-    loadLanguage(); // Load content in the selected language
+    loadLanguage(); // change the text selected language
 }
 
-// Function to load the language when the page loads
+// Function to load the language from localStorage
 function loadLanguage() {
-    const language = localStorage.getItem('language') || 'en'; // Default to English if not set
-    document.documentElement.lang = language;
+    // Get the language from localStorage 
+    const language = localStorage.getItem('language') || 'en'; 
 
+    // Change the language of the page based on the stored value
     if (language === 'fr') {
-        document.getElementById('heading').textContent = "Bienvenue!";
-        document.getElementById('content').textContent = "Voici du contenu en français. Changez en anglais avec le bouton ci-dessus.";
+        document.documentElement.lang = 'fr'; // Set French
+
+        document.getElementById('home-text').textContent = "Accueil";
+        document.getElementById('movie-text').textContent = "Films";
+        document.getElementById('reviews-text').textContent = "Critiques";
     } else {
-        document.getElementById('heading').textContent = "Welcome!";
-        document.getElementById('content').textContent = "This is some content in English. Switch to French with the button above.";
+        document.documentElement.lang = 'en'; // Set English
+
+        document.getElementById('home-text').textContent = "Home";
+        document.getElementById('movie-text').textContent = "Movies";
+        document.getElementById('reviews-text').textContent = "Reviews";
     }
 }
 
-// Call loadLanguage on page load to set the language correctly
+// Ensure language is loaded when the page is ready
 window.onload = loadLanguage;
