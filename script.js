@@ -35,7 +35,7 @@ async function loadMovies() {
 
     try {
         // Fetch the JSON file
-        const response = await fetch('scrap/movies.json');
+        const response = await fetch('scrap/movies_fixed.json');
         const movies = await response.json();
 
         // Loop through each movie in the JSON and create a movie card
