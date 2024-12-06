@@ -14,7 +14,7 @@ function loadLanguage() {
     if (language === 'fr') {
         document.documentElement.lang = 'fr'; // Set French
 
-        document.getElementById('home-text').textContent = "Accueil";
+        
         document.getElementById('movie-text').textContent = "Films";
         document.getElementById('reviews-text').textContent = "Critiques";
         document.getElementById('About').textContent = "À propos";
@@ -22,12 +22,12 @@ function loadLanguage() {
         document.getElementById('Help').textContent = "Support";
         document.getElementById('API').textContent = "API";
         document.getElementById('Contact').textContent = "Contactez-nous";
-        document.getElementById('copyright').textContent = "© LetterboxB Limited. Créé par x. Données des films fournies par OMDb.";
+        document.getElementById('copyright').textContent = "© LetterboxB Limited. Créé par BELHAFIANE RAYYANE. Données des films fournies par OMDb.";
         document.getElementById('Latest').textContent = "Récent :";
     } else {
         document.documentElement.lang = 'en'; // Set English
 
-        document.getElementById('home-text').textContent = "Home";
+       
         document.getElementById('movie-text').textContent = "Movies";
         document.getElementById('reviews-text').textContent = "Reviews";
         document.getElementById('About').textContent = "About";
@@ -35,12 +35,15 @@ function loadLanguage() {
         document.getElementById('Help').textContent = "Help";
         document.getElementById('API').textContent = "API";
         document.getElementById('Contact').textContent = "Contact";
-        document.getElementById('copyright').textContent = "© LetterboxB Limited. Made by x. Film data from OMDb.";
+        document.getElementById('copyright').textContent = "© LetterboxB Limited. Made by BELHAFIANE RAYYANE. Film data from OMDb.";
         document.getElementById('Latest').textContent = "Latest Movies :";
     }
 }
 
 // Ensure language is loaded when the page is ready
+window.addEventListener('DOMContentLoaded', (event) => {
+    loadLanguage();
+});
 
 window.onload = loadLanguage;
 

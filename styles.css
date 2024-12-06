@@ -5,6 +5,36 @@
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+}
+
+#titre {
+    font-family: Arial, sans-serif;
+    text-decoration: none; /* Removes the underline */
+    color: white
+}
+
+#titre a:visited {
+    text-decoration: none ;
+    color: white ;
+}
+
+#titre a:hover {
+    text-decoration: none; /* Ensures no underline on hover */
+    color: #ff7b7b; /* Keeps the text color white on hover */
+}
+
+#langue a:visited {
+    text-decoration: none ;
+    color: white ;
+}
+
+#langue a:hover{
+    text-decoration: none; /* Ensures no underline on hover */
+    color: #ff7b7b;
+}
+
 
 body {
     font-family: Arial, sans-serif;

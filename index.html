@@ -16,21 +16,16 @@
     <header>
         <div class="navbar">
             <div class="logo">
-                <span>LETTERBOXB</span>
+                <span id="titre"><a href="index.html">LETTERBOXB</a></span>
             </div>
             <nav>
                 <ul>
-                    <li><a href="index.html" id="home-text">Home</a></li>
+                    <li><a href="index.html" id="connexion">Sign-in</a></li>
                     <li><a href="HTML/movies.html" id="movie-text">Movies & shows</a></li>
                     <li><a href="HTML/reviews.html" id="reviews-text">Reviews</a></li>
                 </ul>
             </nav>
-            <nav>
-                <ul>
-                    <li><a href="index.html" onclick="changeLanguage('en')">English</a></li>
-                    <li><a href="index.html" onclick="changeLanguage('fr')">Français</a></li>
-                </ul>
-            </nav>
+            
         </div>
     </header>
 
@@ -41,7 +36,7 @@
     </section>
 
     <!-- Movie Reviews Section -->
-    <section class="movie-reviews">
+    <!--<section class="movie-reviews">
         <h2>Recent Reviews</h2>
         <div class="review">
             <h3>Wicked (2024)</h3>
@@ -51,8 +46,8 @@
             <h3>Our Little Secret (2024)</h3>
             <p>Heartwarming and touching. A must-see for fans of family dramas.</p>
         </div>
-        <!-- Add more reviews -->
-    </section>
+         Add more reviews 
+    </section>-->
 
     <footer class="footer">
         <div class="footer-links">
@@ -60,11 +55,25 @@
             <a href="#" id="Apps">Apps</a>
             <a href="#" id="Help">Help</a>
             <a href="https://www.omdbapi.com/" id="API">API</a>
-            <a href="#" if="Contact">Contact</a>
+            <a href="#" id="Contact">Contact</a>
         </div>
         <div class="footer-info">
             <p id="copyright">© LetterboxB Limited. Made by BELHAFIANE RAYYANE. Film data from OMDb.</p>
         </div>
+        <nav id="langue">
+            <ul>
+                <li class="dropdown">
+                    <div class="dropdown-content">
+                        <a href="index.html" onclick="changeLanguage('en')">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Flag_of_the_United_States.svg" alt="English Flag" width="20" height="15"> English
+                        </a>
+                        <a href="index.html" onclick="changeLanguage('fr')">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Flag_of_France.svg" alt="French Flag" width="20" height="15"> Français
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
     </footer>
 
     <script src="script.js"></script>
