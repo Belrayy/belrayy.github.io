@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="Pic/letterbox.ico" type="image/x-icon">
     <link rel="stylesheet" href="styles.css">
-    <title>Letterboxb</title>
+    <title>LetterboxB</title>
 </head>
 
 <body>
-    
+
 
     <!-- header : pages and lang -->
     <header>
@@ -21,8 +21,8 @@
             <nav>
                 <ul>
                     <li><a href="index.html" id="home-text">Home</a></li>
-                    <li><a href="movies.html" id="movie-text">Movies  & shows</a></li>
-                    <li><a href="reviews.html" id="reviews-text">Reviews</a></li>
+                    <li><a href="HTML/movies.html" id="movie-text">Movies & shows</a></li>
+                    <li><a href="HTML/reviews.html" id="reviews-text">Reviews</a></li>
                 </ul>
             </nav>
             <nav>
@@ -36,7 +36,7 @@
 
     <!-- Movie Grid Section -->
     <section class="movie-grid">
-        <h1>Latest Movies</h1><br>
+        <h1 id="Latest">Latest Movies :</h1><br>
         <div id="movies-latest"></div>
     </section>
 
@@ -54,7 +54,21 @@
         <!-- Add more reviews -->
     </section>
 
+    <footer class="footer">
+        <div class="footer-links">
+            <a href="#" id="About">About</a>
+            <a href="#" id="Apps">Apps</a>
+            <a href="#" id="Help">Help</a>
+            <a href="https://www.omdbapi.com/" id="API">API</a>
+            <a href="#" if="Contact">Contact</a>
+        </div>
+        <div class="footer-info">
+            <p id="copyright">© LetterboxB Limited. Made by BELHAFIANE RAYYANE. Film data from OMDb.</p>
+        </div>
+    </footer>
+
     <script src="script.js"></script>
+
 </body>
 
 </html>

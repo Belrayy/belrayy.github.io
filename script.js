@@ -17,16 +17,31 @@ function loadLanguage() {
         document.getElementById('home-text').textContent = "Accueil";
         document.getElementById('movie-text').textContent = "Films";
         document.getElementById('reviews-text').textContent = "Critiques";
+        document.getElementById('About').textContent = "À propos";
+        document.getElementById('Apps').textContent = "Application";
+        document.getElementById('Help').textContent = "Support";
+        document.getElementById('API').textContent = "API";
+        document.getElementById('Contact').textContent = "Contactez-nous";
+        document.getElementById('copyright').textContent = "© LetterboxB Limited. Créé par x. Données des films fournies par OMDb.";
+        document.getElementById('Latest').textContent = "Récent :";
     } else {
         document.documentElement.lang = 'en'; // Set English
 
         document.getElementById('home-text').textContent = "Home";
         document.getElementById('movie-text').textContent = "Movies";
         document.getElementById('reviews-text').textContent = "Reviews";
+        document.getElementById('About').textContent = "About";
+        document.getElementById('Apps').textContent = "Apps";
+        document.getElementById('Help').textContent = "Help";
+        document.getElementById('API').textContent = "API";
+        document.getElementById('Contact').textContent = "Contact";
+        document.getElementById('copyright').textContent = "© LetterboxB Limited. Made by x. Film data from OMDb.";
+        document.getElementById('Latest').textContent = "Latest Movies :";
     }
 }
 
 // Ensure language is loaded when the page is ready
+
 window.onload = loadLanguage;
 
 
@@ -35,7 +50,7 @@ async function loadMovies() {
 
     try {
         // Fetch the JSON file
-        const response = await fetch('scrap/movies/movies_cleaned.json');
+        const response = await fetch('../scrap/movies/cleaned_movies.json');
         const movies = await response.json();
 
         // Loop through each movie in the JSON and create a movie card
@@ -72,7 +87,7 @@ async function loadLatestMovies() {
 
     try {
         // Fetch the JSON file
-        const response = await fetch('scrap/movies/movies_cleaned.json');
+        const response = await fetch('scrap/movies/cleaned_movies.json');
         const movies = await response.json();
 
         // Sort movies by release date (descending order)

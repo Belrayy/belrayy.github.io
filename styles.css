@@ -153,3 +153,43 @@ header {
     flex-wrap: wrap;  /* Allows wrapping if there are too many cards */
     justify-content: space-around; /* Distribute the cards with space between them */
 }
+
+.footer {
+    background-color: #1c1c1c; /* Dark background */
+    color: #b0b0b0; /* Light gray text */
+    text-align: center;
+    padding: 20px 0;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+  }
+  
+  .footer-links {
+    margin-bottom: 15px;
+  }
+  
+  .footer-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #b0b0b0;
+    transition: color 0.3s;
+  }
+  
+  .footer-links a:hover {
+    color: #ffffff; /* Highlight link on hover */
+  }
+  
+  .footer-info {
+    margin-bottom: 15px;
+  }
+  
+  .footer-info a {
+    color: #b0b0b0;
+    text-decoration: none;
+  }
+  
+  .footer-info a:hover {
+    color: #ffffff;
+  }
+  
+
+  
