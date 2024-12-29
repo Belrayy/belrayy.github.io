@@ -8,13 +8,13 @@ function changeLanguage(language) {
 // Function to load the language from localStorage
 function loadLanguage() {
     // Get the language from localStorage 
-    const language = localStorage.getItem('language') || 'en'; 
+    const language = localStorage.getItem('language') || 'en';
 
     // Change the language of the page based on the stored value
     if (language === 'fr') {
         document.documentElement.lang = 'fr'; // Set French
 
-        
+
         document.getElementById('movie-text').textContent = "Films";
         document.getElementById('reviews-text').textContent = "Critiques";
         document.getElementById('About').textContent = "À propos";
@@ -27,7 +27,7 @@ function loadLanguage() {
     } else {
         document.documentElement.lang = 'en'; // Set English
 
-       
+
         document.getElementById('movie-text').textContent = "Movies";
         document.getElementById('reviews-text').textContent = "Reviews";
         document.getElementById('About').textContent = "About";
@@ -126,4 +126,95 @@ async function loadLatestMovies() {
 
 // Call the function to load and display the latest movies
 loadLatestMovies();
+
+const fs = require('fs');
+
+// File to store user data
+const logindb = './login/login.json';
+
+// Helper function to read and parse JSON file
+function readUsers() {
+    if (!fs.existsSync(logindb)) {
+        fs.writeFileSync(logindb, JSON.stringify([]));
+    }
+    return JSON.parse(fs.readFileSync(logindb, 'utf8'));
+}
+
+// Helper function to write data back to the JSON file
+function writeUsers(users) {
+    fs.writeFileSync(logindb, JSON.stringify(users, null, 2));
+}
+
+// Signup function
+function signup(username, password) {
+    const users = readUsers();
+    if (users.find(user => user.username === username)) {
+        return 'Username already exists.';
+    }
+    users.push({ username, password, loggedIn: false });
+    writeUsers(users);
+    return 'Signup successful.';
+}
+
+// Login function
+function login(username, password) {
+    const users = readUsers();
+    const user = users.find(user => user.username === username);
+    if (!user) {
+        return 'User does not exist.';
+    }
+    if (user.password !== password) {
+        return 'Invalid password.';
+    }
+    user.loggedIn = true;
+    writeUsers(users);
+    return 'Login successful.';
+}
+
+// Disconnect function
+function disconnect(username) {
+    const users = readUsers();
+    const user = users.find(user => user.username === username);
+    if (!user.loggedIn) {
+        return 'User is not logged in.';
+    }
+    user.loggedIn = false;
+    writeUsers(users);
+    return 'User disconnected.';
+}
+
+// Simulating user state
+let userLoggedIn = false;
+
+// Select the sign-in/disconnect button
+const authButton = document.getElementById('connexion');
+
+// Function to update the button's text and behavior
+function updateAuthButton() {
+    if (userLoggedIn) {
+        authButton.textContent = 'Disconnect';
+        authButton.onclick = disconnectUser; // Attach disconnect function
+    } else {
+        authButton.textContent = 'Sign In';
+        authButton.onclick = loginUser; // Attach login function
+    }
+}
+
+// Simulate login action
+function loginUser() {
+    userLoggedIn = true; // Simulate successful login
+    updateAuthButton(); // Update button after login
+    alert('You are now signed in!');
+}
+
+// Simulate disconnect action
+function disconnectUser() {
+    userLoggedIn = false; // Simulate disconnect
+    updateAuthButton(); // Update button after disconnect
+    alert('You are now disconnected!');
+}
+
+// Initialize the button state on page load
+updateAuthButton();
+
 
