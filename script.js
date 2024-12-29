@@ -218,3 +218,25 @@ function disconnectUser() {
 updateAuthButton();
 
 
+// Function to open the overlay
+function openOverlay() {
+    document.getElementById('overlay').style.display = 'flex'; // Show the overlay
+}
+
+// Function to close the overlay
+function closeOverlay() {
+    document.getElementById('overlay').style.display = 'none'; // Hide the overlay
+}
+
+function showSignInForm() {
+    document.getElementById("signInForm").style.display = "block";
+    document.getElementById("logInForm").style.display = "none";
+    document.getElementById("overlayTitle").innerText = "Sign Up";
+}
+
+function showLogInForm() {
+    document.getElementById("logInForm").style.display = "block";
+    document.getElementById("signInForm").style.display = "none";
+    document.getElementById("overlayTitle").innerText = "Log In";
+}
+

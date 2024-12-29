@@ -20,7 +20,7 @@
             </div>
             <nav>
                 <ul>
-                    <li><a href="index.html" id="connexion">Sign-in/Log in</a></li>
+                    <li><a id="openOverlayBtn" onclick="openOverlay()" class="nav-item">Sign-in/Log in</a></li>
                     <li><a href="HTML/movies.html" id="movie-text">Movies & shows</a></li>
                     <li><a href="HTML/reviews.html" id="reviews-text">Reviews</a></li>
                 </ul>
@@ -28,9 +28,53 @@
 
         </div>
     </header>
-    
 
-    
+
+
+
+
+    <!-- Overlay for Sign-In or Log-In -->
+    <div id="overlay" style="display: none;">
+        <div class="overlay-content">
+            <h2 id="overlayTitle">Choose an option</h2>
+
+            <!-- Buttons to switch between Sign In and Log In forms -->
+            <button id="signInBtn" onclick="showSignInForm()">Sign In</button>
+            <button id="logInBtn" onclick="showLogInForm()">Log In</button>
+
+            <!-- Sign-In Form (Initially hidden) -->
+            <div id="signInForm" style="display: none;">
+                <form>
+                    <label for="signInUsername">Username or Email:</label>
+                    <input type="text" id="signInUsername" name="username" required><br><br>
+
+                    <label for="signInPassword">Password:</label>
+                    <input type="password" id="signInPassword" name="password" required><br><br>
+
+                    <button type="submit">Sign Up</button>
+                </form>
+            </div>
+
+            <!-- Log-In Form (Initially hidden) -->
+            <div id="logInForm" style="display: none;">
+                <form>
+                    <label for="logInUsername">Username or Email:</label>
+                    <input type="text" id="logInUsername" name="username" required><br><br>
+
+                    <label for="logInPassword">Password:</label>
+                    <input type="password" id="logInPassword" name="password" required><br><br>
+
+                    <button type="submit">Log In</button>
+                </form>
+            </div>
+
+            <!-- Close Button -->
+            <button id="closeOverlayBtn" onclick="closeOverlay()">Close</button>
+        </div>
+    </div>
+
+
+
     <!-- Movie Grid Section -->
     <section class="movie-grid">
         <h1 id="Latest">Latest Movies :</h1><br>

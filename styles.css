@@ -222,4 +222,94 @@ header {
   }
   
 
+  #overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .overlay-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  /* Overlay styles */
+#overlay {
+    display: none; /* Hidden by default */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Transparent background */
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+}
+
+/* Overlay content styles */
+.overlay-content {
+    display: inline-block;
+    background-color: #333;
+    padding: 30px;
+    border-radius: 10px;
+    width: 300px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+/* Input field styles */
+input[type="text"],
+input[type="password"] {
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Button styles */
+button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #4CAF50; /* Green background */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+/* Close button specific style */
+#closeOverlayBtn {
+    background-color: #f44336; /* Red background */
+}
+
+#closeOverlayBtn:hover {
+    background-color: #d32f2f; /* Darker red on hover */
+}
+
+/* Style for switching buttons */
+#signInBtn, #logInBtn {
+    margin: 10px;
+    background-color: #2196F3; /* Blue background */
+    color: white;
+}
+
+#signInBtn:hover, #logInBtn:hover {
+    background-color: #1976D2; /* Darker blue on hover */
+}
+
   
