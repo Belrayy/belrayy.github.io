@@ -40,6 +40,7 @@ body {
     font-family: Arial, sans-serif;
     background-color: #1c1c1c;
     color: #f4f4f4;
+    
 }
 
 span{
@@ -192,8 +193,9 @@ header {
     font-family: Arial, sans-serif;
     font-size: 14px;
     z-index: 500;
-    margin-top: 20px;
+    margin-top: auto;
     position: relative;
+    margin: 0;
   }
   
   .footer-links {
@@ -245,7 +247,7 @@ header {
   
   #overlay {
     display: block; /* Make the overlay part of the normal flow */
-    position: fixed; /* Use fixed positioning to place it in the center */
+    position: absolute; /* Use fixed positioning to place it in the center */
     top: 50%; /* Position it at the vertical center of the screen */
     left: 50%; /* Position it at the horizontal center of the screen */
     transform: translate(-50%, -50%); /* Correct centering */
@@ -268,7 +270,8 @@ header {
     border-radius: 10px;
     width: 100%; /* Ensure the content inside takes up full width */
     box-sizing: border-box; /* Prevent padding from affecting width calculation */
-}
+} 
+
 
 
 
@@ -289,7 +292,7 @@ input[type="password"] {
 
 /* Button styles */
 button {
-    padding: 10px 20px;
+    padding: 10px 100px;
     margin-top: 10px;
     background-color: #4CAF50; /* Green background */
     color: white;
@@ -321,5 +324,3 @@ button:hover {
 #signInBtn:hover, #logInBtn:hover {
     background-color: #1976D2; /* Darker blue on hover */
 }
-
-  

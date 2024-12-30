@@ -233,20 +233,6 @@ function disconnectUser() {
 updateAuthButton();*/
 
 
-window.onload = function() {
-    openOverlay();  // Automatically open the overlay on page load
-};
-
-// Function to open the overlay
-function openOverlay() {
-    document.getElementById('overlay').style.display = 'flex'; // Show the overlay
-}
-
-// Function to close the overlay
-function closeOverlay() {
-    document.getElementById('overlay').style.display = 'none'; // Hide the overlay
-}
-
 function showSignInForm() {
     document.getElementById("signInForm").style.display = "block";
     document.getElementById("logInForm").style.display = "none";
