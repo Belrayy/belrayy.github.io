@@ -127,7 +127,7 @@ async function loadLatestMovies() {
 // Call the function to load and display the latest movies
 loadLatestMovies();
 
-const fs = require('fs');
+/*const fs = require('fs');
 
 // File to store user data
 const logindb = './login/login.json';
@@ -230,8 +230,12 @@ function disconnectUser() {
 }
 
 // Initialize the button state on page load
-updateAuthButton();
+updateAuthButton();*/
 
+
+window.onload = function() {
+    openOverlay();  // Automatically open the overlay on page load
+};
 
 // Function to open the overlay
 function openOverlay() {
