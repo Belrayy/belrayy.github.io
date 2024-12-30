@@ -45,20 +45,23 @@
             <!-- Sign-In Form (Initially hidden) -->
             <div id="signInForm" style="display: none;">
                 <form>
-                    <label for="signInUsername">Username or Email:</label>
+                    <label for="signInEmail">Email:</label>
+                    <input type="text" id="signInEmail" name="email" required><br><br>
+
+                    <label for="signInUsername">Username :</label>
                     <input type="text" id="signInUsername" name="username" required><br><br>
 
                     <label for="signInPassword">Password:</label>
                     <input type="password" id="signInPassword" name="password" required><br><br>
 
-                    <button type="submit">Sign Up</button>
+                    <button type="submit" onclick="signin()">Sign Up</button>
                 </form>
             </div>
 
             <!-- Log-In Form (Initially hidden) -->
             <div id="logInForm" style="display: none;">
                 <form>
-                    <label for="logInUsername">Username or Email:</label>
+                    <label for="logInUsername">Username :</label>
                     <input type="text" id="logInUsername" name="username" required><br><br>
 
                     <label for="logInPassword">Password:</label>

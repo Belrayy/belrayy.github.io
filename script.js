@@ -146,14 +146,22 @@ function writeUsers(users) {
 }
 
 // Signup function
-function signup(username, password) {
+function signup(username, mail, password) {
     const users = readUsers();
     if (users.find(user => user.username === username)) {
         return 'Username already exists.';
     }
-    users.push({ username, password, loggedIn: false });
+    users.push({ username, password, mail, loggedIn: false });
     writeUsers(users);
     return 'Signup successful.';
+}
+
+function signin(){
+    let user=document.getElementById("signInUsername");
+    let mail=document.getElementById("signInEmail");
+    let password=document.getElementById("signInPassword");
+    signup(user,mail,password);
+
 }
 
 // Login function
@@ -169,6 +177,13 @@ function login(username, password) {
     user.loggedIn = true;
     writeUsers(users);
     return 'Login successful.';
+}
+
+function login_in(){
+    let user=document.getElementById("signInUsername");
+    let password=document.getElementById("signInPassword");
+    login(user,password);
+
 }
 
 // Disconnect function
