@@ -192,7 +192,7 @@ header {
     padding: 20px 0;
     font-family: Arial, sans-serif;
     font-size: 14px;
-    z-index: 500;
+    z-index: 10;
     margin-top: auto;
     position: relative;
     margin: 0;
@@ -228,37 +228,25 @@ header {
   
 
   #overlay {
-    position: fixed;
+    position: fixed; /* Ensure the overlay covers the entire viewport */
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  
-  .overlay-content {
+    z-index: 1000; /* Ensure this is higher than the footer's z-index */
+}
+
+.overlay-content {
     background-color: white;
     padding: 20px;
     border-radius: 5px;
-  }
-  
-  #overlay {
-    display: block; /* Make the overlay part of the normal flow */
-    position: absolute; /* Use fixed positioning to place it in the center */
-    top: 50%; /* Position it at the vertical center of the screen */
-    left: 50%; /* Position it at the horizontal center of the screen */
-    transform: translate(-50%, -50%); /* Correct centering */
-    background-color: rgba(0, 0, 0, 0); /* Transparent background */
-    color: white;
     text-align: center;
     width: 80%; /* Adjust width for better fit */
     max-width: 500px; /* Limit max width */
-    padding: 20px; /* Add padding */
-    border-radius: 10px; /* Optional: Add rounded corners */
-    z-index: 1000; /* Ensure it appears above other content */
     box-sizing: border-box; /* Prevent padding from affecting width calculation */
 }
 
@@ -269,7 +257,8 @@ header {
     padding: 30px;
     border-radius: 10px;
     width: 100%; /* Ensure the content inside takes up full width */
-    box-sizing: border-box; /* Prevent padding from affecting width calculation */
+    box-sizing: border-box;
+    z-index: 1000; /* Prevent padding from affecting width calculation */
 } 
 
 
@@ -282,6 +271,7 @@ h2 {
 
 /* Input field styles */
 input[type="text"],
+input[type="email"],
 input[type="password"] {
     padding: 10px;
     margin: 10px 0;

@@ -127,7 +127,7 @@ async function loadLatestMovies() {
 // Call the function to load and display the latest movies
 loadLatestMovies();
 
-/*const fs = require('fs');
+const fs = require('fs');
 
 // File to store user data
 const logindb = './login/login.json';
@@ -230,7 +230,7 @@ function disconnectUser() {
 }
 
 // Initialize the button state on page load
-updateAuthButton();*/
+updateAuthButton();
 
 
 function showSignInForm() {
