@@ -297,6 +297,7 @@ button:hover {
 
 /* Close button specific style */
 #closeOverlayBtn {
+    margin: 10px;
     background-color: #f44336; /* Red background */
 }
 
@@ -313,4 +314,16 @@ button:hover {
 
 #signInBtn:hover, #logInBtn:hover {
     background-color: #1976D2; /* Darker blue on hover */
+}
+
+.overlay-button {
+    width: 150px; /* Set a fixed width */
+    padding: 10px; /* Add padding for better appearance */
+    margin: 10px;
+    background-color: #2196F3; /* Blue background */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
 }

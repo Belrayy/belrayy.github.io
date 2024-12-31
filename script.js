@@ -127,111 +127,115 @@ async function loadLatestMovies() {
 // Call the function to load and display the latest movies
 loadLatestMovies();
 
-const fs = require('fs');
-
-// File to store user data
-const logindb = './login/login.json';
-
-// Helper function to read and parse JSON file
-function readUsers() {
-    if (!fs.existsSync(logindb)) {
-        fs.writeFileSync(logindb, JSON.stringify([]));
+document.addEventListener('DOMContentLoaded', function() {
+    // Helper function to read and parse JSON data from localStorage
+    function readUsers() {
+        const users = localStorage.getItem('users');
+        return users ? JSON.parse(users) : [];
     }
-    return JSON.parse(fs.readFileSync(logindb, 'utf8'));
-}
 
-// Helper function to write data back to the JSON file
-function writeUsers(users) {
-    fs.writeFileSync(logindb, JSON.stringify(users, null, 2));
-}
-
-// Signup function
-function signup(username, mail, password) {
-    const users = readUsers();
-    if (users.find(user => user.username === username)) {
-        return 'Username already exists.';
+    // Helper function to write data back to localStorage
+    function writeUsers(users) {
+        localStorage.setItem('users', JSON.stringify(users));
     }
-    users.push({ username, password, mail, loggedIn: false });
-    writeUsers(users);
-    return 'Signup successful.';
-}
 
-function signin(){
-    let user=document.getElementById("signInUsername");
-    let mail=document.getElementById("signInEmail");
-    let password=document.getElementById("signInPassword");
-    signup(user,mail,password);
-
-}
-
-// Login function
-function login(username, password) {
-    const users = readUsers();
-    const user = users.find(user => user.username === username);
-    if (!user) {
-        return 'User does not exist.';
+    // Signup function
+    function signup(username, email, password) {
+        const users = readUsers();
+        if (users.find(user => user.username === username)) {
+            return 'Username already exists.';
+        }
+        users.push({ username, email, password, loggedIn: false });
+        writeUsers(users);
+        return 'Signup successful.';
     }
-    if (user.password !== password) {
-        return 'Invalid password.';
+
+    function signin() {
+        let user = document.getElementById("signInUsername").value;
+        let email = document.getElementById("signInEmail").value;
+        let password = document.getElementById("signInPassword").value;
+        const message = signup(user, email, password);
+        alert(message);
     }
-    user.loggedIn = true;
-    writeUsers(users);
-    return 'Login successful.';
-}
 
-function login_in(){
-    let user=document.getElementById("signInUsername");
-    let password=document.getElementById("signInPassword");
-    login(user,password);
-
-}
-
-// Disconnect function
-function disconnect(username) {
-    const users = readUsers();
-    const user = users.find(user => user.username === username);
-    if (!user.loggedIn) {
-        return 'User is not logged in.';
+    // Login function
+    function login(username, password) {
+        const users = readUsers();
+        const user = users.find(user => user.username === username);
+        if (!user) {
+            return 'User does not exist.';
+        }
+        if (user.password !== password) {
+            return 'Invalid password.';
+        }
+        user.loggedIn = true;
+        writeUsers(users);
+        return 'Login successful.';
     }
-    user.loggedIn = false;
-    writeUsers(users);
-    return 'User disconnected.';
-}
 
-// Simulating user state
-let userLoggedIn = false;
-
-// Select the sign-in/disconnect button
-const authButton = document.getElementById('connexion');
-
-// Function to update the button's text and behavior
-function updateAuthButton() {
-    if (userLoggedIn) {
-        authButton.textContent = 'Disconnect';
-        authButton.onclick = disconnectUser; // Attach disconnect function
-    } else {
-        authButton.textContent = 'Sign In';
-        authButton.onclick = loginUser; // Attach login function
+    function login_in() {
+        let user = document.getElementById("logInUsername").value;
+        let password = document.getElementById("logInPassword").value;
+        const message = login(user, password);
+        if (message === 'Login successful.') {
+            document.title = 'Logged In'; // Change window name when logged in
+            userLoggedIn = true;
+            updateAuthButton();
+        }
+        alert(message);
     }
-}
 
-// Simulate login action
-function loginUser() {
-    userLoggedIn = true; // Simulate successful login
-    updateAuthButton(); // Update button after login
-    alert('You are now signed in!');
-}
+    // Disconnect function
+    function disconnect(username) {
+        const users = readUsers();
+        const user = users.find(user => user.username === username);
+        if (!user.loggedIn) {
+            return 'User is not logged in.';
+        }
+        user.loggedIn = false;
+        writeUsers(users);
+        return 'User disconnected.';
+    }
 
-// Simulate disconnect action
-function disconnectUser() {
-    userLoggedIn = false; // Simulate disconnect
-    updateAuthButton(); // Update button after disconnect
-    alert('You are now disconnected!');
-}
+    function disconnectUser() {
+        let user = document.getElementById("logInUsername").value;
+        const message = disconnect(user);
+        if (message === 'User disconnected.') {
+            document.title = 'Logged Out'; // Change window name when logged out
+            userLoggedIn = false;
+            updateAuthButton();
+        }
+        alert(message);
+    }
 
-// Initialize the button state on page load
-updateAuthButton();
+    // Simulating user state
+    let userLoggedIn = false;
 
+    // Select the sign-in/disconnect button
+    const authButton = document.getElementById('connexion');
+
+    // Function to update the button's text and behavior
+    function updateAuthButton() {
+        if (userLoggedIn) {
+            authButton.textContent = 'Disconnect';
+            authButton.onclick = disconnectUser; // Attach disconnect function
+        } else {
+            authButton.textContent = 'Sign In';
+            authButton.onclick = loginUser; // Attach login function
+        }
+    }
+
+    // Simulate login action
+    function loginUser() {
+        userLoggedIn = true; // Simulate successful login
+        updateAuthButton(); // Update button after login
+        document.title = 'Logged In'; // Change window name when logged in
+        alert('You are now signed in!');
+    }
+
+    // Initialize the button state on page load
+    updateAuthButton();
+});
 
 function showSignInForm() {
     document.getElementById("signInForm").style.display = "block";

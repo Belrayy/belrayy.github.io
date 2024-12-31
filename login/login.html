@@ -35,8 +35,8 @@
             <h2 id="overlayTitle">LETTERBOXB</h2>
 
             <!-- Buttons to switch between Sign In and Log In forms -->
-            <button id="signInBtn" onclick="showSignInForm()">Sign In</button>
-            <button id="logInBtn" onclick="showLogInForm()">Log In</button>
+            <button id="signInBtn" class="overlay-button" onclick="showSignInForm()">Sign In</button>
+            <button id="logInBtn" class="overlay-button" onclick="showLogInForm()">Log In</button>
 
             <!-- Sign-In Form (Initially hidden) -->
             <div id="signInForm" style="display: none;">
@@ -50,7 +50,7 @@
                     <label for="signInPassword">Password:</label>
                     <input type="password" id="signInPassword" name="password" required><br><br>
 
-                    <button type="submit" onclick="return signin()">Sign Up</button>
+                    <button type="submit" class="overlay-button" onclick="return signin()">Sign Up</button>
                 </form>
             </div>
 
@@ -63,12 +63,12 @@
                     <label for="logInPassword">Password:</label>
                     <input type="password" id="logInPassword" name="password" required><br><br>
 
-                    <button type="submit" onclick="return login()">Log In</button>
+                    <button type="submit" class="overlay-button" onclick="return login()">Log In</button>
                 </form>
             </div>
 
             <!-- Close Button -->
-            <button id="closeOverlayBtn" onclick="window.location.href='../../index.html'">Close</button>
+            <button id="closeOverlayBtn" class="overlay-button" onclick="window.location.href='../../index.html'">Close</button>
         </div>
     </div>
 
