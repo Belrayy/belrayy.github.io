@@ -127,128 +127,70 @@ async function loadLatestMovies() {
 // Call the function to load and display the latest movies
 loadLatestMovies();
 
-// Add these new functions at the start of script.js
-// Read JSON file function
-async function fetchUsers() {
-    try {
-        const response = await fetch('./login/login.json');
-        if (!response.ok) {
-            throw new Error(`HTTP error! status: ${response.status}`);
-        }
-        const users = await response.json();
-        return users;
-    } catch (error) {
-        console.error('Error loading users:', error);
-        return [];
-    }
-}
+document.addEventListener('DOMContentLoaded', function() {
+    function signin() {
+        const username = document.getElementById('signInUsername').value;
+        const password = document.getElementById('signInPassword').value;
 
-// Login function
-async function login() {
-    const username = document.getElementById('logInUsername').value;
-    const password = document.getElementById('logInPassword').value;
-
-    // Input validation
-    if (!username || !password) {
-        alert('Please fill in all fields');
-        return false;
-    }
-
-    try {
-        const users = await fetchUsers();
-        const user = users.find(u => u.username === username && u.password === password);
-
-        if (!user) {
-            alert('Invalid username or password');
-            return false;
-        }
-        alert('Login successful!');
-        // Store user info in localStorage
-        user.loggedIn = true;
-        localStorage.setItem('currentUser', JSON.stringify(user));
-
-        // Role-based redirect
-        if (user.role === 'admin') {
-            window.location.href = './admin.html';
+        if (username && password) {
+            const user = { username, password };
+            let users = JSON.parse(localStorage.getItem('users')) || [];
+            users.push(user);
+            localStorage.setItem('users', JSON.stringify(users));
+            console.log('User signed up:', user); // Debugging log
+            alert('User signed up successfully!');
+            return true;
         } else {
-            window.location.href = '../index.html';
-        }
-
-    } catch (error) {
-        console.error('Login error:', error);
-        alert('An error occurred during login');
-    }
-
-    return false;
-}
-
-// Sign in function
-async function signin() {
-    const email = document.getElementById('signInEmail').value;
-    const username = document.getElementById('signInUsername').value;
-    const password = document.getElementById('signInPassword').value;
-
-    if (!email || !username || !password) {
-        alert('Please fill in all fields');
-        return false;
-    }
-
-    try {
-        const users = await fetchUsers();
-        
-        if (users.find(u => u.username === username)) {
-            alert('Username already exists');
+            alert('Please fill in all fields.');
             return false;
         }
-
-        const newUser = {
-            email,
-            username,
-            password,
-            role: 'user',
-            loggedIn: true
-        };
-
-        users.push(newUser);
-        localStorage.setItem('currentUser', JSON.stringify(newUser));
-        alert('Sign up successful!');
-        window.location.href = '../index.html';
-
-    } catch (error) {
-        console.error('Sign in error:', error);
-        alert('An error occurred during sign up');
     }
 
-    return false;
-}
-
-// Check if user is logged in
-function checkLoginStatus() {
-    const currentUser = JSON.parse(localStorage.getItem('currentUser'));
-    if (!currentUser) {
-        window.location.href = './login.html';
+    function login() {
+        const username = document.getElementById('logInUsername').value;
+        const password = document.getElementById('logInPassword').value;
+    
+        const users = JSON.parse(localStorage.getItem('users')) || [];
+        console.log('Stored users:', users); // Debugging log
+        console.log('Entered username:', username); // Debugging log
+        console.log('Entered password:', password); // Debugging log
+    
+        const user = users.find(user => user.username === username && user.password === password);
+        console.log('Found user:', user); // Debugging log
+    
+        if (user) {
+            console.log('User role:', user.role); // Debugging log
+            if (user.role === "admin") {
+                console.log('Redirecting to admin.html'); // Debugging log
+                window.location.href = 'admin.html'; // Redirect to admin page
+            } else {
+                alert('Login successful!');
+            }
+            return true;
+        } else {
+            alert('Invalid username or password.');
+            return false;
+        }
     }
-    return currentUser;
-}
 
-// Logout function
-function logout() {
-    localStorage.removeItem('currentUser');
-    window.location.href = './login.html';
-}
+    function showSignInForm() {
+        document.getElementById("signInForm").style.display = "block";
+        document.getElementById("logInForm").style.display = "none";
+        document.getElementById("overlayTitle").innerText = "Sign Up";
+    }
 
-function showSignInForm() {
-    document.getElementById("signInForm").style.display = "block";
-    document.getElementById("logInForm").style.display = "none";
-    document.getElementById("overlayTitle").innerText = "Sign Up";
-}
+    function showLogInForm() {
+        document.getElementById("logInForm").style.display = "block";
+        document.getElementById("signInForm").style.display = "none";
+        document.getElementById("overlayTitle").innerText = "Log In";
+    }
 
-function showLogInForm() {
-    document.getElementById("logInForm").style.display = "block";
-    document.getElementById("signInForm").style.display = "none";
-    document.getElementById("overlayTitle").innerText = "Log In";
-}
-
+    // Attach functions to the global scope if needed
+    window.signin = signin;
+    window.login = login;
+    window.showSignInForm = showSignInForm;
+    window.showLogInForm = showLogInForm;
+});
 function togglePasswordVisibility(passwordFieldId) {
     const passwordField = document.getElementById(passwordFieldId);
     passwordField.type = passwordField.type === "password" ? "text" : "password";
