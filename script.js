@@ -127,115 +127,115 @@ async function loadLatestMovies() {
 // Call the function to load and display the latest movies
 loadLatestMovies();
 
-document.addEventListener('DOMContentLoaded', function() {
-    // Helper function to read and parse JSON data from localStorage
-    function readUsers() {
-        const users = localStorage.getItem('users');
-        return users ? JSON.parse(users) : [];
-    }
-
-    // Helper function to write data back to localStorage
-    function writeUsers(users) {
-        localStorage.setItem('users', JSON.stringify(users));
-    }
-
-    // Signup function
-    function signup(username, email, password) {
-        const users = readUsers();
-        if (users.find(user => user.username === username)) {
-            return 'Username already exists.';
+// Add these new functions at the start of script.js
+// Read JSON file function
+async function fetchUsers() {
+    try {
+        const response = await fetch('./login/login.json');
+        if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
         }
-        users.push({ username, email, password, loggedIn: false });
-        writeUsers(users);
-        return 'Signup successful.';
+        const users = await response.json();
+        return users;
+    } catch (error) {
+        console.error('Error loading users:', error);
+        return [];
+    }
+}
+
+// Login function
+async function login() {
+    const username = document.getElementById('logInUsername').value;
+    const password = document.getElementById('logInPassword').value;
+
+    // Input validation
+    if (!username || !password) {
+        alert('Please fill in all fields');
+        return false;
     }
 
-    function signin() {
-        let user = document.getElementById("signInUsername").value;
-        let email = document.getElementById("signInEmail").value;
-        let password = document.getElementById("signInPassword").value;
-        const message = signup(user, email, password);
-        alert(message);
-    }
+    try {
+        const users = await fetchUsers();
+        const user = users.find(u => u.username === username && u.password === password);
 
-    // Login function
-    function login(username, password) {
-        const users = readUsers();
-        const user = users.find(user => user.username === username);
         if (!user) {
-            return 'User does not exist.';
+            alert('Invalid username or password');
+            return false;
         }
-        if (user.password !== password) {
-            return 'Invalid password.';
-        }
+        alert('Login successful!');
+        // Store user info in localStorage
         user.loggedIn = true;
-        writeUsers(users);
-        return 'Login successful.';
-    }
+        localStorage.setItem('currentUser', JSON.stringify(user));
 
-    function login_in() {
-        let user = document.getElementById("logInUsername").value;
-        let password = document.getElementById("logInPassword").value;
-        const message = login(user, password);
-        if (message === 'Login successful.') {
-            document.title = 'Logged In'; // Change window name when logged in
-            userLoggedIn = true;
-            updateAuthButton();
-        }
-        alert(message);
-    }
-
-    // Disconnect function
-    function disconnect(username) {
-        const users = readUsers();
-        const user = users.find(user => user.username === username);
-        if (!user.loggedIn) {
-            return 'User is not logged in.';
-        }
-        user.loggedIn = false;
-        writeUsers(users);
-        return 'User disconnected.';
-    }
-
-    function disconnectUser() {
-        let user = document.getElementById("logInUsername").value;
-        const message = disconnect(user);
-        if (message === 'User disconnected.') {
-            document.title = 'Logged Out'; // Change window name when logged out
-            userLoggedIn = false;
-            updateAuthButton();
-        }
-        alert(message);
-    }
-
-    // Simulating user state
-    let userLoggedIn = false;
-
-    // Select the sign-in/disconnect button
-    const authButton = document.getElementById('connexion');
-
-    // Function to update the button's text and behavior
-    function updateAuthButton() {
-        if (userLoggedIn) {
-            authButton.textContent = 'Disconnect';
-            authButton.onclick = disconnectUser; // Attach disconnect function
+        // Role-based redirect
+        if (user.role === 'admin') {
+            window.location.href = './admin.html';
         } else {
-            authButton.textContent = 'Sign In';
-            authButton.onclick = loginUser; // Attach login function
+            window.location.href = '../index.html';
         }
+
+    } catch (error) {
+        console.error('Login error:', error);
+        alert('An error occurred during login');
     }
 
-    // Simulate login action
-    function loginUser() {
-        userLoggedIn = true; // Simulate successful login
-        updateAuthButton(); // Update button after login
-        document.title = 'Logged In'; // Change window name when logged in
-        alert('You are now signed in!');
+    return false;
+}
+
+// Sign in function
+async function signin() {
+    const email = document.getElementById('signInEmail').value;
+    const username = document.getElementById('signInUsername').value;
+    const password = document.getElementById('signInPassword').value;
+
+    if (!email || !username || !password) {
+        alert('Please fill in all fields');
+        return false;
     }
 
-    // Initialize the button state on page load
-    updateAuthButton();
-});
+    try {
+        const users = await fetchUsers();
+        
+        if (users.find(u => u.username === username)) {
+            alert('Username already exists');
+            return false;
+        }
+
+        const newUser = {
+            email,
+            username,
+            password,
+            role: 'user',
+            loggedIn: true
+        };
+
+        users.push(newUser);
+        localStorage.setItem('currentUser', JSON.stringify(newUser));
+        alert('Sign up successful!');
+        window.location.href = '../index.html';
+
+    } catch (error) {
+        console.error('Sign in error:', error);
+        alert('An error occurred during sign up');
+    }
+
+    return false;
+}
+
+// Check if user is logged in
+function checkLoginStatus() {
+    const currentUser = JSON.parse(localStorage.getItem('currentUser'));
+    if (!currentUser) {
+        window.location.href = './login.html';
+    }
+    return currentUser;
+}
+
+// Logout function
+function logout() {
+    localStorage.removeItem('currentUser');
+    window.location.href = './login.html';
+}
 
 function showSignInForm() {
     document.getElementById("signInForm").style.display = "block";
@@ -249,3 +249,7 @@ function showLogInForm() {
     document.getElementById("overlayTitle").innerText = "Log In";
 }
 
+function togglePasswordVisibility(passwordFieldId) {
+    const passwordField = document.getElementById(passwordFieldId);
+    passwordField.type = passwordField.type === "password" ? "text" : "password";
+}

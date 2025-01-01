@@ -1,9 +1,23 @@
 [
-    {
+  {
+      "username": "admin",
+      "password": "admin123",
+      "email": "admin@gmail.com",
+      "role": "admin",
+      "loggedIn": false
+  },
+  {
       "username": "user1",
       "password": "password123",
-      "mail": "user1@gmail.com",
+      "email": "user1@gmail.com",
+      "role": "user",
       "loggedIn": false
-    }
-  ]
-  
+  },
+  {
+      "username": "user2",
+      "password": "password456",
+      "email": "user2@gmail.com",
+      "role": "user",
+      "loggedIn": false
+  }
+]

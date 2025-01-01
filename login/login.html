@@ -11,7 +11,6 @@
 
 <body>
 
-
     <!-- header : pages and lang -->
     <header>
         <div class="navbar">
@@ -24,10 +23,8 @@
                     <li><a href="../../HTML/reviews.html" id="reviews-text">Reviews</a></li>
                 </ul>
             </nav>
-
         </div>
     </header>
-
 
     <!-- Overlay for Sign-In or Log-In -->
     <div id="overlay">
@@ -43,67 +40,36 @@
                 <form>
                     <label for="signInEmail">Email:</label>
                     <input type="email" id="signInEmail" name="email" required><br><br>
-
+            
                     <label for="signInUsername">Username :</label>
                     <input type="text" id="signInUsername" name="username" required><br><br>
-
+            
                     <label for="signInPassword">Password:</label>
                     <input type="password" id="signInPassword" name="password" required><br><br>
-
+                    <input type="checkbox" onclick="togglePasswordVisibility('signInPassword')"> Show Password<br>
+            
                     <button type="submit" class="overlay-button" onclick="return signin()">Sign Up</button>
                 </form>
             </div>
 
             <!-- Log-In Form (Initially hidden) -->
             <div id="logInForm" style="display: none;">
-                <form>
+                <form onsubmit="return login()">
                     <label for="logInUsername">Username :</label>
                     <input type="text" id="logInUsername" name="username" required><br><br>
-
+            
                     <label for="logInPassword">Password:</label>
                     <input type="password" id="logInPassword" name="password" required><br><br>
-
-                    <button type="submit" class="overlay-button" onclick="return login()">Log In</button>
+                    <input type="checkbox" onclick="togglePasswordVisibility('logInPassword')"> Show Password<br>
+            
+                    <button type="submit" class="overlay-button">Log In</button>
                 </form>
             </div>
-
+            
             <!-- Close Button -->
             <button id="closeOverlayBtn" class="overlay-button" onclick="window.location.href='../../index.html'">Close</button>
         </div>
     </div>
-
-
-
-    
-
-    <!--<footer class="footer">
-        <div class="footer-links">
-            <a href="#" id="About">About</a>
-            <a href="#" id="Apps">Apps</a>
-            <a href="#" id="Help">Help</a>
-            <a href="https://www.omdbapi.com/" id="API">API</a>
-            <a href="#" id="Contact">Contact</a>
-        </div>
-        <div class="footer-info">
-            <p id="copyright">© LetterboxB Limited. Made by BELHAFIANE RAYYANE. Film data from OMDb.</p>
-        </div>
-        <nav id="langue">
-            <ul>
-                <li class="dropdown">
-                    <div class="dropdown-content">
-                        <a href="index.html" onclick="changeLanguage('en')">
-                            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Flag_of_the_United_States.svg"
-                                alt="English Flag" width="20" height="15"> English
-                        </a>
-                        <a href="index.html" onclick="changeLanguage('fr')">
-                            <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Flag_of_France.svg"
-                                alt="French Flag" width="20" height="15"> Français
-                        </a>
-                    </div>
-                </li>
-            </ul>
-        </nav>
-    </footer>-->
 
     <script src="../script.js"></script>
 
