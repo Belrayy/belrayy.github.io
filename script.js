@@ -146,6 +146,20 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
 
+    async function loadUsers() {
+        try {
+            const response = await fetch('./login.json');
+            const users = await response.json();
+            localStorage.setItem('users', JSON.stringify(users));
+            console.log('Users loaded into localStorage:', users); // Debugging log
+        } catch (error) {
+            console.error('Error loading users:', error);
+        }
+    }
+    
+    // Call the function when the page loads
+    window.onload = loadUsers;
+
     function login() {
         const username = document.getElementById('logInUsername').value;
         const password = document.getElementById('logInPassword').value;
