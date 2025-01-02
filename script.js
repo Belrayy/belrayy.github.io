@@ -151,7 +151,7 @@ document.addEventListener('DOMContentLoaded', function() {
             const response = await fetch('./login.json');
             const users = await response.json();
             localStorage.setItem('users', JSON.stringify(users));
-            console.log('Users loaded into localStorage:', users); // Debugging log
+            //console.log('Users loaded into localStorage:', users); // Debugging log
         } catch (error) {
             console.error('Error loading users:', error);
         }
@@ -159,6 +159,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Call the function when the page loads
     window.onload = loadUsers;
+    
 
     function login() {
         const username = document.getElementById('logInUsername').value;
@@ -175,9 +176,16 @@ document.addEventListener('DOMContentLoaded', function() {
         if (user) {
             console.log('User role:', user.role); // Debugging log
             if (user.role === "admin") {
-                console.log('Redirecting to admin.html'); // Debugging log
-                window.location.href = 'admin.html'; // Redirect to admin page
+                // user.loggedIn = "true";
+                // alert('admin');
+                console.log('test:');
+                //console.log('Redirecting to admin.html'); // Debugging log
+                window.location.href = 'www.google.com'; // Redirect to admin page
+                // window.location.replace('../admin.html');
             } else {
+                user.loggedIn = "true";
+                // window.location.href = 'www.google.com';
+                // window.location.href = '../index.html';
                 alert('Login successful!');
             }
             return true;
