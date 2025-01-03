@@ -52,8 +52,11 @@ async function loadMovies() {
     const container = document.getElementById("movies-container");
 
     try {
+        const lang = document.documentElement.lang;
+        const jsonFile = lang === 'fr' ? '../scrap/movies/cleaned_movies_fr.json' : '../scrap/movies/cleaned_movies.json';
+
         // Fetch the JSON file
-        const response = await fetch('../scrap/movies/cleaned_movies.json');
+        const response = await fetch('jsonFile');
         const movies = await response.json();
 
         // Loop through each movie in the JSON and create a movie card
