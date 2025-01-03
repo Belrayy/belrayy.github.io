@@ -127,7 +127,7 @@ async function loadLatestMovies() {
 // Call the function to load and display the latest movies
 loadLatestMovies();
 
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
     function signin() {
         const username = document.getElementById('signInUsername').value;
         const password = document.getElementById('signInPassword').value;
@@ -156,36 +156,33 @@ document.addEventListener('DOMContentLoaded', function() {
             console.error('Error loading users:', error);
         }
     }
-    
+
     // Call the function when the page loads
     window.onload = loadUsers;
-    
+
 
     function login() {
         const username = document.getElementById('logInUsername').value;
         const password = document.getElementById('logInPassword').value;
-    
+
         const users = JSON.parse(localStorage.getItem('users')) || [];
         console.log('Stored users:', users); // Debugging log
         console.log('Entered username:', username); // Debugging log
         console.log('Entered password:', password); // Debugging log
-    
+
         const user = users.find(user => user.username === username && user.password === password);
         console.log('Found user:', user); // Debugging log
-    
+
         if (user) {
-            console.log('User role:', user.role); // Debugging log
+            // console.log('User role:', user.role); // Debugging log
+            user.loggedIn = "true";
             if (user.role === "admin") {
-                // user.loggedIn = "true";
-                // alert('admin');
-                console.log('test:');
-                //console.log('Redirecting to admin.html'); // Debugging log
-                window.location.href = 'www.google.com'; // Redirect to admin page
-                // window.location.replace('../admin.html');
+                console.log('Redirecting to admin.html'); // Debugging log
+                window.location.href = './admin.html'; // Redirect to admin page
+                alert('Login admin!');
+
             } else {
-                user.loggedIn = "true";
-                // window.location.href = 'www.google.com';
-                // window.location.href = '../index.html';
+                window.location.href = '../index.html';
                 alert('Login successful!');
             }
             return true;
