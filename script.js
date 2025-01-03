@@ -27,6 +27,17 @@ function loadLanguage() {
         document.getElementById('copyright').textContent = "© LetterboxB Limited. Créé par BELHAFIANE RAYYANE. Données des films fournies par OMDb.";
         document.getElementById('Latest').textContent = "Récent :";
         document.getElementById('login-link').textContent = "S'inscrire/Se connecter";
+        document.getElementById('signInBtn').textContent = "S'inscrire";
+        document.getElementById('logInBtn').textContent = "Se connecter";
+        document.getElementById('signInUsername').textContent = "Pseudo";
+        document.getElementById('signInPassword').textContent = "Mot de passe";
+        document.getElementById('showUpPassword').textContent = "Montrer le mot de passe";
+        document.getElementById('signup').textContent = "S'inscrire";
+        document.getElementById('logInUsername').textContent = "Pseudo";
+        document.getElementById('logInPassword').textContent = "Mot de passe";
+        document.getElementById('showUpPassword').textContent = "Montrer le mot de passe";
+        document.getElementById('login').textContent = "Se connecter";
+        document.getElementById('closeOverlayBtn').textContent = "Quitter";
     } else {
         document.documentElement.lang = 'en'; // Set English
 
@@ -41,6 +52,17 @@ function loadLanguage() {
         document.getElementById('copyright').textContent = "© LetterboxB Limited. Made by BELHAFIANE RAYYANE. Film data from OMDb.";
         document.getElementById('Latest').textContent = "Latest Movies :";
         document.getElementById('login-link').textContent = "Sign-in/Log in";
+        document.getElementById('signInBtn').textContent = "Sign-in";
+        document.getElementById('logInBtn').textContent = "Log in";
+        document.getElementById('signInUsername').textContent = "Username";
+        document.getElementById('signInPassword').textContent = "Password";
+        document.getElementById('showUpPassword').textContent = "Show Password";
+        document.getElementById('signup').textContent = "Sign-in";
+        document.getElementById('logInUsername').textContent = "Username";
+        document.getElementById('logInPassword').textContent = "Password";
+        document.getElementById('showUpPassword').textContent = "Show Password";
+        document.getElementById('login').textContent = "Log in";
+        document.getElementById('closeOverlayBtn').textContent = "Close";
     }
 
 

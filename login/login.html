@@ -41,28 +41,28 @@
                     <label for="signInEmail">Email:</label>
                     <input type="email" id="signInEmail" name="email" required><br><br>
             
-                    <label for="signInUsername">Username :</label>
+                    <label id="signInUsername" for="signInUsername">Username :</label>
                     <input type="text" id="signInUsername" name="username" required><br><br>
             
-                    <label for="signInPassword">Password:</label>
+                    <label id="signInPassword" for="signInPassword">Password:</label>
                     <input type="password" id="signInPassword" name="password" required><br><br>
-                    <input type="checkbox" onclick="togglePasswordVisibility('signInPassword')"> Show Password<br>
+                    <input type="checkbox" id="showUpPassword" onclick="togglePasswordVisibility('signInPassword')"> Show Password<br>
             
-                    <button type="submit" class="overlay-button" onclick="return signin()">Sign Up</button>
+                    <button type="submit" id="signup" class="overlay-button" onclick="return signin()">Sign Up</button>
                 </form>
             </div>
 
             <!-- Log-In Form (Initially hidden) -->
             <div id="logInForm" style="display: none;">
                 <form onsubmit="return login()">
-                    <label for="logInUsername">Username :</label>
+                    <label id="logInUsername" for="logInUsername">Username :</label>
                     <input type="text" id="logInUsername" name="username" required><br><br>
             
-                    <label for="logInPassword">Password:</label>
+                    <label id="logInPassword" for="logInPassword">Password:</label>
                     <input type="password" id="logInPassword" name="password" required><br><br>
-                    <input type="checkbox" onclick="togglePasswordVisibility('logInPassword')"> Show Password<br>
+                    <input type="checkbox" id="showUpPassword" onclick="togglePasswordVisibility('logInPassword')"> Show Password<br>
             
-                    <button type="submit" class="overlay-button">Log In</button>
+                    <button type="submit" id="login" class="overlay-button">Log In</button>
                 </form>
             </div>
             
