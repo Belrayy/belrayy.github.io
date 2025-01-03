@@ -3,21 +3,18 @@
         "username": "admin",
         "password": "admin123",
         "email": "admin@gmail.com",
-        "role": "admin",
-        "loggedIn": false
+        "role": "admin"
     },
     {
         "username": "user1",
         "password": "password123",
         "email": "user1@gmail.com",
-        "role": "user",
-        "loggedIn": false
+        "role": "user"
     },
     {
         "username": "user2",
         "password": "password456",
         "email": "user2@gmail.com",
-        "role": "user",
-        "loggedIn": false
+        "role": "user"
     }
 ]

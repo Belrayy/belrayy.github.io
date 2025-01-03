@@ -1,3 +1,5 @@
+let loggedIn = localStorage.getItem('loggedIn') === 0;
+
 // Function to change the language and save preference to localStorage
 function changeLanguage(language) {
     // Save the selected language to localStorage
@@ -24,6 +26,7 @@ function loadLanguage() {
         document.getElementById('Contact').textContent = "Contactez-nous";
         document.getElementById('copyright').textContent = "© LetterboxB Limited. Créé par BELHAFIANE RAYYANE. Données des films fournies par OMDb.";
         document.getElementById('Latest').textContent = "Récent :";
+        document.getElementById('login-link').textContent = "S'inscrire/Se connecter";
     } else {
         document.documentElement.lang = 'en'; // Set English
 
@@ -37,6 +40,16 @@ function loadLanguage() {
         document.getElementById('Contact').textContent = "Contact";
         document.getElementById('copyright').textContent = "© LetterboxB Limited. Made by BELHAFIANE RAYYANE. Film data from OMDb.";
         document.getElementById('Latest').textContent = "Latest Movies :";
+        document.getElementById('login-link').textContent = "Sign-in/Log in";
+    }
+
+    
+    const loginLink = document.getElementById('login-link');
+    if (loggedIn===1) {
+        console.log('Logged in as user'); // Debugging log
+        loginLink.innerHTML = `<button onclick="logout()">Logout</button>`;
+    } else if (loggedIn===0) {
+        loginLink.innerHTML = `<a href="./login/login.html">Sign-in/Log in</a>`;
     }
 }
 
@@ -166,6 +179,8 @@ document.addEventListener('DOMContentLoaded', function () {
     window.onload = loadUsers;
 
 
+    let userloggedIn;
+
     function login() {
         const username = document.getElementById('logInUsername').value;
         const password = document.getElementById('logInPassword').value;
@@ -180,22 +195,31 @@ document.addEventListener('DOMContentLoaded', function () {
 
         if (user) {
             // console.log('User role:', user.role); // Debugging log
-            user.loggedIn = "true";
             if (user.role === "admin") {
+                localStorage.setItem('loggedIn', '1');
                 console.log('Redirecting to admin.html'); // Debugging log
                 window.location.href = './admin.html'; // Redirect to admin page
                 alert('Login admin!');
 
             } else {
+                localStorage.setItem('loggedIn', '2');
                 window.location.href = '../index.html';
                 alert('Login successful!');
             }
+            userloggedIn = user;
             return true;
         } else {
             alert('Invalid username or password.');
             return false;
         }
     }
+
+    function logout() {
+        localStorage.setItem('loggedIn', '0');
+        alert('Logged out successfully!');
+        loadLanguage(); // Update the login link
+    }
+
 
     function showSignInForm() {
         document.getElementById("signInForm").style.display = "block";
