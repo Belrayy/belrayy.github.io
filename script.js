@@ -50,13 +50,12 @@ window.onload = loadLanguage;
 
 async function loadMovies() {
     const container = document.getElementById("movies-container");
+    const lang = localStorage.getItem('language') || 'en';
+    const jsonFile = lang === 'fr' ? '../scrap/movies/cleaned_movies_fr.json' : '../scrap/movies/cleaned_movies.json';
 
     try {
-        const lang = document.documentElement.lang;
-        const jsonFile = lang === 'fr' ? '../scrap/movies/cleaned_movies_fr.json' : '../scrap/movies/cleaned_movies.json';
-
         // Fetch the JSON file
-        const response = await fetch('jsonFile');
+        const response = await fetch(jsonFile);
         const movies = await response.json();
 
         // Loop through each movie in the JSON and create a movie card
@@ -90,10 +89,13 @@ loadMovies();
 
 async function loadLatestMovies() {
     const container = document.getElementById("movies-latest");
+    const lang = localStorage.getItem('language') || 'en';
+    const jsonFile = lang === 'fr' ? '../scrap/movies/cleaned_movies_fr.json' : '../scrap/movies/cleaned_movies.json';
+
 
     try {
         // Fetch the JSON file
-        const response = await fetch('scrap/movies/cleaned_movies.json');
+        const response = await fetch(jsonFile);
         const movies = await response.json();
 
         // Sort movies by release date (descending order)
