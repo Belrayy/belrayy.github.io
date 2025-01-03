@@ -43,12 +43,12 @@ function loadLanguage() {
         document.getElementById('login-link').textContent = "Sign-in/Log in";
     }
 
-    
+
     const loginLink = document.getElementById('login-link');
-    if (loggedIn===1) {
+    if (loggedIn === 1) {
         console.log('Logged in as user'); // Debugging log
         loginLink.innerHTML = `<button onclick="logout()">Logout</button>`;
-    } else if (loggedIn===0) {
+    } else if (loggedIn === 0) {
         loginLink.innerHTML = `<a href="./login/login.html">Sign-in/Log in</a>`;
     }
 }
@@ -59,6 +59,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
 });
 
 window.onload = loadLanguage;
+
 
 
 async function loadMovies() {

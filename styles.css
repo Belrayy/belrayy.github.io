@@ -327,3 +327,19 @@ button:hover {
     cursor: pointer;
     text-align: center;
 }
+
+#change_Language {
+    background-color: rgba(0, 0, 0, 0.0);
+    margin: 0; /* Remove any margin */
+    padding: 5px; /* Adjust padding as needed */
+    display: inline-block; /* Ensure the button is inline */
+    font-family: Arial, sans-serif;
+    font-size: 1em;
+}
+
+#change_Language button {
+    font-family: Arial, sans-serif;
+    margin: 0 5px; /* Adjust margin between buttons */
+    padding: 5px 10px; /* Adjust padding inside buttons */
+    font-size: 1em;
+}
