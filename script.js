@@ -1,4 +1,4 @@
-let loggedIn = localStorage.getItem('loggedIn') === 0;
+let loggedIn = 0;
 
 // Function to change the language and save preference to localStorage
 function changeLanguage(language) {
@@ -61,7 +61,7 @@ function loadLanguage() {
         document.getElementById('logInUsername').textContent = "Username";
         document.getElementById('logInPassword').textContent = "Password";
         document.getElementById('showUpPassword').textContent = "Show Password";
-        document.getElementById('login').textContent = "Log in";
+        document.getElementById('loginBtn').textContent = "Log in";
         document.getElementById('closeOverlayBtn').textContent = "Close";
     }
 
@@ -199,12 +199,13 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     // Call the function when the page loads
-    window.onload = loadUsers;
+    
 
 
     let userloggedIn;
 
     function login() {
+        window.onload = loadUsers;
         const username = document.getElementById('logInUsername').value;
         const password = document.getElementById('logInPassword').value;
 
@@ -219,13 +220,13 @@ document.addEventListener('DOMContentLoaded', function () {
         if (user) {
             // console.log('User role:', user.role); // Debugging log
             if (user.role === "admin") {
-                localStorage.setItem('loggedIn', '1');
+                loggedIn = 1;
                 console.log('Redirecting to admin.html'); // Debugging log
                 window.location.href = './admin.html'; // Redirect to admin page
                 alert('Login admin!');
 
             } else {
-                localStorage.setItem('loggedIn', '2');
+                loggedIn = 2;
                 window.location.href = '../index.html';
                 alert('Login successful!');
             }
@@ -238,7 +239,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     function logout() {
-        localStorage.setItem('loggedIn', '0');
+        loggedIn = 0;
         alert('Logged out successfully!');
         loadLanguage(); // Update the login link
     }
@@ -265,4 +266,13 @@ document.addEventListener('DOMContentLoaded', function () {
 function togglePasswordVisibility(passwordFieldId) {
     const passwordField = document.getElementById(passwordFieldId);
     passwordField.type = passwordField.type === "password" ? "text" : "password";
+}
+
+function updateAuthLink() {
+    const authLink = document.getElementById('auth-link');
+    if (loggedIn != 0) {
+        authLink.innerHTML = '<a id="logout-link" href="./logout/logout.html">Disconnect</a>';
+    } else {
+        authLink.innerHTML = '<a id="login-link" href="./login/login.html">Sign-in/Log in</a>';
+    }
 }

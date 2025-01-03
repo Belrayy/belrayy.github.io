@@ -27,7 +27,95 @@
         </div>
     </header>
 
+    <div id="overlay">
+        <div class="overlay-content">
+            <h2 id="overlayTitle">Admin Panel</h2>
     
+            <!-- Buttons to switch between different admin functions -->
+            <button id="addUserBtn" class="overlay-button" onclick="showAddUserForm()">Add User</button>
+            <button id="removeUserBtn" class="overlay-button" onclick="showRemoveUserForm()">Remove User</button>
+            <button id="addMovieBtn" class="overlay-button" onclick="showAddMovieForm()">Add Movie</button>
+            <button id="removeMovieBtn" class="overlay-button" onclick="showRemoveMovieForm()">Remove Movie</button>
+            <button id="addReviewBtn" class="overlay-button" onclick="showAddReviewForm()">Add Review</button>
+            <button id="removeReviewBtn" class="overlay-button" onclick="showRemoveReviewForm()">Remove Review</button>
+    
+            <!-- Add User Form (Initially hidden) -->
+            <div id="addUserForm" style="display: none;">
+                <form>
+                    <label for="addUserEmail">Email:</label>
+                    <input type="email" id="addUserEmail" name="email" required><br><br>
+    
+                    <label for="addUsername">Username:</label>
+                    <input type="text" id="addUsername" name="username" required><br><br>
+    
+                    <label for="addUserPassword">Password:</label>
+                    <input type="password" id="addUserPassword" name="password" required><br><br>
+                    <input type="checkbox" id="showAddUserPassword" onclick="togglePasswordVisibility('addUserPassword')"> Show Password<br>
+    
+                    <button type="submit" id="addUserBtn" class="overlay-button" onclick="return addUser()">Add User</button>
+                </form>
+            </div>
+    
+            <!-- Remove User Form (Initially hidden) -->
+            <div id="removeUserForm" style="display: none;">
+                <form>
+                    <label for="removeUsername">Username:</label>
+                    <input type="text" id="removeUsername" name="username" required><br><br>
+    
+                    <button type="submit" id="removeUserBtn" class="overlay-button" onclick="return removeUser()">Remove User</button>
+                </form>
+            </div>
+    
+            <!-- Add Movie Form (Initially hidden) -->
+            <div id="addMovieForm" style="display: none;">
+                <form>
+                    <label for="addMovieTitle">Movie Title:</label>
+                    <input type="text" id="addMovieTitle" name="title" required><br><br>
+    
+                    <label for="addMovieGenre">Genre:</label>
+                    <input type="text" id="addMovieGenre" name="genre" required><br><br>
+    
+                    <button type="submit" id="addMovieBtn" class="overlay-button" onclick="return addMovie()">Add Movie</button>
+                </form>
+            </div>
+    
+            <!-- Remove Movie Form (Initially hidden) -->
+            <div id="removeMovieForm" style="display: none;">
+                <form>
+                    <label for="removeMovieTitle">Movie Title:</label>
+                    <input type="text" id="removeMovieTitle" name="title" required><br><br>
+    
+                    <button type="submit" id="removeMovieBtn" class="overlay-button" onclick="return removeMovie()">Remove Movie</button>
+                </form>
+            </div>
+    
+            <!-- Add Review Form (Initially hidden) -->
+            <div id="addReviewForm" style="display: none;">
+                <form>
+                    <label for="addReviewMovieTitle">Movie Title:</label>
+                    <input type="text" id="addReviewMovieTitle" name="title" required><br><br>
+    
+                    <label for="addReviewContent">Review:</label>
+                    <textarea id="addReviewContent" name="review" required></textarea><br><br>
+    
+                    <button type="submit" id="addReviewBtn" class="overlay-button" onclick="return addReview()">Add Review</button>
+                </form>
+            </div>
+    
+            <!-- Remove Review Form (Initially hidden) -->
+            <div id="removeReviewForm" style="display: none;">
+                <form>
+                    <label for="removeReviewMovieTitle">Movie Title:</label>
+                    <input type="text" id="removeReviewMovieTitle" name="title" required><br><br>
+    
+                    <label for="removeReviewContent">Review:</label>
+                    <textarea id="removeReviewContent" name="review" required></textarea><br><br>
+    
+                    <button type="submit" id="removeReviewBtn" class="overlay-button" onclick="return removeReview()">Remove Review</button>
+                </form>
+            </div>
+        </div>
+    </div>
 
     <script src="../script.js"></script>
 
