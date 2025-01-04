@@ -82,10 +82,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
 
 window.onload = loadLanguage;
 
-
-
-async function loadMovies() {
-    const container = document.getElementById("movies-container");
+async function loadMoviesToLocalStorage() {
     const lang = localStorage.getItem('language') || 'en';
     const jsonFile = lang === 'fr' ? '../scrap/movies/cleaned_movies_fr.json' : '../scrap/movies/cleaned_movies.json';
 
@@ -93,6 +90,23 @@ async function loadMovies() {
         // Fetch the JSON file
         const response = await fetch(jsonFile);
         const movies = await response.json();
+
+        // Save movies to localStorage
+        localStorage.setItem(jsonFile, JSON.stringify(movies));
+    } catch (error) {
+        console.error("Error loading movies to localStorage:", error);
+    }
+}
+
+
+async function loadMovies() {
+    const container = document.getElementById("movies-container");
+    const lang = localStorage.getItem('language') || 'en';
+    const jsonFile = lang === 'fr' ? 'cleaned_movies_fr.json' : 'cleaned_movies.json';
+
+    try {
+        // Get movies from localStorage
+        const movies = JSON.parse(localStorage.getItem(jsonFile)) || [];
 
         // Loop through each movie in the JSON and create a movie card
         movies.forEach(movie => {
@@ -120,19 +134,17 @@ async function loadMovies() {
 }
 
 // Call the function to load and display movies
-loadMovies();
+// loadMovies();
 
 
 async function loadLatestMovies() {
     const container = document.getElementById("movies-latest");
     const lang = localStorage.getItem('language') || 'en';
-    const jsonFile = lang === 'fr' ? '../scrap/movies/cleaned_movies_fr.json' : '../scrap/movies/cleaned_movies.json';
-
+    const jsonFile = lang === 'fr' ? 'cleaned_movies_fr.json' : 'cleaned_movies.json';
 
     try {
-        // Fetch the JSON file
-        const response = await fetch(jsonFile);
-        const movies = await response.json();
+        // Get movies from localStorage
+        const movies = JSON.parse(localStorage.getItem(jsonFile)) || [];
 
         // Sort movies by release date (descending order)
         movies.sort((a, b) => new Date(b.release_date) - new Date(a.release_date));
@@ -161,12 +173,12 @@ async function loadLatestMovies() {
             container.appendChild(movieCard);
         });
     } catch (error) {
-        console.error("Error loading movies:", error);
+        console.error("Error loading latest movies:", error);
     }
 }
 
 // Call the function to load and display the latest movies
-loadLatestMovies();
+// loadLatestMovies();
 
 document.addEventListener('DOMContentLoaded', function () {
     function signin() {
@@ -333,5 +345,109 @@ function showRemoveReviewForm() {
 }
 
 function addUser() {
-    return signin();
+    const username = document.getElementById('addUsername').value;
+    const password = document.getElementById('addUserPassword').value;
+    const mail = document.getElementById('addUserEmail').value;
+    const role = document.getElementById('addUserRole').value;
+    return signup(username,password,mail,role);
+}
+
+function signup(username,password,mail,role) {
+    
+    if (username && password) {
+        const user = { username, password, mail, role };
+        let users = JSON.parse(localStorage.getItem('users')) || [];
+        users.push(user);
+        localStorage.setItem('users', JSON.stringify(users));
+        console.log('User signed up:', user); // Debugging log
+        alert('User signed up successfully!');
+        return true;
+    } else {
+        alert('Please fill in all fields.');
+        return false;
+    }
+}
+
+function removeUser(username) {
+    let users = JSON.parse(localStorage.getItem('users')) || [];
+    const updatedUsers = users.filter(user => user.username !== username);
+    
+    if (users.length === updatedUsers.length) {
+        alert('User not found.');
+        return false;
+    }
+    
+    localStorage.setItem('users', JSON.stringify(updatedUsers));
+    console.log('User removed:', username); // Debugging log
+    alert('User removed successfully!');
+    return true;
+}
+
+function handleRemoveUser(event) {
+    event.preventDefault(); // Prevent form from submitting normally
+    const username = document.getElementById('removeUsername').value;
+    return removeUser(username);
+}
+
+function addMovie() {
+    const id = document.getElementById('addMovieId').value;
+    const title = document.getElementById('addMovieTitle').value;
+    const titlefr = document.getElementById('addMovieTitlefr').value;
+    const date = document.getElementById('addMovieReleasedate').value;
+    const overview = document.getElementById('addMovieOverview').value;
+    const overviewfr = document.getElementById('addMovieOverviewfr').value;
+    const vote = document.getElementById('addMovieVote').value;
+    const poster = document.getElementById('addMoviePoster').value;
+
+    // console.log('Date:', date); // Debugging log to check the date value
+
+    const movieEn = { id, title, date, overview, vote, poster };
+    const movieFr = { id, title: titlefr, date, overview: overviewfr, vote, poster };
+
+    let moviesEn = JSON.parse(localStorage.getItem('cleaned_movies.json')) || [];
+    let moviesFr = JSON.parse(localStorage.getItem('cleaned_movies_fr.json')) || [];
+
+    moviesEn.push(movieEn);
+    moviesFr.push(movieFr);
+
+    localStorage.setItem('cleaned_movies.json', JSON.stringify(moviesEn));
+    localStorage.setItem('cleaned_movies_fr.json', JSON.stringify(moviesFr));
+
+    console.log('Movie added (EN):', movieEn); // Debugging log
+    console.log('Movie added (FR):', movieFr); // Debugging log
+    alert('Movie added successfully!');
+    return false; // Prevent form submission
+}
+
+window.addEventListener('DOMContentLoaded', (event) => {
+    loadMoviesToLocalStorage().then(() => {
+        loadMovies();
+        loadLatestMovies();
+    });
+});
+
+function removeMovie(id) {
+    let moviesEn = JSON.parse(localStorage.getItem('cleaned_movies.json')) || [];
+    let moviesFr = JSON.parse(localStorage.getItem('cleaned_movies_fr.json')) || [];
+
+    const updatedMoviesEn = moviesEn.filter(movie => movie.id !== id);
+    const updatedMoviesFr = moviesFr.filter(movie => movie.id !== id);
+
+    if (moviesEn.length === updatedMoviesEn.length) {
+        alert('Movie not found.');
+        return false;
+    }
+
+    localStorage.setItem('cleaned_movies.json', JSON.stringify(updatedMoviesEn));
+    localStorage.setItem('cleaned_movies_fr.json', JSON.stringify(updatedMoviesFr));
+
+    console.log('Movie removed:', id); // Debugging log
+    alert('Movie removed successfully!');
+    return true;
+}
+
+function handleRemoveMovie(event) {
+    event.preventDefault(); // Prevent form from submitting normally
+    const id = document.getElementById('removeMovieId').value;
+    return removeMovie(id);
 }

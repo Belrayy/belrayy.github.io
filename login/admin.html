@@ -64,22 +64,21 @@
     
             <!-- Remove User Form (Initially hidden) -->
             <div id="removeUserForm" style="display: none;">
-                <form>
+                <form onsubmit="return handleRemoveUser(event)">
                     <label for="removeUsername">Username:</label>
                     <input type="text" id="removeUsername" name="username" required><br><br>
-    
-                    <button type="submit" id="removeUserBtn" class="overlay-button" onclick="return removeUser()">Remove User</button>
+            
+                    <button type="submit" id="removeUserBtn" class="overlay-button">Remove User</button>
                 </form>
             </div>
+            
     
             <!-- Add Movie Form (Initially hidden) -->
             <div id="addMovieForm" style="display: none;">
-                <form>
+                <form onsubmit="return addMovie()">
                     <div class="form-row">
                         <label for="addMovieId">Id:</label>
-                        <input type="text" id="addMovieId" name="id" required>
-                        <label for="addMovieIdfr">Id (FR):</label>
-                        <input type="text" id="addMovieIdfr" name="idfr" required>
+                        <input type="text" id="addMovieId" name="id" placeholder="ttxxxxxxx" required>
                     </div>
             
                     <div class="form-row">
@@ -92,8 +91,6 @@
                     <div class="form-row">
                         <label for="addMovieReleasedate">Release date:</label>
                         <input type="date" id="addMovieReleasedate" name="date" required>
-                        <label for="addMovieReleasedatefr">Release date (FR):</label>
-                        <input type="date" id="addMovieReleasedatefr" name="datefr" required>
                     </div>
             
                     <div class="form-row">
@@ -106,18 +103,14 @@
                     <div class="form-row">
                         <label for="addMovieVote">Vote:</label>
                         <input type="number" id="addMovieVote" name="vote" min="0" max="10" required>
-                        <label for="addMovieVotefr">Vote (FR):</label>
-                        <input type="number" id="addMovieVotefr" name="votefr" min="0" max="10" required>
                     </div>
             
                     <div class="form-row">
                         <label for="addMoviePoster">Poster:</label>
                         <input type="url" id="addMoviePoster" name="poster" required>
-                        <label for="addMoviePosterfr">Poster (FR):</label>
-                        <input type="url" id="addMoviePosterfr" name="posterfr" required>
                     </div>
             
-                    <button type="submit" id="addMovieBtn" class="overlay-button" onclick="return addMovie()">Add Movie</button>
+                    <button type="submit" id="addMovieBtn" class="overlay-button" >Add Movie</button>
                 </form>
             </div>
     
@@ -127,8 +120,7 @@
                     <label for="removeMovieId">Movie Id:</label>
                     <input type="text" id="removeMovieId" name="id" required><br><br>
     
-                    <button type="submit" id="removeMovieBtn" class="overlay-button" onclick="return removeMovie()">Remove Movie</button>
-                </form>
+                    <button type="submit" id="removeMovieBtn" class="overlay-button" placeholder="ttxxxxxxx" onclick="return handleRemoveMovie(event)">Remove Movie</button>                </form>
             </div>
     
             <!-- Add Review Form (Initially hidden) -->
@@ -156,6 +148,8 @@
                     <button type="submit" id="removeReviewBtn" class="overlay-button" onclick="return removeReview()">Remove Review</button>
                 </form>
             </div>
+        <button id="closeOverlayBtn" class="overlay-button" onclick="window.location.href='../../index.html'">Close</button>
+
         </div>
     </div>
 
