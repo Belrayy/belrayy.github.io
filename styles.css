@@ -361,3 +361,27 @@ button:hover {
     margin-right: 20px;
     flex: 1;
 }
+
+.sort-options {
+    margin: 20px 0; /* Add some margin to separate from other elements */
+    padding: 10px; /* Add padding for better spacing */
+    background-color: #1c1c1c; /* Light background color */
+    border-radius: 5px; /* Rounded corners */
+    display: flex; /* Use flexbox for alignment */
+    align-items: center; /* Center align items vertically */
+}
+
+.sort-options label {
+    margin-right: 10px; /* Space between label and select */
+    font-family: Arial, sans-serif; /* Font family */
+    font-size: 1em; /* Font size */
+}
+
+.sort-options select {
+    padding: 5px 10px; /* Padding inside the select */
+    font-family: Arial, sans-serif; /* Font family */
+    font-size: 1em; /* Font size */
+    border: 1px solid #ccc; /* Border color */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #fff; /* White background */
+}

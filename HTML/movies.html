@@ -31,6 +31,18 @@
             </nav>
         </div>
     </header>
+
+    <div class="sort-options">
+        <label for="sortMovies" id="sortMoviesLabel">Sort Movies By:</label>
+        <select id="sortMovies" onclick="loadMovies()">
+            <option value="default" id="default">Default</option>
+            <option value="dateAsc" id="dateAsc">Date Ascending</option>
+            <option value="dateDesc" id="dateDesc">Date Descending</option>
+            <option value="reviewsAsc" id="reviewsAsc">Reviews Ascending</option>
+            <option value="reviewsDesc" id="reviewsDesc">Reviews Descending</option>
+        </select>
+    </div>
+
     <div id="movies-container"></div>
 
 

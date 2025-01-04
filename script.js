@@ -82,6 +82,11 @@ window.addEventListener('DOMContentLoaded', (event) => {
 
 window.onload = loadLanguage;
 
+function convertDateFormat(dateStr) {
+    const [day, month, year] = dateStr.split('/');
+    return `${year}-${month}-${day}`;
+}
+
 async function loadMoviesToLocalStorage() {
     const lang = localStorage.getItem('language') || 'en';
     const jsonFile = lang === 'fr' ? '../scrap/movies/cleaned_movies_fr.json' : '../scrap/movies/cleaned_movies.json';
@@ -101,12 +106,56 @@ async function loadMoviesToLocalStorage() {
 
 async function loadMovies() {
     const container = document.getElementById("movies-container");
+    container.innerHTML = ''; // Clear the container before loading movies
     const lang = localStorage.getItem('language') || 'en';
     const jsonFile = lang === 'fr' ? 'cleaned_movies_fr.json' : 'cleaned_movies.json';
+    const sortOption = document.getElementById('sortMovies').value;
 
     try {
         // Get movies from localStorage
         const movies = JSON.parse(localStorage.getItem(jsonFile)) || [];
+
+        // Log the movies to debug
+        console.log('Movies before sorting:', movies);
+
+        // Convert release_date format for each movie
+        movies.forEach(movie => {
+            if (movie.release_date) {
+                movie.release_date = convertDateFormat(movie.release_date);
+            }
+        });
+
+        // Sort movies based on the selected option
+        switch (sortOption) {
+            case 'dateAsc':
+                movies.sort((a, b) => {
+                    const dateA = new Date(a.release_date);
+                    const dateB = new Date(b.release_date);
+                    console.log('Sorting by dateAsc:', dateA, dateB); // Debugging log
+                    return dateA - dateB;
+                });
+                break;
+            case 'dateDesc':
+                movies.sort((a, b) => {
+                    const dateA = new Date(a.release_date);
+                    const dateB = new Date(b.release_date);
+                    console.log('Sorting by dateDesc:', dateA, dateB); // Debugging log
+                    return dateB - dateA;
+                });
+                break;
+            case 'reviewsAsc':
+                movies.sort((a, b) => a.vote_average - b.vote_average);
+                break;
+            case 'reviewsDesc':
+                movies.sort((a, b) => b.vote_average - a.vote_average);
+                break;
+            default:
+                // Default sorting (if any)
+                break;
+        }
+
+        // Log the movies after sorting to debug
+        console.log('Movies after sorting:', movies);
 
         // Loop through each movie in the JSON and create a movie card
         movies.forEach(movie => {
@@ -132,6 +181,7 @@ async function loadMovies() {
         console.error("Error loading movies:", error);
     }
 }
+
 
 // Call the function to load and display movies
 // loadMovies();
@@ -212,7 +262,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     // Call the function when the page loads
-    
+
 
 
     let userloggedIn;
@@ -349,11 +399,11 @@ function addUser() {
     const password = document.getElementById('addUserPassword').value;
     const mail = document.getElementById('addUserEmail').value;
     const role = document.getElementById('addUserRole').value;
-    return signup(username,password,mail,role);
+    return signup(username, password, mail, role);
 }
 
-function signup(username,password,mail,role) {
-    
+function signup(username, password, mail, role) {
+
     if (username && password) {
         const user = { username, password, mail, role };
         let users = JSON.parse(localStorage.getItem('users')) || [];
@@ -371,12 +421,12 @@ function signup(username,password,mail,role) {
 function removeUser(username) {
     let users = JSON.parse(localStorage.getItem('users')) || [];
     const updatedUsers = users.filter(user => user.username !== username);
-    
+
     if (users.length === updatedUsers.length) {
         alert('User not found.');
         return false;
     }
-    
+
     localStorage.setItem('users', JSON.stringify(updatedUsers));
     console.log('User removed:', username); // Debugging log
     alert('User removed successfully!');
