@@ -1,4 +1,4 @@
-let loggedIn = 0;
+let loggedIn = localStorage.getItem('loggedIn') || 0;
 
 // Function to change the language and save preference to localStorage
 function changeLanguage(language) {
@@ -277,13 +277,13 @@ document.addEventListener('DOMContentLoaded', function () {
         if (user) {
             // console.log('User role:', user.role); // Debugging log
             if (user.role === "admin") {
-                loggedIn = 1;
+                localStorage.setItem('loggedIn', 1);
                 console.log('Redirecting to admin.html'); // Debugging log
                 window.location.href = './admin.html'; // Redirect to admin page
                 alert('Login admin!');
 
             } else {
-                loggedIn = 2;
+                localStorage.setItem('loggedIn', 2);
                 window.location.href = '../index.html';
                 alert('Login successful!');
             }
@@ -296,10 +296,12 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     function logout() {
+        localStorage.removeItem('loggedIn');
         loggedIn = 0;
-        alert('Logged out successfully!');
-        loadLanguage(); // Update the login link
+        updateAuthLink();
+        window.location.href = 'index.html';
     }
+    window.logout = logout;
 
 
     function showSignInForm() {
@@ -328,7 +330,7 @@ function togglePasswordVisibility(passwordFieldId) {
 function updateAuthLink() {
     const authLink = document.getElementById('auth-link');
     if (loggedIn != 0) {
-        authLink.innerHTML = '<a id="logout-link" href="index.html">Disconnect</a>';
+        authLink.innerHTML = '<a id="logout-link" href="index.html" onclick="logout()">Disconnect</a>';
     } else {
         authLink.innerHTML = '<a id="login-link" href="./login/login.html">Sign-in/Log in</a>';
     }
