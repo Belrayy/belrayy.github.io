@@ -272,7 +272,10 @@ h2 {
 /* Input field styles */
 input[type="text"],
 input[type="email"],
-input[type="password"] {
+input[type="password"],
+input[type="url"],
+input[type="number"],
+input[type="date"]  {
     padding: 10px;
     margin: 10px 0;
     width: 100%;
@@ -342,4 +345,19 @@ button:hover {
     margin: 0 5px; /* Adjust margin between buttons */
     padding: 5px 10px; /* Adjust padding inside buttons */
     font-size: 1em;
+}
+
+.form-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.form-row label {
+    margin-right: 10px;
+}
+
+.form-row input {
+    margin-right: 20px;
+    flex: 1;
 }

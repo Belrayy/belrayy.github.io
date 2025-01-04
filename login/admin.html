@@ -50,8 +50,14 @@
     
                     <label for="addUserPassword">Password:</label>
                     <input type="password" id="addUserPassword" name="password" required><br><br>
-                    <input type="checkbox" id="showAddUserPassword" onclick="togglePasswordVisibility('addUserPassword')"> Show Password<br>
-    
+                    <input type="checkbox" id="showAddUserPassword" onclick="togglePasswordVisibility('addUserPassword')"> Show Password<br><br>
+
+                    <label for="addUserRole">Role:</label>
+                    <select id="addUserRole" name="role" required>
+                        <option value="admin">Admin</option>
+                        <option value="user">User</option>
+                    </select><br><br>
+
                     <button type="submit" id="addUserBtn" class="overlay-button" onclick="return addUser()">Add User</button>
                 </form>
             </div>
@@ -69,12 +75,48 @@
             <!-- Add Movie Form (Initially hidden) -->
             <div id="addMovieForm" style="display: none;">
                 <form>
-                    <label for="addMovieTitle">Movie Title:</label>
-                    <input type="text" id="addMovieTitle" name="title" required><br><br>
-    
-                    <label for="addMovieGenre">Genre:</label>
-                    <input type="text" id="addMovieGenre" name="genre" required><br><br>
-    
+                    <div class="form-row">
+                        <label for="addMovieId">Id:</label>
+                        <input type="text" id="addMovieId" name="id" required>
+                        <label for="addMovieIdfr">Id (FR):</label>
+                        <input type="text" id="addMovieIdfr" name="idfr" required>
+                    </div>
+            
+                    <div class="form-row">
+                        <label for="addMovieTitle">Movie Title:</label>
+                        <input type="text" id="addMovieTitle" name="title" required>
+                        <label for="addMovieTitlefr">Movie Title (FR):</label>
+                        <input type="text" id="addMovieTitlefr" name="titlefr" required>
+                    </div>
+            
+                    <div class="form-row">
+                        <label for="addMovieReleasedate">Release date:</label>
+                        <input type="date" id="addMovieReleasedate" name="date" required>
+                        <label for="addMovieReleasedatefr">Release date (FR):</label>
+                        <input type="date" id="addMovieReleasedatefr" name="datefr" required>
+                    </div>
+            
+                    <div class="form-row">
+                        <label for="addMovieOverview">Overview:</label>
+                        <input type="text" id="addMovieOverview" name="overview" required>
+                        <label for="addMovieOverviewfr">Overview (FR):</label>
+                        <input type="text" id="addMovieOverviewfr" name="overviewfr" required>
+                    </div>
+            
+                    <div class="form-row">
+                        <label for="addMovieVote">Vote:</label>
+                        <input type="number" id="addMovieVote" name="vote" min="0" max="10" required>
+                        <label for="addMovieVotefr">Vote (FR):</label>
+                        <input type="number" id="addMovieVotefr" name="votefr" min="0" max="10" required>
+                    </div>
+            
+                    <div class="form-row">
+                        <label for="addMoviePoster">Poster:</label>
+                        <input type="url" id="addMoviePoster" name="poster" required>
+                        <label for="addMoviePosterfr">Poster (FR):</label>
+                        <input type="url" id="addMoviePosterfr" name="posterfr" required>
+                    </div>
+            
                     <button type="submit" id="addMovieBtn" class="overlay-button" onclick="return addMovie()">Add Movie</button>
                 </form>
             </div>
@@ -82,8 +124,8 @@
             <!-- Remove Movie Form (Initially hidden) -->
             <div id="removeMovieForm" style="display: none;">
                 <form>
-                    <label for="removeMovieTitle">Movie Title:</label>
-                    <input type="text" id="removeMovieTitle" name="title" required><br><br>
+                    <label for="removeMovieId">Movie Id:</label>
+                    <input type="text" id="removeMovieId" name="id" required><br><br>
     
                     <button type="submit" id="removeMovieBtn" class="overlay-button" onclick="return removeMovie()">Remove Movie</button>
                 </form>
@@ -92,8 +134,8 @@
             <!-- Add Review Form (Initially hidden) -->
             <div id="addReviewForm" style="display: none;">
                 <form>
-                    <label for="addReviewMovieTitle">Movie Title:</label>
-                    <input type="text" id="addReviewMovieTitle" name="title" required><br><br>
+                    <label for="addReviewMovieId">Movie Id:</label>
+                    <input type="text" id="addReviewMovieId" name="id" required><br><br>
     
                     <label for="addReviewContent">Review:</label>
                     <textarea id="addReviewContent" name="review" required></textarea><br><br>
@@ -105,8 +147,8 @@
             <!-- Remove Review Form (Initially hidden) -->
             <div id="removeReviewForm" style="display: none;">
                 <form>
-                    <label for="removeReviewMovieTitle">Movie Title:</label>
-                    <input type="text" id="removeReviewMovieTitle" name="title" required><br><br>
+                    <label for="removeReviewMovieId">Movie Id:</label>
+                    <input type="text" id="removeReviewMovieId" name="id" required><br><br>
     
                     <label for="removeReviewContent">Review:</label>
                     <textarea id="removeReviewContent" name="review" required></textarea><br><br>

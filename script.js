@@ -172,9 +172,10 @@ document.addEventListener('DOMContentLoaded', function () {
     function signin() {
         const username = document.getElementById('signInUsername').value;
         const password = document.getElementById('signInPassword').value;
+        const mail = document.getElementById('signInEmail').value;
 
         if (username && password) {
-            const user = { username, password };
+            const user = { username, password, mail, role: 'user' };
             let users = JSON.parse(localStorage.getItem('users')) || [];
             users.push(user);
             localStorage.setItem('users', JSON.stringify(users));
@@ -275,4 +276,62 @@ function updateAuthLink() {
     } else {
         authLink.innerHTML = '<a id="login-link" href="./login/login.html">Sign-in/Log in</a>';
     }
+}
+
+function showAddUserForm() {
+    document.getElementById('addUserForm').style.display = 'block';
+    document.getElementById('removeUserForm').style.display = 'none';
+    document.getElementById('addMovieForm').style.display = 'none';
+    document.getElementById('removeMovieForm').style.display = 'none';
+    document.getElementById('addReviewForm').style.display = 'none';
+    document.getElementById('removeReviewForm').style.display = 'none';
+}
+
+function showRemoveUserForm() {
+    document.getElementById('addUserForm').style.display = 'none';
+    document.getElementById('removeUserForm').style.display = 'block';
+    document.getElementById('addMovieForm').style.display = 'none';
+    document.getElementById('removeMovieForm').style.display = 'none';
+    document.getElementById('addReviewForm').style.display = 'none';
+    document.getElementById('removeReviewForm').style.display = 'none';
+}
+
+function showAddMovieForm() {
+    document.getElementById('addUserForm').style.display = 'none';
+    document.getElementById('removeUserForm').style.display = 'none';
+    document.getElementById('addMovieForm').style.display = 'block';
+    document.getElementById('removeMovieForm').style.display = 'none';
+    document.getElementById('addReviewForm').style.display = 'none';
+    document.getElementById('removeReviewForm').style.display = 'none';
+}
+
+function showRemoveMovieForm() {
+    document.getElementById('addUserForm').style.display = 'none';
+    document.getElementById('removeUserForm').style.display = 'none';
+    document.getElementById('addMovieForm').style.display = 'none';
+    document.getElementById('removeMovieForm').style.display = 'block';
+    document.getElementById('addReviewForm').style.display = 'none';
+    document.getElementById('removeReviewForm').style.display = 'none';
+}
+
+function showAddReviewForm() {
+    document.getElementById('addUserForm').style.display = 'none';
+    document.getElementById('removeUserForm').style.display = 'none';
+    document.getElementById('addMovieForm').style.display = 'none';
+    document.getElementById('removeMovieForm').style.display = 'none';
+    document.getElementById('addReviewForm').style.display = 'block';
+    document.getElementById('removeReviewForm').style.display = 'none';
+}
+
+function showRemoveReviewForm() {
+    document.getElementById('addUserForm').style.display = 'none';
+    document.getElementById('removeUserForm').style.display = 'none';
+    document.getElementById('addMovieForm').style.display = 'none';
+    document.getElementById('removeMovieForm').style.display = 'none';
+    document.getElementById('addReviewForm').style.display = 'none';
+    document.getElementById('removeReviewForm').style.display = 'block';
+}
+
+function addUser() {
+    return signin();
 }
