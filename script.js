@@ -183,30 +183,21 @@ async function loadMovies() {
 
 async function loadLatestMovies() {
     const container = document.getElementById("movies-latest");
-    container.innerHTML = ''; // Clear the container before loading movies
     const lang = localStorage.getItem('language') || 'en';
-    const jsonFile = lang === 'fr' ? '/scrap/movies/cleaned_movies_fr.json' : '/scrap/movies/cleaned_movies.json';
+    const jsonFile = lang === 'fr' ? 'cleaned_movies_fr.json' : 'cleaned_movies.json';
 
     try {
         // Get movies from localStorage
         const movies = JSON.parse(localStorage.getItem(jsonFile)) || [];
 
-        // Log the movies to debug
-        console.log('Latest movies before sorting:', movies);
+        // Sort movies by release date (descending order)
+        movies.sort((a, b) => new Date(b.release_date) - new Date(a.release_date));
 
-        // Sort movies by release date descending
-        movies.sort((a, b) => {
-            const dateA = new Date(convertDateFormat(a.release_date));
-            const dateB = new Date(convertDateFormat(b.release_date));
-            console.log('Sorting latest movies by dateDesc:', dateA, dateB); // Debugging log
-            return dateB - dateA;
-        });
+        // Get the 5 latest movies
+        const latestMovies = movies.slice(0, 5);
 
-        // Log the movies after sorting to debug
-        console.log('Latest movies after sorting:', movies);
-
-        // Loop through each movie in the JSON and create a movie card
-        movies.forEach(movie => {
+        // Loop through each movie and create a movie card
+        latestMovies.forEach(movie => {
             // Calculate the star rating (round to nearest whole number)
             const starRating = Math.round(movie.vote_average / 2); // Convert 10-point scale to 5-star scale
             const stars = "★".repeat(starRating) + "☆".repeat(5 - starRating);
