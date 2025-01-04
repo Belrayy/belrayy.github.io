@@ -334,11 +334,26 @@ function togglePasswordVisibility(passwordFieldId) {
 function updateAuthLink() {
     const authLink = document.getElementById('auth-link');
     if (loggedIn != 0) {
-        authLink.innerHTML = '<a id="logout-link" href="./logout/logout.html">Disconnect</a>';
+        authLink.innerHTML = '<a id="logout-link" href="index.html">Disconnect</a>';
     } else {
         authLink.innerHTML = '<a id="login-link" href="./login/login.html">Sign-in/Log in</a>';
     }
 }
+
+// Example function to set the loggedIn variable and update the auth link
+function checkLoginStatus() {
+    // Assume loggedIn is a global variable
+    // Set loggedIn based on your login logic
+    loggedIn = localStorage.getItem('loggedIn') || 0; // Example: get login status from localStorage
+
+    // Update the auth link based on login status
+    updateAuthLink();
+}
+
+// Ensure the auth link is updated when the page is ready
+window.addEventListener('DOMContentLoaded', (event) => {
+    checkLoginStatus();
+});
 
 function showAddUserForm() {
     document.getElementById('addUserForm').style.display = 'block';
