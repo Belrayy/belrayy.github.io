@@ -484,12 +484,12 @@ function addMovie() {
     return false; // Prevent form submission
 }
 
-window.addEventListener('DOMContentLoaded', (event) => {
-    loadMoviesToLocalStorage().then(() => {
-        loadMovies();
-        loadLatestMovies();
-    });
+
+loadMoviesToLocalStorage().then(() => {
+    loadMovies();
+    loadLatestMovies();
 });
+
 
 function removeMovie(id) {
     let moviesEn = JSON.parse(localStorage.getItem('cleaned_movies.json')) || [];
