@@ -106,7 +106,6 @@ async function loadMoviesToLocalStorage() {
 
 async function loadMovies() {
     const container = document.getElementById("movies-container");
-    container.innerHTML = ''; // Clear the container before loading movies
     const lang = localStorage.getItem('language') || 'en';
     const jsonFile = lang === 'fr' ? 'cleaned_movies_fr.json' : 'cleaned_movies.json';
     const sortOption = document.getElementById('sortMovies').value;
