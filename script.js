@@ -184,11 +184,13 @@ async function loadMovies() {
 async function loadLatestMovies() {
     const container = document.getElementById("movies-latest");
     const lang = localStorage.getItem('language') || 'en';
-    const jsonFile = lang === 'fr' ? 'cleaned_movies_fr.json' : 'cleaned_movies.json';
+    const jsonFile = lang === 'fr' ? '../scrap/movies/cleaned_movies_fr.json' : '../scrap/movies/cleaned_movies.json';
+
 
     try {
-        // Get movies from localStorage
-        const movies = JSON.parse(localStorage.getItem(jsonFile)) || [];
+        // Fetch the JSON file
+        const response = await fetch(jsonFile);
+        const movies = await response.json();
 
         // Sort movies by release date (descending order)
         movies.sort((a, b) => new Date(b.release_date) - new Date(a.release_date));
@@ -217,7 +219,7 @@ async function loadLatestMovies() {
             container.appendChild(movieCard);
         });
     } catch (error) {
-        console.error("Error loading latest movies:", error);
+        console.error("Error loading movies:", error);
     }
 }
 
@@ -246,7 +248,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     async function loadUsers() {
         try {
-            const response = await fetch('./login.json');
+            const response = await fetch('/login/login.json');
             const users = await response.json();
             localStorage.setItem('users', JSON.stringify(users));
             //console.log('Users loaded into localStorage:', users); // Debugging log
@@ -257,7 +259,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Call the function when the page loads
 
-
+    window.onload = loadUsers;
 
     let userloggedIn;
 
@@ -299,6 +301,13 @@ document.addEventListener('DOMContentLoaded', function () {
         localStorage.removeItem('loggedIn');
         loggedIn = 0;
         updateAuthLink();
+        const language = localStorage.getItem('language') || 'en';
+        if (language === 'fr') {
+            alert('Déconnecté avec succès!');
+            
+        } else {
+            alert('Logged out successfully!');
+        }
         window.location.href = 'index.html';
     }
     window.logout = logout;
@@ -484,6 +493,7 @@ function addMovie() {
 loadMoviesToLocalStorage().then(() => {
     loadMovies();
     loadLatestMovies();
+    
 });
 
 
