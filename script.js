@@ -89,7 +89,7 @@ function convertDateFormat(dateStr) {
 
 async function loadMoviesToLocalStorage() {
     const lang = localStorage.getItem('language') || 'en';
-    const jsonFile = lang === 'fr' ? '../scrap/movies/cleaned_movies_fr.json' : '../scrap/movies/cleaned_movies.json';
+    const jsonFile = lang === 'fr' ? '/scrap/movies/cleaned_movies_fr.json' : '/scrap/movies/cleaned_movies.json';
 
     try {
         // Fetch the JSON file
@@ -103,11 +103,11 @@ async function loadMoviesToLocalStorage() {
     }
 }
 
-
 async function loadMovies() {
     const container = document.getElementById("movies-container");
+    container.innerHTML = ''; // Clear the container before loading movies
     const lang = localStorage.getItem('language') || 'en';
-    const jsonFile = lang === 'fr' ? 'cleaned_movies_fr.json' : 'cleaned_movies.json';
+    const jsonFile = lang === 'fr' ? '/scrap/movies/cleaned_movies_fr.json' : '/scrap/movies/cleaned_movies.json';
     const sortOption = document.getElementById('sortMovies').value;
 
     try {
@@ -117,27 +117,20 @@ async function loadMovies() {
         // Log the movies to debug
         console.log('Movies before sorting:', movies);
 
-        // Convert release_date format for each movie
-        movies.forEach(movie => {
-            if (movie.release_date) {
-                movie.release_date = convertDateFormat(movie.release_date);
-            }
-        });
-
         // Sort movies based on the selected option
         switch (sortOption) {
             case 'dateAsc':
                 movies.sort((a, b) => {
-                    const dateA = new Date(a.release_date);
-                    const dateB = new Date(b.release_date);
+                    const dateA = new Date(convertDateFormat(a.release_date));
+                    const dateB = new Date(convertDateFormat(b.release_date));
                     console.log('Sorting by dateAsc:', dateA, dateB); // Debugging log
                     return dateA - dateB;
                 });
                 break;
             case 'dateDesc':
                 movies.sort((a, b) => {
-                    const dateA = new Date(a.release_date);
-                    const dateB = new Date(b.release_date);
+                    const dateA = new Date(convertDateFormat(a.release_date));
+                    const dateB = new Date(convertDateFormat(b.release_date));
                     console.log('Sorting by dateDesc:', dateA, dateB); // Debugging log
                     return dateB - dateA;
                 });
@@ -182,27 +175,38 @@ async function loadMovies() {
 }
 
 
+
+
 // Call the function to load and display movies
 // loadMovies();
 
 
 async function loadLatestMovies() {
     const container = document.getElementById("movies-latest");
+    container.innerHTML = ''; // Clear the container before loading movies
     const lang = localStorage.getItem('language') || 'en';
-    const jsonFile = lang === 'fr' ? 'cleaned_movies_fr.json' : 'cleaned_movies.json';
+    const jsonFile = lang === 'fr' ? '/scrap/movies/cleaned_movies_fr.json' : '/scrap/movies/cleaned_movies.json';
 
     try {
         // Get movies from localStorage
         const movies = JSON.parse(localStorage.getItem(jsonFile)) || [];
 
-        // Sort movies by release date (descending order)
-        movies.sort((a, b) => new Date(b.release_date) - new Date(a.release_date));
+        // Log the movies to debug
+        console.log('Latest movies before sorting:', movies);
 
-        // Get the 5 latest movies
-        const latestMovies = movies.slice(0, 5);
+        // Sort movies by release date descending
+        movies.sort((a, b) => {
+            const dateA = new Date(convertDateFormat(a.release_date));
+            const dateB = new Date(convertDateFormat(b.release_date));
+            console.log('Sorting latest movies by dateDesc:', dateA, dateB); // Debugging log
+            return dateB - dateA;
+        });
 
-        // Loop through each movie and create a movie card
-        latestMovies.forEach(movie => {
+        // Log the movies after sorting to debug
+        console.log('Latest movies after sorting:', movies);
+
+        // Loop through each movie in the JSON and create a movie card
+        movies.forEach(movie => {
             // Calculate the star rating (round to nearest whole number)
             const starRating = Math.round(movie.vote_average / 2); // Convert 10-point scale to 5-star scale
             const stars = "★".repeat(starRating) + "☆".repeat(5 - starRating);
