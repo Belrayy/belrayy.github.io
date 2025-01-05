@@ -8,73 +8,87 @@ function changeLanguage(language) {
 }
 
 // Function to load the language from localStorage
-function loadLanguage() {
-    // Get the language from localStorage 
-    const language = localStorage.getItem('language') || 'en';
-
-    // Change the language of the page based on the stored value
-    if (language === 'fr') {
-        document.documentElement.lang = 'fr'; // Set French
-
-
-        document.getElementById('movie-text').textContent = "Films";
-        document.getElementById('reviews-text').textContent = "Critiques";
-        document.getElementById('About').textContent = "À propos";
-        document.getElementById('Apps').textContent = "Application";
-        document.getElementById('Help').textContent = "Support";
-        document.getElementById('API').textContent = "API";
-        document.getElementById('Contact').textContent = "Contactez-nous";
-        document.getElementById('copyright').textContent = "© LetterboxB Limited. Créé par BELHAFIANE RAYYANE. Données des films fournies par OMDb.";
-        document.getElementById('Latest').textContent = "Récent :";
-        document.getElementById('login-link').textContent = "S'inscrire/Se connecter";
-        document.getElementById('signInBtn').textContent = "S'inscrire";
-        document.getElementById('logInBtn').textContent = "Se connecter";
-        document.getElementById('signInUsername').textContent = "Pseudo";
-        document.getElementById('signInPassword').textContent = "Mot de passe";
-        document.getElementById('showUpPassword').textContent = "Montrer le mot de passe";
-        document.getElementById('signup').textContent = "S'inscrire";
-        document.getElementById('logInUsername').textContent = "Pseudo";
-        document.getElementById('logInPassword').textContent = "Mot de passe";
-        document.getElementById('showUpPassword').textContent = "Montrer le mot de passe";
-        document.getElementById('login').textContent = "Se connecter";
-        document.getElementById('closeOverlayBtn').textContent = "Quitter";
-    } else {
-        document.documentElement.lang = 'en'; // Set English
-
-
-        document.getElementById('movie-text').textContent = "Movies";
-        document.getElementById('reviews-text').textContent = "Reviews";
-        document.getElementById('About').textContent = "About";
-        document.getElementById('Apps').textContent = "Apps";
-        document.getElementById('Help').textContent = "Help";
-        document.getElementById('API').textContent = "API";
-        document.getElementById('Contact').textContent = "Contact";
-        document.getElementById('copyright').textContent = "© LetterboxB Limited. Made by BELHAFIANE RAYYANE. Film data from OMDb.";
-        document.getElementById('Latest').textContent = "Latest Movies :";
-        document.getElementById('login-link').textContent = "Sign-in/Log in";
-        document.getElementById('signInBtn').textContent = "Sign-in";
-        document.getElementById('logInBtn').textContent = "Log in";
-        document.getElementById('signInUsername').textContent = "Username";
-        document.getElementById('signInPassword').textContent = "Password";
-        document.getElementById('showUpPassword').textContent = "Show Password";
-        document.getElementById('signup').textContent = "Sign-in";
-        document.getElementById('logInUsername').textContent = "Username";
-        document.getElementById('logInPassword').textContent = "Password";
-        document.getElementById('showUpPassword').textContent = "Show Password";
-        document.getElementById('loginBtn').textContent = "Log in";
-        document.getElementById('closeOverlayBtn').textContent = "Close";
+const translations = {
+    en: {
+        'movie-text': 'Movies',
+        'reviews-text': 'Reviews',
+        'About': 'About',
+        'Apps': 'Apps',
+        'Help': 'Help',
+        'API': 'API',
+        'Contact': 'Contact',
+        'copyright': '© LetterboxB Limited. Made by BELHAFIANE RAYYANE. Film data from OMDb.',
+        'Latest': 'Latest Movies:',
+        'login-link': 'Sign-in/Log in',
+        'signInBtn': 'Sign-in',
+        'logInBtn': 'Log in',
+        'signInUsername': 'Username',
+        'signInPassword': 'Password',
+        'showUpPassword': 'Show Password',
+        'signup': 'Sign-in',
+        'logInUsername': 'Username',
+        'logInPassword': 'Password',
+        'loginBtn': 'Log in',
+        'closeOverlayBtn': 'Close',
+        'sortMoviesLabel': 'Sort Movies By:',
+        'default': 'Default',
+        'dateAsc': 'Release Date (Ascending)',
+        'dateDesc': 'Release Date (Descending)',
+        'reviewsAsc': 'Reviews (Ascending)',
+        'reviewsDesc': 'Reviews (Descending)',
+        'sortReviewsLabel': 'Sort Reviews By:'
+    },
+    fr: {
+        'movie-text': 'Films',
+        'reviews-text': 'Critiques',
+        'About': 'À propos',
+        'Apps': 'Application',
+        'Help': 'Support',
+        'API': 'API',
+        'Contact': 'Contactez-nous',
+        'copyright': '© LetterboxB Limited. Créé par BELHAFIANE RAYYANE. Données des films fournies par OMDb.',
+        'Latest': 'Récent :',
+        'login-link': 'S\'inscrire/Se connecter',
+        'signInBtn': 'S\'inscrire',
+        'logInBtn': 'Se connecter',
+        'signInUsername': 'Pseudo',
+        'signInPassword': 'Mot de passe',
+        'showUpPassword': 'Montrer le mot de passe',
+        'signup': 'S\'inscrire',
+        'logInUsername': 'Pseudo',
+        'logInPassword': 'Mot de passe',
+        'loginBtn': 'Se connecter',
+        'closeOverlayBtn': 'Quitter',
+        'sortMoviesLabel': 'Trier les films par :',
+        'default': 'Par défaut ',
+        'dateAsc': 'Date de sortie (Croissant)',
+        'dateDesc': 'Date de sortie (Décroissant)',
+        'reviewsAsc': 'Note (Croissant)',
+        'reviewsDesc': 'Note (Décroissant)',
+        'sortReviewsLabel': 'Trier les films par :'
     }
+};
 
+function loadLanguage() {
+    const language = localStorage.getItem('language') || 'en';
+    document.documentElement.lang = language;
 
+    const keys = Object.keys(translations[language]);
+    keys.forEach((id) => {
+        const element = document.getElementById(id);
+        if (element) {
+            element.textContent = translations[language][id];
+        }
+    });
+
+    // Handle login-link separately
     const loginLink = document.getElementById('login-link');
     if (loggedIn === 1) {
-        console.log('Logged in as user'); // Debugging log
         loginLink.innerHTML = `<button onclick="logout()">Logout</button>`;
     } else if (loggedIn === 0) {
-        loginLink.innerHTML = `<a href="./login/login.html">Sign-in/Log in</a>`;
+        loginLink.innerHTML = `<a href="./login/login.html">${translations[language]['login-link']}</a>`;
     }
 }
-
 // Ensure language is loaded when the page is ready
 window.addEventListener('DOMContentLoaded', (event) => {
     loadLanguage();
@@ -761,18 +775,17 @@ loadReviewsToLocalStorage().then(() => {
     window.onload=loadReviews();
 });
 
-function handleMovieCardClick(id) {
+function handleMovieCardClick() {
     const loggedIn = localStorage.getItem('loggedIn') || 0;
     if (loggedIn != 0) {
         const userName = localStorage.getItem('username');
-        if(addReview(userName,id)){
-            loadReviews();
-        }
+        addReviewUser(userName);
     } else {
         window.location.href = '/login/login.html';
     }
 }
-function addReviewUser(userName,id) {
+
+function addReviewUser(userName) {
     const overlay = document.createElement('div');
     overlay.style.position = 'fixed';
     overlay.style.top = '0';
@@ -789,9 +802,10 @@ function addReviewUser(userName,id) {
     reviewContainer.style.backgroundColor = 'rgba(0, 0, 0, 0.5)';
     reviewContainer.style.padding = '20px';
     reviewContainer.style.borderRadius = '10px';
-    reviewContainer.style.boxShadow = '0 0 10px rgba(0, 0, 0, 0.0)';
+    reviewContainer.style.boxShadow = '0 0 10px rgba(0, 0, 0, 0.1)';
     reviewContainer.innerHTML = `
         <input type="text" id="reviewInput" placeholder="Enter your review" style="display: block; margin-bottom: 10px; width: 100%; padding: 10px;">
+        <input type="text" id="nameInput" placeholder="Enter the movie name" style="display: block; margin-bottom: 10px; width: 100%; padding: 10px;">
         <button id="submitReview" style="padding: 10px 20px;">Submit</button>
         <button id="closeOverlay" style="padding: 10px 20px; margin-left: 10px; background-color: #f44336; color: white; border: none; border-radius: 5px;">Close</button>
     `;
@@ -799,28 +813,42 @@ function addReviewUser(userName,id) {
     overlay.appendChild(reviewContainer);
     document.body.appendChild(overlay);
 
-
     document.getElementById('submitReview').addEventListener('click', () => {
         const reviewText = document.getElementById('reviewInput').value;
-        console.log('Review Text:', reviewText); // Log the review text
-        if (reviewText) {
-            const lang = localStorage.getItem('language') || 'en';
-            const jsonFile = lang === 'fr' ? '/HTML/reviews/reviews_fr.json' : '/HTML/reviews/reviews.json';
-            let reviews = JSON.parse(localStorage.getItem(jsonFile)) || [];
-            reviews.push({ review: reviewText, user: userName });
-            localStorage.setItem(jsonFile, JSON.stringify(reviews));
-            alert('Review added successfully!');
-            document.body.removeChild(overlay);
-            loadReviews(); // Refresh the reviews after adding a new one
-            return true;
-        } else {
-            alert('Please enter the review');
+        const movieName = document.getElementById('nameInput').value.trim();
+        if (!reviewText || !movieName) {
+            alert('Please enter both the movie name and review!');
             return false;
         }
+
+        const lang = localStorage.getItem('language') || 'en';
+        const jsonFile = lang === 'fr' ? '/HTML/reviews/reviews_fr.json' : '/HTML/reviews/reviews.json';
+        let reviews = JSON.parse(localStorage.getItem(jsonFile)) || [];
+
+        // Find the movie in the reviews array
+        let movie = reviews.find(r => r.movieName === movieName);
+
+        if (movie) {
+            // If movie exists, append the new review
+            movie.reviews.push({ review: reviewText, user: userName });
+        } else {
+            // If movie doesn't exist, add a new entry
+            reviews.push({
+                movieName: movieName,
+                reviews: [{ review: reviewText, user: userName }]
+            });
+        }
+
+        // Save the updated reviews back to localStorage
+        localStorage.setItem(jsonFile, JSON.stringify(reviews));
+        alert('Review added successfully!');
+        document.body.removeChild(overlay);
+        loadReviews(); // Refresh the reviews after adding a new one
     });
 
     document.getElementById('closeOverlay').addEventListener('click', () => {
         document.body.removeChild(overlay);
     });
 }
+
 
