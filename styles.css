@@ -22,7 +22,7 @@ a {
 
 #titre a:hover {
     text-decoration: none; /* Ensures no underline on hover */
-    color: #ff7b7b; /* Keeps the text color white on hover */
+    color: #01e155; /* Keeps the text color white on hover */
 }
 
 #langue a:visited {
@@ -32,7 +32,7 @@ a {
 
 #langue a:hover{
     text-decoration: none; /* Ensures no underline on hover */
-    color: #ff7b7b;
+    color: #01e155;
 }
 
 
@@ -61,8 +61,9 @@ header {
 
 .navbar .logo {
     font-size: 1.5em;
-    color: #ff7b7b;
+    color: #ffffff;
 }
+
 
 .navbar ul {
     list-style: none;
@@ -80,7 +81,7 @@ header {
 }
 
 .navbar ul li a:hover {
-    color: #ff7b7b;
+    color: #40bbf4;
 }
 
 
@@ -237,7 +238,7 @@ header {
   }
   
   .footer-links a:hover {
-    color: #ffffff; /* Highlight link on hover */
+    color: #ff7f00; /* Highlight link on hover */
   }
   
   .footer-info {
@@ -314,7 +315,7 @@ input[type="date"]  {
 button {
     padding: 10px 100px;
     margin-top: 10px;
-    background-color: #4CAF50; /* Green background */
+    background-color: #01e155; /* Green background */
     color: white;
     border: none;
     border-radius: 5px;
@@ -322,28 +323,28 @@ button {
 }
 
 button:hover {
-    background-color: #45a049; /* Darker green on hover */
+    background-color: #01e155; /* Darker green on hover */
 }
 
 /* Close button specific style */
 #closeOverlayBtn {
     margin: 10px;
-    background-color: #f44336; /* Red background */
+    background-color: #ff7f00; /* Red background */
 }
 
 #closeOverlayBtn:hover {
-    background-color: #d32f2f; /* Darker red on hover */
+    background-color: #ff7f00; /* Darker red on hover */
 }
 
 /* Style for switching buttons */
 #signInBtn, #logInBtn {
     margin: 10px;
-    background-color: #2196F3; /* Blue background */
+    background-color: #40bbf4; /* Blue background */
     color: white;
 }
 
 #signInBtn:hover, #logInBtn:hover {
-    background-color: #1976D2; /* Darker blue on hover */
+    background-color: #01e155; /* Darker blue on hover */
 }
 
 .overlay-button {

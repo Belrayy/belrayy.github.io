@@ -18,16 +18,14 @@ const translations = {
         'API': 'API',
         'Contact': 'Contact',
         'copyright': '© LetterboxB Limited. Made by BELHAFIANE RAYYANE. Film data from OMDb.',
-        'Latest': 'Latest Movies:',
+        'Latest': 'Popular Movies :',
         'login-link': 'Sign-in/Log in',
         'signInBtn': 'Sign-in',
         'logInBtn': 'Log in',
-        'signInUsername': 'Username',
-        'signInPassword': 'Password',
+        'signInUsername': 'Username ',
+        'signInPassword': 'Password ',
         'showUpPassword': 'Show Password',
         'signup': 'Sign-in',
-        'logInUsername': 'Username',
-        'logInPassword': 'Password',
         'loginBtn': 'Log in',
         'closeOverlayBtn': 'Close',
         'sortMoviesLabel': 'Sort Movies By:',
@@ -47,16 +45,16 @@ const translations = {
         'API': 'API',
         'Contact': 'Contactez-nous',
         'copyright': '© LetterboxB Limited. Créé par BELHAFIANE RAYYANE. Données des films fournies par OMDb.',
-        'Latest': 'Récent :',
+        'Latest': 'Film populaire :',
         'login-link': 'S\'inscrire/Se connecter',
         'signInBtn': 'S\'inscrire',
         'logInBtn': 'Se connecter',
-        'signInUsername': 'Pseudo',
-        'signInPassword': 'Mot de passe',
+        'signInUsernameLabel': 'Pseudo :',
+        'signInPasswordLabel': 'Mot de passe :',
         'showUpPassword': 'Montrer le mot de passe',
+        'logInUsernameLabel': 'Pseudo :',
+        'logInPasswordLabel': 'Mot de passe :',
         'signup': 'S\'inscrire',
-        'logInUsername': 'Pseudo',
-        'logInPassword': 'Mot de passe',
         'loginBtn': 'Se connecter',
         'closeOverlayBtn': 'Quitter',
         'sortMoviesLabel': 'Trier les films par :',
@@ -364,12 +362,22 @@ function updateAuthLink() {
     const authLink = document.getElementById('auth-link');
     const adminLink = document.getElementById('admin-link');
     if (loggedIn != 0) {
-        authLink.innerHTML = '<a id="logout-link" href="index.html" onclick="logout()">Disconnect</a>';
+        const lang = localStorage.getItem('language') || 'en';
+        if (lang === 'fr') {
+            authLink.innerHTML = '<a id="logout-link" href="index.html" onclick="logout()">Se déconnecter</a>';
+        } else {
+            authLink.innerHTML = '<a id="logout-link" href="index.html" onclick="logout()">Disconnect</a>';
+        }
         if (loggedIn == 1) {
             adminLink.innerHTML = '<a id="admin-link" href="./login/admin.html">Admin</a>';
         }
     } else {
-        authLink.innerHTML = '<a id="login-link" href="./login/login.html">Sign-in/Log in</a>';
+        if (lang === 'fr') {
+            authLink.innerHTML = '<a id="login-link" href="./login/login.html">S\'inscrire/Se connecter</a>';
+        } else {
+            authLink.innerHTML = '<a id="login-link" href="./login/login.html">Sign-in/Log in</a>';
+        }
+        
     }
 }
 

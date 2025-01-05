@@ -38,13 +38,13 @@
             <!-- Sign-In Form (Initially hidden) -->
             <div id="signInForm" style="display: none;">
                 <form>
-                    <label for="signInEmail">Email:</label>
+                    <label for="signInEmail" id="signInEmailLabel">Email:</label>
                     <input type="email" id="signInEmail" name="email" required><br><br>
             
-                    <label  for="signInUsername">Username :</label>
+                    <label  for="signInUsername" id="signInUsernameLabel">Username :</label>
                     <input type="text" id="signInUsername" name="username" required><br><br>
             
-                    <label  for="signInPassword">Password:</label>
+                    <label  for="signInPassword" id="signInPasswordLabel">Password:</label>
                     <input type="password" id="signInPassword" name="password" required><br><br>
                     <input type="checkbox" id="showUpPassword" onclick="togglePasswordVisibility('signInPassword')"> Show Password<br>
             
@@ -55,10 +55,10 @@
             <!-- Log-In Form (Initially hidden) -->
             <div id="logInForm" style="display: none;">
                 <form onsubmit="return login()">
-                    <label for="logInUsername">Username :</label>
+                    <label for="logInUsername" id="logInUsernameLabel">Username :</label>
                     <input type="text" id="logInUsername" name="username" required><br><br>
             
-                    <label for="logInPassword">Password:</label>
+                    <label for="logInPassword" id="logInPasswordLabel">Password:</label>
                     <input type="password" id="logInPassword" name="password" required><br><br>
                     <input type="checkbox" id="showUpPassword" onclick="togglePasswordVisibility('logInPassword')"> Show Password<br>
             
