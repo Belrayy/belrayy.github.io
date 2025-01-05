@@ -7,9 +7,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BMDAyY2FhYjctNDc5OS00MDNlLThiMGUtY2UxYWVkNGY2ZjljXkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "9.3",
         "reviews": [
-            "Brilliant storytelling with incredible performances.",
-            "A powerful narrative with unforgettable moments.",
-            "A beautiful story of hope and resilience."
+            {
+                "review": "Brilliant storytelling with incredible performances.",
+                "user": "Alice"
+            },
+            {
+                "review": "A powerful narrative with unforgettable moments.",
+                "user": "Charlie"
+            },
+            {
+                "review": "A beautiful story of hope and resilience.",
+                "user": "Dave"
+            }
         ]
     },
     {
@@ -20,9 +29,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BYTJkNGQyZDgtZDQ0NC00MDM0LWEzZWQtYzUzZDEwMDljZWNjXkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "9.2",
         "reviews": [
-            "Amazing direction and outstanding cinematography.",
-            "An emotional rollercoaster that stayed with me.",
-            "Highly recommended for fans of the genre."
+            {
+                "review": "Amazing direction and outstanding cinematography.",
+                "user": "Dave"
+            },
+            {
+                "review": "An emotional rollercoaster that stayed with me.",
+                "user": "Alice"
+            },
+            {
+                "review": "Highly recommended for fans of the genre.",
+                "user": "Bob"
+            }
         ]
     },
     {
@@ -33,9 +51,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BNzc1OWY5MjktZDllMi00ZDEzLWEwMGItYjk1YmRhYjBjNTVlXkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "9.0",
         "reviews": [
-            "A bit overrated, but still worth a watch.",
-            "Not as great as people say, but still good.",
-            "Highly recommended for fans of the genre."
+            {
+                "review": "A bit overrated, but still worth a watch.",
+                "user": "Dave"
+            },
+            {
+                "review": "Not as great as people say, but still good.",
+                "user": "Bob"
+            },
+            {
+                "review": "Highly recommended for fans of the genre.",
+                "user": "Alice"
+            }
         ]
     },
     {
@@ -46,9 +73,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_SX300.jpg",
         "vote_average": "9.0",
         "reviews": [
-            "Brilliant storytelling with incredible performances.",
-            "Fantastic acting, but the pacing felt off at times.",
-            "One of the best movies I've ever seen."
+            {
+                "review": "Brilliant storytelling with incredible performances.",
+                "user": "Dave"
+            },
+            {
+                "review": "Fantastic acting, but the pacing felt off at times.",
+                "user": "Dave"
+            },
+            {
+                "review": "One of the best movies I've ever seen.",
+                "user": "Eve"
+            }
         ]
     },
     {
@@ -59,9 +95,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BNWE5MGI3MDctMmU5Ni00YzI2LWEzMTQtZGIyZDA5MzQzNDBhXkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "7.6",
         "reviews": [
-            "Could watch this over and over again!",
-            "A bit overrated, but still worth a watch.",
-            "A beautiful story of hope and resilience."
+            {
+                "review": "Could watch this over and over again!",
+                "user": "Bob"
+            },
+            {
+                "review": "A bit overrated, but still worth a watch.",
+                "user": "Dave"
+            },
+            {
+                "review": "A beautiful story of hope and resilience.",
+                "user": "Eve"
+            }
         ]
     },
     {
@@ -72,9 +117,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BNjM1ZDQxYWUtMzQyZS00MTE1LWJmZGYtNGUyNTdlYjM3ZmVmXkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "9.0",
         "reviews": [
-            "One of the best movies I've ever seen.",
-            "Could watch this over and over again!",
-            "A must-watch for every cinema lover."
+            {
+                "review": "One of the best movies I've ever seen.",
+                "user": "Eve"
+            },
+            {
+                "review": "Could watch this over and over again!",
+                "user": "Eve"
+            },
+            {
+                "review": "A must-watch for every cinema lover.",
+                "user": "Bob"
+            }
         ]
     },
     {
@@ -85,9 +139,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BOTgyOGQ1NDItNGU3Ny00MjU3LTg2YWEtNmEyYjBiMjI1Y2M5XkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "8.8",
         "reviews": [
-            "A bit overrated, but still worth a watch.",
-            "Incredible attention to detail and character development.",
-            "Highly recommended for fans of the genre."
+            {
+                "review": "A bit overrated, but still worth a watch.",
+                "user": "Eve"
+            },
+            {
+                "review": "Incredible attention to detail and character development.",
+                "user": "Dave"
+            },
+            {
+                "review": "Highly recommended for fans of the genre.",
+                "user": "Alice"
+            }
         ]
     },
     {
@@ -98,9 +161,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BMTkxNGFlNDktZmJkNC00MDdhLTg0MTEtZjZiYWI3MGE5NWIwXkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "8.7",
         "reviews": [
-            "A beautiful story of hope and resilience.",
-            "A powerful narrative with unforgettable moments.",
-            "Could watch this over and over again!"
+            {
+                "review": "A beautiful story of hope and resilience.",
+                "user": "Dave"
+            },
+            {
+                "review": "A powerful narrative with unforgettable moments.",
+                "user": "Alice"
+            },
+            {
+                "review": "Could watch this over and over again!",
+                "user": "Charlie"
+            }
         ]
     },
     {
@@ -111,9 +183,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BNDYwNzVjMTItZmU5YS00YjQ5LTljYjgtMjY2NDVmYWMyNWFmXkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "8.8",
         "reviews": [
-            "It felt a bit slow, but the ending made up for it.",
-            "A powerful narrative with unforgettable moments.",
-            "A timeless classic that everyone should watch."
+            {
+                "review": "It felt a bit slow, but the ending made up for it.",
+                "user": "Charlie"
+            },
+            {
+                "review": "A powerful narrative with unforgettable moments.",
+                "user": "Alice"
+            },
+            {
+                "review": "A timeless classic that everyone should watch.",
+                "user": "Charlie"
+            }
         ]
     },
     {
@@ -124,9 +205,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BMTZkMjBjNWMtZGI5OC00MGU0LTk4ZTItODg2NWM3NTVmNWQ4XkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "9.0",
         "reviews": [
-            "Highly recommended for fans of the genre.",
-            "A timeless classic that everyone should watch.",
-            "Not as great as people say, but still good."
+            {
+                "review": "Highly recommended for fans of the genre.",
+                "user": "Charlie"
+            },
+            {
+                "review": "A timeless classic that everyone should watch.",
+                "user": "Alice"
+            },
+            {
+                "review": "Not as great as people say, but still good.",
+                "user": "Alice"
+            }
         ]
     },
     {
@@ -137,9 +227,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BN2NmN2VhMTQtMDNiOS00NDlhLTliMjgtODE2ZTY0ODQyNDRhXkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "8.7",
         "reviews": [
-            "A powerful narrative with unforgettable moments.",
-            "A great mix of drama, action, and suspense.",
-            "Incredible attention to detail and character development."
+            {
+                "review": "A powerful narrative with unforgettable moments.",
+                "user": "Dave"
+            },
+            {
+                "review": "A great mix of drama, action, and suspense.",
+                "user": "Dave"
+            },
+            {
+                "review": "Incredible attention to detail and character development.",
+                "user": "Eve"
+            }
         ]
     },
     {
@@ -150,9 +249,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_SX300.jpg",
         "vote_average": "8.8",
         "reviews": [
-            "Not as great as people say, but still good.",
-            "The plot was gripping from start to finish.",
-            "A timeless classic that everyone should watch."
+            {
+                "review": "Not as great as people say, but still good.",
+                "user": "Eve"
+            },
+            {
+                "review": "The plot was gripping from start to finish.",
+                "user": "Dave"
+            },
+            {
+                "review": "A timeless classic that everyone should watch.",
+                "user": "Alice"
+            }
         ]
     },
     {
@@ -163,9 +271,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BZTBhOGYzZjQtYzE0Mi00MGIwLWE0MWYtNzMxNTM2OTFkM2NjXkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "8.6",
         "reviews": [
-            "Highly recommended for fans of the genre.",
-            "This movie is truly a work of art.",
-            "Incredible attention to detail and character development."
+            {
+                "review": "Highly recommended for fans of the genre.",
+                "user": "Dave"
+            },
+            {
+                "review": "This movie is truly a work of art.",
+                "user": "Dave"
+            },
+            {
+                "review": "Incredible attention to detail and character development.",
+                "user": "Dave"
+            }
         ]
     },
     {
@@ -176,9 +293,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BMDM4OWFhYjEtNTE5Yy00NjcyLTg5N2UtZDQwNDZlYjlmNDU5XkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "8.6",
         "reviews": [
-            "It exceeded all my expectations.",
-            "One of the best movies I've ever seen.",
-            "Not as great as people say, but still good."
+            {
+                "review": "It exceeded all my expectations.",
+                "user": "Charlie"
+            },
+            {
+                "review": "One of the best movies I've ever seen.",
+                "user": "Eve"
+            },
+            {
+                "review": "Not as great as people say, but still good.",
+                "user": "Bob"
+            }
         ]
     },
     {
@@ -189,9 +315,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BYzYyN2FiZmUtYWYzMy00MzViLWJkZTMtOGY1ZjgzNWMwN2YxXkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "7.9",
         "reviews": [
-            "Highly recommended for fans of the genre.",
-            "Fantastic acting, but the pacing felt off at times.",
-            "Amazing direction and outstanding cinematography."
+            {
+                "review": "Highly recommended for fans of the genre.",
+                "user": "Charlie"
+            },
+            {
+                "review": "Fantastic acting, but the pacing felt off at times.",
+                "user": "Dave"
+            },
+            {
+                "review": "Amazing direction and outstanding cinematography.",
+                "user": "Dave"
+            }
         ]
     },
     {
@@ -202,9 +337,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BNDdhOGJhYzctYzYwZC00YmI2LWI0MjctYjg4ODdlMDExYjBlXkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "8.6",
         "reviews": [
-            "Amazing direction and outstanding cinematography.",
-            "Fantastic acting, but the pacing felt off at times.",
-            "A beautiful story of hope and resilience."
+            {
+                "review": "Amazing direction and outstanding cinematography.",
+                "user": "Alice"
+            },
+            {
+                "review": "Fantastic acting, but the pacing felt off at times.",
+                "user": "Dave"
+            },
+            {
+                "review": "A beautiful story of hope and resilience.",
+                "user": "Alice"
+            }
         ]
     },
     {
@@ -215,9 +359,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BN2E5NzI2ZGMtY2VjNi00YTRjLWI1MDUtZGY5OWU1MWJjZjRjXkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "8.7",
         "reviews": [
-            "Brilliant storytelling with incredible performances.",
-            "The plot was gripping from start to finish.",
-            "It exceeded all my expectations."
+            {
+                "review": "Brilliant storytelling with incredible performances.",
+                "user": "Bob"
+            },
+            {
+                "review": "The plot was gripping from start to finish.",
+                "user": "Dave"
+            },
+            {
+                "review": "It exceeded all my expectations.",
+                "user": "Bob"
+            }
         ]
     },
     {
@@ -228,9 +381,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BNWEzN2U1YTYtYTQyMS00NTVkLWE2NGQtZWFlMmM0MDNjMmRiXkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "8.5",
         "reviews": [
-            "Highly recommended for fans of the genre.",
-            "The plot was gripping from start to finish.",
-            "An emotional rollercoaster that stayed with me."
+            {
+                "review": "Highly recommended for fans of the genre.",
+                "user": "Dave"
+            },
+            {
+                "review": "The plot was gripping from start to finish.",
+                "user": "Charlie"
+            },
+            {
+                "review": "An emotional rollercoaster that stayed with me.",
+                "user": "Bob"
+            }
         ]
     },
     {
@@ -241,9 +403,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BY2IzNzMxZjctZjUxZi00YzAxLTk3ZjMtODFjODdhMDU5NDM1XkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "8.6",
         "reviews": [
-            "Not as great as people say, but still good.",
-            "Incredible attention to detail and character development.",
-            "Highly recommended for fans of the genre."
+            {
+                "review": "Not as great as people say, but still good.",
+                "user": "Bob"
+            },
+            {
+                "review": "Incredible attention to detail and character development.",
+                "user": "Bob"
+            },
+            {
+                "review": "Highly recommended for fans of the genre.",
+                "user": "Bob"
+            }
         ]
     },
     {
@@ -254,9 +425,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BYjBkMjgzMzYtNzRiMS00NDc3LWE4YTUtZjYxYjZhNjNhYzhhXkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "8.7",
         "reviews": [
-            "Could watch this over and over again!",
-            "It exceeded all my expectations.",
-            "An absolute masterpiece! It left me speechless."
+            {
+                "review": "Could watch this over and over again!",
+                "user": "Bob"
+            },
+            {
+                "review": "It exceeded all my expectations.",
+                "user": "Eve"
+            },
+            {
+                "review": "An absolute masterpiece! It left me speechless.",
+                "user": "Charlie"
+            }
         ]
     },
     {
@@ -267,9 +447,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BMGNlYmM1NmQtYWExMS00NmRjLTg5ZmEtMmYyYzJkMzljYWMxXkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "8.2",
         "reviews": [
-            "A must-watch for every cinema lover.",
-            "Could watch this over and over again!",
-            "This movie is truly a work of art."
+            {
+                "review": "A must-watch for every cinema lover.",
+                "user": "Charlie"
+            },
+            {
+                "review": "Could watch this over and over again!",
+                "user": "Bob"
+            },
+            {
+                "review": "This movie is truly a work of art.",
+                "user": "Dave"
+            }
         ]
     },
     {
@@ -280,9 +469,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BZGZhZGQ1ZWUtZTZjYS00MDJhLWFkYjctN2ZlYjE5NWYwZDM2XkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "8.6",
         "reviews": [
-            "An emotional rollercoaster that stayed with me.",
-            "A must-watch for every cinema lover.",
-            "Amazing direction and outstanding cinematography."
+            {
+                "review": "An emotional rollercoaster that stayed with me.",
+                "user": "Charlie"
+            },
+            {
+                "review": "A must-watch for every cinema lover.",
+                "user": "Dave"
+            },
+            {
+                "review": "Amazing direction and outstanding cinematography.",
+                "user": "Eve"
+            }
         ]
     },
     {
@@ -293,9 +491,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BNGIxNzQ0YzYtMjNmYi00YjBlLWFjNzEtNGE3ZGFmYTczM2MwXkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "8.2",
         "reviews": [
-            "An emotional rollercoaster that stayed with me.",
-            "A beautiful story of hope and resilience.",
-            "Fantastic acting, but the pacing felt off at times."
+            {
+                "review": "An emotional rollercoaster that stayed with me.",
+                "user": "Bob"
+            },
+            {
+                "review": "A beautiful story of hope and resilience.",
+                "user": "Eve"
+            },
+            {
+                "review": "Fantastic acting, but the pacing felt off at times.",
+                "user": "Alice"
+            }
         ]
     },
     {
@@ -306,9 +513,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BODVkZGFhNGQtYjdiYi00Njc4LWFmYTItNTlmNzJjMTg1ZDc5XkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "8.5",
         "reviews": [
-            "An emotional rollercoaster that stayed with me.",
-            "Highly recommended for fans of the genre.",
-            "Could watch this over and over again!"
+            {
+                "review": "An emotional rollercoaster that stayed with me.",
+                "user": "Charlie"
+            },
+            {
+                "review": "Highly recommended for fans of the genre.",
+                "user": "Alice"
+            },
+            {
+                "review": "Could watch this over and over again!",
+                "user": "Charlie"
+            }
         ]
     },
     {
@@ -319,9 +535,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BOGNhMjg2ZjgtYzk4Ni00MTViLTg1MmUtYzM2MDZiYjZlMmU3XkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "8.4",
         "reviews": [
-            "A great mix of drama, action, and suspense.",
-            "A timeless classic that everyone should watch.",
-            "Could watch this over and over again!"
+            {
+                "review": "A great mix of drama, action, and suspense.",
+                "user": "Bob"
+            },
+            {
+                "review": "A timeless classic that everyone should watch.",
+                "user": "Eve"
+            },
+            {
+                "review": "Could watch this over and over again!",
+                "user": "Bob"
+            }
         ]
     },
     {
@@ -332,9 +557,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BZTQ3OWY2NTctOTAyNS00MThjLTgyZjEtNzgzZGNiZDNhODUyXkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "5.7",
         "reviews": [
-            "Amazing direction and outstanding cinematography.",
-            "A great mix of drama, action, and suspense.",
-            "An emotional rollercoaster that stayed with me."
+            {
+                "review": "Amazing direction and outstanding cinematography.",
+                "user": "Alice"
+            },
+            {
+                "review": "A great mix of drama, action, and suspense.",
+                "user": "Dave"
+            },
+            {
+                "review": "An emotional rollercoaster that stayed with me.",
+                "user": "Bob"
+            }
         ]
     },
     {
@@ -345,9 +579,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BOGUwMDk0Y2MtNjBlNi00NmRiLTk2MWYtMGMyMDlhYmI4ZDBjXkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "8.6",
         "reviews": [
-            "A great mix of drama, action, and suspense.",
-            "The plot was gripping from start to finish.",
-            "An absolute masterpiece! It left me speechless."
+            {
+                "review": "A great mix of drama, action, and suspense.",
+                "user": "Charlie"
+            },
+            {
+                "review": "The plot was gripping from start to finish.",
+                "user": "Eve"
+            },
+            {
+                "review": "An absolute masterpiece! It left me speechless.",
+                "user": "Eve"
+            }
         ]
     },
     {
@@ -358,9 +601,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BODZhMWJlNjYtNDExNC00MTIzLTllM2ItOGQ2NGVjNDQ3MzkzXkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "8.4",
         "reviews": [
-            "Amazing direction and outstanding cinematography.",
-            "Not as great as people say, but still good.",
-            "A bit overrated, but still worth a watch."
+            {
+                "review": "Amazing direction and outstanding cinematography.",
+                "user": "Charlie"
+            },
+            {
+                "review": "Not as great as people say, but still good.",
+                "user": "Eve"
+            },
+            {
+                "review": "A bit overrated, but still worth a watch.",
+                "user": "Bob"
+            }
         ]
     },
     {
@@ -371,9 +623,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BMTY1NTI0ODUyOF5BMl5BanBnXkFtZTgwNTEyNjQ0MDE@._V1_SX300.jpg",
         "vote_average": "8.1",
         "reviews": [
-            "Fantastic acting, but the pacing felt off at times.",
-            "Highly recommended for fans of the genre.",
-            "Could watch this over and over again!"
+            {
+                "review": "Fantastic acting, but the pacing felt off at times.",
+                "user": "Alice"
+            },
+            {
+                "review": "Highly recommended for fans of the genre.",
+                "user": "Charlie"
+            },
+            {
+                "review": "Could watch this over and over again!",
+                "user": "Eve"
+            }
         ]
     },
     {
@@ -384,9 +645,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BMzdkMzEyZTktMTZiNi00NmI4LTg2ZjUtMmI3NWY4MzZkNTNjXkEyXkFqcGdeQXVyMTQ3Njg3MQ@@._V1_SX300.jpg",
         "vote_average": "6.6",
         "reviews": [
-            "A must-watch for every cinema lover.",
-            "A timeless classic that everyone should watch.",
-            "Could watch this over and over again!"
+            {
+                "review": "A must-watch for every cinema lover.",
+                "user": "Bob"
+            },
+            {
+                "review": "A timeless classic that everyone should watch.",
+                "user": "Charlie"
+            },
+            {
+                "review": "Could watch this over and over again!",
+                "user": "Charlie"
+            }
         ]
     },
     {
@@ -397,9 +667,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BN2NhMDk2MmEtZDQzOC00MmY5LThhYzAtMDdjZGFjOGZjMjdjXkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "8.5",
         "reviews": [
-            "Brilliant storytelling with incredible performances.",
-            "Highly recommended for fans of the genre.",
-            "It exceeded all my expectations."
+            {
+                "review": "Brilliant storytelling with incredible performances.",
+                "user": "Eve"
+            },
+            {
+                "review": "Highly recommended for fans of the genre.",
+                "user": "Bob"
+            },
+            {
+                "review": "It exceeded all my expectations.",
+                "user": "Charlie"
+            }
         ]
     },
     {
@@ -410,9 +689,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BZjliMWExOTMtZDQ3ZS00NWU3LWIyN2EtMjllNzk3ZTNlYzg4XkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "8.6",
         "reviews": [
-            "A must-watch for every cinema lover.",
-            "An absolute masterpiece! It left me speechless.",
-            "One of the best movies I've ever seen."
+            {
+                "review": "A must-watch for every cinema lover.",
+                "user": "Bob"
+            },
+            {
+                "review": "An absolute masterpiece! It left me speechless.",
+                "user": "Dave"
+            },
+            {
+                "review": "One of the best movies I've ever seen.",
+                "user": "Bob"
+            }
         ]
     },
     {
@@ -423,9 +711,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BZWIzODI2OGItMzM0Ny00OGRmLTlkNmItMDQxMTFmMTk3YmQwXkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "8.3",
         "reviews": [
-            "A powerful narrative with unforgettable moments.",
-            "An absolute masterpiece! It left me speechless.",
-            "It felt a bit slow, but the ending made up for it."
+            {
+                "review": "A powerful narrative with unforgettable moments.",
+                "user": "Charlie"
+            },
+            {
+                "review": "An absolute masterpiece! It left me speechless.",
+                "user": "Charlie"
+            },
+            {
+                "review": "It felt a bit slow, but the ending made up for it.",
+                "user": "Bob"
+            }
         ]
     },
     {
@@ -436,9 +733,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BNDc1YWRjODItNGZjNS00MDI4LTliYWYtNDdjZjI3ZWYzNzM4XkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "7.6",
         "reviews": [
-            "A bit overrated, but still worth a watch.",
-            "This movie is truly a work of art.",
-            "The plot was gripping from start to finish."
+            {
+                "review": "A bit overrated, but still worth a watch.",
+                "user": "Eve"
+            },
+            {
+                "review": "This movie is truly a work of art.",
+                "user": "Eve"
+            },
+            {
+                "review": "The plot was gripping from start to finish.",
+                "user": "Bob"
+            }
         ]
     },
     {
@@ -449,9 +755,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BNWEwOTI0MmUtMGNmNy00ODViLTlkZDQtZTg1YmQ3MDgyNTUzXkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "8.3",
         "reviews": [
-            "A bit overrated, but still worth a watch.",
-            "Fantastic acting, but the pacing felt off at times.",
-            "Highly recommended for fans of the genre."
+            {
+                "review": "A bit overrated, but still worth a watch.",
+                "user": "Alice"
+            },
+            {
+                "review": "Fantastic acting, but the pacing felt off at times.",
+                "user": "Bob"
+            },
+            {
+                "review": "Highly recommended for fans of the genre.",
+                "user": "Alice"
+            }
         ]
     },
     {
@@ -462,9 +777,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BMTI1MTY2OTIxNV5BMl5BanBnXkFtZTYwNjQ4NjY3._V1_SX300.jpg",
         "vote_average": "8.5",
         "reviews": [
-            "It exceeded all my expectations.",
-            "Not as great as people say, but still good.",
-            "One of the best movies I've ever seen."
+            {
+                "review": "It exceeded all my expectations.",
+                "user": "Bob"
+            },
+            {
+                "review": "Not as great as people say, but still good.",
+                "user": "Charlie"
+            },
+            {
+                "review": "One of the best movies I've ever seen.",
+                "user": "Bob"
+            }
         ]
     },
     {
@@ -475,9 +799,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BZGI4OTk4MDMtYmQ1Ni00YTUzLTkyYTktZGUwMjMyN2M4NjQ5XkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "8.3",
         "reviews": [
-            "Fantastic acting, but the pacing felt off at times.",
-            "A bit overrated, but still worth a watch.",
-            "It exceeded all my expectations."
+            {
+                "review": "Fantastic acting, but the pacing felt off at times.",
+                "user": "Dave"
+            },
+            {
+                "review": "A bit overrated, but still worth a watch.",
+                "user": "Charlie"
+            },
+            {
+                "review": "It exceeded all my expectations.",
+                "user": "Eve"
+            }
         ]
     },
     {
@@ -488,9 +821,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BNmM5ZThhY2ItOGRjOS00NzZiLWEwYTItNDgyMjFkOTgxMmRiXkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "8.4",
         "reviews": [
-            "One of the best movies I've ever seen.",
-            "A must-watch for every cinema lover.",
-            "This movie is truly a work of art."
+            {
+                "review": "One of the best movies I've ever seen.",
+                "user": "Dave"
+            },
+            {
+                "review": "A must-watch for every cinema lover.",
+                "user": "Charlie"
+            },
+            {
+                "review": "This movie is truly a work of art.",
+                "user": "Eve"
+            }
         ]
     },
     {
@@ -501,9 +843,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BYmFmNTFlN2QtZmEzNS00MTRmLWE1ZGUtODk5YzY1ZTkzMGUzXkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "7.9",
         "reviews": [
-            "Highly recommended for fans of the genre.",
-            "One of the best movies I've ever seen.",
-            "An emotional rollercoaster that stayed with me."
+            {
+                "review": "Highly recommended for fans of the genre.",
+                "user": "Charlie"
+            },
+            {
+                "review": "One of the best movies I've ever seen.",
+                "user": "Alice"
+            },
+            {
+                "review": "An emotional rollercoaster that stayed with me.",
+                "user": "Eve"
+            }
         ]
     },
     {
@@ -514,9 +865,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BOTFhYWI1NGUtZWFhZS00MTdkLWIzZTItMDBhNWNiZDNlMjYyXkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "7.8",
         "reviews": [
-            "Amazing direction and outstanding cinematography.",
-            "Incredible attention to detail and character development.",
-            "Highly recommended for fans of the genre."
+            {
+                "review": "Amazing direction and outstanding cinematography.",
+                "user": "Eve"
+            },
+            {
+                "review": "Incredible attention to detail and character development.",
+                "user": "Bob"
+            },
+            {
+                "review": "Highly recommended for fans of the genre.",
+                "user": "Bob"
+            }
         ]
     },
     {
@@ -527,9 +887,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BZmE0YzIxM2QtMGNlMi00MjRmLWE3MWMtOWQzMGVjMmU0YTFmXkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "8.1",
         "reviews": [
-            "It exceeded all my expectations.",
-            "Highly recommended for fans of the genre.",
-            "Not as great as people say, but still good."
+            {
+                "review": "It exceeded all my expectations.",
+                "user": "Bob"
+            },
+            {
+                "review": "Highly recommended for fans of the genre.",
+                "user": "Dave"
+            },
+            {
+                "review": "Not as great as people say, but still good.",
+                "user": "Eve"
+            }
         ]
     },
     {
@@ -540,9 +909,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BNmM2MGQ5Y2UtYzA3ZC00ZDJlLTkwNDYtMjBmZGExZDJiN2RlXkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "8.1",
         "reviews": [
-            "A beautiful story of hope and resilience.",
-            "Amazing direction and outstanding cinematography.",
-            "Highly recommended for fans of the genre."
+            {
+                "review": "A beautiful story of hope and resilience.",
+                "user": "Dave"
+            },
+            {
+                "review": "Amazing direction and outstanding cinematography.",
+                "user": "Charlie"
+            },
+            {
+                "review": "Highly recommended for fans of the genre.",
+                "user": "Eve"
+            }
         ]
     },
     {
@@ -553,9 +931,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BOTM4ZjUzOGUtYzdlZi00ZmM5LTk5NTEtMjQxNDVmOTc5NWNlXkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "8.2",
         "reviews": [
-            "A bit overrated, but still worth a watch.",
-            "A great mix of drama, action, and suspense.",
-            "Not as great as people say, but still good."
+            {
+                "review": "A bit overrated, but still worth a watch.",
+                "user": "Alice"
+            },
+            {
+                "review": "A great mix of drama, action, and suspense.",
+                "user": "Bob"
+            },
+            {
+                "review": "Not as great as people say, but still good.",
+                "user": "Dave"
+            }
         ]
     },
     {
@@ -566,9 +953,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BMTY2NTM5NjIyOV5BMl5BanBnXkFtZTgwMzUwNzc3NjE@._V1_SX300.jpg",
         "vote_average": "6.8",
         "reviews": [
-            "Brilliant storytelling with incredible performances.",
-            "An emotional rollercoaster that stayed with me.",
-            "Incredible attention to detail and character development."
+            {
+                "review": "Brilliant storytelling with incredible performances.",
+                "user": "Eve"
+            },
+            {
+                "review": "An emotional rollercoaster that stayed with me.",
+                "user": "Eve"
+            },
+            {
+                "review": "Incredible attention to detail and character development.",
+                "user": "Dave"
+            }
         ]
     },
     {
@@ -579,9 +975,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BNTAwZjAwZDUtNDc1Yi00OGY3LTgzMjktYjIyMjQzOWE3MmVhXkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "8.1",
         "reviews": [
-            "A must-watch for every cinema lover.",
-            "Not as great as people say, but still good.",
-            "Amazing direction and outstanding cinematography."
+            {
+                "review": "A must-watch for every cinema lover.",
+                "user": "Bob"
+            },
+            {
+                "review": "Not as great as people say, but still good.",
+                "user": "Eve"
+            },
+            {
+                "review": "Amazing direction and outstanding cinematography.",
+                "user": "Alice"
+            }
         ]
     },
     {
@@ -592,9 +997,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BNmJlNjc2N2UtMDFhYi00Y2VhLWFmNzUtYjk2ZGEwMmQxZWM2L2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMTQ3Njg3MQ@@._V1_SX300.jpg",
         "vote_average": "1.7",
         "reviews": [
-            "This movie is truly a work of art.",
-            "It exceeded all my expectations.",
-            "A timeless classic that everyone should watch."
+            {
+                "review": "This movie is truly a work of art.",
+                "user": "Charlie"
+            },
+            {
+                "review": "It exceeded all my expectations.",
+                "user": "Eve"
+            },
+            {
+                "review": "A timeless classic that everyone should watch.",
+                "user": "Eve"
+            }
         ]
     },
     {
@@ -605,9 +1019,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BN2QwZjJlYmItMDcwOS00N2VkLThjN2QtYTc4ODM4ZWZmOWM0XkEyXkFqcGdeQXVyNjg3MTIwODI@._V1_SX300.jpg",
         "vote_average": "7.0",
         "reviews": [
-            "Could watch this over and over again!",
-            "An absolute masterpiece! It left me speechless.",
-            "Amazing direction and outstanding cinematography."
+            {
+                "review": "Could watch this over and over again!",
+                "user": "Eve"
+            },
+            {
+                "review": "An absolute masterpiece! It left me speechless.",
+                "user": "Eve"
+            },
+            {
+                "review": "Amazing direction and outstanding cinematography.",
+                "user": "Bob"
+            }
         ]
     },
     {
@@ -618,9 +1041,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BYjViNDQzNmUtYzkxZi00NTk5LTljMmItYjJlZmZkODIxNjU1XkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "8.1",
         "reviews": [
-            "Amazing direction and outstanding cinematography.",
-            "A great mix of drama, action, and suspense.",
-            "One of the best movies I've ever seen."
+            {
+                "review": "Amazing direction and outstanding cinematography.",
+                "user": "Bob"
+            },
+            {
+                "review": "A great mix of drama, action, and suspense.",
+                "user": "Alice"
+            },
+            {
+                "review": "One of the best movies I've ever seen.",
+                "user": "Bob"
+            }
         ]
     },
     {
@@ -631,9 +1063,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BNGE3ZmUxMjctZTA0OS00NzBlLWI0M2MtOTA4ZGY1Nzc3YWE3XkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "8.2",
         "reviews": [
-            "Could watch this over and over again!",
-            "Not as great as people say, but still good.",
-            "It felt a bit slow, but the ending made up for it."
+            {
+                "review": "Could watch this over and over again!",
+                "user": "Dave"
+            },
+            {
+                "review": "Not as great as people say, but still good.",
+                "user": "Bob"
+            },
+            {
+                "review": "It felt a bit slow, but the ending made up for it.",
+                "user": "Charlie"
+            }
         ]
     },
     {
@@ -644,9 +1085,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BNjA5MDk0YTItM2IzYi00NmZkLThlYWQtZTZhNjI3NjY4MDhjXkEyXkFqcGdeQXVyNTUyNzA5ODE@._V1_SX300.jpg",
         "vote_average": "5.9",
         "reviews": [
-            "One of the best movies I've ever seen.",
-            "Highly recommended for fans of the genre.",
-            "A bit overrated, but still worth a watch."
+            {
+                "review": "One of the best movies I've ever seen.",
+                "user": "Eve"
+            },
+            {
+                "review": "Highly recommended for fans of the genre.",
+                "user": "Alice"
+            },
+            {
+                "review": "A bit overrated, but still worth a watch.",
+                "user": "Charlie"
+            }
         ]
     },
     {
@@ -657,9 +1107,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BMmM1ZTg5Y2YtNWU3ZC00NmFiLWI5YTAtNzhmOThjNzhlOTBlXkEyXkFqcGdeQXVyNDg5MjMyMTM@._V1_SX300.jpg",
         "vote_average": "7.5",
         "reviews": [
-            "Fantastic acting, but the pacing felt off at times.",
-            "Amazing direction and outstanding cinematography.",
-            "This movie is truly a work of art."
+            {
+                "review": "Fantastic acting, but the pacing felt off at times.",
+                "user": "Alice"
+            },
+            {
+                "review": "Amazing direction and outstanding cinematography.",
+                "user": "Charlie"
+            },
+            {
+                "review": "This movie is truly a work of art.",
+                "user": "Eve"
+            }
         ]
     },
     {
@@ -670,9 +1129,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BMWM5ZjQxM2YtNDlmYi00ZDNhLWI4MWUtN2VkYjBlMTY1ZTkwXkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "8.8",
         "reviews": [
-            "This movie is truly a work of art.",
-            "An emotional rollercoaster that stayed with me.",
-            "Brilliant storytelling with incredible performances."
+            {
+                "review": "This movie is truly a work of art.",
+                "user": "Alice"
+            },
+            {
+                "review": "An emotional rollercoaster that stayed with me.",
+                "user": "Alice"
+            },
+            {
+                "review": "Brilliant storytelling with incredible performances.",
+                "user": "Dave"
+            }
         ]
     },
     {
@@ -683,9 +1151,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BMTk5MDMxOTA4MF5BMl5BanBnXkFtZTcwMDgzMjYxMQ@@._V1_SX300.jpg",
         "vote_average": "6.5",
         "reviews": [
-            "It exceeded all my expectations.",
-            "Amazing direction and outstanding cinematography.",
-            "Could watch this over and over again!"
+            {
+                "review": "It exceeded all my expectations.",
+                "user": "Eve"
+            },
+            {
+                "review": "Amazing direction and outstanding cinematography.",
+                "user": "Charlie"
+            },
+            {
+                "review": "Could watch this over and over again!",
+                "user": "Dave"
+            }
         ]
     },
     {
@@ -696,9 +1173,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BMTY3MTE4NDM2OV5BMl5BanBnXkFtZTgwMTU4Nzk1MDE@._V1_SX300.jpg",
         "vote_average": "5.2",
         "reviews": [
-            "A powerful narrative with unforgettable moments.",
-            "Incredible attention to detail and character development.",
-            "Fantastic acting, but the pacing felt off at times."
+            {
+                "review": "A powerful narrative with unforgettable moments.",
+                "user": "Eve"
+            },
+            {
+                "review": "Incredible attention to detail and character development.",
+                "user": "Alice"
+            },
+            {
+                "review": "Fantastic acting, but the pacing felt off at times.",
+                "user": "Bob"
+            }
         ]
     },
     {
@@ -709,9 +1195,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BNjI5OGViOTMtN2EwMy00N2ExLWI5YWYtMjgxOWVkNDM2MTZiXkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "7.2",
         "reviews": [
-            "Fantastic acting, but the pacing felt off at times.",
-            "Amazing direction and outstanding cinematography.",
-            "Highly recommended for fans of the genre."
+            {
+                "review": "Fantastic acting, but the pacing felt off at times.",
+                "user": "Alice"
+            },
+            {
+                "review": "Amazing direction and outstanding cinematography.",
+                "user": "Charlie"
+            },
+            {
+                "review": "Highly recommended for fans of the genre.",
+                "user": "Eve"
+            }
         ]
     },
     {
@@ -722,9 +1217,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BMTMzZTFmOWQtYWQyNy00MjZhLTk0MDEtMzc4OTM0NmU2ODIzXkEyXkFqcGdeQXVyMjUyNDk2ODc@._V1_SX300.jpg",
         "vote_average": "5.1",
         "reviews": [
-            "It felt a bit slow, but the ending made up for it.",
-            "Brilliant storytelling with incredible performances.",
-            "A bit overrated, but still worth a watch."
+            {
+                "review": "It felt a bit slow, but the ending made up for it.",
+                "user": "Charlie"
+            },
+            {
+                "review": "Brilliant storytelling with incredible performances.",
+                "user": "Alice"
+            },
+            {
+                "review": "A bit overrated, but still worth a watch.",
+                "user": "Dave"
+            }
         ]
     },
     {
@@ -735,9 +1239,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BMjMwMjA5NDkyMl5BMl5BanBnXkFtZTgwMzYyMTY2MTE@._V1_SX300.jpg",
         "vote_average": "6.9",
         "reviews": [
-            "This movie is truly a work of art.",
-            "Incredible attention to detail and character development.",
-            "An emotional rollercoaster that stayed with me."
+            {
+                "review": "This movie is truly a work of art.",
+                "user": "Bob"
+            },
+            {
+                "review": "Incredible attention to detail and character development.",
+                "user": "Eve"
+            },
+            {
+                "review": "An emotional rollercoaster that stayed with me.",
+                "user": "Bob"
+            }
         ]
     },
     {
@@ -748,9 +1261,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BZDdmY2Q5ZjUtZTE3Zi00YjQyLWI0Y2UtMDk2OTE5YTMyYTMxXkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "6.9",
         "reviews": [
-            "This movie is truly a work of art.",
-            "One of the best movies I've ever seen.",
-            "An emotional rollercoaster that stayed with me."
+            {
+                "review": "This movie is truly a work of art.",
+                "user": "Bob"
+            },
+            {
+                "review": "One of the best movies I've ever seen.",
+                "user": "Dave"
+            },
+            {
+                "review": "An emotional rollercoaster that stayed with me.",
+                "user": "Dave"
+            }
         ]
     },
     {
@@ -761,9 +1283,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BMTQ4ODg4NzA3OV5BMl5BanBnXkFtZTgwMDcwODI5MjE@._V1_SX300.jpg",
         "vote_average": "7.7",
         "reviews": [
-            "A must-watch for every cinema lover.",
-            "The plot was gripping from start to finish.",
-            "Amazing direction and outstanding cinematography."
+            {
+                "review": "A must-watch for every cinema lover.",
+                "user": "Bob"
+            },
+            {
+                "review": "The plot was gripping from start to finish.",
+                "user": "Dave"
+            },
+            {
+                "review": "Amazing direction and outstanding cinematography.",
+                "user": "Dave"
+            }
         ]
     },
     {
@@ -774,9 +1305,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BMDI4YTUzOTEtMGExYi00NDExLTk3ZTEtODk0NjU1ZDM5ZjIyXkEyXkFqcGdeQXVyMTk0MjQ3Nzk@._V1_SX300.jpg",
         "vote_average": "4.9",
         "reviews": [
-            "One of the best movies I've ever seen.",
-            "It exceeded all my expectations.",
-            "A great mix of drama, action, and suspense."
+            {
+                "review": "One of the best movies I've ever seen.",
+                "user": "Bob"
+            },
+            {
+                "review": "It exceeded all my expectations.",
+                "user": "Charlie"
+            },
+            {
+                "review": "A great mix of drama, action, and suspense.",
+                "user": "Eve"
+            }
         ]
     },
     {
@@ -787,9 +1327,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BZDljZjhiYjctMmMyYS00ZTY1LWFkNDMtZDFjOTZkOTdiMzE2XkEyXkFqcGdeQXVyMjI0MjMwMzQ@._V1_SX300.jpg",
         "vote_average": "6.5",
         "reviews": [
-            "One of the best movies I've ever seen.",
-            "A powerful narrative with unforgettable moments.",
-            "A timeless classic that everyone should watch."
+            {
+                "review": "One of the best movies I've ever seen.",
+                "user": "Alice"
+            },
+            {
+                "review": "A powerful narrative with unforgettable moments.",
+                "user": "Dave"
+            },
+            {
+                "review": "A timeless classic that everyone should watch.",
+                "user": "Dave"
+            }
         ]
     },
     {
@@ -800,9 +1349,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BMTRlMjQzZTYtZDljZC00MzdiLWI5OTAtZjNkOWI5NmJmMGZhXkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "3.4",
         "reviews": [
-            "An emotional rollercoaster that stayed with me.",
-            "It exceeded all my expectations.",
-            "A timeless classic that everyone should watch."
+            {
+                "review": "An emotional rollercoaster that stayed with me.",
+                "user": "Bob"
+            },
+            {
+                "review": "It exceeded all my expectations.",
+                "user": "Eve"
+            },
+            {
+                "review": "A timeless classic that everyone should watch.",
+                "user": "Alice"
+            }
         ]
     },
     {
@@ -813,9 +1371,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BYTZiN2UwMTMtNWUzNy00MDNhLWIyNTItM2JkNDZhN2FjYWJjXkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "6.9",
         "reviews": [
-            "An emotional rollercoaster that stayed with me.",
-            "It exceeded all my expectations.",
-            "Highly recommended for fans of the genre."
+            {
+                "review": "An emotional rollercoaster that stayed with me.",
+                "user": "Dave"
+            },
+            {
+                "review": "It exceeded all my expectations.",
+                "user": "Alice"
+            },
+            {
+                "review": "Highly recommended for fans of the genre.",
+                "user": "Alice"
+            }
         ]
     },
     {
@@ -826,9 +1393,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BMTI5ODY2NDE0NF5BMl5BanBnXkFtZTcwMTc0OTcxMQ@@._V1_SX300.jpg",
         "vote_average": "4.6",
         "reviews": [
-            "Incredible attention to detail and character development.",
-            "Could watch this over and over again!",
-            "A bit overrated, but still worth a watch."
+            {
+                "review": "Incredible attention to detail and character development.",
+                "user": "Eve"
+            },
+            {
+                "review": "Could watch this over and over again!",
+                "user": "Dave"
+            },
+            {
+                "review": "A bit overrated, but still worth a watch.",
+                "user": "Charlie"
+            }
         ]
     },
     {
@@ -839,9 +1415,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BYjY0YTQ1OTAtYjEyNy00NTQ4LThlMTQtM2QwYTVhYWFhNjU5XkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "8.3",
         "reviews": [
-            "One of the best movies I've ever seen.",
-            "The plot was gripping from start to finish.",
-            "Fantastic acting, but the pacing felt off at times."
+            {
+                "review": "One of the best movies I've ever seen.",
+                "user": "Alice"
+            },
+            {
+                "review": "The plot was gripping from start to finish.",
+                "user": "Eve"
+            },
+            {
+                "review": "Fantastic acting, but the pacing felt off at times.",
+                "user": "Eve"
+            }
         ]
     },
     {
@@ -852,9 +1437,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BN2M4NmYzZDAtYmMyNS00MDI4LWE0NDUtYWY5NmExODgyNmRkXkEyXkFqcGdeQXVyMzg1ODEwNQ@@._V1_SX300.jpg",
         "vote_average": "6.0",
         "reviews": [
-            "Could watch this over and over again!",
-            "It felt a bit slow, but the ending made up for it.",
-            "A beautiful story of hope and resilience."
+            {
+                "review": "Could watch this over and over again!",
+                "user": "Charlie"
+            },
+            {
+                "review": "It felt a bit slow, but the ending made up for it.",
+                "user": "Eve"
+            },
+            {
+                "review": "A beautiful story of hope and resilience.",
+                "user": "Eve"
+            }
         ]
     },
     {
@@ -865,9 +1459,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BNGE4MDIzNGItYmQzMy00YWY3LTgyOGQtNWUyNGQ5MTM5MGNjXkEyXkFqcGdeQXVyMzYyMzU2OA@@._V1_SX300.jpg",
         "vote_average": "7.9",
         "reviews": [
-            "An absolute masterpiece! It left me speechless.",
-            "Highly recommended for fans of the genre.",
-            "The plot was gripping from start to finish."
+            {
+                "review": "An absolute masterpiece! It left me speechless.",
+                "user": "Bob"
+            },
+            {
+                "review": "Highly recommended for fans of the genre.",
+                "user": "Eve"
+            },
+            {
+                "review": "The plot was gripping from start to finish.",
+                "user": "Bob"
+            }
         ]
     },
     {
@@ -878,9 +1481,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BMjlkYmYyZWQtNTZkOS00ZjA0LWEwNWUtNzE2ZGNiYjg0MjA2XkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "8.1",
         "reviews": [
-            "Highly recommended for fans of the genre.",
-            "A beautiful story of hope and resilience.",
-            "Incredible attention to detail and character development."
+            {
+                "review": "Highly recommended for fans of the genre.",
+                "user": "Bob"
+            },
+            {
+                "review": "A beautiful story of hope and resilience.",
+                "user": "Eve"
+            },
+            {
+                "review": "Incredible attention to detail and character development.",
+                "user": "Charlie"
+            }
         ]
     },
     {
@@ -891,9 +1503,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BYTI3NzFlODUtZWFmMC00Y2RiLWE3MDAtZjIzMGI3ZTU1NmI1XkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "7.3",
         "reviews": [
-            "Incredible attention to detail and character development.",
-            "It exceeded all my expectations.",
-            "A bit overrated, but still worth a watch."
+            {
+                "review": "Incredible attention to detail and character development.",
+                "user": "Alice"
+            },
+            {
+                "review": "It exceeded all my expectations.",
+                "user": "Eve"
+            },
+            {
+                "review": "A bit overrated, but still worth a watch.",
+                "user": "Alice"
+            }
         ]
     },
     {
@@ -904,9 +1525,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BNDZiNWQ3ZjQtMmUxMS00OGQ2LThkZDQtYjlmYmYzZmE2Y2Q0XkEyXkFqcGdeQXVyMTc4MzI2NQ@@._V1_SX300.jpg",
         "vote_average": "7.3",
         "reviews": [
-            "An absolute masterpiece! It left me speechless.",
-            "A must-watch for every cinema lover.",
-            "A great mix of drama, action, and suspense."
+            {
+                "review": "An absolute masterpiece! It left me speechless.",
+                "user": "Eve"
+            },
+            {
+                "review": "A must-watch for every cinema lover.",
+                "user": "Dave"
+            },
+            {
+                "review": "A great mix of drama, action, and suspense.",
+                "user": "Dave"
+            }
         ]
     },
     {
@@ -917,9 +1547,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BOWZlMTdhMTEtMmJkYy00ODI2LWI4ZTYtZjdmNTgwZmVjYTgyXkEyXkFqcGdeQXVyMzg1ODEwNQ@@._V1_SX300.jpg",
         "vote_average": "5.7",
         "reviews": [
-            "A beautiful story of hope and resilience.",
-            "A powerful narrative with unforgettable moments.",
-            "An absolute masterpiece! It left me speechless."
+            {
+                "review": "A beautiful story of hope and resilience.",
+                "user": "Bob"
+            },
+            {
+                "review": "A powerful narrative with unforgettable moments.",
+                "user": "Bob"
+            },
+            {
+                "review": "An absolute masterpiece! It left me speechless.",
+                "user": "Alice"
+            }
         ]
     },
     {
@@ -930,9 +1569,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BMjY0MjQwNDM3NV5BMl5BanBnXkFtZTgwNzc5MzIyNzE@._V1_SX300.jpg",
         "vote_average": "6.2",
         "reviews": [
-            "Highly recommended for fans of the genre.",
-            "An emotional rollercoaster that stayed with me.",
-            "This movie is truly a work of art."
+            {
+                "review": "Highly recommended for fans of the genre.",
+                "user": "Bob"
+            },
+            {
+                "review": "An emotional rollercoaster that stayed with me.",
+                "user": "Eve"
+            },
+            {
+                "review": "This movie is truly a work of art.",
+                "user": "Charlie"
+            }
         ]
     },
     {
@@ -943,9 +1591,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BYjA3NzFjNmItYTkwZi00NmMyLWFiMDgtMzY4NjY1ODE0NTg1XkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "7.9",
         "reviews": [
-            "Fantastic acting, but the pacing felt off at times.",
-            "An absolute masterpiece! It left me speechless.",
-            "It exceeded all my expectations."
+            {
+                "review": "Fantastic acting, but the pacing felt off at times.",
+                "user": "Charlie"
+            },
+            {
+                "review": "An absolute masterpiece! It left me speechless.",
+                "user": "Bob"
+            },
+            {
+                "review": "It exceeded all my expectations.",
+                "user": "Alice"
+            }
         ]
     },
     {
@@ -956,9 +1613,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BMTY5MTA3NTQxNV5BMl5BanBnXkFtZTcwNTg5MTk5MQ@@._V1_SX300.jpg",
         "vote_average": "7.7",
         "reviews": [
-            "Brilliant storytelling with incredible performances.",
-            "A timeless classic that everyone should watch.",
-            "A beautiful story of hope and resilience."
+            {
+                "review": "Brilliant storytelling with incredible performances.",
+                "user": "Eve"
+            },
+            {
+                "review": "A timeless classic that everyone should watch.",
+                "user": "Bob"
+            },
+            {
+                "review": "A beautiful story of hope and resilience.",
+                "user": "Dave"
+            }
         ]
     },
     {
@@ -969,9 +1635,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BYmRlOTI1ZTItZmRhNS00NzI3LWFmNTUtZjU3MDlmZjNhNDk3XkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "5.3",
         "reviews": [
-            "It exceeded all my expectations.",
-            "A great mix of drama, action, and suspense.",
-            "An absolute masterpiece! It left me speechless."
+            {
+                "review": "It exceeded all my expectations.",
+                "user": "Dave"
+            },
+            {
+                "review": "A great mix of drama, action, and suspense.",
+                "user": "Eve"
+            },
+            {
+                "review": "An absolute masterpiece! It left me speechless.",
+                "user": "Alice"
+            }
         ]
     },
     {
@@ -982,9 +1657,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BMTc2NDk2OTg4N15BMl5BanBnXkFtZTgwOTI5ODQ2NzE@._V1_SX300.jpg",
         "vote_average": "4.8",
         "reviews": [
-            "It felt a bit slow, but the ending made up for it.",
-            "Highly recommended for fans of the genre.",
-            "A great mix of drama, action, and suspense."
+            {
+                "review": "It felt a bit slow, but the ending made up for it.",
+                "user": "Bob"
+            },
+            {
+                "review": "Highly recommended for fans of the genre.",
+                "user": "Charlie"
+            },
+            {
+                "review": "A great mix of drama, action, and suspense.",
+                "user": "Charlie"
+            }
         ]
     },
     {
@@ -995,9 +1679,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BNzNkMTA0ODQtYzAxZC00MTFmLTk3ZmEtZWE4ODVkMDRkZjViXkEyXkFqcGdeQXVyMTY5Nzc4MDY@._V1_SX300.jpg",
         "vote_average": "5.9",
         "reviews": [
-            "Incredible attention to detail and character development.",
-            "A must-watch for every cinema lover.",
-            "One of the best movies I've ever seen."
+            {
+                "review": "Incredible attention to detail and character development.",
+                "user": "Dave"
+            },
+            {
+                "review": "A must-watch for every cinema lover.",
+                "user": "Alice"
+            },
+            {
+                "review": "One of the best movies I've ever seen.",
+                "user": "Alice"
+            }
         ]
     },
     {
@@ -1008,9 +1701,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BZWY0MzVlNGEtYzM1MC00OTI4LWE3ZTQtNWJjYzk2Y2MyNjVkXkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "6.9",
         "reviews": [
-            "Could watch this over and over again!",
-            "A must-watch for every cinema lover.",
-            "Incredible attention to detail and character development."
+            {
+                "review": "Could watch this over and over again!",
+                "user": "Alice"
+            },
+            {
+                "review": "A must-watch for every cinema lover.",
+                "user": "Bob"
+            },
+            {
+                "review": "Incredible attention to detail and character development.",
+                "user": "Alice"
+            }
         ]
     },
     {
@@ -1021,9 +1723,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BMGU3Y2RmMTAtY2EzNC00MjUzLWIyMDUtZWJmYTE2MTU5ZDY5XkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "8.0",
         "reviews": [
-            "A must-watch for every cinema lover.",
-            "It exceeded all my expectations.",
-            "One of the best movies I've ever seen."
+            {
+                "review": "A must-watch for every cinema lover.",
+                "user": "Eve"
+            },
+            {
+                "review": "It exceeded all my expectations.",
+                "user": "Eve"
+            },
+            {
+                "review": "One of the best movies I've ever seen.",
+                "user": "Dave"
+            }
         ]
     },
     {
@@ -1034,9 +1745,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BYTNiMzNiYjktMDhmYS00ZjYyLTg1MWItNGFjZTQwOTA5Mzk5XkEyXkFqcGdeQXVyMDMxMjQwMw@@._V1_SX300.jpg",
         "vote_average": "5.4",
         "reviews": [
-            "Could watch this over and over again!",
-            "An absolute masterpiece! It left me speechless.",
-            "A powerful narrative with unforgettable moments."
+            {
+                "review": "Could watch this over and over again!",
+                "user": "Bob"
+            },
+            {
+                "review": "An absolute masterpiece! It left me speechless.",
+                "user": "Dave"
+            },
+            {
+                "review": "A powerful narrative with unforgettable moments.",
+                "user": "Eve"
+            }
         ]
     },
     {
@@ -1047,9 +1767,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BNWI5MjJjNTctYThiMS00YTQwLWFmMzctMTA3Y2RmNDI3MDc3XkEyXkFqcGdeQXVyMzU0NzkwMDg@._V1_SX300.jpg",
         "vote_average": "7.0",
         "reviews": [
-            "A powerful narrative with unforgettable moments.",
-            "The plot was gripping from start to finish.",
-            "A timeless classic that everyone should watch."
+            {
+                "review": "A powerful narrative with unforgettable moments.",
+                "user": "Bob"
+            },
+            {
+                "review": "The plot was gripping from start to finish.",
+                "user": "Bob"
+            },
+            {
+                "review": "A timeless classic that everyone should watch.",
+                "user": "Alice"
+            }
         ]
     },
     {
@@ -1060,9 +1789,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BMTMzMTA5MjE0M15BMl5BanBnXkFtZTcwMzc4MjMzMQ@@._V1_SX300.jpg",
         "vote_average": "5.0",
         "reviews": [
-            "Could watch this over and over again!",
-            "Brilliant storytelling with incredible performances.",
-            "An emotional rollercoaster that stayed with me."
+            {
+                "review": "Could watch this over and over again!",
+                "user": "Eve"
+            },
+            {
+                "review": "Brilliant storytelling with incredible performances.",
+                "user": "Charlie"
+            },
+            {
+                "review": "An emotional rollercoaster that stayed with me.",
+                "user": "Eve"
+            }
         ]
     },
     {
@@ -1073,9 +1811,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BMjRjN2EyZTEtYzAwZS00ZTg3LTk5MDEtMmQ3OGIyMjI5NDYyL2ltYWdlXkEyXkFqcGdeQXVyMjUyNDk2ODc@._V1_SX300.jpg",
         "vote_average": "4.5",
         "reviews": [
-            "An absolute masterpiece! It left me speechless.",
-            "Highly recommended for fans of the genre.",
-            "This movie is truly a work of art."
+            {
+                "review": "An absolute masterpiece! It left me speechless.",
+                "user": "Dave"
+            },
+            {
+                "review": "Highly recommended for fans of the genre.",
+                "user": "Eve"
+            },
+            {
+                "review": "This movie is truly a work of art.",
+                "user": "Charlie"
+            }
         ]
     },
     {
@@ -1086,9 +1833,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BNmU2YTY5MzEtZTEzYy00MmU1LWIxYjMtYzI2ZmYzYTdjMDlhXkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "7.0",
         "reviews": [
-            "Brilliant storytelling with incredible performances.",
-            "A beautiful story of hope and resilience.",
-            "This movie is truly a work of art."
+            {
+                "review": "Brilliant storytelling with incredible performances.",
+                "user": "Alice"
+            },
+            {
+                "review": "A beautiful story of hope and resilience.",
+                "user": "Dave"
+            },
+            {
+                "review": "This movie is truly a work of art.",
+                "user": "Alice"
+            }
         ]
     },
     {
@@ -1099,9 +1855,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BZTBiMzBiMTUtNzBiNy00NDUzLWJmMDEtZGY1YzY1MTdhMjM0XkEyXkFqcGdeQXVyMTY5MDE5NA@@._V1_SX300.jpg",
         "vote_average": "5.9",
         "reviews": [
-            "A beautiful story of hope and resilience.",
-            "A great mix of drama, action, and suspense.",
-            "An absolute masterpiece! It left me speechless."
+            {
+                "review": "A beautiful story of hope and resilience.",
+                "user": "Dave"
+            },
+            {
+                "review": "A great mix of drama, action, and suspense.",
+                "user": "Charlie"
+            },
+            {
+                "review": "An absolute masterpiece! It left me speechless.",
+                "user": "Dave"
+            }
         ]
     },
     {
@@ -1112,9 +1877,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BZDNhMGYwM2UtMTdlZS00MGQ1LWI2YzAtODY5YWI1MjYyNzRmXkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "8.2",
         "reviews": [
-            "Not as great as people say, but still good.",
-            "It exceeded all my expectations.",
-            "The plot was gripping from start to finish."
+            {
+                "review": "Not as great as people say, but still good.",
+                "user": "Dave"
+            },
+            {
+                "review": "It exceeded all my expectations.",
+                "user": "Alice"
+            },
+            {
+                "review": "The plot was gripping from start to finish.",
+                "user": "Charlie"
+            }
         ]
     },
     {
@@ -1125,9 +1899,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BYTI2Yzg0ZDYtYmE3YS00NjAzLWEwZjMtMmY5YmJmNzI2MzQ3XkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "6.7",
         "reviews": [
-            "The plot was gripping from start to finish.",
-            "Brilliant storytelling with incredible performances.",
-            "Not as great as people say, but still good."
+            {
+                "review": "The plot was gripping from start to finish.",
+                "user": "Dave"
+            },
+            {
+                "review": "Brilliant storytelling with incredible performances.",
+                "user": "Dave"
+            },
+            {
+                "review": "Not as great as people say, but still good.",
+                "user": "Eve"
+            }
         ]
     },
     {
@@ -1138,9 +1921,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BZWFlMzgyZGItMGY1MS00NzliLWI2ODAtODE3NTY1M2E4YmM2XkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "7.8",
         "reviews": [
-            "Not as great as people say, but still good.",
-            "An emotional rollercoaster that stayed with me.",
-            "A timeless classic that everyone should watch."
+            {
+                "review": "Not as great as people say, but still good.",
+                "user": "Charlie"
+            },
+            {
+                "review": "An emotional rollercoaster that stayed with me.",
+                "user": "Alice"
+            },
+            {
+                "review": "A timeless classic that everyone should watch.",
+                "user": "Charlie"
+            }
         ]
     },
     {
@@ -1151,9 +1943,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BM2M0Y2NmZjgtYzBjZi00Y2E4LWIzZGUtZDMwYzI4ODg2ZjM0XkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "4.2",
         "reviews": [
-            "It felt a bit slow, but the ending made up for it.",
-            "Amazing direction and outstanding cinematography.",
-            "An absolute masterpiece! It left me speechless."
+            {
+                "review": "It felt a bit slow, but the ending made up for it.",
+                "user": "Eve"
+            },
+            {
+                "review": "Amazing direction and outstanding cinematography.",
+                "user": "Alice"
+            },
+            {
+                "review": "An absolute masterpiece! It left me speechless.",
+                "user": "Bob"
+            }
         ]
     },
     {
@@ -1164,9 +1965,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BOGE3OTIyNzAtMDk3Yy00MTlhLTk0MDUtZjljMWE0ZGU3MjIzXkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "7.7",
         "reviews": [
-            "A great mix of drama, action, and suspense.",
-            "A bit overrated, but still worth a watch.",
-            "This movie is truly a work of art."
+            {
+                "review": "A great mix of drama, action, and suspense.",
+                "user": "Bob"
+            },
+            {
+                "review": "A bit overrated, but still worth a watch.",
+                "user": "Bob"
+            },
+            {
+                "review": "This movie is truly a work of art.",
+                "user": "Dave"
+            }
         ]
     },
     {
@@ -1177,9 +1987,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BMjExOTgwMDAwMV5BMl5BanBnXkFtZTYwMzY0MTI5._V1_SX300.jpg",
         "vote_average": "5.8",
         "reviews": [
-            "A beautiful story of hope and resilience.",
-            "It felt a bit slow, but the ending made up for it.",
-            "Brilliant storytelling with incredible performances."
+            {
+                "review": "A beautiful story of hope and resilience.",
+                "user": "Bob"
+            },
+            {
+                "review": "It felt a bit slow, but the ending made up for it.",
+                "user": "Alice"
+            },
+            {
+                "review": "Brilliant storytelling with incredible performances.",
+                "user": "Eve"
+            }
         ]
     },
     {
@@ -1190,9 +2009,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BYTg3YWIyZTMtZWUwOC00M2VhLWI3NDQtMjY4M2RmMDk5OGRjXkEyXkFqcGdeQXVyMTcyODY2NDQ@._V1_SX300.jpg",
         "vote_average": "6.2",
         "reviews": [
-            "Brilliant storytelling with incredible performances.",
-            "A timeless classic that everyone should watch.",
-            "Not as great as people say, but still good."
+            {
+                "review": "Brilliant storytelling with incredible performances.",
+                "user": "Dave"
+            },
+            {
+                "review": "A timeless classic that everyone should watch.",
+                "user": "Charlie"
+            },
+            {
+                "review": "Not as great as people say, but still good.",
+                "user": "Dave"
+            }
         ]
     },
     {
@@ -1203,9 +2031,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BYTA3NDU5MWEtNTk4Yy00ZDNkLThmZTQtMjU3ZGVhYzAyMzU4XkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "8.2",
         "reviews": [
-            "A beautiful story of hope and resilience.",
-            "One of the best movies I've ever seen.",
-            "A bit overrated, but still worth a watch."
+            {
+                "review": "A beautiful story of hope and resilience.",
+                "user": "Alice"
+            },
+            {
+                "review": "One of the best movies I've ever seen.",
+                "user": "Dave"
+            },
+            {
+                "review": "A bit overrated, but still worth a watch.",
+                "user": "Bob"
+            }
         ]
     },
     {
@@ -1216,9 +2053,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BZjAyNTRiMTEtNzNlZS00YTZhLThmNzQtZjBkOWQ4N2Y4YjQzXkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "6.7",
         "reviews": [
-            "A must-watch for every cinema lover.",
-            "A bit overrated, but still worth a watch.",
-            "Not as great as people say, but still good."
+            {
+                "review": "A must-watch for every cinema lover.",
+                "user": "Dave"
+            },
+            {
+                "review": "A bit overrated, but still worth a watch.",
+                "user": "Eve"
+            },
+            {
+                "review": "Not as great as people say, but still good.",
+                "user": "Dave"
+            }
         ]
     },
     {
@@ -1229,9 +2075,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BM2E5MzM5N2QtY2ZiYS00ZmQ3LTk1YTQtM2QwYjA1NzA3MmRmXkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "6.2",
         "reviews": [
-            "It felt a bit slow, but the ending made up for it.",
-            "Not as great as people say, but still good.",
-            "This movie is truly a work of art."
+            {
+                "review": "It felt a bit slow, but the ending made up for it.",
+                "user": "Alice"
+            },
+            {
+                "review": "Not as great as people say, but still good.",
+                "user": "Alice"
+            },
+            {
+                "review": "This movie is truly a work of art.",
+                "user": "Dave"
+            }
         ]
     },
     {
@@ -1242,9 +2097,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BYmZkNzNjN2UtOWEzYS00Y2UwLWFhYTctMzdlYjI2OTVkYmY0XkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "5.5",
         "reviews": [
-            "Could watch this over and over again!",
-            "Amazing direction and outstanding cinematography.",
-            "It exceeded all my expectations."
+            {
+                "review": "Could watch this over and over again!",
+                "user": "Eve"
+            },
+            {
+                "review": "Amazing direction and outstanding cinematography.",
+                "user": "Dave"
+            },
+            {
+                "review": "It exceeded all my expectations.",
+                "user": "Eve"
+            }
         ]
     },
     {
@@ -1255,9 +2119,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BZGM3OTE0MjktMDdiZi00YjE4LWJmMjktOGYyYTJlZTNiNDA0XkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "6.5",
         "reviews": [
-            "An emotional rollercoaster that stayed with me.",
-            "Fantastic acting, but the pacing felt off at times.",
-            "A beautiful story of hope and resilience."
+            {
+                "review": "An emotional rollercoaster that stayed with me.",
+                "user": "Bob"
+            },
+            {
+                "review": "Fantastic acting, but the pacing felt off at times.",
+                "user": "Bob"
+            },
+            {
+                "review": "A beautiful story of hope and resilience.",
+                "user": "Charlie"
+            }
         ]
     },
     {
@@ -1268,9 +2141,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BMTIxOTc3ODY0NF5BMl5BanBnXkFtZTcwODgxNDg2MQ@@._V1_SX300.jpg",
         "vote_average": "7.6",
         "reviews": [
-            "Brilliant storytelling with incredible performances.",
-            "A timeless classic that everyone should watch.",
-            "One of the best movies I've ever seen."
+            {
+                "review": "Brilliant storytelling with incredible performances.",
+                "user": "Bob"
+            },
+            {
+                "review": "A timeless classic that everyone should watch.",
+                "user": "Dave"
+            },
+            {
+                "review": "One of the best movies I've ever seen.",
+                "user": "Dave"
+            }
         ]
     },
     {
@@ -1281,9 +2163,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BNmNlMjE0NDAtYmE4MS00OTEzLTljYjYtODM4MjUwNjM1N2RhXkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "6.1",
         "reviews": [
-            "Amazing direction and outstanding cinematography.",
-            "An absolute masterpiece! It left me speechless.",
-            "A timeless classic that everyone should watch."
+            {
+                "review": "Amazing direction and outstanding cinematography.",
+                "user": "Eve"
+            },
+            {
+                "review": "An absolute masterpiece! It left me speechless.",
+                "user": "Alice"
+            },
+            {
+                "review": "A timeless classic that everyone should watch.",
+                "user": "Bob"
+            }
         ]
     },
     {
@@ -1294,9 +2185,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BMjAyMzE1OTAxMF5BMl5BanBnXkFtZTcwMTY3NzYxMQ@@._V1_SX300.jpg",
         "vote_average": "6.5",
         "reviews": [
-            "Not as great as people say, but still good.",
-            "An absolute masterpiece! It left me speechless.",
-            "It exceeded all my expectations."
+            {
+                "review": "Not as great as people say, but still good.",
+                "user": "Dave"
+            },
+            {
+                "review": "An absolute masterpiece! It left me speechless.",
+                "user": "Alice"
+            },
+            {
+                "review": "It exceeded all my expectations.",
+                "user": "Eve"
+            }
         ]
     },
     {
@@ -1307,9 +2207,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BMGZmNDU5OTMtYmRkNC00NDgxLTllNDAtNzFmZDEzNWIzNTViXkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "7.1",
         "reviews": [
-            "One of the best movies I've ever seen.",
-            "Incredible attention to detail and character development.",
-            "Amazing direction and outstanding cinematography."
+            {
+                "review": "One of the best movies I've ever seen.",
+                "user": "Eve"
+            },
+            {
+                "review": "Incredible attention to detail and character development.",
+                "user": "Alice"
+            },
+            {
+                "review": "Amazing direction and outstanding cinematography.",
+                "user": "Dave"
+            }
         ]
     },
     {
@@ -1320,9 +2229,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BNzIxODJjYjItN2I2Yy00ZTM5LTgxNDUtODE1MzkzZjU5MTUzXkEyXkFqcGdeQXVyMzU0NzkwMDg@._V1_SX300.jpg",
         "vote_average": "5.9",
         "reviews": [
-            "This movie is truly a work of art.",
-            "A must-watch for every cinema lover.",
-            "It felt a bit slow, but the ending made up for it."
+            {
+                "review": "This movie is truly a work of art.",
+                "user": "Alice"
+            },
+            {
+                "review": "A must-watch for every cinema lover.",
+                "user": "Dave"
+            },
+            {
+                "review": "It felt a bit slow, but the ending made up for it.",
+                "user": "Dave"
+            }
         ]
     },
     {
@@ -1333,9 +2251,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BMDdlZDdkNTctZjIyMS00NWM5LThjZWItMjIyMDRmYjY2N2E5XkEyXkFqcGdeQXVyNjA4MDAyNTQ@._V1_SX300.jpg",
         "vote_average": "5.1",
         "reviews": [
-            "Highly recommended for fans of the genre.",
-            "A great mix of drama, action, and suspense.",
-            "One of the best movies I've ever seen."
+            {
+                "review": "Highly recommended for fans of the genre.",
+                "user": "Charlie"
+            },
+            {
+                "review": "A great mix of drama, action, and suspense.",
+                "user": "Dave"
+            },
+            {
+                "review": "One of the best movies I've ever seen.",
+                "user": "Dave"
+            }
         ]
     },
     {
@@ -1346,9 +2273,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BMTc3NGQ0ZjktMzJjNy00ZWQ5LThiNzctODg3OTM1YmI5NWVlXkEyXkFqcGdeQXVyMjQwMjk0NjI@._V1_SX300.jpg",
         "vote_average": "5.3",
         "reviews": [
-            "Could watch this over and over again!",
-            "A great mix of drama, action, and suspense.",
-            "One of the best movies I've ever seen."
+            {
+                "review": "Could watch this over and over again!",
+                "user": "Alice"
+            },
+            {
+                "review": "A great mix of drama, action, and suspense.",
+                "user": "Bob"
+            },
+            {
+                "review": "One of the best movies I've ever seen.",
+                "user": "Alice"
+            }
         ]
     },
     {
@@ -1359,9 +2295,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BMTM5ODUzMzU0OV5BMl5BanBnXkFtZTgwMzU3Njk1MDE@._V1_SX300.jpg",
         "vote_average": "5.9",
         "reviews": [
-            "One of the best movies I've ever seen.",
-            "A bit overrated, but still worth a watch.",
-            "It exceeded all my expectations."
+            {
+                "review": "One of the best movies I've ever seen.",
+                "user": "Eve"
+            },
+            {
+                "review": "A bit overrated, but still worth a watch.",
+                "user": "Dave"
+            },
+            {
+                "review": "It exceeded all my expectations.",
+                "user": "Alice"
+            }
         ]
     },
     {
@@ -1372,9 +2317,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BODMwZjQzMTItYjcyOS00NzUzLWJhYzQtMzM3YzliZDkwOGNjXkEyXkFqcGdeQXVyMzc5ODc1MDY@._V1_SX300.jpg",
         "vote_average": "4.4",
         "reviews": [
-            "It exceeded all my expectations.",
-            "The plot was gripping from start to finish.",
-            "An absolute masterpiece! It left me speechless."
+            {
+                "review": "It exceeded all my expectations.",
+                "user": "Bob"
+            },
+            {
+                "review": "The plot was gripping from start to finish.",
+                "user": "Bob"
+            },
+            {
+                "review": "An absolute masterpiece! It left me speechless.",
+                "user": "Eve"
+            }
         ]
     },
     {
@@ -1385,9 +2339,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BZDAzN2ZiZDYtNWIzNC00YzM0LWEyMDMtMDRiZTEwNDk5OTIxXkEyXkFqcGdeQXVyNDA5Mjg5MjA@._V1_SX300.jpg",
         "vote_average": "3.5",
         "reviews": [
-            "A timeless classic that everyone should watch.",
-            "An emotional rollercoaster that stayed with me.",
-            "Amazing direction and outstanding cinematography."
+            {
+                "review": "A timeless classic that everyone should watch.",
+                "user": "Charlie"
+            },
+            {
+                "review": "An emotional rollercoaster that stayed with me.",
+                "user": "Alice"
+            },
+            {
+                "review": "Amazing direction and outstanding cinematography.",
+                "user": "Bob"
+            }
         ]
     },
     {
@@ -1398,9 +2361,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BMDVhNGQ2YjQtOWExOS00MzM3LWEwYjQtZGZlNGQ0MmUwYmI5XkEyXkFqcGdeQXVyNTA2NDc4OA@@._V1_SX300.jpg",
         "vote_average": "5.6",
         "reviews": [
-            "The plot was gripping from start to finish.",
-            "Could watch this over and over again!",
-            "Not as great as people say, but still good."
+            {
+                "review": "The plot was gripping from start to finish.",
+                "user": "Charlie"
+            },
+            {
+                "review": "Could watch this over and over again!",
+                "user": "Charlie"
+            },
+            {
+                "review": "Not as great as people say, but still good.",
+                "user": "Charlie"
+            }
         ]
     },
     {
@@ -1411,9 +2383,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BMjEzODQ1NDQ5M15BMl5BanBnXkFtZTgwODUxMjc1MzE@._V1_SX300.jpg",
         "vote_average": "7.0",
         "reviews": [
-            "An emotional rollercoaster that stayed with me.",
-            "Brilliant storytelling with incredible performances.",
-            "An absolute masterpiece! It left me speechless."
+            {
+                "review": "An emotional rollercoaster that stayed with me.",
+                "user": "Bob"
+            },
+            {
+                "review": "Brilliant storytelling with incredible performances.",
+                "user": "Charlie"
+            },
+            {
+                "review": "An absolute masterpiece! It left me speechless.",
+                "user": "Bob"
+            }
         ]
     },
     {
@@ -1424,9 +2405,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BMmM5OTg1N2YtYTFlNS00ODkzLTk3YmUtODkwMjI3YWM4NjZkXkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "7.4",
         "reviews": [
-            "This movie is truly a work of art.",
-            "Fantastic acting, but the pacing felt off at times.",
-            "A must-watch for every cinema lover."
+            {
+                "review": "This movie is truly a work of art.",
+                "user": "Dave"
+            },
+            {
+                "review": "Fantastic acting, but the pacing felt off at times.",
+                "user": "Bob"
+            },
+            {
+                "review": "A must-watch for every cinema lover.",
+                "user": "Eve"
+            }
         ]
     },
     {
@@ -1437,9 +2427,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BMjMzNDU4ODA0MF5BMl5BanBnXkFtZTgwNTU1NTE2MTE@._V1_SX300.jpg",
         "vote_average": "7.5",
         "reviews": [
-            "A timeless classic that everyone should watch.",
-            "Incredible attention to detail and character development.",
-            "It felt a bit slow, but the ending made up for it."
+            {
+                "review": "A timeless classic that everyone should watch.",
+                "user": "Alice"
+            },
+            {
+                "review": "Incredible attention to detail and character development.",
+                "user": "Charlie"
+            },
+            {
+                "review": "It felt a bit slow, but the ending made up for it.",
+                "user": "Charlie"
+            }
         ]
     },
     {
@@ -1450,9 +2449,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BZDM3ODA3NWQtNjIyYy00NzZjLTlkYTAtMzliNGM5NDU0NDc5XkEyXkFqcGdeQXVyMzcyNjMxOTg@._V1_SX300.jpg",
         "vote_average": "7.0",
         "reviews": [
-            "A bit overrated, but still worth a watch.",
-            "An absolute masterpiece! It left me speechless.",
-            "An emotional rollercoaster that stayed with me."
+            {
+                "review": "A bit overrated, but still worth a watch.",
+                "user": "Eve"
+            },
+            {
+                "review": "An absolute masterpiece! It left me speechless.",
+                "user": "Dave"
+            },
+            {
+                "review": "An emotional rollercoaster that stayed with me.",
+                "user": "Eve"
+            }
         ]
     },
     {
@@ -1463,9 +2471,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BYzk5MmUyNDUtY2RmZi00MzhkLTk2MmUtMjA4MmExNGFjZWJhXkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "6.8",
         "reviews": [
-            "Fantastic acting, but the pacing felt off at times.",
-            "A great mix of drama, action, and suspense.",
-            "It exceeded all my expectations."
+            {
+                "review": "Fantastic acting, but the pacing felt off at times.",
+                "user": "Bob"
+            },
+            {
+                "review": "A great mix of drama, action, and suspense.",
+                "user": "Eve"
+            },
+            {
+                "review": "It exceeded all my expectations.",
+                "user": "Charlie"
+            }
         ]
     },
     {
@@ -1476,9 +2493,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BZTk4OGEwNDQtOGI2MC00MTU2LTk0YTEtNmU5NTIxMWNkNDhlXkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "8.3",
         "reviews": [
-            "Could watch this over and over again!",
-            "Brilliant storytelling with incredible performances.",
-            "An absolute masterpiece! It left me speechless."
+            {
+                "review": "Could watch this over and over again!",
+                "user": "Alice"
+            },
+            {
+                "review": "Brilliant storytelling with incredible performances.",
+                "user": "Alice"
+            },
+            {
+                "review": "An absolute masterpiece! It left me speechless.",
+                "user": "Alice"
+            }
         ]
     },
     {
@@ -1489,9 +2515,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BODkzNTNlODktZGY3NS00YjRkLTlkYWMtMjg5NTcxYjQwNDMxXkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "6.5",
         "reviews": [
-            "Not as great as people say, but still good.",
-            "A powerful narrative with unforgettable moments.",
-            "A great mix of drama, action, and suspense."
+            {
+                "review": "Not as great as people say, but still good.",
+                "user": "Bob"
+            },
+            {
+                "review": "A powerful narrative with unforgettable moments.",
+                "user": "Eve"
+            },
+            {
+                "review": "A great mix of drama, action, and suspense.",
+                "user": "Dave"
+            }
         ]
     },
     {
@@ -1502,9 +2537,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BZDNhNTE3MWItZjQ2MC00NTJiLWEyZjYtNDFjNmE3OTgwZjZmXkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "8.1",
         "reviews": [
-            "Not as great as people say, but still good.",
-            "It exceeded all my expectations.",
-            "A must-watch for every cinema lover."
+            {
+                "review": "Not as great as people say, but still good.",
+                "user": "Charlie"
+            },
+            {
+                "review": "It exceeded all my expectations.",
+                "user": "Alice"
+            },
+            {
+                "review": "A must-watch for every cinema lover.",
+                "user": "Bob"
+            }
         ]
     },
     {
@@ -1515,9 +2559,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BNjk2NTk0ODU4NV5BMl5BanBnXkFtZTcwMzI3ODU1NQ@@._V1_SX300.jpg",
         "vote_average": "6.1",
         "reviews": [
-            "It felt a bit slow, but the ending made up for it.",
-            "An absolute masterpiece! It left me speechless.",
-            "A great mix of drama, action, and suspense."
+            {
+                "review": "It felt a bit slow, but the ending made up for it.",
+                "user": "Alice"
+            },
+            {
+                "review": "An absolute masterpiece! It left me speechless.",
+                "user": "Alice"
+            },
+            {
+                "review": "A great mix of drama, action, and suspense.",
+                "user": "Eve"
+            }
         ]
     },
     {
@@ -1528,9 +2581,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BODNlZTUyMDQtMGNlMi00YTE3LWJjZjctMzlmY2JiMDFkNDM3XkEyXkFqcGdeQXVyMTY5Nzc4MDY@._V1_SX300.jpg",
         "vote_average": "5.7",
         "reviews": [
-            "A timeless classic that everyone should watch.",
-            "Highly recommended for fans of the genre.",
-            "One of the best movies I've ever seen."
+            {
+                "review": "A timeless classic that everyone should watch.",
+                "user": "Alice"
+            },
+            {
+                "review": "Highly recommended for fans of the genre.",
+                "user": "Alice"
+            },
+            {
+                "review": "One of the best movies I've ever seen.",
+                "user": "Eve"
+            }
         ]
     },
     {
@@ -1541,9 +2603,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BZTAxMTg4NDAtZmVhYS00NGJhLTgyMGQtZjE3YjcyYmI4ZjMxL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMzYyNzgzMzI@._V1_SX300.jpg",
         "vote_average": "5.7",
         "reviews": [
-            "Amazing direction and outstanding cinematography.",
-            "Fantastic acting, but the pacing felt off at times.",
-            "This movie is truly a work of art."
+            {
+                "review": "Amazing direction and outstanding cinematography.",
+                "user": "Eve"
+            },
+            {
+                "review": "Fantastic acting, but the pacing felt off at times.",
+                "user": "Alice"
+            },
+            {
+                "review": "This movie is truly a work of art.",
+                "user": "Bob"
+            }
         ]
     },
     {
@@ -1554,9 +2625,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BZWM5MjgxM2MtMDQ2OC00OGNkLTkyNTYtZWUxYTkxNjJkYzY2XkEyXkFqcGdeQXVyMzU0NzkwMDg@._V1_SX300.jpg",
         "vote_average": "6.7",
         "reviews": [
-            "An emotional rollercoaster that stayed with me.",
-            "Amazing direction and outstanding cinematography.",
-            "The plot was gripping from start to finish."
+            {
+                "review": "An emotional rollercoaster that stayed with me.",
+                "user": "Alice"
+            },
+            {
+                "review": "Amazing direction and outstanding cinematography.",
+                "user": "Bob"
+            },
+            {
+                "review": "The plot was gripping from start to finish.",
+                "user": "Alice"
+            }
         ]
     },
     {
@@ -1567,9 +2647,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BYWFjOWMxY2ItZmUyNy00YzUxLWJmM2QtYTY1YTA4NjFmMDVlXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_SX300.jpg",
         "vote_average": "7.4",
         "reviews": [
-            "An emotional rollercoaster that stayed with me.",
-            "A great mix of drama, action, and suspense.",
-            "Fantastic acting, but the pacing felt off at times."
+            {
+                "review": "An emotional rollercoaster that stayed with me.",
+                "user": "Dave"
+            },
+            {
+                "review": "A great mix of drama, action, and suspense.",
+                "user": "Bob"
+            },
+            {
+                "review": "Fantastic acting, but the pacing felt off at times.",
+                "user": "Dave"
+            }
         ]
     },
     {
@@ -1580,9 +2669,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BY2I4YzZjZDgtNWQzNC00MDdhLWFiZTItZTAwODY2ZmQzMDQwXkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "8.0",
         "reviews": [
-            "Not as great as people say, but still good.",
-            "A beautiful story of hope and resilience.",
-            "Incredible attention to detail and character development."
+            {
+                "review": "Not as great as people say, but still good.",
+                "user": "Dave"
+            },
+            {
+                "review": "A beautiful story of hope and resilience.",
+                "user": "Dave"
+            },
+            {
+                "review": "Incredible attention to detail and character development.",
+                "user": "Dave"
+            }
         ]
     },
     {
@@ -1593,9 +2691,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BMjM2N2RiODItMTkzNS00YjRkLWI3N2QtMTRlZTA5NmRiZmM1XkEyXkFqcGdeQXVyMzU0NzkwMDg@._V1_SX300.jpg",
         "vote_average": "5.2",
         "reviews": [
-            "A bit overrated, but still worth a watch.",
-            "A powerful narrative with unforgettable moments.",
-            "A beautiful story of hope and resilience."
+            {
+                "review": "A bit overrated, but still worth a watch.",
+                "user": "Charlie"
+            },
+            {
+                "review": "A powerful narrative with unforgettable moments.",
+                "user": "Charlie"
+            },
+            {
+                "review": "A beautiful story of hope and resilience.",
+                "user": "Bob"
+            }
         ]
     },
     {
@@ -1606,9 +2713,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BZjQwNTc1ZGEtM2RjYS00MDZlLTljM2UtZjQ3NThjODZlMWNmXkEyXkFqcGdeQXVyMzU0NzkwMDg@._V1_SX300.jpg",
         "vote_average": "5.8",
         "reviews": [
-            "A powerful narrative with unforgettable moments.",
-            "Highly recommended for fans of the genre.",
-            "This movie is truly a work of art."
+            {
+                "review": "A powerful narrative with unforgettable moments.",
+                "user": "Alice"
+            },
+            {
+                "review": "Highly recommended for fans of the genre.",
+                "user": "Alice"
+            },
+            {
+                "review": "This movie is truly a work of art.",
+                "user": "Bob"
+            }
         ]
     },
     {
@@ -1619,9 +2735,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BOTRjMjhlYzktNjgwNS00NjM0LWFmYTMtZTU5MmRlNTYxNTA5XkEyXkFqcGdeQXVyMTA0MjU0Ng@@._V1_SX300.jpg",
         "vote_average": "6.5",
         "reviews": [
-            "A timeless classic that everyone should watch.",
-            "Incredible attention to detail and character development.",
-            "An emotional rollercoaster that stayed with me."
+            {
+                "review": "A timeless classic that everyone should watch.",
+                "user": "Alice"
+            },
+            {
+                "review": "Incredible attention to detail and character development.",
+                "user": "Charlie"
+            },
+            {
+                "review": "An emotional rollercoaster that stayed with me.",
+                "user": "Charlie"
+            }
         ]
     },
     {
@@ -1632,9 +2757,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BZTlkYWU4MGEtZmQyYi00OWEzLTgzY2EtYzVjOTEzYzAyNTk1XkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "8.3",
         "reviews": [
-            "Not as great as people say, but still good.",
-            "A great mix of drama, action, and suspense.",
-            "An emotional rollercoaster that stayed with me."
+            {
+                "review": "Not as great as people say, but still good.",
+                "user": "Charlie"
+            },
+            {
+                "review": "A great mix of drama, action, and suspense.",
+                "user": "Eve"
+            },
+            {
+                "review": "An emotional rollercoaster that stayed with me.",
+                "user": "Charlie"
+            }
         ]
     },
     {
@@ -1645,9 +2779,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BOTBiYWM1MjQtYjI5ZS00ZDJmLThjMGItYzNlOWZhMjE3YzBiXkEyXkFqcGdeQXVyMTY5Nzc4MDY@._V1_SX300.jpg",
         "vote_average": "7.2",
         "reviews": [
-            "A powerful narrative with unforgettable moments.",
-            "It felt a bit slow, but the ending made up for it.",
-            "Could watch this over and over again!"
+            {
+                "review": "A powerful narrative with unforgettable moments.",
+                "user": "Dave"
+            },
+            {
+                "review": "It felt a bit slow, but the ending made up for it.",
+                "user": "Dave"
+            },
+            {
+                "review": "Could watch this over and over again!",
+                "user": "Charlie"
+            }
         ]
     },
     {
@@ -1658,9 +2801,18 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BYzdiODg4YTctYTI0NC00NTY5LWEzYjItYTQ4YTA2ZmM3NzA2XkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "6.4",
         "reviews": [
-            "An emotional rollercoaster that stayed with me.",
-            "A must-watch for every cinema lover.",
-            "An absolute masterpiece! It left me speechless."
+            {
+                "review": "An emotional rollercoaster that stayed with me.",
+                "user": "Bob"
+            },
+            {
+                "review": "A must-watch for every cinema lover.",
+                "user": "Bob"
+            },
+            {
+                "review": "An absolute masterpiece! It left me speechless.",
+                "user": "Eve"
+            }
         ]
     }
 ]

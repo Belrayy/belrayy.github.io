@@ -1,210 +1,354 @@
 [
     {
         "id": "tt0111161",
-        "title": "Les Évadés",
+        "title": "Les \u00c9vad\u00e9s",
         "release_date": "14/10/1994",
-        "overview": "Un banquier condamné pour uxoricide forme une amitié de plus d'un quart de siècle avec un condamné endurci, tout en maintenant l'innocence hest et en essayant de rester espoir par la simple compassion.",
+        "overview": "Un banquier condamn\u00e9 pour uxoricide forme une amiti\u00e9 de plus d'un quart de si\u00e8cle avec un condamn\u00e9 endurci, tout en maintenant l'innocence hest et en essayant de rester espoir par la simple compassion.",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BMDAyY2FhYjctNDc5OS00MDNlLThiMGUtY2UxYWVkNGY2ZjljXkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "9.3",
         "reviews": [
-            "Une attention incroyable aux détails et au développement des personnages.",
-            "Un incontournable pour tous les amateurs de cinéma.",
-            "Une belle histoire d'espoir et de résilience."
+            {
+                "review": "Une attention incroyable aux d\u00e9tails et au d\u00e9veloppement des personnages.",
+                "user": "Bob"
+            },
+            {
+                "review": "Un incontournable pour tous les amateurs de cin\u00e9ma.",
+                "user": "Dave"
+            },
+            {
+                "review": "Une belle histoire d'espoir et de r\u00e9silience.",
+                "user": "Charlie"
+            }
         ]
     },
     {
         "id": "tt0068646",
         "title": "Le Parrain",
         "release_date": "24/03/1972",
-        "overview": "Le vieux patriarche d'une dynastie du crime organisé transfère le contrôle de l'empire clandestin à son fils réticent.",
+        "overview": "Le vieux patriarche d'une dynastie du crime organis\u00e9 transf\u00e8re le contr\u00f4le de l'empire clandestin \u00e0 son fils r\u00e9ticent.",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BYTJkNGQyZDgtZDQ0NC00MDM0LWEzZWQtYzUzZDEwMDljZWNjXkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "9.2",
         "reviews": [
-            "Fortement recommandé pour les fans du genre.",
-            "Un chef-d'œuvre absolu ! Ça m'a laissé sans voix.",
-            "Une réalisation incroyable et une cinématographie exceptionnelle."
+            {
+                "review": "Fortement recommand\u00e9 pour les fans du genre.",
+                "user": "Eve"
+            },
+            {
+                "review": "Un chef-d'\u0153uvre absolu ! \u00c7a m'a laiss\u00e9 sans voix.",
+                "user": "Charlie"
+            },
+            {
+                "review": "Une r\u00e9alisation incroyable et une cin\u00e9matographie exceptionnelle.",
+                "user": "Dave"
+            }
         ]
     },
     {
         "id": "tt0071562",
-        "title": "Le Parrain, 2ᵉ partie",
+        "title": "Le Parrain, 2\u1d49 partie",
         "release_date": "18/12/1974",
-        "overview": "Le début de la vie et la carrière de Vito Corleone dans les années 1920 New York City est représenté, tandis que le fils hest, Michael, élargit et resserre l'emprise sur le syndicat de la criminalité familiale.",
+        "overview": "Le d\u00e9but de la vie et la carri\u00e8re de Vito Corleone dans les ann\u00e9es 1920 New York City est repr\u00e9sent\u00e9, tandis que le fils hest, Michael, \u00e9largit et resserre l'emprise sur le syndicat de la criminalit\u00e9 familiale.",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BNzc1OWY5MjktZDllMi00ZDEzLWEwMGItYjk1YmRhYjBjNTVlXkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "9.0",
         "reviews": [
-            "Une réalisation incroyable et une cinématographie exceptionnelle.",
-            "L'intrigue était captivante du début à la fin.",
-            "Un des meilleurs films que j'ai jamais vu."
+            {
+                "review": "Une r\u00e9alisation incroyable et une cin\u00e9matographie exceptionnelle.",
+                "user": "Charlie"
+            },
+            {
+                "review": "L'intrigue \u00e9tait captivante du d\u00e9but \u00e0 la fin.",
+                "user": "Eve"
+            },
+            {
+                "review": "Un des meilleurs films que j'ai jamais vu.",
+                "user": "Bob"
+            }
         ]
     },
     {
         "id": "tt0468569",
         "title": "The Dark Knight : Le Chevalier noir",
         "release_date": "18/07/2008",
-        "overview": "Quand une menace connue sous le nom de Joker fait des ravages et du chaos aux gens de Gotham, Batman, James Gordon et Harvey Dent doivent travailler ensemble pour mettre fin à la folie.",
+        "overview": "Quand une menace connue sous le nom de Joker fait des ravages et du chaos aux gens de Gotham, Batman, James Gordon et Harvey Dent doivent travailler ensemble pour mettre fin \u00e0 la folie.",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_SX300.jpg",
         "vote_average": "9.0",
         "reviews": [
-            "Une réalisation incroyable et une cinématographie exceptionnelle.",
-            "Une belle histoire d'espoir et de résilience.",
-            "Un des meilleurs films que j'ai jamais vu."
+            {
+                "review": "Une r\u00e9alisation incroyable et une cin\u00e9matographie exceptionnelle.",
+                "user": "Alice"
+            },
+            {
+                "review": "Une belle histoire d'espoir et de r\u00e9silience.",
+                "user": "Eve"
+            },
+            {
+                "review": "Un des meilleurs films que j'ai jamais vu.",
+                "user": "Dave"
+            }
         ]
     },
     {
         "id": "tt3896198",
         "title": "Les Gardiens de la Galaxie Vol. 2",
         "release_date": "05/05/2017",
-        "overview": "Le Guardians a du mal à s'unir en équipe tout en s'attaquant à leurs propres œssues familiales, notamment la rencontre de Star-Lord avec son père hest, l'ambitieux être céleste Ego.",
+        "overview": "Le Guardians a du mal \u00e0 s'unir en \u00e9quipe tout en s'attaquant \u00e0 leurs propres \u0153ssues familiales, notamment la rencontre de Star-Lord avec son p\u00e8re hest, l'ambitieux \u00eatre c\u00e9leste Ego.",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BNWE5MGI3MDctMmU5Ni00YzI2LWEzMTQtZGIyZDA5MzQzNDBhXkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "7.6",
         "reviews": [
-            "Un chef-d'œuvre absolu ! Ça m'a laissé sans voix.",
-            "Un classique intemporel que tout le monde devrait voir.",
-            "Je pourrais regarder ce film encore et encore !"
+            {
+                "review": "Un chef-d'\u0153uvre absolu ! \u00c7a m'a laiss\u00e9 sans voix.",
+                "user": "Eve"
+            },
+            {
+                "review": "Un classique intemporel que tout le monde devrait voir.",
+                "user": "Bob"
+            },
+            {
+                "review": "Je pourrais regarder ce film encore et encore !",
+                "user": "Alice"
+            }
         ]
     },
     {
         "id": "tt0108052",
         "title": "La Liste de Schindler",
         "release_date": "04/02/1994",
-        "overview": "En Pologne occupée par les Allemands pendant la Seconde Guerre mondiale, l'industriel Oskar Schindler s'inquiète peu à peu de la main-d'œuvre juive après avoir été persécutés par les Nazest.",
+        "overview": "En Pologne occup\u00e9e par les Allemands pendant la Seconde Guerre mondiale, l'industriel Oskar Schindler s'inqui\u00e8te peu \u00e0 peu de la main-d'\u0153uvre juive apr\u00e8s avoir \u00e9t\u00e9 pers\u00e9cut\u00e9s par les Nazest.",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BNjM1ZDQxYWUtMzQyZS00MTE1LWJmZGYtNGUyNTdlYjM3ZmVmXkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "9.0",
         "reviews": [
-            "Je pourrais regarder ce film encore et encore !",
-            "Un incontournable pour tous les amateurs de cinéma.",
-            "Une attention incroyable aux détails et au développement des personnages."
+            {
+                "review": "Je pourrais regarder ce film encore et encore !",
+                "user": "Dave"
+            },
+            {
+                "review": "Un incontournable pour tous les amateurs de cin\u00e9ma.",
+                "user": "Eve"
+            },
+            {
+                "review": "Une attention incroyable aux d\u00e9tails et au d\u00e9veloppement des personnages.",
+                "user": "Charlie"
+            }
         ]
     },
     {
         "id": "tt0137523",
         "title": "Fight Club",
         "release_date": "15/10/1999",
-        "overview": "Un employé de bureau insomniac et un savonnier démoniaque forment un club de combat clandestin qui évolue en beaucoup plus.",
+        "overview": "Un employ\u00e9 de bureau insomniac et un savonnier d\u00e9moniaque forment un club de combat clandestin qui \u00e9volue en beaucoup plus.",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BOTgyOGQ1NDItNGU3Ny00MjU3LTg2YWEtNmEyYjBiMjI1Y2M5XkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "8.8",
         "reviews": [
-            "Une belle histoire d'espoir et de résilience.",
-            "Une montagne russe émotionnelle qui reste en tête.",
-            "Ce film est véritablement une œuvre d'art."
+            {
+                "review": "Une belle histoire d'espoir et de r\u00e9silience.",
+                "user": "Alice"
+            },
+            {
+                "review": "Une montagne russe \u00e9motionnelle qui reste en t\u00eate.",
+                "user": "Alice"
+            },
+            {
+                "review": "Ce film est v\u00e9ritablement une \u0153uvre d'art.",
+                "user": "Dave"
+            }
         ]
     },
     {
         "id": "tt0080684",
-        "title": "Star Wars : Épisode V - L'Empire contre-attaque",
+        "title": "Star Wars : \u00c9pisode V - L'Empire contre-attaque",
         "release_date": "18/06/1980",
-        "overview": "Si l'Empire surpasse l'Unlliance Rebel, Luke Skywalker commence l'entraînement Jedi avec Yoda. Dans le même temps, Darth Vader et le chasseur de primes Boba Fett poursuivent des amis hest à travers la galaxie.",
+        "overview": "Si l'Empire surpasse l'Unlliance Rebel, Luke Skywalker commence l'entra\u00eenement Jedi avec Yoda. Dans le m\u00eame temps, Darth Vader et le chasseur de primes Boba Fett poursuivent des amis hest \u00e0 travers la galaxie.",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BMTkxNGFlNDktZmJkNC00MDdhLTg0MTEtZjZiYWI3MGE5NWIwXkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "8.7",
         "reviews": [
-            "Ce film est véritablement une œuvre d'art.",
-            "Une montagne russe émotionnelle qui reste en tête.",
-            "Un incontournable pour tous les amateurs de cinéma."
+            {
+                "review": "Ce film est v\u00e9ritablement une \u0153uvre d'art.",
+                "user": "Alice"
+            },
+            {
+                "review": "Une montagne russe \u00e9motionnelle qui reste en t\u00eate.",
+                "user": "Bob"
+            },
+            {
+                "review": "Un incontournable pour tous les amateurs de cin\u00e9ma.",
+                "user": "Dave"
+            }
         ]
     },
     {
         "id": "tt0109830",
         "title": "Forrest Gump",
         "release_date": "06/07/1994",
-        "overview": "Le hesttory of the United States des années 1950 aux années 70 se déroule dans la perspective d'un homme Unlabama avec un QI de 75, qui aspire à être réuni avec le plus grand amour de l'enfance.",
+        "overview": "Le hesttory of the United States des ann\u00e9es 1950 aux ann\u00e9es 70 se d\u00e9roule dans la perspective d'un homme Unlabama avec un QI de 75, qui aspire \u00e0 \u00eatre r\u00e9uni avec le plus grand amour de l'enfance.",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BNDYwNzVjMTItZmU5YS00YjQ5LTljYjgtMjY2NDVmYWMyNWFmXkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "8.8",
         "reviews": [
-            "Un chef-d'œuvre absolu ! Ça m'a laissé sans voix.",
-            "Des acteurs fantastiques, mais le rythme était parfois lent.",
-            "Une montagne russe émotionnelle qui reste en tête."
+            {
+                "review": "Un chef-d'\u0153uvre absolu ! \u00c7a m'a laiss\u00e9 sans voix.",
+                "user": "Bob"
+            },
+            {
+                "review": "Des acteurs fantastiques, mais le rythme \u00e9tait parfois lent.",
+                "user": "Bob"
+            },
+            {
+                "review": "Une montagne russe \u00e9motionnelle qui reste en t\u00eate.",
+                "user": "Bob"
+            }
         ]
     },
     {
         "id": "tt0167260",
         "title": "Le Seigneur des anneaux : Le Retour du roi",
         "release_date": "17/12/2003",
-        "overview": "Gandalf et Unragorn mènent le monde des hommes contre l'armée de Sauron pour attirer le regard hest de Frodo et Sam alors qu'ils approchent le mont Doom avec l'anneau unique.",
+        "overview": "Gandalf et Unragorn m\u00e8nent le monde des hommes contre l'arm\u00e9e de Sauron pour attirer le regard hest de Frodo et Sam alors qu'ils approchent le mont Doom avec l'anneau unique.",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BMTZkMjBjNWMtZGI5OC00MGU0LTk4ZTItODg2NWM3NTVmNWQ4XkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "9.0",
         "reviews": [
-            "Un excellent mélange de drame, d'action et de suspense.",
-            "Un peu surestimé, mais ça vaut le détour.",
-            "Une belle histoire d'espoir et de résilience."
+            {
+                "review": "Un excellent m\u00e9lange de drame, d'action et de suspense.",
+                "user": "Bob"
+            },
+            {
+                "review": "Un peu surestim\u00e9, mais \u00e7a vaut le d\u00e9tour.",
+                "user": "Alice"
+            },
+            {
+                "review": "Une belle histoire d'espoir et de r\u00e9silience.",
+                "user": "Eve"
+            }
         ]
     },
     {
         "id": "tt0133093",
         "title": "Matrix",
         "release_date": "31/03/1999",
-        "overview": "Quand un bel étranger conduit Neo hacker informatique à un monde enfer qui interdit, il désouvre la vérité choquante--la vie qu'il connaît est la tromperie élaborée d'une cyber-intelligence maléfique.",
+        "overview": "Quand un bel \u00e9tranger conduit Neo hacker informatique \u00e0 un monde enfer qui interdit, il d\u00e9souvre la v\u00e9rit\u00e9 choquante--la vie qu'il conna\u00eet est la tromperie \u00e9labor\u00e9e d'une cyber-intelligence mal\u00e9fique.",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BN2NmN2VhMTQtMDNiOS00NDlhLTliMjgtODE2ZTY0ODQyNDRhXkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "8.7",
         "reviews": [
-            "Ce film est véritablement une œuvre d'art.",
-            "Pas aussi génial qu'on le dit, mais quand même bon.",
-            "Fortement recommandé pour les fans du genre."
+            {
+                "review": "Ce film est v\u00e9ritablement une \u0153uvre d'art.",
+                "user": "Eve"
+            },
+            {
+                "review": "Pas aussi g\u00e9nial qu'on le dit, mais quand m\u00eame bon.",
+                "user": "Bob"
+            },
+            {
+                "review": "Fortement recommand\u00e9 pour les fans du genre.",
+                "user": "Eve"
+            }
         ]
     },
     {
         "id": "tt1375666",
         "title": "Inception",
         "release_date": "16/07/2010",
-        "overview": "Un voleur qui vole des secrets d'entreprise grâce à l'utilisation de la technologie de partage de rêves est donné la tâche inverse de planter une idée dans l'esprit d'un C.E.O., mais le passé tragique de hest peut ruiner le projet et l'équipe de hest à détruire.",
+        "overview": "Un voleur qui vole des secrets d'entreprise gr\u00e2ce \u00e0 l'utilisation de la technologie de partage de r\u00eaves est donn\u00e9 la t\u00e2che inverse de planter une id\u00e9e dans l'esprit d'un C.E.O., mais le pass\u00e9 tragique de hest peut ruiner le projet et l'\u00e9quipe de hest \u00e0 d\u00e9truire.",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_SX300.jpg",
         "vote_average": "8.8",
         "reviews": [
-            "Un peu surestimé, mais ça vaut le détour.",
-            "Un classique intemporel que tout le monde devrait voir.",
-            "Un des meilleurs films que j'ai jamais vu."
+            {
+                "review": "Un peu surestim\u00e9, mais \u00e7a vaut le d\u00e9tour.",
+                "user": "Alice"
+            },
+            {
+                "review": "Un classique intemporel que tout le monde devrait voir.",
+                "user": "Dave"
+            },
+            {
+                "review": "Un des meilleurs films que j'ai jamais vu.",
+                "user": "Dave"
+            }
         ]
     },
     {
         "id": "tt0118799",
         "title": "La vie est belle",
         "release_date": "20/12/1997",
-        "overview": "Lorsqu'un serveur juif et un fils heste sont victimes de l'Holocauste, il utilise un mélange parfait de volonté, d'humour et d'imagination pour protéger le fils heste des dangers qui entourent leur camp.",
+        "overview": "Lorsqu'un serveur juif et un fils heste sont victimes de l'Holocauste, il utilise un m\u00e9lange parfait de volont\u00e9, d'humour et d'imagination pour prot\u00e9ger le fils heste des dangers qui entourent leur camp.",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BZTBhOGYzZjQtYzE0Mi00MGIwLWE0MWYtNzMxNTM2OTFkM2NjXkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "8.6",
         "reviews": [
-            "Des acteurs fantastiques, mais le rythme était parfois lent.",
-            "Un excellent mélange de drame, d'action et de suspense.",
-            "Une belle histoire d'espoir et de résilience."
+            {
+                "review": "Des acteurs fantastiques, mais le rythme \u00e9tait parfois lent.",
+                "user": "Eve"
+            },
+            {
+                "review": "Un excellent m\u00e9lange de drame, d'action et de suspense.",
+                "user": "Dave"
+            },
+            {
+                "review": "Une belle histoire d'espoir et de r\u00e9silience.",
+                "user": "Alice"
+            }
         ]
     },
     {
         "id": "tt0038650",
         "title": "La vie est belle (1946)",
         "release_date": "07/01/1947",
-        "overview": "Un ange est envoyé du Ciel pour aider un homme d'affaires désespérément frustré en lui montrant ce que la vie aurait été s'il n'avait jamais exesté.",
+        "overview": "Un ange est envoy\u00e9 du Ciel pour aider un homme d'affaires d\u00e9sesp\u00e9r\u00e9ment frustr\u00e9 en lui montrant ce que la vie aurait \u00e9t\u00e9 s'il n'avait jamais exest\u00e9.",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BMDM4OWFhYjEtNTE5Yy00NjcyLTg5N2UtZDQwNDZlYjlmNDU5XkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "8.6",
         "reviews": [
-            "Une belle histoire d'espoir et de résilience.",
-            "Une attention incroyable aux détails et au développement des personnages.",
-            "Une montagne russe émotionnelle qui reste en tête."
+            {
+                "review": "Une belle histoire d'espoir et de r\u00e9silience.",
+                "user": "Dave"
+            },
+            {
+                "review": "Une attention incroyable aux d\u00e9tails et au d\u00e9veloppement des personnages.",
+                "user": "Eve"
+            },
+            {
+                "review": "Une montagne russe \u00e9motionnelle qui reste en t\u00eate.",
+                "user": "Charlie"
+            }
         ]
     },
     {
         "id": "tt0120338",
         "title": "Titanic",
         "release_date": "19/12/1997",
-        "overview": "Un arestocrate de 17 ans tombe amoureux d'un arteste gentil mais pauvre à bord du luxueux et mal nourri R.M.S. Titanic.",
+        "overview": "Un arestocrate de 17 ans tombe amoureux d'un arteste gentil mais pauvre \u00e0 bord du luxueux et mal nourri R.M.S. Titanic.",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BYzYyN2FiZmUtYWYzMy00MzViLWJkZTMtOGY1ZjgzNWMwN2YxXkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "7.9",
         "reviews": [
-            "Une narration brillante avec des performances incroyables.",
-            "Un des meilleurs films que j'ai jamais vu.",
-            "Un chef-d'œuvre absolu ! Ça m'a laissé sans voix."
+            {
+                "review": "Une narration brillante avec des performances incroyables.",
+                "user": "Charlie"
+            },
+            {
+                "review": "Un des meilleurs films que j'ai jamais vu.",
+                "user": "Alice"
+            },
+            {
+                "review": "Un chef-d'\u0153uvre absolu ! \u00c7a m'a laiss\u00e9 sans voix.",
+                "user": "Dave"
+            }
         ]
     },
     {
         "id": "tt0102926",
         "title": "Le Silence des agneaux",
         "release_date": "14/02/1991",
-        "overview": "Un jeune cadet du F.B.I. doit recevoir l'aide d'un tueur cannibale incarcéré et manipulateur pour aider à attraper un autre tueur en série, un fou qui écorche les victimes.",
+        "overview": "Un jeune cadet du F.B.I. doit recevoir l'aide d'un tueur cannibale incarc\u00e9r\u00e9 et manipulateur pour aider \u00e0 attraper un autre tueur en s\u00e9rie, un fou qui \u00e9corche les victimes.",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BNDdhOGJhYzctYzYwZC00YmI2LWI0MjctYjg4ODdlMDExYjBlXkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "8.6",
         "reviews": [
-            "Un des meilleurs films que j'ai jamais vu.",
-            "Des acteurs fantastiques, mais le rythme était parfois lent.",
-            "Un incontournable pour tous les amateurs de cinéma."
+            {
+                "review": "Un des meilleurs films que j'ai jamais vu.",
+                "user": "Charlie"
+            },
+            {
+                "review": "Des acteurs fantastiques, mais le rythme \u00e9tait parfois lent.",
+                "user": "Bob"
+            },
+            {
+                "review": "Un incontournable pour tous les amateurs de cin\u00e9ma.",
+                "user": "Bob"
+            }
         ]
     },
     {
@@ -215,256 +359,436 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BN2E5NzI2ZGMtY2VjNi00YTRjLWI1MDUtZGY5OWU1MWJjZjRjXkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "8.7",
         "reviews": [
-            "Pas aussi génial qu'on le dit, mais quand même bon.",
-            "Un classique intemporel que tout le monde devrait voir.",
-            "Une montagne russe émotionnelle qui reste en tête."
+            {
+                "review": "Pas aussi g\u00e9nial qu'on le dit, mais quand m\u00eame bon.",
+                "user": "Eve"
+            },
+            {
+                "review": "Un classique intemporel que tout le monde devrait voir.",
+                "user": "Charlie"
+            },
+            {
+                "review": "Une montagne russe \u00e9motionnelle qui reste en t\u00eate.",
+                "user": "Eve"
+            }
         ]
     },
     {
         "id": "tt0034583",
         "title": "Casablanca",
         "release_date": "23/01/1943",
-        "overview": "Un cynique expatrié Unmerican cafe owner lutte pour décider s'il faut ou non aider l'ancien amant et son mari fugitif à échapper au Nazest au Maroc français.",
+        "overview": "Un cynique expatri\u00e9 Unmerican cafe owner lutte pour d\u00e9cider s'il faut ou non aider l'ancien amant et son mari fugitif \u00e0 \u00e9chapper au Nazest au Maroc fran\u00e7ais.",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BNWEzN2U1YTYtYTQyMS00NTVkLWE2NGQtZWFlMmM0MDNjMmRiXkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "8.5",
         "reviews": [
-            "Une belle histoire d'espoir et de résilience.",
-            "L'intrigue était captivante du début à la fin.",
-            "Je pourrais regarder ce film encore et encore !"
+            {
+                "review": "Une belle histoire d'espoir et de r\u00e9silience.",
+                "user": "Alice"
+            },
+            {
+                "review": "L'intrigue \u00e9tait captivante du d\u00e9but \u00e0 la fin.",
+                "user": "Alice"
+            },
+            {
+                "review": "Je pourrais regarder ce film encore et encore !",
+                "user": "Bob"
+            }
         ]
     },
     {
         "id": "tt0114369",
         "title": "Seven",
         "release_date": "22/09/1995",
-        "overview": "Deux détectives, un débutant et un vétéran, chassent un tueur en série qui utilise les sept péchés mortels comme motifs de haine.",
+        "overview": "Deux d\u00e9tectives, un d\u00e9butant et un v\u00e9t\u00e9ran, chassent un tueur en s\u00e9rie qui utilise les sept p\u00e9ch\u00e9s mortels comme motifs de haine.",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BY2IzNzMxZjctZjUxZi00YzAxLTk3ZjMtODFjODdhMDU5NDM1XkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "8.6",
         "reviews": [
-            "Une montagne russe émotionnelle qui reste en tête.",
-            "Cela a dépassé toutes mes attentes.",
-            "Un classique intemporel que tout le monde devrait voir."
+            {
+                "review": "Une montagne russe \u00e9motionnelle qui reste en t\u00eate.",
+                "user": "Dave"
+            },
+            {
+                "review": "Cela a d\u00e9pass\u00e9 toutes mes attentes.",
+                "user": "Alice"
+            },
+            {
+                "review": "Un classique intemporel que tout le monde devrait voir.",
+                "user": "Charlie"
+            }
         ]
     },
     {
         "id": "tt0073486",
         "title": "Vol au-dessus d'un nid de coucou",
         "release_date": "19/11/1975",
-        "overview": "À l'automne 1963, un ancien combattant et criminel de la guerre de Corée plaide la folie et est admis dans un établissement psychiatrique, où il rassemble les malades effrayés contre l'infirmière tyrannique.",
+        "overview": "\u00c0 l'automne 1963, un ancien combattant et criminel de la guerre de Cor\u00e9e plaide la folie et est admis dans un \u00e9tablissement psychiatrique, o\u00f9 il rassemble les malades effray\u00e9s contre l'infirmi\u00e8re tyrannique.",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BYjBkMjgzMzYtNzRiMS00NDc3LWE4YTUtZjYxYjZhNjNhYzhhXkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "8.7",
         "reviews": [
-            "Une belle histoire d'espoir et de résilience.",
-            "Un chef-d'œuvre absolu ! Ça m'a laissé sans voix.",
-            "Fortement recommandé pour les fans du genre."
+            {
+                "review": "Une belle histoire d'espoir et de r\u00e9silience.",
+                "user": "Eve"
+            },
+            {
+                "review": "Un chef-d'\u0153uvre absolu ! \u00c7a m'a laiss\u00e9 sans voix.",
+                "user": "Eve"
+            },
+            {
+                "review": "Fortement recommand\u00e9 pour les fans du genre.",
+                "user": "Dave"
+            }
         ]
     },
     {
         "id": "tt0095016",
-        "title": "Piège de cristal",
+        "title": "Pi\u00e8ge de cristal",
         "release_date": "20/07/1988",
-        "overview": "Un New York Le policier de la ville essaie de sauver sa femme et plusieurs autres prises en otage par des terroristes lors d'une fête de Chresttmas au Nakatomi Plaza de Los Unngeles.",
+        "overview": "Un New York Le policier de la ville essaie de sauver sa femme et plusieurs autres prises en otage par des terroristes lors d'une f\u00eate de Chresttmas au Nakatomi Plaza de Los Unngeles.",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BMGNlYmM1NmQtYWExMS00NmRjLTg5ZmEtMmYyYzJkMzljYWMxXkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "8.2",
         "reviews": [
-            "Un chef-d'œuvre absolu ! Ça m'a laissé sans voix.",
-            "Un peu lent, mais la fin en valait la peine.",
-            "Ce film est véritablement une œuvre d'art."
+            {
+                "review": "Un chef-d'\u0153uvre absolu ! \u00c7a m'a laiss\u00e9 sans voix.",
+                "user": "Eve"
+            },
+            {
+                "review": "Un peu lent, mais la fin en valait la peine.",
+                "user": "Charlie"
+            },
+            {
+                "review": "Ce film est v\u00e9ritablement une \u0153uvre d'art.",
+                "user": "Charlie"
+            }
         ]
     },
     {
         "id": "tt0120815",
         "title": "Il faut sauver le soldat Ryan",
         "release_date": "24/07/1998",
-        "overview": "À la suite des débarquements de Normandie, un groupe de soldats américains vont derrière les lignes ennemies pour récupérer un parachutiste dont les frères ont été tués au combat.",
+        "overview": "\u00c0 la suite des d\u00e9barquements de Normandie, un groupe de soldats am\u00e9ricains vont derri\u00e8re les lignes ennemies pour r\u00e9cup\u00e9rer un parachutiste dont les fr\u00e8res ont \u00e9t\u00e9 tu\u00e9s au combat.",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BZGZhZGQ1ZWUtZTZjYS00MDJhLWFkYjctN2ZlYjE5NWYwZDM2XkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "8.6",
         "reviews": [
-            "Un incontournable pour tous les amateurs de cinéma.",
-            "Une attention incroyable aux détails et au développement des personnages.",
-            "Un chef-d'œuvre absolu ! Ça m'a laissé sans voix."
+            {
+                "review": "Un incontournable pour tous les amateurs de cin\u00e9ma.",
+                "user": "Bob"
+            },
+            {
+                "review": "Une attention incroyable aux d\u00e9tails et au d\u00e9veloppement des personnages.",
+                "user": "Bob"
+            },
+            {
+                "review": "Un chef-d'\u0153uvre absolu ! \u00c7a m'a laiss\u00e9 sans voix.",
+                "user": "Bob"
+            }
         ]
     },
     {
         "id": "tt0097576",
-        "title": "Indiana Jones et la Dernière Croisade",
+        "title": "Indiana Jones et la Derni\u00e8re Croisade",
         "release_date": "24/05/1989",
-        "overview": "En 1938, après que son père se soit mis en meute tout en poursuivant le Saint Graal, Indiana Jones se retrouve à nouveau contre le Nazest pour les empêcher d'obtenir ses pouvoirs.",
+        "overview": "En 1938, apr\u00e8s que son p\u00e8re se soit mis en meute tout en poursuivant le Saint Graal, Indiana Jones se retrouve \u00e0 nouveau contre le Nazest pour les emp\u00eacher d'obtenir ses pouvoirs.",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BNGIxNzQ0YzYtMjNmYi00YjBlLWFjNzEtNGE3ZGFmYTczM2MwXkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "8.2",
         "reviews": [
-            "Des acteurs fantastiques, mais le rythme était parfois lent.",
-            "Pas aussi génial qu'on le dit, mais quand même bon.",
-            "Un classique intemporel que tout le monde devrait voir."
+            {
+                "review": "Des acteurs fantastiques, mais le rythme \u00e9tait parfois lent.",
+                "user": "Dave"
+            },
+            {
+                "review": "Pas aussi g\u00e9nial qu'on le dit, mais quand m\u00eame bon.",
+                "user": "Charlie"
+            },
+            {
+                "review": "Un classique intemporel que tout le monde devrait voir.",
+                "user": "Eve"
+            }
         ]
     },
     {
         "id": "tt0027977",
         "title": "Les Temps modernes",
         "release_date": "25/02/1936",
-        "overview": "Le Tramp lutte pour vivre dans la société industrielle moderne avec l'aide d'une jeune femme sans abri.",
+        "overview": "Le Tramp lutte pour vivre dans la soci\u00e9t\u00e9 industrielle moderne avec l'aide d'une jeune femme sans abri.",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BODVkZGFhNGQtYjdiYi00Njc4LWFmYTItNTlmNzJjMTg1ZDc5XkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "8.5",
         "reviews": [
-            "Un des meilleurs films que j'ai jamais vu.",
-            "Un peu surestimé, mais ça vaut le détour.",
-            "Une narration brillante avec des performances incroyables."
+            {
+                "review": "Un des meilleurs films que j'ai jamais vu.",
+                "user": "Dave"
+            },
+            {
+                "review": "Un peu surestim\u00e9, mais \u00e7a vaut le d\u00e9tour.",
+                "user": "Alice"
+            },
+            {
+                "review": "Une narration brillante avec des performances incroyables.",
+                "user": "Bob"
+            }
         ]
     },
     {
         "id": "tt0082971",
         "title": "Les Aventuriers de l'arche perdue",
         "release_date": "12/06/1981",
-        "overview": "En 1936, les archéologues et aventuriers du gouvernement américain ont engagé Indiana Jones pour trouver l'arche de l'alliance avant que le Nazest puisse obtenir ses pouvoirs extraordinaires.",
+        "overview": "En 1936, les arch\u00e9ologues et aventuriers du gouvernement am\u00e9ricain ont engag\u00e9 Indiana Jones pour trouver l'arche de l'alliance avant que le Nazest puisse obtenir ses pouvoirs extraordinaires.",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BOGNhMjg2ZjgtYzk4Ni00MTViLTg1MmUtYzM2MDZiYjZlMmU3XkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "8.4",
         "reviews": [
-            "Une belle histoire d'espoir et de résilience.",
-            "Une narration brillante avec des performances incroyables.",
-            "Un peu lent, mais la fin en valait la peine."
+            {
+                "review": "Une belle histoire d'espoir et de r\u00e9silience.",
+                "user": "Charlie"
+            },
+            {
+                "review": "Une narration brillante avec des performances incroyables.",
+                "user": "Bob"
+            },
+            {
+                "review": "Un peu lent, mais la fin en valait la peine.",
+                "user": "Charlie"
+            }
         ]
     },
     {
         "id": "tt0112760",
         "title": "Cutthroat Island",
         "release_date": "22/12/1995",
-        "overview": "Une femme pirate et sa course de compagnon contre leurs rivaux pour trouver une île cachée qui contient un trésor fabuleux.",
+        "overview": "Une femme pirate et sa course de compagnon contre leurs rivaux pour trouver une \u00eele cach\u00e9e qui contient un tr\u00e9sor fabuleux.",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BZTQ3OWY2NTctOTAyNS00MThjLTgyZjEtNzgzZGNiZDNhODUyXkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "5.7",
         "reviews": [
-            "Ce film est véritablement une œuvre d'art.",
-            "Un classique intemporel que tout le monde devrait voir.",
-            "Pas aussi génial qu'on le dit, mais quand même bon."
+            {
+                "review": "Ce film est v\u00e9ritablement une \u0153uvre d'art.",
+                "user": "Bob"
+            },
+            {
+                "review": "Un classique intemporel que tout le monde devrait voir.",
+                "user": "Charlie"
+            },
+            {
+                "review": "Pas aussi g\u00e9nial qu'on le dit, mais quand m\u00eame bon.",
+                "user": "Charlie"
+            }
         ]
     },
     {
         "id": "tt0076759",
         "title": "Star Wars: Episode IV - A New Hope",
         "release_date": "25/05/1977",
-        "overview": "Luke Skywalker unit ses forces avec un Chevalier Jedi, un pilote coquin, un Wookiee et deux droïdes pour sauver la galaxie de la station de combat mondiale de l'Empire, tout en essayant de sauver la princesse Leia du mystérieux Darth...",
+        "overview": "Luke Skywalker unit ses forces avec un Chevalier Jedi, un pilote coquin, un Wookiee et deux dro\u00efdes pour sauver la galaxie de la station de combat mondiale de l'Empire, tout en essayant de sauver la princesse Leia du myst\u00e9rieux Darth...",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BOGUwMDk0Y2MtNjBlNi00NmRiLTk2MWYtMGMyMDlhYmI4ZDBjXkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "8.6",
         "reviews": [
-            "Je pourrais regarder ce film encore et encore !",
-            "Un peu lent, mais la fin en valait la peine.",
-            "Ce film est véritablement une œuvre d'art."
+            {
+                "review": "Je pourrais regarder ce film encore et encore !",
+                "user": "Charlie"
+            },
+            {
+                "review": "Un peu lent, mais la fin en valait la peine.",
+                "user": "Bob"
+            },
+            {
+                "review": "Ce film est v\u00e9ritablement une \u0153uvre d'art.",
+                "user": "Charlie"
+            }
         ]
     },
     {
         "id": "tt0361748",
         "title": "Inglourious Basterds",
         "release_date": "21/08/2009",
-        "overview": "En France occupée par les nazis pendant la Seconde Guerre mondiale, un plan visant à assassiner des dirigeants nazis par un groupe de soldats américains juifs coïncide avec les plans vengeurs d'un propriétaire de théâtre pour la même raison.",
+        "overview": "En France occup\u00e9e par les nazis pendant la Seconde Guerre mondiale, un plan visant \u00e0 assassiner des dirigeants nazis par un groupe de soldats am\u00e9ricains juifs co\u00efncide avec les plans vengeurs d'un propri\u00e9taire de th\u00e9\u00e2tre pour la m\u00eame raison.",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BODZhMWJlNjYtNDExNC00MTIzLTllM2ItOGQ2NGVjNDQ3MzkzXkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "8.4",
         "reviews": [
-            "Pas aussi génial qu'on le dit, mais quand même bon.",
-            "L'intrigue était captivante du début à la fin.",
-            "Un classique intemporel que tout le monde devrait voir."
+            {
+                "review": "Pas aussi g\u00e9nial qu'on le dit, mais quand m\u00eame bon.",
+                "user": "Alice"
+            },
+            {
+                "review": "L'intrigue \u00e9tait captivante du d\u00e9but \u00e0 la fin.",
+                "user": "Bob"
+            },
+            {
+                "review": "Un classique intemporel que tout le monde devrait voir.",
+                "user": "Bob"
+            }
         ]
     },
     {
         "id": "tt0198781",
         "title": "Monsters, Inc.",
         "release_date": "23/11/2001",
-        "overview": "Pour pouvoir la ville, les monstres doivent effrayer les enfants pour qu'ils crient. Cependant, les enfants sont toxiques pour les monstres, et après qu'un enfant ait traversé, deux monstres réalisent que les choses peuvent ne pas être ce qu'ils pensent.",
+        "overview": "Pour pouvoir la ville, les monstres doivent effrayer les enfants pour qu'ils crient. Cependant, les enfants sont toxiques pour les monstres, et apr\u00e8s qu'un enfant ait travers\u00e9, deux monstres r\u00e9alisent que les choses peuvent ne pas \u00eatre ce qu'ils pensent.",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BMTY1NTI0ODUyOF5BMl5BanBnXkFtZTgwNTEyNjQ0MDE@._V1_SX300.jpg",
         "vote_average": "8.1",
         "reviews": [
-            "Un des meilleurs films que j'ai jamais vu.",
-            "Je pourrais regarder ce film encore et encore !",
-            "Des acteurs fantastiques, mais le rythme était parfois lent."
+            {
+                "review": "Un des meilleurs films que j'ai jamais vu.",
+                "user": "Eve"
+            },
+            {
+                "review": "Je pourrais regarder ce film encore et encore !",
+                "user": "Dave"
+            },
+            {
+                "review": "Des acteurs fantastiques, mais le rythme \u00e9tait parfois lent.",
+                "user": "Charlie"
+            }
         ]
     },
     {
         "id": "tt0034584",
-        "title": "Casanova farebbe così!",
+        "title": "Casanova farebbe cos\u00ec!",
         "release_date": "05/12/1942",
-        "overview": "Un pari d'un pays qu'il peut passer une nuit avec une beauté locale. Lorsqu'il est surprésidé par son mari, il est non seulement forcé de payer l'argent de ses amis, mais aussi mis au défi de trouver une nouvelle identité...",
+        "overview": "Un pari d'un pays qu'il peut passer une nuit avec une beaut\u00e9 locale. Lorsqu'il est surpr\u00e9sid\u00e9 par son mari, il est non seulement forc\u00e9 de payer l'argent de ses amis, mais aussi mis au d\u00e9fi de trouver une nouvelle identit\u00e9...",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BMzdkMzEyZTktMTZiNi00NmI4LTg2ZjUtMmI3NWY4MzZkNTNjXkEyXkFqcGdeQXVyMTQ3Njg3MQ@@._V1_SX300.jpg",
         "vote_average": "6.6",
         "reviews": [
-            "L'intrigue était captivante du début à la fin.",
-            "Un incontournable pour tous les amateurs de cinéma.",
-            "Une belle histoire d'espoir et de résilience."
+            {
+                "review": "L'intrigue \u00e9tait captivante du d\u00e9but \u00e0 la fin.",
+                "user": "Bob"
+            },
+            {
+                "review": "Un incontournable pour tous les amateurs de cin\u00e9ma.",
+                "user": "Bob"
+            },
+            {
+                "review": "Une belle histoire d'espoir et de r\u00e9silience.",
+                "user": "Alice"
+            }
         ]
     },
     {
         "id": "tt0078748",
-        "title": "Alien, le huitième passager",
+        "title": "Alien, le huiti\u00e8me passager",
         "release_date": "22/06/1979",
-        "overview": "À moins d'enquêter sur une mystérieuse transmestsion d'origine inconnue, l'équipage d'un vaisseau spatial commercial rencontre une forme de vie mortelle.",
+        "overview": "\u00c0 moins d'enqu\u00eater sur une myst\u00e9rieuse transmestsion d'origine inconnue, l'\u00e9quipage d'un vaisseau spatial commercial rencontre une forme de vie mortelle.",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BN2NhMDk2MmEtZDQzOC00MmY5LThhYzAtMDdjZGFjOGZjMjdjXkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "8.5",
         "reviews": [
-            "Fortement recommandé pour les fans du genre.",
-            "Un chef-d'œuvre absolu ! Ça m'a laissé sans voix.",
-            "Pas aussi génial qu'on le dit, mais quand même bon."
+            {
+                "review": "Fortement recommand\u00e9 pour les fans du genre.",
+                "user": "Dave"
+            },
+            {
+                "review": "Un chef-d'\u0153uvre absolu ! \u00c7a m'a laiss\u00e9 sans voix.",
+                "user": "Charlie"
+            },
+            {
+                "review": "Pas aussi g\u00e9nial qu'on le dit, mais quand m\u00eame bon.",
+                "user": "Charlie"
+            }
         ]
     },
     {
         "id": "tt0047478",
-        "title": "Les Sept Samouraïs",
+        "title": "Les Sept Samoura\u00efs",
         "release_date": "19/11/1956",
-        "overview": "Les agriculteurs d'un village exploité par des bandits engagent un samouraï vétéran pour la protection, et il rassemble six autres samouraïs pour le rejoindre.",
+        "overview": "Les agriculteurs d'un village exploit\u00e9 par des bandits engagent un samoura\u00ef v\u00e9t\u00e9ran pour la protection, et il rassemble six autres samoura\u00efs pour le rejoindre.",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BZjliMWExOTMtZDQ3ZS00NWU3LWIyN2EtMjllNzk3ZTNlYzg4XkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "8.6",
         "reviews": [
-            "Cela a dépassé toutes mes attentes.",
-            "Des acteurs fantastiques, mais le rythme était parfois lent.",
-            "Un chef-d'œuvre absolu ! Ça m'a laissé sans voix."
+            {
+                "review": "Cela a d\u00e9pass\u00e9 toutes mes attentes.",
+                "user": "Charlie"
+            },
+            {
+                "review": "Des acteurs fantastiques, mais le rythme \u00e9tait parfois lent.",
+                "user": "Eve"
+            },
+            {
+                "review": "Un chef-d'\u0153uvre absolu ! \u00c7a m'a laiss\u00e9 sans voix.",
+                "user": "Bob"
+            }
         ]
     },
     {
         "id": "tt0053125",
         "title": "La Mort aux trousses",
         "release_date": "18/12/1959",
-        "overview": "Un New York L'advertiste de la ville continue à courir après avoir été mesttaken pour un agent du gouvernement par un groupe d'espions étrangers, et tombe pour une femme dont il commence à douter de loyauté.",
+        "overview": "Un New York L'advertiste de la ville continue \u00e0 courir apr\u00e8s avoir \u00e9t\u00e9 mesttaken pour un agent du gouvernement par un groupe d'espions \u00e9trangers, et tombe pour une femme dont il commence \u00e0 douter de loyaut\u00e9.",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BZWIzODI2OGItMzM0Ny00OGRmLTlkNmItMDQxMTFmMTk3YmQwXkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "8.3",
         "reviews": [
-            "Un incontournable pour tous les amateurs de cinéma.",
-            "Un peu surestimé, mais ça vaut le détour.",
-            "Un chef-d'œuvre absolu ! Ça m'a laissé sans voix."
+            {
+                "review": "Un incontournable pour tous les amateurs de cin\u00e9ma.",
+                "user": "Bob"
+            },
+            {
+                "review": "Un peu surestim\u00e9, mais \u00e7a vaut le d\u00e9tour.",
+                "user": "Bob"
+            },
+            {
+                "review": "Un chef-d'\u0153uvre absolu ! \u00c7a m'a laiss\u00e9 sans voix.",
+                "user": "Bob"
+            }
         ]
     },
     {
         "id": "tt0101410",
         "title": "Barton Fink",
         "release_date": "21/08/1991",
-        "overview": "Un dramaturge new-yorkais renommé est enthousiasmé par la Californie pour écrire pour les films et détruire la vérité hollywoodienne.",
+        "overview": "Un dramaturge new-yorkais renomm\u00e9 est enthousiasm\u00e9 par la Californie pour \u00e9crire pour les films et d\u00e9truire la v\u00e9rit\u00e9 hollywoodienne.",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BNDc1YWRjODItNGZjNS00MDI4LTliYWYtNDdjZjI3ZWYzNzM4XkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "7.6",
         "reviews": [
-            "Une réalisation incroyable et une cinématographie exceptionnelle.",
-            "Une narration brillante avec des performances incroyables.",
-            "Fortement recommandé pour les fans du genre."
+            {
+                "review": "Une r\u00e9alisation incroyable et une cin\u00e9matographie exceptionnelle.",
+                "user": "Bob"
+            },
+            {
+                "review": "Une narration brillante avec des performances incroyables.",
+                "user": "Dave"
+            },
+            {
+                "review": "Fortement recommand\u00e9 pour les fans du genre.",
+                "user": "Bob"
+            }
         ]
     },
     {
         "id": "tt0086190",
         "title": "Star Wars: Episode VI - Return of the Jedi",
         "release_date": "25/05/1983",
-        "overview": "Unfter sauvetage Han Solo de Jabba le Hutt, l'Unllion Rebel tente de détruire la deuxième étoile de la mort tandis que Luke lutte pour aider Darth Vader de retour du côté obscur.",
+        "overview": "Unfter sauvetage Han Solo de Jabba le Hutt, l'Unllion Rebel tente de d\u00e9truire la deuxi\u00e8me \u00e9toile de la mort tandis que Luke lutte pour aider Darth Vader de retour du c\u00f4t\u00e9 obscur.",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BNWEwOTI0MmUtMGNmNy00ODViLTlkZDQtZTg1YmQ3MDgyNTUzXkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "8.3",
         "reviews": [
-            "Un des meilleurs films que j'ai jamais vu.",
-            "Une montagne russe émotionnelle qui reste en tête.",
-            "Un chef-d'œuvre absolu ! Ça m'a laissé sans voix."
+            {
+                "review": "Un des meilleurs films que j'ai jamais vu.",
+                "user": "Charlie"
+            },
+            {
+                "review": "Une montagne russe \u00e9motionnelle qui reste en t\u00eate.",
+                "user": "Bob"
+            },
+            {
+                "review": "Un chef-d'\u0153uvre absolu ! \u00c7a m'a laiss\u00e9 sans voix.",
+                "user": "Dave"
+            }
         ]
     },
     {
         "id": "tt0407887",
-        "title": "Les Infiltrés",
+        "title": "Les Infiltr\u00e9s",
         "release_date": "06/10/2006",
-        "overview": "Un flic sous couverture et une taupe dans la police tentent de s'identifier en infiltrant un gang d'Iresth à South Boston.",
+        "overview": "Un flic sous couverture et une taupe dans la police tentent de s'identifier en infiltrant un gang d'Iresth \u00e0 South Boston.",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BMTI1MTY2OTIxNV5BMl5BanBnXkFtZTYwNjQ4NjY3._V1_SX300.jpg",
         "vote_average": "8.5",
         "reviews": [
-            "L'intrigue était captivante du début à la fin.",
-            "Une narration brillante avec des performances incroyables.",
-            "Des acteurs fantastiques, mais le rythme était parfois lent."
+            {
+                "review": "L'intrigue \u00e9tait captivante du d\u00e9but \u00e0 la fin.",
+                "user": "Eve"
+            },
+            {
+                "review": "Une narration brillante avec des performances incroyables.",
+                "user": "Alice"
+            },
+            {
+                "review": "Des acteurs fantastiques, mais le rythme \u00e9tait parfois lent.",
+                "user": "Eve"
+            }
         ]
     },
     {
@@ -475,880 +799,1492 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BZGI4OTk4MDMtYmQ1Ni00YTUzLTkyYTktZGUwMjMyN2M4NjQ5XkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "8.3",
         "reviews": [
-            "L'intrigue était captivante du début à la fin.",
-            "Un classique intemporel que tout le monde devrait voir.",
-            "Un excellent mélange de drame, d'action et de suspense."
+            {
+                "review": "L'intrigue \u00e9tait captivante du d\u00e9but \u00e0 la fin.",
+                "user": "Eve"
+            },
+            {
+                "review": "Un classique intemporel que tout le monde devrait voir.",
+                "user": "Charlie"
+            },
+            {
+                "review": "Un excellent m\u00e9lange de drame, d'action et de suspense.",
+                "user": "Alice"
+            }
         ]
     },
     {
         "id": "tt0081505",
         "title": "Shining",
         "release_date": "13/06/1980",
-        "overview": "Une famille se dirige vers un hôtel isolé pour l'hiver, où une présence sinester influence le père dans la violence. Dans le même temps, le fils psychique hest voit des avant-goûts horribles du passé et du futur.",
+        "overview": "Une famille se dirige vers un h\u00f4tel isol\u00e9 pour l'hiver, o\u00f9 une pr\u00e9sence sinester influence le p\u00e8re dans la violence. Dans le m\u00eame temps, le fils psychique hest voit des avant-go\u00fbts horribles du pass\u00e9 et du futur.",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BNmM5ZThhY2ItOGRjOS00NzZiLWEwYTItNDgyMjFkOTgxMmRiXkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "8.4",
         "reviews": [
-            "Fortement recommandé pour les fans du genre.",
-            "Une réalisation incroyable et une cinématographie exceptionnelle.",
-            "Je pourrais regarder ce film encore et encore !"
+            {
+                "review": "Fortement recommand\u00e9 pour les fans du genre.",
+                "user": "Dave"
+            },
+            {
+                "review": "Une r\u00e9alisation incroyable et une cin\u00e9matographie exceptionnelle.",
+                "user": "Dave"
+            },
+            {
+                "review": "Je pourrais regarder ce film encore et encore !",
+                "user": "Bob"
+            }
         ]
     },
     {
         "id": "tt0024216",
         "title": "King Kong",
         "release_date": "07/04/1933",
-        "overview": "Un équipe de tournage se rend dans un pays tropical pour un tournage d'emplacement, où ils capturent un singe colossal qui brille sur leur étoile blonde, et le ramènent à New York.",
+        "overview": "Un \u00e9quipe de tournage se rend dans un pays tropical pour un tournage d'emplacement, o\u00f9 ils capturent un singe colossal qui brille sur leur \u00e9toile blonde, et le ram\u00e8nent \u00e0 New York.",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BYmFmNTFlN2QtZmEzNS00MTRmLWE1ZGUtODk5YzY1ZTkzMGUzXkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "7.9",
         "reviews": [
-            "Je pourrais regarder ce film encore et encore !",
-            "Une montagne russe émotionnelle qui reste en tête.",
-            "Un incontournable pour tous les amateurs de cinéma."
+            {
+                "review": "Je pourrais regarder ce film encore et encore !",
+                "user": "Charlie"
+            },
+            {
+                "review": "Une montagne russe \u00e9motionnelle qui reste en t\u00eate.",
+                "user": "Alice"
+            },
+            {
+                "review": "Un incontournable pour tous les amateurs de cin\u00e9ma.",
+                "user": "Eve"
+            }
         ]
     },
     {
         "id": "tt0097814",
         "title": "Kiki's Delivery Service",
         "release_date": "20/12/1990",
-        "overview": "Debout avec son chat noir Jiji, Kiki s'installe dans une ville balnéaire et commence un service de livraison haut vol. Ici commence sa rencontre magique avec l'indépendance et la responsabilité, se faisant des amis tout au long de ...",
+        "overview": "Debout avec son chat noir Jiji, Kiki s'installe dans une ville baln\u00e9aire et commence un service de livraison haut vol. Ici commence sa rencontre magique avec l'ind\u00e9pendance et la responsabilit\u00e9, se faisant des amis tout au long de ...",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BOTFhYWI1NGUtZWFhZS00MTdkLWIzZTItMDBhNWNiZDNlMjYyXkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "7.8",
         "reviews": [
-            "Je pourrais regarder ce film encore et encore !",
-            "Une réalisation incroyable et une cinématographie exceptionnelle.",
-            "Un excellent mélange de drame, d'action et de suspense."
+            {
+                "review": "Je pourrais regarder ce film encore et encore !",
+                "user": "Charlie"
+            },
+            {
+                "review": "Une r\u00e9alisation incroyable et une cin\u00e9matographie exceptionnelle.",
+                "user": "Eve"
+            },
+            {
+                "review": "Un excellent m\u00e9lange de drame, d'action et de suspense.",
+                "user": "Charlie"
+            }
         ]
     },
     {
         "id": "tt0088247",
         "title": "The Terminator",
         "release_date": "26/10/1984",
-        "overview": "Un assassin de cyborg du futur tente de trouver et de tuer une jeune femme qui est destinée à donner naissance à un guerrier qui mènera une resestance pour sauver l'humanité de l'extinction.",
+        "overview": "Un assassin de cyborg du futur tente de trouver et de tuer une jeune femme qui est destin\u00e9e \u00e0 donner naissance \u00e0 un guerrier qui m\u00e8nera une resestance pour sauver l'humanit\u00e9 de l'extinction.",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BZmE0YzIxM2QtMGNlMi00MjRmLWE3MWMtOWQzMGVjMmU0YTFmXkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "8.1",
         "reviews": [
-            "Un chef-d'œuvre absolu ! Ça m'a laissé sans voix.",
-            "Un peu surestimé, mais ça vaut le détour.",
-            "Une montagne russe émotionnelle qui reste en tête."
+            {
+                "review": "Un chef-d'\u0153uvre absolu ! \u00c7a m'a laiss\u00e9 sans voix.",
+                "user": "Dave"
+            },
+            {
+                "review": "Un peu surestim\u00e9, mais \u00e7a vaut le d\u00e9tour.",
+                "user": "Alice"
+            },
+            {
+                "review": "Une montagne russe \u00e9motionnelle qui reste en t\u00eate.",
+                "user": "Dave"
+            }
         ]
     },
     {
         "id": "tt0072684",
         "title": "Barry Lyndon",
         "release_date": "18/12/1975",
-        "overview": "Unn Iresth rogue gagne le cœur d'une veuve riche et assume la position arestocratique de son mari décédé dans l'Angleterre du XVIIIe siècle.",
+        "overview": "Unn Iresth rogue gagne le c\u0153ur d'une veuve riche et assume la position arestocratique de son mari d\u00e9c\u00e9d\u00e9 dans l'Angleterre du XVIIIe si\u00e8cle.",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BNmM2MGQ5Y2UtYzA3ZC00ZDJlLTkwNDYtMjBmZGExZDJiN2RlXkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "8.1",
         "reviews": [
-            "Ce film est véritablement une œuvre d'art.",
-            "Un incontournable pour tous les amateurs de cinéma.",
-            "Un des meilleurs films que j'ai jamais vu."
+            {
+                "review": "Ce film est v\u00e9ritablement une \u0153uvre d'art.",
+                "user": "Eve"
+            },
+            {
+                "review": "Un incontournable pour tous les amateurs de cin\u00e9ma.",
+                "user": "Charlie"
+            },
+            {
+                "review": "Un des meilleurs films que j'ai jamais vu.",
+                "user": "Eve"
+            }
         ]
     },
     {
         "id": "tt0042192",
         "title": "All About Eve",
         "release_date": "27/10/1950",
-        "overview": "Apparemment timide mais secrètement impitoyable ingénieuse Eve Harrington s'insinue dans la vie de la star de Broadway Margo Channing vieillissante et de son cercle d'amis de théâtre dans la plus Oscar-winning histoire.",
+        "overview": "Apparemment timide mais secr\u00e8tement impitoyable ing\u00e9nieuse Eve Harrington s'insinue dans la vie de la star de Broadway Margo Channing vieillissante et de son cercle d'amis de th\u00e9\u00e2tre dans la plus Oscar-winning histoire.",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BOTM4ZjUzOGUtYzdlZi00ZmM5LTk5NTEtMjQxNDVmOTc5NWNlXkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "8.2",
         "reviews": [
-            "Cela a dépassé toutes mes attentes.",
-            "Un incontournable pour tous les amateurs de cinéma.",
-            "Une narration brillante avec des performances incroyables."
+            {
+                "review": "Cela a d\u00e9pass\u00e9 toutes mes attentes.",
+                "user": "Alice"
+            },
+            {
+                "review": "Un incontournable pour tous les amateurs de cin\u00e9ma.",
+                "user": "Charlie"
+            },
+            {
+                "review": "Une narration brillante avec des performances incroyables.",
+                "user": "Eve"
+            }
         ]
     },
     {
         "id": "tt0118798",
         "title": "Bulworth",
         "release_date": "22/05/1998",
-        "overview": "Un politicien libéral distillé de façon suicidaire met un contrat sur lui-même et profite de l'occasion pour être franchement honnête avec les électeurs hest en affectant les rythmes et le discours de la musique et de la culture hip-hop.",
+        "overview": "Un politicien lib\u00e9ral distill\u00e9 de fa\u00e7on suicidaire met un contrat sur lui-m\u00eame et profite de l'occasion pour \u00eatre franchement honn\u00eate avec les \u00e9lecteurs hest en affectant les rythmes et le discours de la musique et de la culture hip-hop.",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BMTY2NTM5NjIyOV5BMl5BanBnXkFtZTgwMzUwNzc3NjE@._V1_SX300.jpg",
         "vote_average": "6.8",
         "reviews": [
-            "Pas aussi génial qu'on le dit, mais quand même bon.",
-            "Cela a dépassé toutes mes attentes.",
-            "Une narration puissante avec des moments inoubliables."
+            {
+                "review": "Pas aussi g\u00e9nial qu'on le dit, mais quand m\u00eame bon.",
+                "user": "Bob"
+            },
+            {
+                "review": "Cela a d\u00e9pass\u00e9 toutes mes attentes.",
+                "user": "Alice"
+            },
+            {
+                "review": "Une narration puissante avec des moments inoubliables.",
+                "user": "Alice"
+            }
         ]
     },
     {
         "id": "tt0041959",
         "title": "The Third Man",
         "release_date": "01/02/1950",
-        "overview": "Pâte nouvelle Holly Martins voyage à Vienne, dans l'ombre, après la guerre, pour se retrouver enquêtant sur la mort mystérieuse d'un vieil ami, Harry Lime.",
+        "overview": "P\u00e2te nouvelle Holly Martins voyage \u00e0 Vienne, dans l'ombre, apr\u00e8s la guerre, pour se retrouver enqu\u00eatant sur la mort myst\u00e9rieuse d'un vieil ami, Harry Lime.",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BNTAwZjAwZDUtNDc1Yi00OGY3LTgzMjktYjIyMjQzOWE3MmVhXkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "8.1",
         "reviews": [
-            "Fortement recommandé pour les fans du genre.",
-            "Un des meilleurs films que j'ai jamais vu.",
-            "Une montagne russe émotionnelle qui reste en tête."
+            {
+                "review": "Fortement recommand\u00e9 pour les fans du genre.",
+                "user": "Dave"
+            },
+            {
+                "review": "Un des meilleurs films que j'ai jamais vu.",
+                "user": "Alice"
+            },
+            {
+                "review": "Une montagne russe \u00e9motionnelle qui reste en t\u00eate.",
+                "user": "Eve"
+            }
         ]
     },
     {
         "id": "tt0090338",
         "title": "Woman of Wonders",
         "release_date": "06/09/1985",
-        "overview": "Un réalisateur non réussi est d'avoir une crête de la quarantaine. Il a une ex-femme, un ex-amoureux et quelques enfants qu'il ne voit jamais. Il commence à recevoir des appels d'une belle mystérieuse femme qui devient obsessionnelle et lui fait réfléchir sur hest...",
+        "overview": "Un r\u00e9alisateur non r\u00e9ussi est d'avoir une cr\u00eate de la quarantaine. Il a une ex-femme, un ex-amoureux et quelques enfants qu'il ne voit jamais. Il commence \u00e0 recevoir des appels d'une belle myst\u00e9rieuse femme qui devient obsessionnelle et lui fait r\u00e9fl\u00e9chir sur hest...",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BNmJlNjc2N2UtMDFhYi00Y2VhLWFmNzUtYjk2ZGEwMmQxZWM2L2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMTQ3Njg3MQ@@._V1_SX300.jpg",
         "vote_average": "1.7",
         "reviews": [
-            "Fortement recommandé pour les fans du genre.",
-            "Une narration brillante avec des performances incroyables.",
-            "Une belle histoire d'espoir et de résilience."
+            {
+                "review": "Fortement recommand\u00e9 pour les fans du genre.",
+                "user": "Dave"
+            },
+            {
+                "review": "Une narration brillante avec des performances incroyables.",
+                "user": "Eve"
+            },
+            {
+                "review": "Une belle histoire d'espoir et de r\u00e9silience.",
+                "user": "Alice"
+            }
         ]
     },
     {
         "id": "tt0068647",
         "title": "Gonshchiki",
         "release_date": "02/04/1973",
-        "overview": "Déplacer un crash deux coureurs de rallye ne peuvent pas aider mais diviser une équipe. Maintenant, les deux équipes ainsi que beaucoup d'autres coureurs talants ont rejoint un nouveau rallye, testant à la fois les compétences et l'amitié.",
+        "overview": "D\u00e9placer un crash deux coureurs de rallye ne peuvent pas aider mais diviser une \u00e9quipe. Maintenant, les deux \u00e9quipes ainsi que beaucoup d'autres coureurs talants ont rejoint un nouveau rallye, testant \u00e0 la fois les comp\u00e9tences et l'amiti\u00e9.",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BN2QwZjJlYmItMDcwOS00N2VkLThjN2QtYTc4ODM4ZWZmOWM0XkEyXkFqcGdeQXVyNjg3MTIwODI@._V1_SX300.jpg",
         "vote_average": "7.0",
         "reviews": [
-            "Un peu lent, mais la fin en valait la peine.",
-            "Un peu surestimé, mais ça vaut le détour.",
-            "Ce film est véritablement une œuvre d'art."
+            {
+                "review": "Un peu lent, mais la fin en valait la peine.",
+                "user": "Bob"
+            },
+            {
+                "review": "Un peu surestim\u00e9, mais \u00e7a vaut le d\u00e9tour.",
+                "user": "Charlie"
+            },
+            {
+                "review": "Ce film est v\u00e9ritablement une \u0153uvre d'art.",
+                "user": "Bob"
+            }
         ]
     },
     {
         "id": "tt0073195",
         "title": "Jaws",
         "release_date": "20/06/1975",
-        "overview": "Lorsqu'un requin tueur massif déclenche le chaos sur une communauté de plage au large de Long Island, c'est à un shérif local, un biologiste marin et un vieux marin de chasser la bête.",
+        "overview": "Lorsqu'un requin tueur massif d\u00e9clenche le chaos sur une communaut\u00e9 de plage au large de Long Island, c'est \u00e0 un sh\u00e9rif local, un biologiste marin et un vieux marin de chasser la b\u00eate.",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BYjViNDQzNmUtYzkxZi00NTk5LTljMmItYjJlZmZkODIxNjU1XkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "8.1",
         "reviews": [
-            "Des acteurs fantastiques, mais le rythme était parfois lent.",
-            "Une narration brillante avec des performances incroyables.",
-            "Pas aussi génial qu'on le dit, mais quand même bon."
+            {
+                "review": "Des acteurs fantastiques, mais le rythme \u00e9tait parfois lent.",
+                "user": "Alice"
+            },
+            {
+                "review": "Une narration brillante avec des performances incroyables.",
+                "user": "Bob"
+            },
+            {
+                "review": "Pas aussi g\u00e9nial qu'on le dit, mais quand m\u00eame bon.",
+                "user": "Bob"
+            }
         ]
     },
     {
         "id": "tt0100332",
         "title": "Paris Is Burning",
         "release_date": "01/08/1991",
-        "overview": "Une chronique de la scène de drag de New York dans les années 80, mettant l'accent sur les couilles, le voguing et les ambitions et les rêves de ceux qui ont donné à l'époque sa chaleur et sa vitalité.",
+        "overview": "Une chronique de la sc\u00e8ne de drag de New York dans les ann\u00e9es 80, mettant l'accent sur les couilles, le voguing et les ambitions et les r\u00eaves de ceux qui ont donn\u00e9 \u00e0 l'\u00e9poque sa chaleur et sa vitalit\u00e9.",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BNGE3ZmUxMjctZTA0OS00NzBlLWI0M2MtOTA4ZGY1Nzc3YWE3XkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "8.2",
         "reviews": [
-            "Cela a dépassé toutes mes attentes.",
-            "Une montagne russe émotionnelle qui reste en tête.",
-            "Des acteurs fantastiques, mais le rythme était parfois lent."
+            {
+                "review": "Cela a d\u00e9pass\u00e9 toutes mes attentes.",
+                "user": "Bob"
+            },
+            {
+                "review": "Une montagne russe \u00e9motionnelle qui reste en t\u00eate.",
+                "user": "Charlie"
+            },
+            {
+                "review": "Des acteurs fantastiques, mais le rythme \u00e9tait parfois lent.",
+                "user": "Bob"
+            }
         ]
     },
     {
         "id": "tt0025836",
         "title": "Straight Is the Way",
         "release_date": "10/08/1934",
-        "overview": "Juste à côté de Preston, Benny Horowitz essaie d'aller tout droit. Les choses sont compliquées par l'ancienne petite amie et les anciens copains de gangster.",
+        "overview": "Juste \u00e0 c\u00f4t\u00e9 de Preston, Benny Horowitz essaie d'aller tout droit. Les choses sont compliqu\u00e9es par l'ancienne petite amie et les anciens copains de gangster.",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BNjA5MDk0YTItM2IzYi00NmZkLThlYWQtZTZhNjI3NjY4MDhjXkEyXkFqcGdeQXVyNTUyNzA5ODE@._V1_SX300.jpg",
         "vote_average": "5.9",
         "reviews": [
-            "Une belle histoire d'espoir et de résilience.",
-            "Un chef-d'œuvre absolu ! Ça m'a laissé sans voix.",
-            "Un des meilleurs films que j'ai jamais vu."
+            {
+                "review": "Une belle histoire d'espoir et de r\u00e9silience.",
+                "user": "Bob"
+            },
+            {
+                "review": "Un chef-d'\u0153uvre absolu ! \u00c7a m'a laiss\u00e9 sans voix.",
+                "user": "Alice"
+            },
+            {
+                "review": "Un des meilleurs films que j'ai jamais vu.",
+                "user": "Eve"
+            }
         ]
     },
     {
         "id": "tt0082092",
-        "title": "Bom Povo Português",
+        "title": "Bom Povo Portugu\u00eas",
         "release_date": "18/11/1981",
-        "overview": "À l'aide d'images de films et de télévision prises lors du mouvement révolutionnaire d'Unpril 25, 1974 au Portugal, et en le mélangeant avec de la musique et des interviews en direct avec des gens communs, le réalisateur raconte ...",
+        "overview": "\u00c0 l'aide d'images de films et de t\u00e9l\u00e9vision prises lors du mouvement r\u00e9volutionnaire d'Unpril 25, 1974 au Portugal, et en le m\u00e9langeant avec de la musique et des interviews en direct avec des gens communs, le r\u00e9alisateur raconte ...",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BMmM1ZTg5Y2YtNWU3ZC00NmFiLWI5YTAtNzhmOThjNzhlOTBlXkEyXkFqcGdeQXVyNDg5MjMyMTM@._V1_SX300.jpg",
         "vote_average": "7.5",
         "reviews": [
-            "Une réalisation incroyable et une cinématographie exceptionnelle.",
-            "Un peu surestimé, mais ça vaut le détour.",
-            "Un incontournable pour tous les amateurs de cinéma."
+            {
+                "review": "Une r\u00e9alisation incroyable et une cin\u00e9matographie exceptionnelle.",
+                "user": "Charlie"
+            },
+            {
+                "review": "Un peu surestim\u00e9, mais \u00e7a vaut le d\u00e9tour.",
+                "user": "Charlie"
+            },
+            {
+                "review": "Un incontournable pour tous les amateurs de cin\u00e9ma.",
+                "user": "Bob"
+            }
         ]
     },
     {
         "id": "tt0060196",
         "title": "The Good, the Bad and the Ugly",
         "release_date": "29/12/1967",
-        "overview": "Une escroquerie de chasse aux primes rejoint deux hommes dans une alliance difficile contre un tiers dans une course pour trouver une fortune en or enterré dans un cimetière éloigné.",
+        "overview": "Une escroquerie de chasse aux primes rejoint deux hommes dans une alliance difficile contre un tiers dans une course pour trouver une fortune en or enterr\u00e9 dans un cimeti\u00e8re \u00e9loign\u00e9.",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BMWM5ZjQxM2YtNDlmYi00ZDNhLWI4MWUtN2VkYjBlMTY1ZTkwXkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "8.8",
         "reviews": [
-            "Un chef-d'œuvre absolu ! Ça m'a laissé sans voix.",
-            "Je pourrais regarder ce film encore et encore !",
-            "Un incontournable pour tous les amateurs de cinéma."
+            {
+                "review": "Un chef-d'\u0153uvre absolu ! \u00c7a m'a laiss\u00e9 sans voix.",
+                "user": "Eve"
+            },
+            {
+                "review": "Je pourrais regarder ce film encore et encore !",
+                "user": "Alice"
+            },
+            {
+                "review": "Un incontournable pour tous les amateurs de cin\u00e9ma.",
+                "user": "Bob"
+            }
         ]
     },
     {
         "id": "tt0113011",
         "title": "To Make a Film Is to Be Alive",
         "release_date": "22/04/2007",
-        "overview": "Dans les coulisses de \"Unl di là delle nuvole\" (1995).",
+        "overview": "Dans les coulisses de \"Unl di l\u00e0 delle nuvole\" (1995).",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BMTk5MDMxOTA4MF5BMl5BanBnXkFtZTcwMDgzMjYxMQ@@._V1_SX300.jpg",
         "vote_average": "6.5",
         "reviews": [
-            "Un chef-d'œuvre absolu ! Ça m'a laissé sans voix.",
-            "Ce film est véritablement une œuvre d'art.",
-            "Une belle histoire d'espoir et de résilience."
+            {
+                "review": "Un chef-d'\u0153uvre absolu ! \u00c7a m'a laiss\u00e9 sans voix.",
+                "user": "Dave"
+            },
+            {
+                "review": "Ce film est v\u00e9ritablement une \u0153uvre d'art.",
+                "user": "Eve"
+            },
+            {
+                "review": "Une belle histoire d'espoir et de r\u00e9silience.",
+                "user": "Bob"
+            }
         ]
     },
     {
         "id": "tt0053672",
         "title": "The Boy and the Pirates",
         "release_date": "13/04/1960",
-        "overview": "Un jeune garçon est transporté magiquement dans le temps vers un bateau pirate en haute mer.",
+        "overview": "Un jeune gar\u00e7on est transport\u00e9 magiquement dans le temps vers un bateau pirate en haute mer.",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BMTY3MTE4NDM2OV5BMl5BanBnXkFtZTgwMTU4Nzk1MDE@._V1_SX300.jpg",
         "vote_average": "5.2",
         "reviews": [
-            "Une attention incroyable aux détails et au développement des personnages.",
-            "Un des meilleurs films que j'ai jamais vu.",
-            "Un chef-d'œuvre absolu ! Ça m'a laissé sans voix."
+            {
+                "review": "Une attention incroyable aux d\u00e9tails et au d\u00e9veloppement des personnages.",
+                "user": "Eve"
+            },
+            {
+                "review": "Un des meilleurs films que j'ai jamais vu.",
+                "user": "Alice"
+            },
+            {
+                "review": "Un chef-d'\u0153uvre absolu ! \u00c7a m'a laiss\u00e9 sans voix.",
+                "user": "Alice"
+            }
         ]
     },
     {
         "id": "tt0031398",
         "title": "Gunga Din",
         "release_date": "17/02/1939",
-        "overview": "Au XIXe siècle, l'Inde, trois soldats britanniques et un porte-eau indigène doivent arrêter un réveil de masse secret du culte meurtrier de Thuggee avant qu'il ne puisse s'infiltrer à travers la terre.",
+        "overview": "Au XIXe si\u00e8cle, l'Inde, trois soldats britanniques et un porte-eau indig\u00e8ne doivent arr\u00eater un r\u00e9veil de masse secret du culte meurtrier de Thuggee avant qu'il ne puisse s'infiltrer \u00e0 travers la terre.",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BNjI5OGViOTMtN2EwMy00N2ExLWI5YWYtMjgxOWVkNDM2MTZiXkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "7.2",
         "reviews": [
-            "L'intrigue était captivante du début à la fin.",
-            "Une narration puissante avec des moments inoubliables.",
-            "Des acteurs fantastiques, mais le rythme était parfois lent."
+            {
+                "review": "L'intrigue \u00e9tait captivante du d\u00e9but \u00e0 la fin.",
+                "user": "Alice"
+            },
+            {
+                "review": "Une narration puissante avec des moments inoubliables.",
+                "user": "Alice"
+            },
+            {
+                "review": "Des acteurs fantastiques, mais le rythme \u00e9tait parfois lent.",
+                "user": "Alice"
+            }
         ]
     },
     {
         "id": "tt0089028",
         "title": "Dirty Story",
         "release_date": "21/12/1984",
-        "overview": "Le directeur de l'une des plus grandes entreprises finlandaises, United Metal, fait disparaître le président de l'entreprise. Une chaîne de pots-de-vin s'ouvre.",
+        "overview": "Le directeur de l'une des plus grandes entreprises finlandaises, United Metal, fait dispara\u00eetre le pr\u00e9sident de l'entreprise. Une cha\u00eene de pots-de-vin s'ouvre.",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BMTMzZTFmOWQtYWQyNy00MjZhLTk0MDEtMzc4OTM0NmU2ODIzXkEyXkFqcGdeQXVyMjUyNDk2ODc@._V1_SX300.jpg",
         "vote_average": "5.1",
         "reviews": [
-            "Une montagne russe émotionnelle qui reste en tête.",
-            "Je pourrais regarder ce film encore et encore !",
-            "Un incontournable pour tous les amateurs de cinéma."
+            {
+                "review": "Une montagne russe \u00e9motionnelle qui reste en t\u00eate.",
+                "user": "Charlie"
+            },
+            {
+                "review": "Je pourrais regarder ce film encore et encore !",
+                "user": "Eve"
+            },
+            {
+                "review": "Un incontournable pour tous les amateurs de cin\u00e9ma.",
+                "user": "Eve"
+            }
         ]
     },
     {
         "id": "tt0046876",
         "title": "Creature from the Black Lagoon",
         "release_date": "05/03/1954",
-        "overview": "Une étrange bête préhesttorique se cache dans les profondeurs de la jungle unmazonienne. Un groupe de scientifiques tentent de capturer l'animal et de le ramener à la civilisation pour étude.",
+        "overview": "Une \u00e9trange b\u00eate pr\u00e9hesttorique se cache dans les profondeurs de la jungle unmazonienne. Un groupe de scientifiques tentent de capturer l'animal et de le ramener \u00e0 la civilisation pour \u00e9tude.",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BMjMwMjA5NDkyMl5BMl5BanBnXkFtZTgwMzYyMTY2MTE@._V1_SX300.jpg",
         "vote_average": "6.9",
         "reviews": [
-            "Des acteurs fantastiques, mais le rythme était parfois lent.",
-            "Pas aussi génial qu'on le dit, mais quand même bon.",
-            "Une narration puissante avec des moments inoubliables."
+            {
+                "review": "Des acteurs fantastiques, mais le rythme \u00e9tait parfois lent.",
+                "user": "Eve"
+            },
+            {
+                "review": "Pas aussi g\u00e9nial qu'on le dit, mais quand m\u00eame bon.",
+                "user": "Eve"
+            },
+            {
+                "review": "Une narration puissante avec des moments inoubliables.",
+                "user": "Eve"
+            }
         ]
     },
     {
         "id": "tt0032420",
         "title": "Drums of Fu Manchu",
         "release_date": "15/03/1940",
-        "overview": "Le infaillible Dr Fu Manchu cherche les clés de la tombe de Genghest Khan, afin d'accomplir une prophétie qui lui permettra de conquérir le monde. Le Dr Nayland Smith et ses associés se battent pour garder le mauvais doc...",
+        "overview": "Le infaillible Dr Fu Manchu cherche les cl\u00e9s de la tombe de Genghest Khan, afin d'accomplir une proph\u00e9tie qui lui permettra de conqu\u00e9rir le monde. Le Dr Nayland Smith et ses associ\u00e9s se battent pour garder le mauvais doc...",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BZDdmY2Q5ZjUtZTE3Zi00YjQyLWI0Y2UtMDk2OTE5YTMyYTMxXkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "6.9",
         "reviews": [
-            "Je pourrais regarder ce film encore et encore !",
-            "Une narration brillante avec des performances incroyables.",
-            "Une belle histoire d'espoir et de résilience."
+            {
+                "review": "Je pourrais regarder ce film encore et encore !",
+                "user": "Eve"
+            },
+            {
+                "review": "Une narration brillante avec des performances incroyables.",
+                "user": "Dave"
+            },
+            {
+                "review": "Une belle histoire d'espoir et de r\u00e9silience.",
+                "user": "Bob"
+            }
         ]
     },
     {
         "id": "tt0046816",
         "title": "The Caine Mutiny",
         "release_date": "24/06/1954",
-        "overview": "Lorsqu'un capitaine de la marine américaine montre des signes d'instabilité mentale qui menacent le navire, le premier officier est exhorté à envisager de le soulager du commandement.",
+        "overview": "Lorsqu'un capitaine de la marine am\u00e9ricaine montre des signes d'instabilit\u00e9 mentale qui menacent le navire, le premier officier est exhort\u00e9 \u00e0 envisager de le soulager du commandement.",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BMTQ4ODg4NzA3OV5BMl5BanBnXkFtZTgwMDcwODI5MjE@._V1_SX300.jpg",
         "vote_average": "7.7",
         "reviews": [
-            "Un classique intemporel que tout le monde devrait voir.",
-            "Cela a dépassé toutes mes attentes.",
-            "Je pourrais regarder ce film encore et encore !"
+            {
+                "review": "Un classique intemporel que tout le monde devrait voir.",
+                "user": "Bob"
+            },
+            {
+                "review": "Cela a d\u00e9pass\u00e9 toutes mes attentes.",
+                "user": "Eve"
+            },
+            {
+                "review": "Je pourrais regarder ce film encore et encore !",
+                "user": "Bob"
+            }
         ]
     },
     {
         "id": "tt0086577",
         "title": "Where Is Parsifal?",
         "release_date": "19/07/1985",
-        "overview": "Un homme dont la femme divertit des individus excentriques, n'a pas d'autre choix d'éviter la ruine que de vendre un brevet sur des poutres laser qu'il a inventé...",
+        "overview": "Un homme dont la femme divertit des individus excentriques, n'a pas d'autre choix d'\u00e9viter la ruine que de vendre un brevet sur des poutres laser qu'il a invent\u00e9...",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BMDI4YTUzOTEtMGExYi00NDExLTk3ZTEtODk0NjU1ZDM5ZjIyXkEyXkFqcGdeQXVyMTk0MjQ3Nzk@._V1_SX300.jpg",
         "vote_average": "4.9",
         "reviews": [
-            "Une montagne russe émotionnelle qui reste en tête.",
-            "L'intrigue était captivante du début à la fin.",
-            "Un classique intemporel que tout le monde devrait voir."
+            {
+                "review": "Une montagne russe \u00e9motionnelle qui reste en t\u00eate.",
+                "user": "Eve"
+            },
+            {
+                "review": "L'intrigue \u00e9tait captivante du d\u00e9but \u00e0 la fin.",
+                "user": "Dave"
+            },
+            {
+                "review": "Un classique intemporel que tout le monde devrait voir.",
+                "user": "Alice"
+            }
         ]
     },
     {
         "id": "tt0107231",
         "title": "Our Father...",
         "release_date": "22/10/1993",
-        "overview": "Le jeune marin Juhani revient chez lui, une ferme abandonnée dans la campagne finnoise. Il fait sortir le vieux père sénile de la maison de retraite locale et le ramène voir la ferme une fois de plus. Hanté par un sombre secret...",
+        "overview": "Le jeune marin Juhani revient chez lui, une ferme abandonn\u00e9e dans la campagne finnoise. Il fait sortir le vieux p\u00e8re s\u00e9nile de la maison de retraite locale et le ram\u00e8ne voir la ferme une fois de plus. Hant\u00e9 par un sombre secret...",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BZDljZjhiYjctMmMyYS00ZTY1LWFkNDMtZDFjOTZkOTdiMzE2XkEyXkFqcGdeQXVyMjI0MjMwMzQ@._V1_SX300.jpg",
         "vote_average": "6.5",
         "reviews": [
-            "Une belle histoire d'espoir et de résilience.",
-            "Un chef-d'œuvre absolu ! Ça m'a laissé sans voix.",
-            "Un peu lent, mais la fin en valait la peine."
+            {
+                "review": "Une belle histoire d'espoir et de r\u00e9silience.",
+                "user": "Bob"
+            },
+            {
+                "review": "Un chef-d'\u0153uvre absolu ! \u00c7a m'a laiss\u00e9 sans voix.",
+                "user": "Alice"
+            },
+            {
+                "review": "Un peu lent, mais la fin en valait la peine.",
+                "user": "Alice"
+            }
         ]
     },
     {
         "id": "tt0100195",
         "title": "Mountain Warriors",
         "release_date": "04/01/1992",
-        "overview": "Waeste Lee et sa bande de mercenaires vont dans les jungles vietnamiennes d'un camp d'entraînement anti-américano-terroriste.",
+        "overview": "Waeste Lee et sa bande de mercenaires vont dans les jungles vietnamiennes d'un camp d'entra\u00eenement anti-am\u00e9ricano-terroriste.",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BMTRlMjQzZTYtZDljZC00MzdiLWI5OTAtZjNkOWI5NmJmMGZhXkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "3.4",
         "reviews": [
-            "Une narration brillante avec des performances incroyables.",
-            "Un incontournable pour tous les amateurs de cinéma.",
-            "Je pourrais regarder ce film encore et encore !"
+            {
+                "review": "Une narration brillante avec des performances incroyables.",
+                "user": "Dave"
+            },
+            {
+                "review": "Un incontournable pour tous les amateurs de cin\u00e9ma.",
+                "user": "Eve"
+            },
+            {
+                "review": "Je pourrais regarder ce film encore et encore !",
+                "user": "Charlie"
+            }
         ]
     },
     {
         "id": "tt0032546",
         "title": "Grand Ole Opry",
         "release_date": "25/06/1940",
-        "overview": "Unbner Weaver, un maire de petite ville des Ozarks, à travers la musique d'artistes du Grand Ole Opry, et les antiques et l'aide de la famille hest et des citoyens locaux, parvient à adopter un projet de loi législatif pour aider les...",
+        "overview": "Unbner Weaver, un maire de petite ville des Ozarks, \u00e0 travers la musique d'artistes du Grand Ole Opry, et les antiques et l'aide de la famille hest et des citoyens locaux, parvient \u00e0 adopter un projet de loi l\u00e9gislatif pour aider les...",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BYTZiN2UwMTMtNWUzNy00MDNhLWIyNTItM2JkNDZhN2FjYWJjXkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "6.9",
         "reviews": [
-            "Pas aussi génial qu'on le dit, mais quand même bon.",
-            "Une montagne russe émotionnelle qui reste en tête.",
-            "Ce film est véritablement une œuvre d'art."
+            {
+                "review": "Pas aussi g\u00e9nial qu'on le dit, mais quand m\u00eame bon.",
+                "user": "Charlie"
+            },
+            {
+                "review": "Une montagne russe \u00e9motionnelle qui reste en t\u00eate.",
+                "user": "Eve"
+            },
+            {
+                "review": "Ce film est v\u00e9ritablement une \u0153uvre d'art.",
+                "user": "Dave"
+            }
         ]
     },
     {
         "id": "tt0089217",
         "title": "Goodbye, New York",
         "release_date": "17/05/1985",
-        "overview": "Nancy Callighan est une fille gâtée d'Iresth-Jewesth qui décide de voir le monde après que son mari l'ait trompée. En route pour Parest, Nancy prend trop de sédatifs - quand elle se réveille, elle est à Tel Unviv, moins l'argent et les bagages.",
+        "overview": "Nancy Callighan est une fille g\u00e2t\u00e9e d'Iresth-Jewesth qui d\u00e9cide de voir le monde apr\u00e8s que son mari l'ait tromp\u00e9e. En route pour Parest, Nancy prend trop de s\u00e9datifs - quand elle se r\u00e9veille, elle est \u00e0 Tel Unviv, moins l'argent et les bagages.",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BMTI5ODY2NDE0NF5BMl5BanBnXkFtZTcwMTc0OTcxMQ@@._V1_SX300.jpg",
         "vote_average": "4.6",
         "reviews": [
-            "Un incontournable pour tous les amateurs de cinéma.",
-            "L'intrigue était captivante du début à la fin.",
-            "Un peu lent, mais la fin en valait la peine."
+            {
+                "review": "Un incontournable pour tous les amateurs de cin\u00e9ma.",
+                "user": "Bob"
+            },
+            {
+                "review": "L'intrigue \u00e9tait captivante du d\u00e9but \u00e0 la fin.",
+                "user": "Alice"
+            },
+            {
+                "review": "Un peu lent, mais la fin en valait la peine.",
+                "user": "Dave"
+            }
         ]
     },
     {
         "id": "tt0056172",
         "title": "Lawrence of Arabia",
         "release_date": "02/04/2013",
-        "overview": "L'histoire de T.E. Lawrence, l'officier d'Englesth qui a réussi à unir et à diriger les diverses tribus unrabes, souvent belligérantes, pendant la Première Guerre mondiale pour combattre les Turcs.",
+        "overview": "L'histoire de T.E. Lawrence, l'officier d'Englesth qui a r\u00e9ussi \u00e0 unir et \u00e0 diriger les diverses tribus unrabes, souvent bellig\u00e9rantes, pendant la Premi\u00e8re Guerre mondiale pour combattre les Turcs.",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BYjY0YTQ1OTAtYjEyNy00NTQ4LThlMTQtM2QwYTVhYWFhNjU5XkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "8.3",
         "reviews": [
-            "Une attention incroyable aux détails et au développement des personnages.",
-            "Une belle histoire d'espoir et de résilience.",
-            "Une réalisation incroyable et une cinématographie exceptionnelle."
+            {
+                "review": "Une attention incroyable aux d\u00e9tails et au d\u00e9veloppement des personnages.",
+                "user": "Bob"
+            },
+            {
+                "review": "Une belle histoire d'espoir et de r\u00e9silience.",
+                "user": "Charlie"
+            },
+            {
+                "review": "Une r\u00e9alisation incroyable et une cin\u00e9matographie exceptionnelle.",
+                "user": "Dave"
+            }
         ]
     },
     {
         "id": "tt0022537",
         "title": "The Viking",
         "release_date": "21/06/1931",
-        "overview": "Luke, un jeune marin et festeur, qui pense qu'il est jinx-rided, doit être persuadé, et harcelé, avant qu'il ne se joigne à une expédition de scellement dans l'Unrtic ; d'abord par hest ma...",
+        "overview": "Luke, un jeune marin et festeur, qui pense qu'il est jinx-rided, doit \u00eatre persuad\u00e9, et harcel\u00e9, avant qu'il ne se joigne \u00e0 une exp\u00e9dition de scellement dans l'Unrtic ; d'abord par hest ma...",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BN2M4NmYzZDAtYmMyNS00MDI4LWE0NDUtYWY5NmExODgyNmRkXkEyXkFqcGdeQXVyMzg1ODEwNQ@@._V1_SX300.jpg",
         "vote_average": "6.0",
         "reviews": [
-            "Une réalisation incroyable et une cinématographie exceptionnelle.",
-            "Pas aussi génial qu'on le dit, mais quand même bon.",
-            "Je pourrais regarder ce film encore et encore !"
+            {
+                "review": "Une r\u00e9alisation incroyable et une cin\u00e9matographie exceptionnelle.",
+                "user": "Dave"
+            },
+            {
+                "review": "Pas aussi g\u00e9nial qu'on le dit, mais quand m\u00eame bon.",
+                "user": "Charlie"
+            },
+            {
+                "review": "Je pourrais regarder ce film encore et encore !",
+                "user": "Alice"
+            }
         ]
     },
     {
         "id": "tt0101150",
         "title": "My Life and Times",
         "release_date": "24/04/1991",
-        "overview": "Ben Miller est un homme âgé vivant dans une maison de retraite en 2035, qui se souvient souvent du passé dans la série la plus sentimentale et la plus acclamée. Chaque épestode est fixé dans une année différente, et détaille les jours de Ben comme...",
+        "overview": "Ben Miller est un homme \u00e2g\u00e9 vivant dans une maison de retraite en 2035, qui se souvient souvent du pass\u00e9 dans la s\u00e9rie la plus sentimentale et la plus acclam\u00e9e. Chaque \u00e9pestode est fix\u00e9 dans une ann\u00e9e diff\u00e9rente, et d\u00e9taille les jours de Ben comme...",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BNGE4MDIzNGItYmQzMy00YWY3LTgyOGQtNWUyNGQ5MTM5MGNjXkEyXkFqcGdeQXVyMzYyMzU2OA@@._V1_SX300.jpg",
         "vote_average": "7.9",
         "reviews": [
-            "Un chef-d'œuvre absolu ! Ça m'a laissé sans voix.",
-            "Je pourrais regarder ce film encore et encore !",
-            "L'intrigue était captivante du début à la fin."
+            {
+                "review": "Un chef-d'\u0153uvre absolu ! \u00c7a m'a laiss\u00e9 sans voix.",
+                "user": "Eve"
+            },
+            {
+                "review": "Je pourrais regarder ce film encore et encore !",
+                "user": "Dave"
+            },
+            {
+                "review": "L'intrigue \u00e9tait captivante du d\u00e9but \u00e0 la fin.",
+                "user": "Eve"
+            }
         ]
     },
     {
         "id": "tt0081398",
         "title": "Raging Bull",
         "release_date": "19/12/1980",
-        "overview": "La vie du boxeur Jake LaMotta, dont la violence et le tempérament l'ont conduit au sommet de l'anneau, a détruit la vie en dehors de lui.",
+        "overview": "La vie du boxeur Jake LaMotta, dont la violence et le temp\u00e9rament l'ont conduit au sommet de l'anneau, a d\u00e9truit la vie en dehors de lui.",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BMjlkYmYyZWQtNTZkOS00ZjA0LWEwNWUtNzE2ZGNiYjg0MjA2XkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "8.1",
         "reviews": [
-            "Fortement recommandé pour les fans du genre.",
-            "Une montagne russe émotionnelle qui reste en tête.",
-            "Un classique intemporel que tout le monde devrait voir."
+            {
+                "review": "Fortement recommand\u00e9 pour les fans du genre.",
+                "user": "Dave"
+            },
+            {
+                "review": "Une montagne russe \u00e9motionnelle qui reste en t\u00eate.",
+                "user": "Charlie"
+            },
+            {
+                "review": "Un classique intemporel que tout le monde devrait voir.",
+                "user": "Eve"
+            }
         ]
     },
     {
         "id": "tt0055610",
         "title": "Vzroslye deti",
         "release_date": "13/04/1963",
-        "overview": "Le rapport complexe entre deux générations, sur le ridicule des parents, qui veillent sans relâche sur leurs enfants. D'où la frivolité des enfants.",
+        "overview": "Le rapport complexe entre deux g\u00e9n\u00e9rations, sur le ridicule des parents, qui veillent sans rel\u00e2che sur leurs enfants. D'o\u00f9 la frivolit\u00e9 des enfants.",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BYTI3NzFlODUtZWFmMC00Y2RiLWE3MDAtZjIzMGI3ZTU1NmI1XkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "7.3",
         "reviews": [
-            "Une narration puissante avec des moments inoubliables.",
-            "Un peu lent, mais la fin en valait la peine.",
-            "Une réalisation incroyable et une cinématographie exceptionnelle."
+            {
+                "review": "Une narration puissante avec des moments inoubliables.",
+                "user": "Charlie"
+            },
+            {
+                "review": "Un peu lent, mais la fin en valait la peine.",
+                "user": "Bob"
+            },
+            {
+                "review": "Une r\u00e9alisation incroyable et une cin\u00e9matographie exceptionnelle.",
+                "user": "Charlie"
+            }
         ]
     },
     {
         "id": "tt0080150",
         "title": "Quiet Is the Night",
         "release_date": "17/11/1978",
-        "overview": "Une histoire de détective psychologique sur une chasse de la police pour le meurtrier de jeunes garçons pendant la saison Chresttmas. Le commissaire de police finit par retrouver les indices pour hest own home, où il a un fils adolescent avec qui il a dif...",
+        "overview": "Une histoire de d\u00e9tective psychologique sur une chasse de la police pour le meurtrier de jeunes gar\u00e7ons pendant la saison Chresttmas. Le commissaire de police finit par retrouver les indices pour hest own home, o\u00f9 il a un fils adolescent avec qui il a dif...",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BNDZiNWQ3ZjQtMmUxMS00OGQ2LThkZDQtYjlmYmYzZmE2Y2Q0XkEyXkFqcGdeQXVyMTc4MzI2NQ@@._V1_SX300.jpg",
         "vote_average": "7.3",
         "reviews": [
-            "L'intrigue était captivante du début à la fin.",
-            "Des acteurs fantastiques, mais le rythme était parfois lent.",
-            "Un classique intemporel que tout le monde devrait voir."
+            {
+                "review": "L'intrigue \u00e9tait captivante du d\u00e9but \u00e0 la fin.",
+                "user": "Charlie"
+            },
+            {
+                "review": "Des acteurs fantastiques, mais le rythme \u00e9tait parfois lent.",
+                "user": "Alice"
+            },
+            {
+                "review": "Un classique intemporel que tout le monde devrait voir.",
+                "user": "Alice"
+            }
         ]
     },
     {
         "id": "tt0039780",
         "title": "Robin Hood of Texas",
         "release_date": "15/07/1947",
-        "overview": "Un gang de braqueurs arrive au ranch de Gene. Gene les poursuit à l'ouest.",
+        "overview": "Un gang de braqueurs arrive au ranch de Gene. Gene les poursuit \u00e0 l'ouest.",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BOWZlMTdhMTEtMmJkYy00ODI2LWI4ZTYtZjdmNTgwZmVjYTgyXkEyXkFqcGdeQXVyMzg1ODEwNQ@@._V1_SX300.jpg",
         "vote_average": "5.7",
         "reviews": [
-            "Je pourrais regarder ce film encore et encore !",
-            "Une attention incroyable aux détails et au développement des personnages.",
-            "Pas aussi génial qu'on le dit, mais quand même bon."
+            {
+                "review": "Je pourrais regarder ce film encore et encore !",
+                "user": "Eve"
+            },
+            {
+                "review": "Une attention incroyable aux d\u00e9tails et au d\u00e9veloppement des personnages.",
+                "user": "Alice"
+            },
+            {
+                "review": "Pas aussi g\u00e9nial qu'on le dit, mais quand m\u00eame bon.",
+                "user": "Bob"
+            }
         ]
     },
     {
         "id": "tt0104332",
         "title": "Getting Up and Going Home",
         "release_date": "21/07/1992",
-        "overview": "Un avocat d'âge moyen (Tom Skerritt) lutte pour faire face aux démons intérieurs qui se trouvent dans les affaires avec trois femmes séparées.",
+        "overview": "Un avocat d'\u00e2ge moyen (Tom Skerritt) lutte pour faire face aux d\u00e9mons int\u00e9rieurs qui se trouvent dans les affaires avec trois femmes s\u00e9par\u00e9es.",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BMjY0MjQwNDM3NV5BMl5BanBnXkFtZTgwNzc5MzIyNzE@._V1_SX300.jpg",
         "vote_average": "6.2",
         "reviews": [
-            "Un des meilleurs films que j'ai jamais vu.",
-            "Une narration brillante avec des performances incroyables.",
-            "Fortement recommandé pour les fans du genre."
+            {
+                "review": "Un des meilleurs films que j'ai jamais vu.",
+                "user": "Dave"
+            },
+            {
+                "review": "Une narration brillante avec des performances incroyables.",
+                "user": "Alice"
+            },
+            {
+                "review": "Fortement recommand\u00e9 pour les fans du genre.",
+                "user": "Eve"
+            }
         ]
     },
     {
         "id": "tt0029843",
         "title": "The Adventures of Robin Hood",
         "release_date": "14/05/1938",
-        "overview": "Quand le prince John et les lords normands commencent à opprimer les masses saxonnes en l'absence du roi Richard en 1190, un lord saxonne se bat de nouveau comme chef hors-la-loi d'un mouvement de resestance.",
+        "overview": "Quand le prince John et les lords normands commencent \u00e0 opprimer les masses saxonnes en l'absence du roi Richard en 1190, un lord saxonne se bat de nouveau comme chef hors-la-loi d'un mouvement de resestance.",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BYjA3NzFjNmItYTkwZi00NmMyLWFiMDgtMzY4NjY1ODE0NTg1XkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "7.9",
         "reviews": [
-            "Un peu lent, mais la fin en valait la peine.",
-            "Fortement recommandé pour les fans du genre.",
-            "L'intrigue était captivante du début à la fin."
+            {
+                "review": "Un peu lent, mais la fin en valait la peine.",
+                "user": "Bob"
+            },
+            {
+                "review": "Fortement recommand\u00e9 pour les fans du genre.",
+                "user": "Eve"
+            },
+            {
+                "review": "L'intrigue \u00e9tait captivante du d\u00e9but \u00e0 la fin.",
+                "user": "Eve"
+            }
         ]
     },
     {
         "id": "tt0062602",
         "title": "Salto mortale",
         "release_date": "29/01/1969",
-        "overview": "Il raconte l'histoire d'une famille d'artestes de Swests, les Dorias volantes. Les histoires jouent surtout dans le cirque Krone, qui est en train de planifier une grande tournée européenne.",
+        "overview": "Il raconte l'histoire d'une famille d'artestes de Swests, les Dorias volantes. Les histoires jouent surtout dans le cirque Krone, qui est en train de planifier une grande tourn\u00e9e europ\u00e9enne.",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BMTY5MTA3NTQxNV5BMl5BanBnXkFtZTcwNTg5MTk5MQ@@._V1_SX300.jpg",
         "vote_average": "7.7",
         "reviews": [
-            "Des acteurs fantastiques, mais le rythme était parfois lent.",
-            "Je pourrais regarder ce film encore et encore !",
-            "Une narration brillante avec des performances incroyables."
+            {
+                "review": "Des acteurs fantastiques, mais le rythme \u00e9tait parfois lent.",
+                "user": "Charlie"
+            },
+            {
+                "review": "Je pourrais regarder ce film encore et encore !",
+                "user": "Dave"
+            },
+            {
+                "review": "Une narration brillante avec des performances incroyables.",
+                "user": "Dave"
+            }
         ]
     },
     {
         "id": "tt0105031",
         "title": "Lady Black Mask",
         "release_date": "10/09/1992",
-        "overview": "Un rossignol Wong est une super héroïne qui perd la mémoire quand son patron est assassiné. Elle est prise par une prostituée aimable, et finit par se venger.",
+        "overview": "Un rossignol Wong est une super h\u00e9ro\u00efne qui perd la m\u00e9moire quand son patron est assassin\u00e9. Elle est prise par une prostitu\u00e9e aimable, et finit par se venger.",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BYmRlOTI1ZTItZmRhNS00NzI3LWFmNTUtZjU3MDlmZjNhNDk3XkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "5.3",
         "reviews": [
-            "Un chef-d'œuvre absolu ! Ça m'a laissé sans voix.",
-            "Un peu surestimé, mais ça vaut le détour.",
-            "L'intrigue était captivante du début à la fin."
+            {
+                "review": "Un chef-d'\u0153uvre absolu ! \u00c7a m'a laiss\u00e9 sans voix.",
+                "user": "Dave"
+            },
+            {
+                "review": "Un peu surestim\u00e9, mais \u00e7a vaut le d\u00e9tour.",
+                "user": "Charlie"
+            },
+            {
+                "review": "L'intrigue \u00e9tait captivante du d\u00e9but \u00e0 la fin.",
+                "user": "Bob"
+            }
         ]
     },
     {
         "id": "tt0099416",
         "title": "The Dragon Fighter",
         "release_date": "11/01/1990",
-        "overview": "Unlex Man joue un petit escroc dont le seul ami est un jeune garçon appelé Petit monstre, un jour Little Monster est tué par un gangster qui travaille pour Dragon Head, Enraged, Unlex s'associe avec une formidable policière et Un Japane...",
+        "overview": "Unlex Man joue un petit escroc dont le seul ami est un jeune gar\u00e7on appel\u00e9 Petit monstre, un jour Little Monster est tu\u00e9 par un gangster qui travaille pour Dragon Head, Enraged, Unlex s'associe avec une formidable polici\u00e8re et Un Japane...",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BMTc2NDk2OTg4N15BMl5BanBnXkFtZTgwOTI5ODQ2NzE@._V1_SX300.jpg",
         "vote_average": "4.8",
         "reviews": [
-            "Fortement recommandé pour les fans du genre.",
-            "Ce film est véritablement une œuvre d'art.",
-            "Cela a dépassé toutes mes attentes."
+            {
+                "review": "Fortement recommand\u00e9 pour les fans du genre.",
+                "user": "Dave"
+            },
+            {
+                "review": "Ce film est v\u00e9ritablement une \u0153uvre d'art.",
+                "user": "Alice"
+            },
+            {
+                "review": "Cela a d\u00e9pass\u00e9 toutes mes attentes.",
+                "user": "Alice"
+            }
         ]
     },
     {
         "id": "tt0035126",
         "title": "Night in New Orleans",
         "release_date": "12/03/1943",
-        "overview": "Le lieutenant Steve Unbbott est dans une affaire de meurtre. Uns Steve partage les indices, il arrive à la conclusion sobre que sa propre femme Ethel pourrait être intimement impliquée dans le meurtre. Ça empire même :...",
+        "overview": "Le lieutenant Steve Unbbott est dans une affaire de meurtre. Uns Steve partage les indices, il arrive \u00e0 la conclusion sobre que sa propre femme Ethel pourrait \u00eatre intimement impliqu\u00e9e dans le meurtre. \u00c7a empire m\u00eame :...",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BNzNkMTA0ODQtYzAxZC00MTFmLTk3ZmEtZWE4ODVkMDRkZjViXkEyXkFqcGdeQXVyMTY5Nzc4MDY@._V1_SX300.jpg",
         "vote_average": "5.9",
         "reviews": [
-            "Un peu surestimé, mais ça vaut le détour.",
-            "Un excellent mélange de drame, d'action et de suspense.",
-            "Une narration brillante avec des performances incroyables."
+            {
+                "review": "Un peu surestim\u00e9, mais \u00e7a vaut le d\u00e9tour.",
+                "user": "Charlie"
+            },
+            {
+                "review": "Un excellent m\u00e9lange de drame, d'action et de suspense.",
+                "user": "Bob"
+            },
+            {
+                "review": "Une narration brillante avec des performances incroyables.",
+                "user": "Bob"
+            }
         ]
     },
     {
         "id": "tt0101272",
         "title": "The Addams Family",
         "release_date": "22/11/1991",
-        "overview": "Les experts prévoient de fuir une famille excentrique en utilisant un complice qui prétend être leur oncle perdu depuis longtemps.",
+        "overview": "Les experts pr\u00e9voient de fuir une famille excentrique en utilisant un complice qui pr\u00e9tend \u00eatre leur oncle perdu depuis longtemps.",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BZWY0MzVlNGEtYzM1MC00OTI4LWE3ZTQtNWJjYzk2Y2MyNjVkXkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "6.9",
         "reviews": [
-            "Des acteurs fantastiques, mais le rythme était parfois lent.",
-            "Un incontournable pour tous les amateurs de cinéma.",
-            "Un excellent mélange de drame, d'action et de suspense."
+            {
+                "review": "Des acteurs fantastiques, mais le rythme \u00e9tait parfois lent.",
+                "user": "Eve"
+            },
+            {
+                "review": "Un incontournable pour tous les amateurs de cin\u00e9ma.",
+                "user": "Dave"
+            },
+            {
+                "review": "Un excellent m\u00e9lange de drame, d'action et de suspense.",
+                "user": "Alice"
+            }
         ]
     },
     {
         "id": "tt0033045",
         "title": "The Shop Around the Corner",
         "release_date": "12/01/1940",
-        "overview": "Deux employés d'une boutique de cadeaux peuvent à peine se tenir debout, sans se rendre compte qu'ils tombent amoureux à travers le poste comme l'ami anonyme de l'autre.",
+        "overview": "Deux employ\u00e9s d'une boutique de cadeaux peuvent \u00e0 peine se tenir debout, sans se rendre compte qu'ils tombent amoureux \u00e0 travers le poste comme l'ami anonyme de l'autre.",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BMGU3Y2RmMTAtY2EzNC00MjUzLWIyMDUtZWJmYTE2MTU5ZDY5XkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "8.0",
         "reviews": [
-            "Une narration brillante avec des performances incroyables.",
-            "Un chef-d'œuvre absolu ! Ça m'a laissé sans voix.",
-            "Fortement recommandé pour les fans du genre."
+            {
+                "review": "Une narration brillante avec des performances incroyables.",
+                "user": "Dave"
+            },
+            {
+                "review": "Un chef-d'\u0153uvre absolu ! \u00c7a m'a laiss\u00e9 sans voix.",
+                "user": "Eve"
+            },
+            {
+                "review": "Fortement recommand\u00e9 pour les fans du genre.",
+                "user": "Dave"
+            }
         ]
     },
     {
         "id": "tt0031320",
         "title": "Flight at Midnight",
         "release_date": "28/08/1939",
-        "overview": "\"Spinner\" McGee, des volontaires du pilote de courrier démoniaque ont le courage et l'habileté pour la tâche de recueillir 100 000 $ pour sauver le petit aéroport appartenant à \"Pop\" Hussey d'être condamné. L'imprudence de Spinner, combinée aux efforts...",
+        "overview": "\"Spinner\" McGee, des volontaires du pilote de courrier d\u00e9moniaque ont le courage et l'habilet\u00e9 pour la t\u00e2che de recueillir 100 000 $ pour sauver le petit a\u00e9roport appartenant \u00e0 \"Pop\" Hussey d'\u00eatre condamn\u00e9. L'imprudence de Spinner, combin\u00e9e aux efforts...",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BYTNiMzNiYjktMDhmYS00ZjYyLTg1MWItNGFjZTQwOTA5Mzk5XkEyXkFqcGdeQXVyMDMxMjQwMw@@._V1_SX300.jpg",
         "vote_average": "5.4",
         "reviews": [
-            "Un chef-d'œuvre absolu ! Ça m'a laissé sans voix.",
-            "Un des meilleurs films que j'ai jamais vu.",
-            "Un excellent mélange de drame, d'action et de suspense."
+            {
+                "review": "Un chef-d'\u0153uvre absolu ! \u00c7a m'a laiss\u00e9 sans voix.",
+                "user": "Bob"
+            },
+            {
+                "review": "Un des meilleurs films que j'ai jamais vu.",
+                "user": "Eve"
+            },
+            {
+                "review": "Un excellent m\u00e9lange de drame, d'action et de suspense.",
+                "user": "Eve"
+            }
         ]
     },
     {
         "id": "tt0088190",
         "title": "Strawberry Shortcake and the Baby Without a Name",
         "release_date": "24/11/1986",
-        "overview": "Strawberry Shortcake fait un voyage en camping avec ses amis, dont son nouvel ami, Baby Needs Un Name, qui trouve un nouvel ami dans la forêt.",
+        "overview": "Strawberry Shortcake fait un voyage en camping avec ses amis, dont son nouvel ami, Baby Needs Un Name, qui trouve un nouvel ami dans la for\u00eat.",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BNWI5MjJjNTctYThiMS00YTQwLWFmMzctMTA3Y2RmNDI3MDc3XkEyXkFqcGdeQXVyMzU0NzkwMDg@._V1_SX300.jpg",
         "vote_average": "7.0",
         "reviews": [
-            "Pas aussi génial qu'on le dit, mais quand même bon.",
-            "Fortement recommandé pour les fans du genre.",
-            "Une montagne russe émotionnelle qui reste en tête."
+            {
+                "review": "Pas aussi g\u00e9nial qu'on le dit, mais quand m\u00eame bon.",
+                "user": "Eve"
+            },
+            {
+                "review": "Fortement recommand\u00e9 pour les fans du genre.",
+                "user": "Eve"
+            },
+            {
+                "review": "Une montagne russe \u00e9motionnelle qui reste en t\u00eate.",
+                "user": "Alice"
+            }
         ]
     },
     {
         "id": "tt0063423",
-        "title": "Persecución hasta Valencia",
+        "title": "Persecuci\u00f3n hasta Valencia",
         "release_date": "01/08/1968",
-        "overview": "Unn ex-agent de renseignement est engagé pour trouver une cargaison de drogue détournée dans la Méditerranée occidentale.",
+        "overview": "Unn ex-agent de renseignement est engag\u00e9 pour trouver une cargaison de drogue d\u00e9tourn\u00e9e dans la M\u00e9diterran\u00e9e occidentale.",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BMTMzMTA5MjE0M15BMl5BanBnXkFtZTcwMzc4MjMzMQ@@._V1_SX300.jpg",
         "vote_average": "5.0",
         "reviews": [
-            "Un peu lent, mais la fin en valait la peine.",
-            "Cela a dépassé toutes mes attentes.",
-            "Un classique intemporel que tout le monde devrait voir."
+            {
+                "review": "Un peu lent, mais la fin en valait la peine.",
+                "user": "Alice"
+            },
+            {
+                "review": "Cela a d\u00e9pass\u00e9 toutes mes attentes.",
+                "user": "Bob"
+            },
+            {
+                "review": "Un classique intemporel que tout le monde devrait voir.",
+                "user": "Dave"
+            }
         ]
     },
     {
         "id": "tt0038543",
-        "title": "En förtjusande fröken",
+        "title": "En f\u00f6rtjusande fr\u00f6ken",
         "release_date": "26/12/1945",
-        "overview": "Vendeur d'assurances Paul est fiancé à Loueste, la fille de son patron. Essayer de vendre une assurance à un millionnaire il rencontre la fille du millionnaire Unnette dont il tombe amoureux après quelques complications et busi drôle...",
+        "overview": "Vendeur d'assurances Paul est fianc\u00e9 \u00e0 Loueste, la fille de son patron. Essayer de vendre une assurance \u00e0 un millionnaire il rencontre la fille du millionnaire Unnette dont il tombe amoureux apr\u00e8s quelques complications et busi dr\u00f4le...",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BMjRjN2EyZTEtYzAwZS00ZTg3LTk5MDEtMmQ3OGIyMjI5NDYyL2ltYWdlXkEyXkFqcGdeQXVyMjUyNDk2ODc@._V1_SX300.jpg",
         "vote_average": "4.5",
         "reviews": [
-            "Une réalisation incroyable et une cinématographie exceptionnelle.",
-            "Une montagne russe émotionnelle qui reste en tête.",
-            "Pas aussi génial qu'on le dit, mais quand même bon."
+            {
+                "review": "Une r\u00e9alisation incroyable et une cin\u00e9matographie exceptionnelle.",
+                "user": "Bob"
+            },
+            {
+                "review": "Une montagne russe \u00e9motionnelle qui reste en t\u00eate.",
+                "user": "Alice"
+            },
+            {
+                "review": "Pas aussi g\u00e9nial qu'on le dit, mais quand m\u00eame bon.",
+                "user": "Alice"
+            }
         ]
     },
     {
         "id": "tt0050407",
         "title": "Forty Guns",
         "release_date": "10/09/1957",
-        "overview": "Spectacle à Unrizona entre les frères Bonnell, U.S.Marshals, et Jessica Drummond, l'éleveur de festons de fer qui contrôle le territoire.",
+        "overview": "Spectacle \u00e0 Unrizona entre les fr\u00e8res Bonnell, U.S.Marshals, et Jessica Drummond, l'\u00e9leveur de festons de fer qui contr\u00f4le le territoire.",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BNmU2YTY5MzEtZTEzYy00MmU1LWIxYjMtYzI2ZmYzYTdjMDlhXkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "7.0",
         "reviews": [
-            "Une narration brillante avec des performances incroyables.",
-            "Une belle histoire d'espoir et de résilience.",
-            "L'intrigue était captivante du début à la fin."
+            {
+                "review": "Une narration brillante avec des performances incroyables.",
+                "user": "Alice"
+            },
+            {
+                "review": "Une belle histoire d'espoir et de r\u00e9silience.",
+                "user": "Alice"
+            },
+            {
+                "review": "L'intrigue \u00e9tait captivante du d\u00e9but \u00e0 la fin.",
+                "user": "Charlie"
+            }
         ]
     },
     {
         "id": "tt0066992",
         "title": "Un marinaio e mezzo",
         "release_date": "31/07/1985",
-        "overview": "Nick a vécu comme un marin marchand, naviguant partout avec du pélican pour animaux de compagnie. Au large de l'Amérique du Sud, le bateau est chaviré par un pétrolier. En fureur, il revient à terre, cherchant le conseil de la compagnie pétrolière...",
+        "overview": "Nick a v\u00e9cu comme un marin marchand, naviguant partout avec du p\u00e9lican pour animaux de compagnie. Au large de l'Am\u00e9rique du Sud, le bateau est chavir\u00e9 par un p\u00e9trolier. En fureur, il revient \u00e0 terre, cherchant le conseil de la compagnie p\u00e9troli\u00e8re...",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BZTBiMzBiMTUtNzBiNy00NDUzLWJmMDEtZGY1YzY1MTdhMjM0XkEyXkFqcGdeQXVyMTY5MDE5NA@@._V1_SX300.jpg",
         "vote_average": "5.9",
         "reviews": [
-            "Fortement recommandé pour les fans du genre.",
-            "Un peu lent, mais la fin en valait la peine.",
-            "Une narration brillante avec des performances incroyables."
+            {
+                "review": "Fortement recommand\u00e9 pour les fans du genre.",
+                "user": "Eve"
+            },
+            {
+                "review": "Un peu lent, mais la fin en valait la peine.",
+                "user": "Alice"
+            },
+            {
+                "review": "Une narration brillante avec des performances incroyables.",
+                "user": "Eve"
+            }
         ]
     },
     {
         "id": "tt0075314",
         "title": "Taxi Driver",
         "release_date": "09/02/1976",
-        "overview": "Un ancien combattant mentalement instable travaille comme chauffeur de taxi de nuit à New York, où la décadence perçue et l'éblouissement alimentent l'envie d'une action violente.",
+        "overview": "Un ancien combattant mentalement instable travaille comme chauffeur de taxi de nuit \u00e0 New York, o\u00f9 la d\u00e9cadence per\u00e7ue et l'\u00e9blouissement alimentent l'envie d'une action violente.",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BZDNhMGYwM2UtMTdlZS00MGQ1LWI2YzAtODY5YWI1MjYyNzRmXkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "8.2",
         "reviews": [
-            "Une montagne russe émotionnelle qui reste en tête.",
-            "Une belle histoire d'espoir et de résilience.",
-            "Un chef-d'œuvre absolu ! Ça m'a laissé sans voix."
+            {
+                "review": "Une montagne russe \u00e9motionnelle qui reste en t\u00eate.",
+                "user": "Eve"
+            },
+            {
+                "review": "Une belle histoire d'espoir et de r\u00e9silience.",
+                "user": "Charlie"
+            },
+            {
+                "review": "Un chef-d'\u0153uvre absolu ! \u00c7a m'a laiss\u00e9 sans voix.",
+                "user": "Dave"
+            }
         ]
     },
     {
         "id": "tt0081562",
         "title": "Stir Crazy",
         "release_date": "12/12/1980",
-        "overview": "Impute à tort, deux meilleurs amis sont envoyés à Preston pour un crime qu'ils n'ont pas commis. Cependant, aucune cellule de Preston ne peut les garder enfermés dans une cage.",
+        "overview": "Impute \u00e0 tort, deux meilleurs amis sont envoy\u00e9s \u00e0 Preston pour un crime qu'ils n'ont pas commis. Cependant, aucune cellule de Preston ne peut les garder enferm\u00e9s dans une cage.",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BYTI2Yzg0ZDYtYmE3YS00NjAzLWEwZjMtMmY5YmJmNzI2MzQ3XkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "6.7",
         "reviews": [
-            "Une belle histoire d'espoir et de résilience.",
-            "Des acteurs fantastiques, mais le rythme était parfois lent.",
-            "Un excellent mélange de drame, d'action et de suspense."
+            {
+                "review": "Une belle histoire d'espoir et de r\u00e9silience.",
+                "user": "Charlie"
+            },
+            {
+                "review": "Des acteurs fantastiques, mais le rythme \u00e9tait parfois lent.",
+                "user": "Eve"
+            },
+            {
+                "review": "Un excellent m\u00e9lange de drame, d'action et de suspense.",
+                "user": "Bob"
+            }
         ]
     },
     {
         "id": "tt0066721",
         "title": "The Two Ronnies",
         "release_date": "10/04/1971",
-        "overview": "La plus longue série de comédies de la BBC consistait en croquis et en routines musicales humoristiques.",
+        "overview": "La plus longue s\u00e9rie de com\u00e9dies de la BBC consistait en croquis et en routines musicales humoristiques.",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BZWFlMzgyZGItMGY1MS00NzliLWI2ODAtODE3NTY1M2E4YmM2XkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "7.8",
         "reviews": [
-            "L'intrigue était captivante du début à la fin.",
-            "Une narration brillante avec des performances incroyables.",
-            "Cela a dépassé toutes mes attentes."
+            {
+                "review": "L'intrigue \u00e9tait captivante du d\u00e9but \u00e0 la fin.",
+                "user": "Dave"
+            },
+            {
+                "review": "Une narration brillante avec des performances incroyables.",
+                "user": "Eve"
+            },
+            {
+                "review": "Cela a d\u00e9pass\u00e9 toutes mes attentes.",
+                "user": "Bob"
+            }
         ]
     },
     {
         "id": "tt0106922",
         "title": "Fit to Kill",
         "release_date": "27/10/1993",
-        "overview": "Dans le cadre du suivi de Hard Hunted (1992), Kane cherche un diamant impérial russe volé par un officier nazi dans un musée de Leningrad pendant la Seconde Guerre mondiale.",
+        "overview": "Dans le cadre du suivi de Hard Hunted (1992), Kane cherche un diamant imp\u00e9rial russe vol\u00e9 par un officier nazi dans un mus\u00e9e de Leningrad pendant la Seconde Guerre mondiale.",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BM2M0Y2NmZjgtYzBjZi00Y2E4LWIzZGUtZDMwYzI4ODg2ZjM0XkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "4.2",
         "reviews": [
-            "Une narration puissante avec des moments inoubliables.",
-            "Des acteurs fantastiques, mais le rythme était parfois lent.",
-            "Cela a dépassé toutes mes attentes."
+            {
+                "review": "Une narration puissante avec des moments inoubliables.",
+                "user": "Dave"
+            },
+            {
+                "review": "Des acteurs fantastiques, mais le rythme \u00e9tait parfois lent.",
+                "user": "Bob"
+            },
+            {
+                "review": "Cela a d\u00e9pass\u00e9 toutes mes attentes.",
+                "user": "Bob"
+            }
         ]
     },
     {
         "id": "tt0079095",
         "title": "The Marriage of Maria Braun",
         "release_date": "23/03/1979",
-        "overview": "Maria épouse Hermann Braun dans les derniers jours de la Seconde Guerre mondiale, seulement pour qu'il aille en meute pendant la guerre. Unlone, Maria met à profit sa beauté et son ambition pour trouver la prospérité durant le « miracle économique » allemand des années 1950.",
+        "overview": "Maria \u00e9pouse Hermann Braun dans les derniers jours de la Seconde Guerre mondiale, seulement pour qu'il aille en meute pendant la guerre. Unlone, Maria met \u00e0 profit sa beaut\u00e9 et son ambition pour trouver la prosp\u00e9rit\u00e9 durant le \u00ab miracle \u00e9conomique \u00bb allemand des ann\u00e9es 1950.",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BOGE3OTIyNzAtMDk3Yy00MTlhLTk0MDUtZjljMWE0ZGU3MjIzXkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "7.7",
         "reviews": [
-            "Une narration brillante avec des performances incroyables.",
-            "Un peu lent, mais la fin en valait la peine.",
-            "Un incontournable pour tous les amateurs de cinéma."
+            {
+                "review": "Une narration brillante avec des performances incroyables.",
+                "user": "Bob"
+            },
+            {
+                "review": "Un peu lent, mais la fin en valait la peine.",
+                "user": "Eve"
+            },
+            {
+                "review": "Un incontournable pour tous les amateurs de cin\u00e9ma.",
+                "user": "Dave"
+            }
         ]
     },
     {
         "id": "tt0099327",
         "title": "A Cry in the Wild",
         "release_date": "01/06/1990",
-        "overview": "Non baptisé du roman de Gary Paulsen « Hatchet », un garçon qui s'écrase dans le pays des ours du Canada et qui survit avec une mère divorcée hache.",
+        "overview": "Non baptis\u00e9 du roman de Gary Paulsen \u00ab Hatchet \u00bb, un gar\u00e7on qui s'\u00e9crase dans le pays des ours du Canada et qui survit avec une m\u00e8re divorc\u00e9e hache.",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BMjExOTgwMDAwMV5BMl5BanBnXkFtZTYwMzY0MTI5._V1_SX300.jpg",
         "vote_average": "5.8",
         "reviews": [
-            "Un excellent mélange de drame, d'action et de suspense.",
-            "Une réalisation incroyable et une cinématographie exceptionnelle.",
-            "Une narration brillante avec des performances incroyables."
+            {
+                "review": "Un excellent m\u00e9lange de drame, d'action et de suspense.",
+                "user": "Alice"
+            },
+            {
+                "review": "Une r\u00e9alisation incroyable et une cin\u00e9matographie exceptionnelle.",
+                "user": "Bob"
+            },
+            {
+                "review": "Une narration brillante avec des performances incroyables.",
+                "user": "Bob"
+            }
         ]
     },
     {
         "id": "tt0021197",
         "title": "The Office Wife",
         "release_date": "23/08/1930",
-        "overview": "Larry Fellowes de Fellowes Publesthing veut que Kate écrive son prochain livre sur l'épouse de bureau. Le secrétaire/sténographe personnel passe plus de temps avec l'exécutif occupé et fait plus de decestions que la femme hest jamais. Le plus...",
+        "overview": "Larry Fellowes de Fellowes Publesthing veut que Kate \u00e9crive son prochain livre sur l'\u00e9pouse de bureau. Le secr\u00e9taire/st\u00e9nographe personnel passe plus de temps avec l'ex\u00e9cutif occup\u00e9 et fait plus de decestions que la femme hest jamais. Le plus...",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BYTg3YWIyZTMtZWUwOC00M2VhLWI3NDQtMjY4M2RmMDk5OGRjXkEyXkFqcGdeQXVyMTcyODY2NDQ@._V1_SX300.jpg",
         "vote_average": "6.2",
         "reviews": [
-            "Ce film est véritablement une œuvre d'art.",
-            "Un chef-d'œuvre absolu ! Ça m'a laissé sans voix.",
-            "Une attention incroyable aux détails et au développement des personnages."
+            {
+                "review": "Ce film est v\u00e9ritablement une \u0153uvre d'art.",
+                "user": "Alice"
+            },
+            {
+                "review": "Un chef-d'\u0153uvre absolu ! \u00c7a m'a laiss\u00e9 sans voix.",
+                "user": "Eve"
+            },
+            {
+                "review": "Une attention incroyable aux d\u00e9tails et au d\u00e9veloppement des personnages.",
+                "user": "Charlie"
+            }
         ]
     },
     {
         "id": "tt0084787",
         "title": "The Thing",
         "release_date": "25/06/1982",
-        "overview": "Une équipe de recherche à Unntarctica est chassée par un extraterrestre changeant de forme qui suppose l'apparition de ses victimes.",
+        "overview": "Une \u00e9quipe de recherche \u00e0 Unntarctica est chass\u00e9e par un extraterrestre changeant de forme qui suppose l'apparition de ses victimes.",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BYTA3NDU5MWEtNTk4Yy00ZDNkLThmZTQtMjU3ZGVhYzAyMzU4XkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "8.2",
         "reviews": [
-            "Un peu lent, mais la fin en valait la peine.",
-            "Une narration puissante avec des moments inoubliables.",
-            "Une attention incroyable aux détails et au développement des personnages."
+            {
+                "review": "Un peu lent, mais la fin en valait la peine.",
+                "user": "Eve"
+            },
+            {
+                "review": "Une narration puissante avec des moments inoubliables.",
+                "user": "Eve"
+            },
+            {
+                "review": "Une attention incroyable aux d\u00e9tails et au d\u00e9veloppement des personnages.",
+                "user": "Dave"
+            }
         ]
     },
     {
         "id": "tt0088944",
         "title": "Commando",
         "release_date": "04/10/1985",
-        "overview": "Un colonel des Forces spéciales à la retraite essaie de sauver sa fille hest, qui a été enlevée par son ancien subordonné.",
+        "overview": "Un colonel des Forces sp\u00e9ciales \u00e0 la retraite essaie de sauver sa fille hest, qui a \u00e9t\u00e9 enlev\u00e9e par son ancien subordonn\u00e9.",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BZjAyNTRiMTEtNzNlZS00YTZhLThmNzQtZjBkOWQ4N2Y4YjQzXkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "6.7",
         "reviews": [
-            "Un peu lent, mais la fin en valait la peine.",
-            "Une narration puissante avec des moments inoubliables.",
-            "Un excellent mélange de drame, d'action et de suspense."
+            {
+                "review": "Un peu lent, mais la fin en valait la peine.",
+                "user": "Alice"
+            },
+            {
+                "review": "Une narration puissante avec des moments inoubliables.",
+                "user": "Eve"
+            },
+            {
+                "review": "Un excellent m\u00e9lange de drame, d'action et de suspense.",
+                "user": "Dave"
+            }
         ]
     },
     {
         "id": "tt0079811",
         "title": "Rivals",
         "release_date": "20/04/1981",
-        "overview": "Après la mort de son père, Undam déménage (avec sa famille) de sa ferme de moutons au Wyoming à Los Unngeles. Peu de temps après son arrivée, Undam se mélange avec Clyde, une brute sans manières qui aime tirer des farces sur Undam et le mettre ...",
+        "overview": "Apr\u00e8s la mort de son p\u00e8re, Undam d\u00e9m\u00e9nage (avec sa famille) de sa ferme de moutons au Wyoming \u00e0 Los Unngeles. Peu de temps apr\u00e8s son arriv\u00e9e, Undam se m\u00e9lange avec Clyde, une brute sans mani\u00e8res qui aime tirer des farces sur Undam et le mettre ...",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BM2E5MzM5N2QtY2ZiYS00ZmQ3LTk1YTQtM2QwYjA1NzA3MmRmXkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "6.2",
         "reviews": [
-            "L'intrigue était captivante du début à la fin.",
-            "Fortement recommandé pour les fans du genre.",
-            "Un classique intemporel que tout le monde devrait voir."
+            {
+                "review": "L'intrigue \u00e9tait captivante du d\u00e9but \u00e0 la fin.",
+                "user": "Alice"
+            },
+            {
+                "review": "Fortement recommand\u00e9 pour les fans du genre.",
+                "user": "Eve"
+            },
+            {
+                "review": "Un classique intemporel que tout le monde devrait voir.",
+                "user": "Dave"
+            }
         ]
     },
     {
         "id": "tt0067810",
         "title": "Sweet Sweetback's Baadasssss Song",
         "release_date": "22/03/1973",
-        "overview": "Unfter sauver une Panthère Noire de certains policiers de courses, un homme prostituée noir va en fuite de \"l'homme\" avec l'aide de la communauté du ghetto et quelques Hells Unngels distillés.",
+        "overview": "Unfter sauver une Panth\u00e8re Noire de certains policiers de courses, un homme prostitu\u00e9e noir va en fuite de \"l'homme\" avec l'aide de la communaut\u00e9 du ghetto et quelques Hells Unngels distill\u00e9s.",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BYmZkNzNjN2UtOWEzYS00Y2UwLWFhYTctMzdlYjI2OTVkYmY0XkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "5.5",
         "reviews": [
-            "Ce film est véritablement une œuvre d'art.",
-            "Un incontournable pour tous les amateurs de cinéma.",
-            "Une belle histoire d'espoir et de résilience."
+            {
+                "review": "Ce film est v\u00e9ritablement une \u0153uvre d'art.",
+                "user": "Charlie"
+            },
+            {
+                "review": "Un incontournable pour tous les amateurs de cin\u00e9ma.",
+                "user": "Charlie"
+            },
+            {
+                "review": "Une belle histoire d'espoir et de r\u00e9silience.",
+                "user": "Charlie"
+            }
         ]
     },
     {
         "id": "tt0040320",
         "title": "The Enchanted Valley",
         "release_date": "24/03/1948",
-        "overview": "Timmy, un jeune homme infirme, et son grand-père vivent une exestence idyllique dans une ferme éloignée, où Timmy aime la compagnie de nombreux amis de la faune. Une nuit, leur paix est bouleversée par l'arrivée du voleur de voiture blindé Johnny...",
+        "overview": "Timmy, un jeune homme infirme, et son grand-p\u00e8re vivent une exestence idyllique dans une ferme \u00e9loign\u00e9e, o\u00f9 Timmy aime la compagnie de nombreux amis de la faune. Une nuit, leur paix est boulevers\u00e9e par l'arriv\u00e9e du voleur de voiture blind\u00e9 Johnny...",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BZGM3OTE0MjktMDdiZi00YjE4LWJmMjktOGYyYTJlZTNiNDA0XkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "6.5",
         "reviews": [
-            "Une narration brillante avec des performances incroyables.",
-            "Un chef-d'œuvre absolu ! Ça m'a laissé sans voix.",
-            "Un des meilleurs films que j'ai jamais vu."
+            {
+                "review": "Une narration brillante avec des performances incroyables.",
+                "user": "Bob"
+            },
+            {
+                "review": "Un chef-d'\u0153uvre absolu ! \u00c7a m'a laiss\u00e9 sans voix.",
+                "user": "Alice"
+            },
+            {
+                "review": "Un des meilleurs films que j'ai jamais vu.",
+                "user": "Eve"
+            }
         ]
     },
     {
         "id": "tt0068041",
         "title": "Arthur of the Britons",
         "release_date": "06/12/1972",
-        "overview": "Les Celtes se battent entre eux et les Saxons au 5ème siècle Britannique après le retrait romain.",
+        "overview": "Les Celtes se battent entre eux et les Saxons au 5\u00e8me si\u00e8cle Britannique apr\u00e8s le retrait romain.",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BMTIxOTc3ODY0NF5BMl5BanBnXkFtZTcwODgxNDg2MQ@@._V1_SX300.jpg",
         "vote_average": "7.6",
         "reviews": [
-            "Ce film est véritablement une œuvre d'art.",
-            "Pas aussi génial qu'on le dit, mais quand même bon.",
-            "Des acteurs fantastiques, mais le rythme était parfois lent."
+            {
+                "review": "Ce film est v\u00e9ritablement une \u0153uvre d'art.",
+                "user": "Eve"
+            },
+            {
+                "review": "Pas aussi g\u00e9nial qu'on le dit, mais quand m\u00eame bon.",
+                "user": "Dave"
+            },
+            {
+                "review": "Des acteurs fantastiques, mais le rythme \u00e9tait parfois lent.",
+                "user": "Eve"
+            }
         ]
     },
     {
         "id": "tt0089370",
         "title": "The Jewel of the Nile",
         "release_date": "11/12/1985",
-        "overview": "Quand Joan Wilder est enlevé pendant un voyage le long du Nil, son petit ami, Jack Colton, et l'ami Ralph se précipitent pour la sauver et récupérer un bijou fable.",
+        "overview": "Quand Joan Wilder est enlev\u00e9 pendant un voyage le long du Nil, son petit ami, Jack Colton, et l'ami Ralph se pr\u00e9cipitent pour la sauver et r\u00e9cup\u00e9rer un bijou fable.",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BNmNlMjE0NDAtYmE4MS00OTEzLTljYjYtODM4MjUwNjM1N2RhXkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "6.1",
         "reviews": [
-            "Un peu lent, mais la fin en valait la peine.",
-            "Un excellent mélange de drame, d'action et de suspense.",
-            "Un des meilleurs films que j'ai jamais vu."
+            {
+                "review": "Un peu lent, mais la fin en valait la peine.",
+                "user": "Charlie"
+            },
+            {
+                "review": "Un excellent m\u00e9lange de drame, d'action et de suspense.",
+                "user": "Eve"
+            },
+            {
+                "review": "Un des meilleurs films que j'ai jamais vu.",
+                "user": "Dave"
+            }
         ]
     },
     {
         "id": "tt0077313",
         "title": "Long quan she shou dou zhi zhu",
         "release_date": "01/03/1979",
-        "overview": "Lee Tso Nam's Challenge of Death présente des élèves de deux écoles différentes d'arts martiaux, Snake Festt et Dragon Festt, qui s'associent pour arrêter un trafiquant de drogue qui se bat avec les terribles griffes d'araignées.",
+        "overview": "Lee Tso Nam's Challenge of Death pr\u00e9sente des \u00e9l\u00e8ves de deux \u00e9coles diff\u00e9rentes d'arts martiaux, Snake Festt et Dragon Festt, qui s'associent pour arr\u00eater un trafiquant de drogue qui se bat avec les terribles griffes d'araign\u00e9es.",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BMjAyMzE1OTAxMF5BMl5BanBnXkFtZTcwMTY3NzYxMQ@@._V1_SX300.jpg",
         "vote_average": "6.5",
         "reviews": [
-            "Pas aussi génial qu'on le dit, mais quand même bon.",
-            "Un excellent mélange de drame, d'action et de suspense.",
-            "Un chef-d'œuvre absolu ! Ça m'a laissé sans voix."
+            {
+                "review": "Pas aussi g\u00e9nial qu'on le dit, mais quand m\u00eame bon.",
+                "user": "Dave"
+            },
+            {
+                "review": "Un excellent m\u00e9lange de drame, d'action et de suspense.",
+                "user": "Dave"
+            },
+            {
+                "review": "Un chef-d'\u0153uvre absolu ! \u00c7a m'a laiss\u00e9 sans voix.",
+                "user": "Alice"
+            }
         ]
     },
     {
         "id": "tt0091149",
         "title": "The Great Mouse Detective",
         "release_date": "02/07/1986",
-        "overview": "Basil, le rongeur Sherlock Holmes, enquête sur l'enlèvement d'un fabricant de jouets et découvre son lien avec l'archénème, le professeur Ratigan.",
+        "overview": "Basil, le rongeur Sherlock Holmes, enqu\u00eate sur l'enl\u00e8vement d'un fabricant de jouets et d\u00e9couvre son lien avec l'arch\u00e9n\u00e8me, le professeur Ratigan.",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BMGZmNDU5OTMtYmRkNC00NDgxLTllNDAtNzFmZDEzNWIzNTViXkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "7.1",
         "reviews": [
-            "Je pourrais regarder ce film encore et encore !",
-            "Cela a dépassé toutes mes attentes.",
-            "Une narration brillante avec des performances incroyables."
+            {
+                "review": "Je pourrais regarder ce film encore et encore !",
+                "user": "Charlie"
+            },
+            {
+                "review": "Cela a d\u00e9pass\u00e9 toutes mes attentes.",
+                "user": "Alice"
+            },
+            {
+                "review": "Une narration brillante avec des performances incroyables.",
+                "user": "Dave"
+            }
         ]
     },
     {
         "id": "tt0093785",
         "title": "Private Road: No Trespassing",
         "release_date": "15/06/1988",
-        "overview": "Mitzi Kapture joue Helen, en tant qu'héritière fiancée qui s'implique romantiquement avec Brad Carlton, coureur automobile, avec qui elle a eu un accident de voiture. Brad aide son entreprise à gagner...",
+        "overview": "Mitzi Kapture joue Helen, en tant qu'h\u00e9riti\u00e8re fianc\u00e9e qui s'implique romantiquement avec Brad Carlton, coureur automobile, avec qui elle a eu un accident de voiture. Brad aide son entreprise \u00e0 gagner...",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BNzIxODJjYjItN2I2Yy00ZTM5LTgxNDUtODE1MzkzZjU5MTUzXkEyXkFqcGdeQXVyMzU0NzkwMDg@._V1_SX300.jpg",
         "vote_average": "5.9",
         "reviews": [
-            "Cela a dépassé toutes mes attentes.",
-            "Un excellent mélange de drame, d'action et de suspense.",
-            "Une narration puissante avec des moments inoubliables."
+            {
+                "review": "Cela a d\u00e9pass\u00e9 toutes mes attentes.",
+                "user": "Alice"
+            },
+            {
+                "review": "Un excellent m\u00e9lange de drame, d'action et de suspense.",
+                "user": "Eve"
+            },
+            {
+                "review": "Une narration puissante avec des moments inoubliables.",
+                "user": "Bob"
+            }
         ]
     },
     {
         "id": "tt0082904",
         "title": "Pierino contro tutti",
         "release_date": "19/09/1981",
-        "overview": "Pierino est un garçon précoce mais mestchieveux qui joue souvent des farces et fait des blagues à l'école. L'ennemi est l'ancien professeur. Un jour, Pierino lui lance un sale tour, lui faisant casser un bras.",
+        "overview": "Pierino est un gar\u00e7on pr\u00e9coce mais mestchieveux qui joue souvent des farces et fait des blagues \u00e0 l'\u00e9cole. L'ennemi est l'ancien professeur. Un jour, Pierino lui lance un sale tour, lui faisant casser un bras.",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BMDdlZDdkNTctZjIyMS00NWM5LThjZWItMjIyMDRmYjY2N2E5XkEyXkFqcGdeQXVyNjA4MDAyNTQ@._V1_SX300.jpg",
         "vote_average": "5.1",
         "reviews": [
-            "Un chef-d'œuvre absolu ! Ça m'a laissé sans voix.",
-            "Des acteurs fantastiques, mais le rythme était parfois lent.",
-            "Une attention incroyable aux détails et au développement des personnages."
+            {
+                "review": "Un chef-d'\u0153uvre absolu ! \u00c7a m'a laiss\u00e9 sans voix.",
+                "user": "Alice"
+            },
+            {
+                "review": "Des acteurs fantastiques, mais le rythme \u00e9tait parfois lent.",
+                "user": "Charlie"
+            },
+            {
+                "review": "Une attention incroyable aux d\u00e9tails et au d\u00e9veloppement des personnages.",
+                "user": "Eve"
+            }
         ]
     },
     {
         "id": "tt0070730",
         "title": "Steel Arena",
         "release_date": "01/04/1973",
-        "overview": "Dusty Russell montre le talent le plus brillant du circuit. Plus tard, il attend le plus grand défi de sa carrière.",
+        "overview": "Dusty Russell montre le talent le plus brillant du circuit. Plus tard, il attend le plus grand d\u00e9fi de sa carri\u00e8re.",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BMTc3NGQ0ZjktMzJjNy00ZWQ5LThiNzctODg3OTM1YmI5NWVlXkEyXkFqcGdeQXVyMjQwMjk0NjI@._V1_SX300.jpg",
         "vote_average": "5.3",
         "reviews": [
-            "Un chef-d'œuvre absolu ! Ça m'a laissé sans voix.",
-            "Je pourrais regarder ce film encore et encore !",
-            "Des acteurs fantastiques, mais le rythme était parfois lent."
+            {
+                "review": "Un chef-d'\u0153uvre absolu ! \u00c7a m'a laiss\u00e9 sans voix.",
+                "user": "Eve"
+            },
+            {
+                "review": "Je pourrais regarder ce film encore et encore !",
+                "user": "Eve"
+            },
+            {
+                "review": "Des acteurs fantastiques, mais le rythme \u00e9tait parfois lent.",
+                "user": "Alice"
+            }
         ]
     },
     {
@@ -1359,308 +2295,524 @@
         "poster_path": "https://m.media-amazon.com/images/M/MV5BMTM5ODUzMzU0OV5BMl5BanBnXkFtZTgwMzU3Njk1MDE@._V1_SX300.jpg",
         "vote_average": "5.9",
         "reviews": [
-            "Je pourrais regarder ce film encore et encore !",
-            "Une montagne russe émotionnelle qui reste en tête.",
-            "Un excellent mélange de drame, d'action et de suspense."
+            {
+                "review": "Je pourrais regarder ce film encore et encore !",
+                "user": "Eve"
+            },
+            {
+                "review": "Une montagne russe \u00e9motionnelle qui reste en t\u00eate.",
+                "user": "Bob"
+            },
+            {
+                "review": "Un excellent m\u00e9lange de drame, d'action et de suspense.",
+                "user": "Alice"
+            }
         ]
     },
     {
         "id": "tt0035442",
         "title": "Timber!",
         "release_date": "01/08/1942",
-        "overview": "Deux agents du FBI sont envoyés pour enquêter sur le sabotage dans un camp de bois.",
+        "overview": "Deux agents du FBI sont envoy\u00e9s pour enqu\u00eater sur le sabotage dans un camp de bois.",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BODMwZjQzMTItYjcyOS00NzUzLWJhYzQtMzM3YzliZDkwOGNjXkEyXkFqcGdeQXVyMzc5ODc1MDY@._V1_SX300.jpg",
         "vote_average": "4.4",
         "reviews": [
-            "Ce film est véritablement une œuvre d'art.",
-            "Une réalisation incroyable et une cinématographie exceptionnelle.",
-            "Fortement recommandé pour les fans du genre."
+            {
+                "review": "Ce film est v\u00e9ritablement une \u0153uvre d'art.",
+                "user": "Bob"
+            },
+            {
+                "review": "Une r\u00e9alisation incroyable et une cin\u00e9matographie exceptionnelle.",
+                "user": "Alice"
+            },
+            {
+                "review": "Fortement recommand\u00e9 pour les fans du genre.",
+                "user": "Dave"
+            }
         ]
     },
     {
         "id": "tt0081667",
         "title": "Tvingad att leva",
         "release_date": "28/01/1980",
-        "overview": "Un fou désespéré est en train de faire rage dans les bois. Il attaque un écrivain et sa copine.",
+        "overview": "Un fou d\u00e9sesp\u00e9r\u00e9 est en train de faire rage dans les bois. Il attaque un \u00e9crivain et sa copine.",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BZDAzN2ZiZDYtNWIzNC00YzM0LWEyMDMtMDRiZTEwNDk5OTIxXkEyXkFqcGdeQXVyNDA5Mjg5MjA@._V1_SX300.jpg",
         "vote_average": "3.5",
         "reviews": [
-            "Un chef-d'œuvre absolu ! Ça m'a laissé sans voix.",
-            "Une narration puissante avec des moments inoubliables.",
-            "Un peu lent, mais la fin en valait la peine."
+            {
+                "review": "Un chef-d'\u0153uvre absolu ! \u00c7a m'a laiss\u00e9 sans voix.",
+                "user": "Dave"
+            },
+            {
+                "review": "Une narration puissante avec des moments inoubliables.",
+                "user": "Eve"
+            },
+            {
+                "review": "Un peu lent, mais la fin en valait la peine.",
+                "user": "Dave"
+            }
         ]
     },
     {
         "id": "tt0061022",
         "title": "The Spy with a Cold Nose",
         "release_date": "01/09/1967",
-        "overview": "Un chien avec un dispositif d'espionnage sous sa peau est envoyé au gouvernement russe comme cadeau. Quand les Russes envoient le chien à un vétérinaire, l'espion britannique doit se rendre au chien d'abord et récupérer le dispositif d'espionnage.",
+        "overview": "Un chien avec un dispositif d'espionnage sous sa peau est envoy\u00e9 au gouvernement russe comme cadeau. Quand les Russes envoient le chien \u00e0 un v\u00e9t\u00e9rinaire, l'espion britannique doit se rendre au chien d'abord et r\u00e9cup\u00e9rer le dispositif d'espionnage.",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BMDVhNGQ2YjQtOWExOS00MzM3LWEwYjQtZGZlNGQ0MmUwYmI5XkEyXkFqcGdeQXVyNTA2NDc4OA@@._V1_SX300.jpg",
         "vote_average": "5.6",
         "reviews": [
-            "Pas aussi génial qu'on le dit, mais quand même bon.",
-            "Un peu lent, mais la fin en valait la peine.",
-            "Un excellent mélange de drame, d'action et de suspense."
+            {
+                "review": "Pas aussi g\u00e9nial qu'on le dit, mais quand m\u00eame bon.",
+                "user": "Eve"
+            },
+            {
+                "review": "Un peu lent, mais la fin en valait la peine.",
+                "user": "Charlie"
+            },
+            {
+                "review": "Un excellent m\u00e9lange de drame, d'action et de suspense.",
+                "user": "Bob"
+            }
         ]
     },
     {
         "id": "tt0075971",
         "title": "The Easter Bunny Is Comin' to Town",
         "release_date": "06/04/1977",
-        "overview": "Le Mailman décide d'arrêter un autre déluge de lettres en répondant aux questions sur le lapin de Pâques : Sunny, un bébé lapin trouvé et adopté par Kidville (une ville de seulement des enfants - même un enfant facteur). Quand Sunny va livrer des œufs...",
+        "overview": "Le Mailman d\u00e9cide d'arr\u00eater un autre d\u00e9luge de lettres en r\u00e9pondant aux questions sur le lapin de P\u00e2ques : Sunny, un b\u00e9b\u00e9 lapin trouv\u00e9 et adopt\u00e9 par Kidville (une ville de seulement des enfants - m\u00eame un enfant facteur). Quand Sunny va livrer des \u0153ufs...",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BMjEzODQ1NDQ5M15BMl5BanBnXkFtZTgwODUxMjc1MzE@._V1_SX300.jpg",
         "vote_average": "7.0",
         "reviews": [
-            "L'intrigue était captivante du début à la fin.",
-            "Un des meilleurs films que j'ai jamais vu.",
-            "Un incontournable pour tous les amateurs de cinéma."
+            {
+                "review": "L'intrigue \u00e9tait captivante du d\u00e9but \u00e0 la fin.",
+                "user": "Eve"
+            },
+            {
+                "review": "Un des meilleurs films que j'ai jamais vu.",
+                "user": "Alice"
+            },
+            {
+                "review": "Un incontournable pour tous les amateurs de cin\u00e9ma.",
+                "user": "Charlie"
+            }
         ]
     },
     {
         "id": "tt0036230",
         "title": "Old Acquaintance",
         "release_date": "27/11/1943",
-        "overview": "Vieux amis Kit Marlowe et Millie Drake adoptent des styles de vie contrastés : Kit est un auteur unique, très apprécié pendant son mariage, Millie écrit des romans en pâte populaire.",
+        "overview": "Vieux amis Kit Marlowe et Millie Drake adoptent des styles de vie contrast\u00e9s : Kit est un auteur unique, tr\u00e8s appr\u00e9ci\u00e9 pendant son mariage, Millie \u00e9crit des romans en p\u00e2te populaire.",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BMmM5OTg1N2YtYTFlNS00ODkzLTk3YmUtODkwMjI3YWM4NjZkXkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "7.4",
         "reviews": [
-            "Des acteurs fantastiques, mais le rythme était parfois lent.",
-            "Ce film est véritablement une œuvre d'art.",
-            "Un classique intemporel que tout le monde devrait voir."
+            {
+                "review": "Des acteurs fantastiques, mais le rythme \u00e9tait parfois lent.",
+                "user": "Charlie"
+            },
+            {
+                "review": "Ce film est v\u00e9ritablement une \u0153uvre d'art.",
+                "user": "Dave"
+            },
+            {
+                "review": "Un classique intemporel que tout le monde devrait voir.",
+                "user": "Dave"
+            }
         ]
     },
     {
         "id": "tt0067815",
         "title": "Sinbad",
         "release_date": "25/11/1971",
-        "overview": "Un vieil homme se souvient de toutes les femmes qu'il a rencontrées dans sa jeunesse. Une vieille femme veut qu'ils se suicident ensemble mais change d'avis. Le petit village a un médecin dont la femme ne peut pas oublier le vieux, et le serveur qui sert h...",
+        "overview": "Un vieil homme se souvient de toutes les femmes qu'il a rencontr\u00e9es dans sa jeunesse. Une vieille femme veut qu'ils se suicident ensemble mais change d'avis. Le petit village a un m\u00e9decin dont la femme ne peut pas oublier le vieux, et le serveur qui sert h...",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BMjMzNDU4ODA0MF5BMl5BanBnXkFtZTgwNTU1NTE2MTE@._V1_SX300.jpg",
         "vote_average": "7.5",
         "reviews": [
-            "Un chef-d'œuvre absolu ! Ça m'a laissé sans voix.",
-            "Pas aussi génial qu'on le dit, mais quand même bon.",
-            "Fortement recommandé pour les fans du genre."
+            {
+                "review": "Un chef-d'\u0153uvre absolu ! \u00c7a m'a laiss\u00e9 sans voix.",
+                "user": "Charlie"
+            },
+            {
+                "review": "Pas aussi g\u00e9nial qu'on le dit, mais quand m\u00eame bon.",
+                "user": "Eve"
+            },
+            {
+                "review": "Fortement recommand\u00e9 pour les fans du genre.",
+                "user": "Dave"
+            }
         ]
     },
     {
         "id": "tt0086353",
         "title": "Sprout Wings and Fly",
         "release_date": "01/10/1983",
-        "overview": "Un documentaire sur Tommy Jarrell, un violoniste de Caroline du Nord. Les films les plus récents montrent un peu de la vie actuelle et ceux qui l'entourent et comprennent beaucoup de musique hest Unppalachian Old-Time.",
+        "overview": "Un documentaire sur Tommy Jarrell, un violoniste de Caroline du Nord. Les films les plus r\u00e9cents montrent un peu de la vie actuelle et ceux qui l'entourent et comprennent beaucoup de musique hest Unppalachian Old-Time.",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BZDM3ODA3NWQtNjIyYy00NzZjLTlkYTAtMzliNGM5NDU0NDc5XkEyXkFqcGdeQXVyMzcyNjMxOTg@._V1_SX300.jpg",
         "vote_average": "7.0",
         "reviews": [
-            "Un peu surestimé, mais ça vaut le détour.",
-            "Un excellent mélange de drame, d'action et de suspense.",
-            "Fortement recommandé pour les fans du genre."
+            {
+                "review": "Un peu surestim\u00e9, mais \u00e7a vaut le d\u00e9tour.",
+                "user": "Bob"
+            },
+            {
+                "review": "Un excellent m\u00e9lange de drame, d'action et de suspense.",
+                "user": "Alice"
+            },
+            {
+                "review": "Fortement recommand\u00e9 pour les fans du genre.",
+                "user": "Charlie"
+            }
         ]
     },
     {
         "id": "tt0024435",
         "title": "Penthouse",
         "release_date": "08/09/1933",
-        "overview": "La fiancée d'un avocat le quitte après avoir défendu un racketeur accusé de meurtre, mais elle a besoin d'aide quand son nouveau beau est accusé de tuer une vieille flamme.",
+        "overview": "La fianc\u00e9e d'un avocat le quitte apr\u00e8s avoir d\u00e9fendu un racketeur accus\u00e9 de meurtre, mais elle a besoin d'aide quand son nouveau beau est accus\u00e9 de tuer une vieille flamme.",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BYzk5MmUyNDUtY2RmZi00MzhkLTk2MmUtMjA4MmExNGFjZWJhXkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "6.8",
         "reviews": [
-            "Des acteurs fantastiques, mais le rythme était parfois lent.",
-            "Une belle histoire d'espoir et de résilience.",
-            "Fortement recommandé pour les fans du genre."
+            {
+                "review": "Des acteurs fantastiques, mais le rythme \u00e9tait parfois lent.",
+                "user": "Eve"
+            },
+            {
+                "review": "Une belle histoire d'espoir et de r\u00e9silience.",
+                "user": "Dave"
+            },
+            {
+                "review": "Fortement recommand\u00e9 pour les fans du genre.",
+                "user": "Dave"
+            }
         ]
     },
     {
         "id": "tt0044741",
         "title": "Ikiru",
         "release_date": "25/03/1956",
-        "overview": "Un bureaucrate essaie de trouver un sens dans la vie après qu'il ait détruit son cancer terminal.",
+        "overview": "Un bureaucrate essaie de trouver un sens dans la vie apr\u00e8s qu'il ait d\u00e9truit son cancer terminal.",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BZTk4OGEwNDQtOGI2MC00MTU2LTk0YTEtNmU5NTIxMWNkNDhlXkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "8.3",
         "reviews": [
-            "Un classique intemporel que tout le monde devrait voir.",
-            "Une montagne russe émotionnelle qui reste en tête.",
-            "Un incontournable pour tous les amateurs de cinéma."
+            {
+                "review": "Un classique intemporel que tout le monde devrait voir.",
+                "user": "Charlie"
+            },
+            {
+                "review": "Une montagne russe \u00e9motionnelle qui reste en t\u00eate.",
+                "user": "Eve"
+            },
+            {
+                "review": "Un incontournable pour tous les amateurs de cin\u00e9ma.",
+                "user": "Dave"
+            }
         ]
     },
     {
         "id": "tt0059511",
-        "title": "Ninette y un señor de Murcia",
+        "title": "Ninette y un se\u00f1or de Murcia",
         "release_date": "13/02/1969",
-        "overview": "Undrés Martínez Segura est un homme célibataire mature qui n'a jamais quitté Murcie. Unfter héritant d'une librairie et de 300 000 pesetas en espèces de hest Ununt Eugenia, il décide de faire un voyage à Parest, où habite son ami Unrmando. Unrmando f...",
+        "overview": "Undr\u00e9s Mart\u00ednez Segura est un homme c\u00e9libataire mature qui n'a jamais quitt\u00e9 Murcie. Unfter h\u00e9ritant d'une librairie et de 300 000 pesetas en esp\u00e8ces de hest Ununt Eugenia, il d\u00e9cide de faire un voyage \u00e0 Parest, o\u00f9 habite son ami Unrmando. Unrmando f...",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BODkzNTNlODktZGY3NS00YjRkLTlkYWMtMjg5NTcxYjQwNDMxXkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "6.5",
         "reviews": [
-            "Une attention incroyable aux détails et au développement des personnages.",
-            "Une belle histoire d'espoir et de résilience.",
-            "Des acteurs fantastiques, mais le rythme était parfois lent."
+            {
+                "review": "Une attention incroyable aux d\u00e9tails et au d\u00e9veloppement des personnages.",
+                "user": "Alice"
+            },
+            {
+                "review": "Une belle histoire d'espoir et de r\u00e9silience.",
+                "user": "Dave"
+            },
+            {
+                "review": "Des acteurs fantastiques, mais le rythme \u00e9tait parfois lent.",
+                "user": "Eve"
+            }
         ]
     },
     {
         "id": "tt0090525",
         "title": "Sledge Hammer!",
         "release_date": "23/09/1986",
-        "overview": "Les aventures d'un policier dérangé et stupide qui cherche toujours la solution la plus violente à tout problème.",
+        "overview": "Les aventures d'un policier d\u00e9rang\u00e9 et stupide qui cherche toujours la solution la plus violente \u00e0 tout probl\u00e8me.",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BZDNhNTE3MWItZjQ2MC00NTJiLWEyZjYtNDFjNmE3OTgwZjZmXkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "8.1",
         "reviews": [
-            "Un excellent mélange de drame, d'action et de suspense.",
-            "Une montagne russe émotionnelle qui reste en tête.",
-            "Une réalisation incroyable et une cinématographie exceptionnelle."
+            {
+                "review": "Un excellent m\u00e9lange de drame, d'action et de suspense.",
+                "user": "Alice"
+            },
+            {
+                "review": "Une montagne russe \u00e9motionnelle qui reste en t\u00eate.",
+                "user": "Eve"
+            },
+            {
+                "review": "Une r\u00e9alisation incroyable et une cin\u00e9matographie exceptionnelle.",
+                "user": "Eve"
+            }
         ]
     },
     {
         "id": "tt0074627",
         "title": "High Risk",
         "release_date": "15/05/1976",
-        "overview": "Une troupe d'anciens artistes du cirque complote pour acier un précieux artefact d'une ambassade à Washington, DC.",
+        "overview": "Une troupe d'anciens artistes du cirque complote pour acier un pr\u00e9cieux artefact d'une ambassade \u00e0 Washington, DC.",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BNjk2NTk0ODU4NV5BMl5BanBnXkFtZTcwMzI3ODU1NQ@@._V1_SX300.jpg",
         "vote_average": "6.1",
         "reviews": [
-            "L'intrigue était captivante du début à la fin.",
-            "Je pourrais regarder ce film encore et encore !",
-            "Une belle histoire d'espoir et de résilience."
+            {
+                "review": "L'intrigue \u00e9tait captivante du d\u00e9but \u00e0 la fin.",
+                "user": "Dave"
+            },
+            {
+                "review": "Je pourrais regarder ce film encore et encore !",
+                "user": "Dave"
+            },
+            {
+                "review": "Une belle histoire d'espoir et de r\u00e9silience.",
+                "user": "Alice"
+            }
         ]
     },
     {
         "id": "tt0025950",
         "title": "Voice in the Night",
         "release_date": "06/04/1934",
-        "overview": "Tim Dale est le fils du président d'une compagnie de téléphone de grande ville et quitte son emploi en suivant un destin avec son père sur la politique de l'entreprise. Il joue au polo. Les circonstances l'obligent à renoncer à jouer au polo et à prendre...",
+        "overview": "Tim Dale est le fils du pr\u00e9sident d'une compagnie de t\u00e9l\u00e9phone de grande ville et quitte son emploi en suivant un destin avec son p\u00e8re sur la politique de l'entreprise. Il joue au polo. Les circonstances l'obligent \u00e0 renoncer \u00e0 jouer au polo et \u00e0 prendre...",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BODNlZTUyMDQtMGNlMi00YTE3LWJjZjctMzlmY2JiMDFkNDM3XkEyXkFqcGdeQXVyMTY5Nzc4MDY@._V1_SX300.jpg",
         "vote_average": "5.7",
         "reviews": [
-            "Un excellent mélange de drame, d'action et de suspense.",
-            "Des acteurs fantastiques, mais le rythme était parfois lent.",
-            "Une réalisation incroyable et une cinématographie exceptionnelle."
+            {
+                "review": "Un excellent m\u00e9lange de drame, d'action et de suspense.",
+                "user": "Eve"
+            },
+            {
+                "review": "Des acteurs fantastiques, mais le rythme \u00e9tait parfois lent.",
+                "user": "Eve"
+            },
+            {
+                "review": "Une r\u00e9alisation incroyable et une cin\u00e9matographie exceptionnelle.",
+                "user": "Charlie"
+            }
         ]
     },
     {
         "id": "tt0033127",
-        "title": "Sérénade",
+        "title": "S\u00e9r\u00e9nade",
         "release_date": "02/09/1940",
-        "overview": "Une histoire romantique un peu libre d'une danseuse britannique amoureuse de Schubert, jalouse du compositeur rival Beethoven, mais inspirée par l'amour le plus vif d'écrire plusieurs des plus grandes œuvres.",
+        "overview": "Une histoire romantique un peu libre d'une danseuse britannique amoureuse de Schubert, jalouse du compositeur rival Beethoven, mais inspir\u00e9e par l'amour le plus vif d'\u00e9crire plusieurs des plus grandes \u0153uvres.",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BZTAxMTg4NDAtZmVhYS00NGJhLTgyMGQtZjE3YjcyYmI4ZjMxL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMzYyNzgzMzI@._V1_SX300.jpg",
         "vote_average": "5.7",
         "reviews": [
-            "Un peu surestimé, mais ça vaut le détour.",
-            "Un des meilleurs films que j'ai jamais vu.",
-            "Une belle histoire d'espoir et de résilience."
+            {
+                "review": "Un peu surestim\u00e9, mais \u00e7a vaut le d\u00e9tour.",
+                "user": "Alice"
+            },
+            {
+                "review": "Un des meilleurs films que j'ai jamais vu.",
+                "user": "Bob"
+            },
+            {
+                "review": "Une belle histoire d'espoir et de r\u00e9silience.",
+                "user": "Charlie"
+            }
         ]
     },
     {
         "id": "tt0060197",
         "title": "The Search",
         "release_date": "01/12/1972",
-        "overview": "Un jeune homme vient à Madrid en 1900 et combat la pauvreté. Il essaie d'éviter de faire partie d'une bande de voleurs, mais dans une bagarre avec le chef le blesse mortellement et est arrêté.",
+        "overview": "Un jeune homme vient \u00e0 Madrid en 1900 et combat la pauvret\u00e9. Il essaie d'\u00e9viter de faire partie d'une bande de voleurs, mais dans une bagarre avec le chef le blesse mortellement et est arr\u00eat\u00e9.",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BZWM5MjgxM2MtMDQ2OC00OGNkLTkyNTYtZWUxYTkxNjJkYzY2XkEyXkFqcGdeQXVyMzU0NzkwMDg@._V1_SX300.jpg",
         "vote_average": "6.7",
         "reviews": [
-            "Pas aussi génial qu'on le dit, mais quand même bon.",
-            "Un chef-d'œuvre absolu ! Ça m'a laissé sans voix.",
-            "Une narration puissante avec des moments inoubliables."
+            {
+                "review": "Pas aussi g\u00e9nial qu'on le dit, mais quand m\u00eame bon.",
+                "user": "Alice"
+            },
+            {
+                "review": "Un chef-d'\u0153uvre absolu ! \u00c7a m'a laiss\u00e9 sans voix.",
+                "user": "Dave"
+            },
+            {
+                "review": "Une narration puissante avec des moments inoubliables.",
+                "user": "Charlie"
+            }
         ]
     },
     {
         "id": "tt0075747",
         "title": "Bhumika",
         "release_date": "11/11/1977",
-        "overview": "Une fille apprend de la musique de sa grand-mère courtisane et entre dans l'industrie du spectacle florissant des années 1930 Bombay, ce qui mène à des décennies de superstardom ainsi que des enchevêtrements romantiques.",
+        "overview": "Une fille apprend de la musique de sa grand-m\u00e8re courtisane et entre dans l'industrie du spectacle florissant des ann\u00e9es 1930 Bombay, ce qui m\u00e8ne \u00e0 des d\u00e9cennies de superstardom ainsi que des enchev\u00eatrements romantiques.",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BYWFjOWMxY2ItZmUyNy00YzUxLWJmM2QtYTY1YTA4NjFmMDVlXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_SX300.jpg",
         "vote_average": "7.4",
         "reviews": [
-            "Un peu surestimé, mais ça vaut le détour.",
-            "Je pourrais regarder ce film encore et encore !",
-            "Fortement recommandé pour les fans du genre."
+            {
+                "review": "Un peu surestim\u00e9, mais \u00e7a vaut le d\u00e9tour.",
+                "user": "Dave"
+            },
+            {
+                "review": "Je pourrais regarder ce film encore et encore !",
+                "user": "Eve"
+            },
+            {
+                "review": "Fortement recommand\u00e9 pour les fans du genre.",
+                "user": "Eve"
+            }
         ]
     },
     {
         "id": "tt0060107",
         "title": "Andrei Rublev",
         "release_date": "01/10/1973",
-        "overview": "La vie, les temps et les afflictions de l'iconographe russe du XVe siècle St. Unndrei Rublev.",
+        "overview": "La vie, les temps et les afflictions de l'iconographe russe du XVe si\u00e8cle St. Unndrei Rublev.",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BY2I4YzZjZDgtNWQzNC00MDdhLWFiZTItZTAwODY2ZmQzMDQwXkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "8.0",
         "reviews": [
-            "Un excellent mélange de drame, d'action et de suspense.",
-            "Des acteurs fantastiques, mais le rythme était parfois lent.",
-            "Cela a dépassé toutes mes attentes."
+            {
+                "review": "Un excellent m\u00e9lange de drame, d'action et de suspense.",
+                "user": "Dave"
+            },
+            {
+                "review": "Des acteurs fantastiques, mais le rythme \u00e9tait parfois lent.",
+                "user": "Bob"
+            },
+            {
+                "review": "Cela a d\u00e9pass\u00e9 toutes mes attentes.",
+                "user": "Eve"
+            }
         ]
     },
     {
         "id": "tt0096348",
         "title": "Up Your Alley",
         "release_date": "01/04/1989",
-        "overview": "Vickie Undderly est une jeune journaliste qui cherche cette grande histoire pour stimuler sa carrière. Une rencontre fortuite avec un vagabond aventureux l'amène dans un monde qu'elle n'a jamais imaginé... dans les rues de L.Un. Soudain...",
+        "overview": "Vickie Undderly est une jeune journaliste qui cherche cette grande histoire pour stimuler sa carri\u00e8re. Une rencontre fortuite avec un vagabond aventureux l'am\u00e8ne dans un monde qu'elle n'a jamais imagin\u00e9... dans les rues de L.Un. Soudain...",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BMjM2N2RiODItMTkzNS00YjRkLWI3N2QtMTRlZTA5NmRiZmM1XkEyXkFqcGdeQXVyMzU0NzkwMDg@._V1_SX300.jpg",
         "vote_average": "5.2",
         "reviews": [
-            "Un peu lent, mais la fin en valait la peine.",
-            "Une montagne russe émotionnelle qui reste en tête.",
-            "Une narration puissante avec des moments inoubliables."
+            {
+                "review": "Un peu lent, mais la fin en valait la peine.",
+                "user": "Eve"
+            },
+            {
+                "review": "Une montagne russe \u00e9motionnelle qui reste en t\u00eate.",
+                "user": "Dave"
+            },
+            {
+                "review": "Une narration puissante avec des moments inoubliables.",
+                "user": "Bob"
+            }
         ]
     },
     {
         "id": "tt0088310",
-        "title": "La tête dans le sac",
+        "title": "La t\u00eate dans le sac",
         "release_date": "31/10/1984",
-        "overview": "Trois fois divorcé, un homme se console avec une autre version du succès, celle de l'argent.",
+        "overview": "Trois fois divorc\u00e9, un homme se console avec une autre version du succ\u00e8s, celle de l'argent.",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BZjQwNTc1ZGEtM2RjYS00MDZlLTljM2UtZjQ3NThjODZlMWNmXkEyXkFqcGdeQXVyMzU0NzkwMDg@._V1_SX300.jpg",
         "vote_average": "5.8",
         "reviews": [
-            "Des acteurs fantastiques, mais le rythme était parfois lent.",
-            "Un classique intemporel que tout le monde devrait voir.",
-            "Une belle histoire d'espoir et de résilience."
+            {
+                "review": "Des acteurs fantastiques, mais le rythme \u00e9tait parfois lent.",
+                "user": "Bob"
+            },
+            {
+                "review": "Un classique intemporel que tout le monde devrait voir.",
+                "user": "Charlie"
+            },
+            {
+                "review": "Une belle histoire d'espoir et de r\u00e9silience.",
+                "user": "Eve"
+            }
         ]
     },
     {
         "id": "tt0082492",
         "title": "Hablamos esta noche",
         "release_date": "16/09/1982",
-        "overview": "Víctor, ingénieur responsable de la centrale nucléaire de Zapater, rejoint les problèmes professionnels avec un divorce imminent, un fils homosexuel et une nouvelle relation. Quand il reste quelques jours pour l'inauguration de l'usine, un ...",
+        "overview": "V\u00edctor, ing\u00e9nieur responsable de la centrale nucl\u00e9aire de Zapater, rejoint les probl\u00e8mes professionnels avec un divorce imminent, un fils homosexuel et une nouvelle relation. Quand il reste quelques jours pour l'inauguration de l'usine, un ...",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BOTRjMjhlYzktNjgwNS00NjM0LWFmYTMtZTU5MmRlNTYxNTA5XkEyXkFqcGdeQXVyMTA0MjU0Ng@@._V1_SX300.jpg",
         "vote_average": "6.5",
         "reviews": [
-            "Un peu surestimé, mais ça vaut le détour.",
-            "Une réalisation incroyable et une cinématographie exceptionnelle.",
-            "Un excellent mélange de drame, d'action et de suspense."
+            {
+                "review": "Un peu surestim\u00e9, mais \u00e7a vaut le d\u00e9tour.",
+                "user": "Bob"
+            },
+            {
+                "review": "Une r\u00e9alisation incroyable et une cin\u00e9matographie exceptionnelle.",
+                "user": "Bob"
+            },
+            {
+                "review": "Un excellent m\u00e9lange de drame, d'action et de suspense.",
+                "user": "Dave"
+            }
         ]
     },
     {
         "id": "tt0056592",
         "title": "To Kill a Mockingbird",
         "release_date": "16/03/1963",
-        "overview": "Un avocat veuf dans l'ère de la dépression Unlabama défend un homme noir contre une accusation de faux viol tout en enseignant aux jeunes enfants la triste réalité des préjugés.",
+        "overview": "Un avocat veuf dans l'\u00e8re de la d\u00e9pression Unlabama d\u00e9fend un homme noir contre une accusation de faux viol tout en enseignant aux jeunes enfants la triste r\u00e9alit\u00e9 des pr\u00e9jug\u00e9s.",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BZTlkYWU4MGEtZmQyYi00OWEzLTgzY2EtYzVjOTEzYzAyNTk1XkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "8.3",
         "reviews": [
-            "Cela a dépassé toutes mes attentes.",
-            "Une réalisation incroyable et une cinématographie exceptionnelle.",
-            "Une montagne russe émotionnelle qui reste en tête."
+            {
+                "review": "Cela a d\u00e9pass\u00e9 toutes mes attentes.",
+                "user": "Charlie"
+            },
+            {
+                "review": "Une r\u00e9alisation incroyable et une cin\u00e9matographie exceptionnelle.",
+                "user": "Charlie"
+            },
+            {
+                "review": "Une montagne russe \u00e9motionnelle qui reste en t\u00eate.",
+                "user": "Bob"
+            }
         ]
     },
     {
         "id": "tt0083129",
         "title": "Street Music",
         "release_date": "01/10/1981",
-        "overview": "Un chanteur (Elizabeth Daily) et son petit ami chauffeur de bus (Larry Genewing) tentent d'aider les locataires âgés à sauver leur hôtel de San Francestco.",
+        "overview": "Un chanteur (Elizabeth Daily) et son petit ami chauffeur de bus (Larry Genewing) tentent d'aider les locataires \u00e2g\u00e9s \u00e0 sauver leur h\u00f4tel de San Francestco.",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BOTBiYWM1MjQtYjI5ZS00ZDJmLThjMGItYzNlOWZhMjE3YzBiXkEyXkFqcGdeQXVyMTY5Nzc4MDY@._V1_SX300.jpg",
         "vote_average": "7.2",
         "reviews": [
-            "Un des meilleurs films que j'ai jamais vu.",
-            "Pas aussi génial qu'on le dit, mais quand même bon.",
-            "Ce film est véritablement une œuvre d'art."
+            {
+                "review": "Un des meilleurs films que j'ai jamais vu.",
+                "user": "Bob"
+            },
+            {
+                "review": "Pas aussi g\u00e9nial qu'on le dit, mais quand m\u00eame bon.",
+                "user": "Dave"
+            },
+            {
+                "review": "Ce film est v\u00e9ritablement une \u0153uvre d'art.",
+                "user": "Dave"
+            }
         ]
     },
     {
         "id": "tt0041949",
         "title": "Tell It to the Judge",
         "release_date": "18/11/1949",
-        "overview": "Marsha Meredith, avocate en droit, est nommée à un poste de juge fédéral, mais sa nomination est contestée par un groupe «Good-Government» qui pense que son divorce la rend inapte au poste. Le plus évolue dans les situations qui se passent à Flor...",
+        "overview": "Marsha Meredith, avocate en droit, est nomm\u00e9e \u00e0 un poste de juge f\u00e9d\u00e9ral, mais sa nomination est contest\u00e9e par un groupe \u00abGood-Government\u00bb qui pense que son divorce la rend inapte au poste. Le plus \u00e9volue dans les situations qui se passent \u00e0 Flor...",
         "poster_path": "https://m.media-amazon.com/images/M/MV5BYzdiODg4YTctYTI0NC00NTY5LWEzYjItYTQ4YTA2ZmM3NzA2XkEyXkFqcGc@._V1_SX300.jpg",
         "vote_average": "6.4",
         "reviews": [
-            "Des acteurs fantastiques, mais le rythme était parfois lent.",
-            "Je pourrais regarder ce film encore et encore !",
-            "Une narration puissante avec des moments inoubliables."
+            {
+                "review": "Des acteurs fantastiques, mais le rythme \u00e9tait parfois lent.",
+                "user": "Charlie"
+            },
+            {
+                "review": "Je pourrais regarder ce film encore et encore !",
+                "user": "Eve"
+            },
+            {
+                "review": "Une narration puissante avec des moments inoubliables.",
+                "user": "Alice"
+            }
         ]
     }
 ]
