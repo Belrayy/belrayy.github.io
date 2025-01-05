@@ -100,5 +100,8 @@ This website is built using HTML, CSS, JavaScript, Node.js, and Python.
 ## Usage
 
 1. Clone the repository:
+    Use Live server
    ```bash
    git clone https://github.com/Belrayy/belrayy.github.io.git
+2. Open the link:
+    https://belrayy.github.io/
