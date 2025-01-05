@@ -1,18 +1,3 @@
-Solution 3 : Utiliser Visual Studio Code avec Live Server
+qrencode -o qrcodegit.png "https://belrayy.github.io/"
+qrencode -o qrcoderepo.png "https://github.com/Belrayy/Belrayy.github.io"
 
-Si vous utilisez Visual Studio Code, l'extension Live Server simplifie le démarrage d'un serveur local :
-
-    Installez l’extension Live Server dans VS Code.
-    Ouvrez votre projet dans VS Code.
-    Faites un clic droit sur votre fichier HTML dans l'explorateur, puis sélectionnez "Open with Live Server".
-    Votre projet s’ouvrira automatiquement dans le navigateur via un serveur local.
-
-
-    .overlay-content {
-    display: inline-block;
-    background-color: #333; /* Keep the background color */
-    padding: 30px;
-    border-radius: 10px;
-    width: 100%; /* Ensure the content inside takes up full width */
-    box-sizing: border-box; /* Prevent padding from affecting width calculation */
-} 
