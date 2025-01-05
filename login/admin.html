@@ -130,7 +130,10 @@
                     <input type="text" id="addReviewMovieId" name="id" required><br><br>
     
                     <label for="addReviewContent">Review:</label>
-                    <textarea id="addReviewContent" name="review" required></textarea><br><br>
+                    <input type="text" id="addReviewContent" name="review" required><br><br>
+
+                    <label for="addUsernameadmin">Username:</label>
+                    <input type="text" id="addUsernameadmin" name="username" required><br><br>
     
                     <button type="submit" id="addReviewBtn" class="overlay-button" onclick="return addReview()">Add Review</button>
                 </form>
@@ -142,8 +145,8 @@
                     <label for="removeReviewMovieId">Movie Id:</label>
                     <input type="text" id="removeReviewMovieId" name="id" required><br><br>
     
-                    <label for="removeReviewContent">Review:</label>
-                    <textarea id="removeReviewContent" name="review" required></textarea><br><br>
+                    <label for="removeReviewUser">Username:</label>
+                    <input type="text" id="removeReviewUser" name="review" required><br><br>
     
                     <button type="submit" id="removeReviewBtn" class="overlay-button" onclick="return removeReview()">Remove Review</button>
                 </form>

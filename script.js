@@ -1,5 +1,5 @@
 let loggedIn = localStorage.getItem('loggedIn') || 0;
-
+let username = localStorage.getItem('username') || '';
 // Function to change the language and save preference to localStorage
 function changeLanguage(language) {
     // Save the selected language to localStorage
@@ -287,12 +287,14 @@ document.addEventListener('DOMContentLoaded', function () {
         if (user) {
             // console.log('User role:', user.role); // Debugging log
             if (user.role === "admin") {
+                localStorage.setItem('username', user.username);
                 localStorage.setItem('loggedIn', 1);
                 console.log('Redirecting to admin.html'); // Debugging log
                 window.location.href = './admin.html'; // Redirect to admin page
                 alert('Login admin!');
 
             } else {
+                localStorage.setItem('username', user.username);
                 localStorage.setItem('loggedIn', 2);
                 window.location.href = '../index.html';
                 alert('Login successful!');
@@ -511,7 +513,7 @@ loadMoviesToLocalStorage().then(() => {
 
 function removeMovie(id) {
     let moviesEn = JSON.parse(localStorage.getItem('cleaned_movies.json')) || [];
-    let moviesFr = JSON.parse(localStorage.getItem('cleaned_movies_fr.json')) || [];
+    let moviesFr = JSON.parse(localStorage.getItem('/HTML/reviews/reviews_fr.json')) || [];
 
     const updatedMoviesEn = moviesEn.filter(movie => movie.id !== id);
     const updatedMoviesFr = moviesFr.filter(movie => movie.id !== id);
@@ -534,6 +536,132 @@ function handleRemoveMovie(event) {
     const id = document.getElementById('removeMovieId').value;
     return removeMovie(id);
 }
+
+function addReview() {
+    // Get the movie ID from the form input
+    const movieId = document.getElementById("addReviewMovieId").value;
+    
+    // Get the review content from the form input
+    const reviewContent = document.getElementById("addReviewContent").value;
+
+    // Get the username from the input field
+    const username = document.getElementById("addUsernameadmin").value;
+
+    // Set the correct JSON files based on the language
+    const jsonFileFr = '/HTML/reviews/reviews_fr.json';
+    const jsonFileEn = '/HTML/reviews/reviews.json';
+
+    // Fetch both JSON files (French and English)
+    Promise.all([
+        fetch(jsonFileFr).then(response => response.json()),
+        fetch(jsonFileEn).then(response => response.json())
+    ])
+    .then(([moviesFr, moviesEn]) => {
+        // Find the movie in both French and English movies
+        let movieFr = moviesFr.find(movie => movie.id === movieId);
+        let movieEn = moviesEn.find(movie => movie.id === movieId);
+
+        if (movieFr) {
+            // If the movie exists in the French JSON, add the new review
+            movieFr.reviews.push({
+                review: reviewContent,
+                user: username
+            });
+        }
+
+        if (movieEn) {
+            // If the movie exists in the English JSON, add the new review
+            movieEn.reviews.push({
+                review: reviewContent,
+                user: username
+            });
+        }
+
+        // Save the updated movie lists back to localStorage (if you're keeping them there)
+        localStorage.setItem("movies_fr", JSON.stringify(moviesFr));
+        localStorage.setItem("movies_en", JSON.stringify(moviesEn));
+
+        // Optionally, hide the form and reset it
+        document.getElementById("addReviewForm").style.display = "none";
+        document.querySelector("form").reset();
+
+        alert("Review added successfully!");
+    })
+    .catch(error => {
+        console.error('Error loading movie data:', error);
+        alert('Error loading movie data. Please try again.');
+    });
+
+    // Prevent form submission (since we are handling the action with JavaScript)
+    return false;
+}
+
+function removeReview() {
+    // Get the movie ID from the form input
+    const movieId = document.getElementById("removeReviewMovieId").value;
+    
+    // Get the username from the form input
+    const username = document.getElementById("removeReviewUser").value;
+
+    // Set the correct JSON files based on the language
+    const jsonFileFr = '/HTML/reviews/reviews_fr.json';
+    const jsonFileEn = '/HTML/reviews/reviews.json';
+
+    // Fetch both JSON files (French and English)
+    Promise.all([
+        fetch(jsonFileFr).then(response => response.json()),
+        fetch(jsonFileEn).then(response => response.json())
+    ])
+    .then(([moviesFr, moviesEn]) => {
+        // Find the movie in both French and English movies
+        let movieFr = moviesFr.find(movie => movie.id === movieId);
+        let movieEn = moviesEn.find(movie => movie.id === movieId);
+
+        let reviewRemoved = false;
+
+        if (movieFr) {
+            // Find the review by the user in the French movie reviews and remove it
+            const reviewIndexFr = movieFr.reviews.findIndex(review => review.user === username);
+            if (reviewIndexFr !== -1) {
+                movieFr.reviews.splice(reviewIndexFr, 1);
+                reviewRemoved = true;
+            }
+        }
+
+        if (movieEn) {
+            // Find the review by the user in the English movie reviews and remove it
+            const reviewIndexEn = movieEn.reviews.findIndex(review => review.user === username);
+            if (reviewIndexEn !== -1) {
+                movieEn.reviews.splice(reviewIndexEn, 1);
+                reviewRemoved = true;
+            }
+        }
+
+        if (reviewRemoved) {
+            // Save the updated movie lists back to localStorage
+            localStorage.setItem("movies_fr", JSON.stringify(moviesFr));
+            localStorage.setItem("movies_en", JSON.stringify(moviesEn));
+
+            // Optionally, hide the form and reset it
+            document.getElementById("removeReviewForm").style.display = "none";
+            document.querySelector("form").reset();
+
+            alert("Review removed successfully!");
+        } else {
+            alert("Review not found!");
+        }
+    })
+    .catch(error => {
+        console.error('Error loading movie data:', error);
+        alert('Error loading movie data. Please try again.');
+    });
+
+    // Prevent form submission (since we are handling the action with JavaScript)
+    return false;
+}
+
+
+
 
 async function loadReviewsToLocalStorage() {
     const lang = localStorage.getItem('language') || 'en';
@@ -613,18 +741,12 @@ async function loadReviews() {
                 <p class="overview">${review.overview}</p>
                 <p class="rating">${stars}</p>
                 <ul class="reviews-list">
-                    ${review.reviews.map(r => `<li>${r.user}: ${r.review}</li>`).join('')}
+                    ${(review.reviews || []).map(r => `<li>${r.user}: ${r.review}</li>`).join('')}
                 </ul>
             `;
 
             reviewCard.addEventListener('click', () => {
-                const loggedIn = localStorage.getItem('loggedIn');
-                if (loggedIn != 0) {
-                    // Logic to add a review
-                    alert('Add a review');
-                } else {
-                    window.location.href = './login/login.html';
-                }
+                handleMovieCardClick();
             });
 
             // Append the review card to the container
@@ -635,17 +757,70 @@ async function loadReviews() {
     }
 }
 
-
 loadReviewsToLocalStorage().then(() => {
     window.onload=loadReviews();
 });
 
-function handleMovieCardClick() {
-    const loggedIn = localStorage.getItem('loggedIn');
+function handleMovieCardClick(id) {
+    const loggedIn = localStorage.getItem('loggedIn') || 0;
     if (loggedIn != 0) {
-        // Logic to add a review
-        alert('Add a review');
+        const userName = localStorage.getItem('username');
+        if(addReview(userName,id)){
+            loadReviews();
+        }
     } else {
-        window.location.href = './login/login.html';
+        window.location.href = '/login/login.html';
     }
 }
+function addReviewUser(userName,id) {
+    const overlay = document.createElement('div');
+    overlay.style.position = 'fixed';
+    overlay.style.top = '0';
+    overlay.style.left = '0';
+    overlay.style.width = '100%';
+    overlay.style.height = '100%';
+    overlay.style.backgroundColor = 'rgba(0, 0, 0, 0.5)';
+    overlay.style.display = 'flex';
+    overlay.style.justifyContent = 'center';
+    overlay.style.alignItems = 'center';
+    overlay.style.zIndex = '1000';
+
+    const reviewContainer = document.createElement('div');
+    reviewContainer.style.backgroundColor = 'rgba(0, 0, 0, 0.5)';
+    reviewContainer.style.padding = '20px';
+    reviewContainer.style.borderRadius = '10px';
+    reviewContainer.style.boxShadow = '0 0 10px rgba(0, 0, 0, 0.0)';
+    reviewContainer.innerHTML = `
+        <input type="text" id="reviewInput" placeholder="Enter your review" style="display: block; margin-bottom: 10px; width: 100%; padding: 10px;">
+        <button id="submitReview" style="padding: 10px 20px;">Submit</button>
+        <button id="closeOverlay" style="padding: 10px 20px; margin-left: 10px; background-color: #f44336; color: white; border: none; border-radius: 5px;">Close</button>
+    `;
+
+    overlay.appendChild(reviewContainer);
+    document.body.appendChild(overlay);
+
+
+    document.getElementById('submitReview').addEventListener('click', () => {
+        const reviewText = document.getElementById('reviewInput').value;
+        console.log('Review Text:', reviewText); // Log the review text
+        if (reviewText) {
+            const lang = localStorage.getItem('language') || 'en';
+            const jsonFile = lang === 'fr' ? '/HTML/reviews/reviews_fr.json' : '/HTML/reviews/reviews.json';
+            let reviews = JSON.parse(localStorage.getItem(jsonFile)) || [];
+            reviews.push({ review: reviewText, user: userName });
+            localStorage.setItem(jsonFile, JSON.stringify(reviews));
+            alert('Review added successfully!');
+            document.body.removeChild(overlay);
+            loadReviews(); // Refresh the reviews after adding a new one
+            return true;
+        } else {
+            alert('Please enter the review');
+            return false;
+        }
+    });
+
+    document.getElementById('closeOverlay').addEventListener('click', () => {
+        document.body.removeChild(overlay);
+    });
+}
+
