@@ -91,30 +91,39 @@ header {
     justify-content: space-around;
 }
 
-.movie-card {
+.movie-card, .review-card {
     background-color: #222;
-    width: 200px;
-    padding: 10px;
-    margin: 10px;
+    width: 100%; /* Change width to 100% */
+    padding: 20px; /* Increase padding for better spacing */
+    margin: 10px 0; /* Adjust margin to only have vertical spacing */
     border-radius: 8px;
     text-align: center;
     color: #f4f4f4;
+    box-sizing: border-box; /* Ensure padding and border are included in the width */
 }
 
-.movie-card img {
+.movie-card img, .review-card img {
     width: 100%;
     border-radius: 8px;
 }
 
-.movie-card h3 {
-    font-size: 1.2em;
+.movie-card h3, .review-card h3 {
+    font-size: 1.5em; /* Increase font size for better readability */
     margin: 10px 0;
 }
 
-.movie-card .rating {
-    font-size: 1.1em;
+.movie-card .release-date,
+.movie-card .overview,
+.movie-card .rating,
+.review-card .release-date,
+.review-card .overview,
+.review-card .rating {
+    margin: 5px 0;
 }
 
+.movie-card .rating, .review-card .rating {
+    font-size: 1.2em; /* Increase font size for better readability */
+}
 
 .movie-reviews {
     padding: 20px;
@@ -139,6 +148,19 @@ header {
 
 .review p {
     font-size: 1.1em;
+}
+
+.reviews-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+    width: 100%;
+}
+
+.reviews-list li {
+    margin: 5px 0;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
 }
 
 @media (max-width: 768px) {

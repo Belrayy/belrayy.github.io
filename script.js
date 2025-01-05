@@ -562,3 +562,93 @@ async function loadReviewsToLocalStorage() {
         console.error("Error loading reviews to localStorage:", error);
     }
 }
+
+async function loadReviews() {
+    const container = document.getElementById("reviews-container");
+    container.innerHTML = ''; // Clear the container before loading reviews
+    const lang = localStorage.getItem('language') || 'en';
+    const jsonFile = lang === 'fr' ? '/HTML/reviews/reviews_fr.json' : '/HTML/reviews/reviews.json';
+    const sortOption = document.getElementById('sortReviews').value;
+
+    try {
+        // Get reviews from localStorage
+        const reviews = JSON.parse(localStorage.getItem(jsonFile)) || [];
+
+        // Log the reviews to debug
+        console.log('Reviews before sorting:', reviews);
+
+        // Sort reviews based on the selected option
+        switch (sortOption) {
+            case 'dateAsc':
+                reviews.sort((a, b) => {
+                    const dateA = new Date(convertDateFormat(a.release_date));
+                    const dateB = new Date(convertDateFormat(b.release_date));
+                    console.log('Sorting by dateAsc:', dateA, dateB); // Debugging log
+                    return dateA - dateB;
+                });
+                break;
+            case 'dateDesc':
+                reviews.sort((a, b) => {
+                    const dateA = new Date(convertDateFormat(a.release_date));
+                    const dateB = new Date(convertDateFormat(b.release_date));
+                    console.log('Sorting by dateDesc:', dateA, dateB); // Debugging log
+                    return dateB - dateA;
+                });
+                break;
+            case 'reviewsAsc':
+                reviews.sort((a, b) => a.vote_average - b.vote_average);
+                break;
+            case 'reviewsDesc':
+                reviews.sort((a, b) => b.vote_average - a.vote_average);
+                break;
+            default:
+                // Default sorting (if any)
+                break;
+        }
+
+        // Log the reviews after sorting to debug
+        console.log('Reviews after sorting:', reviews);
+
+        // Loop through each review in the JSON and create a review card
+        reviews.forEach(review => {
+            // Calculate the star rating (round to nearest whole number)
+            const starRating = Math.round(review.vote_average / 2); // Convert 10-point scale to 5-star scale
+            const stars = "★".repeat(starRating) + "☆".repeat(5 - starRating);
+
+            // Create the review card HTML
+            const reviewCard = document.createElement("div");
+            reviewCard.className = "review-card";
+            reviewCard.innerHTML = `
+                <img src="${review.poster_path}" alt="${review.title}" style="width: 150px; height: auto;">
+                <h3>${review.title}</h3>
+                <p class="release-date">${review.release_date}</p>
+                <p class="overview">${review.overview}</p>
+                <p class="rating">${stars}</p>
+                <ul class="reviews-list">
+                    ${review.reviews.map(r => `<li>${r.user}: ${r.review}</li>`).join('')}
+                </ul>
+            `;
+
+            reviewCard.addEventListener('click', () => {
+                const loggedIn = localStorage.getItem('loggedIn');
+                if (loggedIn != 0) {
+                    // Logic to add a review
+                    alert('Add a review');
+                } else {
+                    window.location.href = './login/login.html';
+                }
+            });
+
+            // Append the review card to the container
+            container.appendChild(reviewCard);
+        });
+    } catch (error) {
+        console.error("Error loading reviews:", error);
+    }
+}
+
+
+
+loadReviewsToLocalStorage().then(() => {
+    window.onload=loadReviews();
+});

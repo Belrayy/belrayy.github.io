@@ -30,6 +30,17 @@
         </div>
     </header>
 
+    <div class="sort-options">
+        <label for="sortReviews" id="sortReviewsLabel">Sort Movies By:</label>
+        <select id="sortReviews" onclick="loadReviews()">
+            <option value="default" id="default">Default</option>
+            <option value="dateAsc" id="dateAsc">Date Ascending</option>
+            <option value="dateDesc" id="dateDesc">Date Descending</option>
+            <option value="reviewsAsc" id="reviewsAsc">Reviews Ascending</option>
+            <option value="reviewsDesc" id="reviewsDesc">Reviews Descending</option>
+        </select>
+    </div>
+
     <div id="reviews-container"></div>
 
     <footer class="footer">
