@@ -32,10 +32,10 @@ This website is built using HTML, CSS, and JavaScript.
 1. **Navigation Bar**:
    - Logo linking to the homepage.
    - Links to:
-     - `Sign-in/Log in`
+     - Sign-in/Log in
      - Movies & Shows
      - Reviews
-   - Admin link (currently empty).
+   - Admin link.
 
 2. **Popular Movies Section**:
    - Displays a grid of the latest popular movies.
@@ -55,4 +55,25 @@ This website is built using HTML, CSS, and JavaScript.
 ---
 
 ## Project Structure
+
+1. **Main page**:
+    -Index.
+2. **Movies**:
+    -All the movies located in the json database.
+    -All scraped with node.js and cleaned with python script.
+    -English database.
+    -French database translated with libretranslate.
+3. **Sign in/Login**:
+    -Sign up overlay.
+    -Log in overlay.
+    -Admin and Normal user type of accounted located in a json file.
+4. **Admin**:
+    -Add and remove accounts.
+    -Add and remove movies.
+    -Add and remove reviews.
+5. **Reviews**:
+    -20 reviews ai-generated.
+    -3 randoms reviews in english.
+    -3 randoms reviews in french.
+
 
