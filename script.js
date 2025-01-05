@@ -546,3 +546,19 @@ function handleRemoveMovie(event) {
     const id = document.getElementById('removeMovieId').value;
     return removeMovie(id);
 }
+
+async function loadReviewsToLocalStorage() {
+    const lang = localStorage.getItem('language') || 'en';
+    const jsonFile = lang === 'fr' ? '/HTML/reviews/reviews_fr.json' : '/HTML/reviews/reviews.json';
+
+    try {
+        // Fetch the JSON file
+        const response = await fetch(jsonFile);
+        const reviews = await response.json();
+
+        // Save reviews to localStorage
+        localStorage.setItem(jsonFile, JSON.stringify(reviews));
+    } catch (error) {
+        console.error("Error loading reviews to localStorage:", error);
+    }
+}
