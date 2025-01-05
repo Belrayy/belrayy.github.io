@@ -166,6 +166,16 @@ async function loadMovies() {
                 <p class="rating">${stars}</p>
             `;
 
+            movieCard.addEventListener('click', () => {
+                const loggedIn = localStorage.getItem('loggedIn');
+                if (loggedIn != 0) {
+                    // Logic to add a review
+                    alert('Add a review');
+                } else {
+                    window.location.href = './login/login.html';
+                }
+            });
+
             // Append the movie card to the container
             container.appendChild(movieCard);
         });
@@ -214,6 +224,16 @@ async function loadLatestMovies() {
                 <p class="overview">${movie.overview}</p>
                 <p class="rating">${stars}</p>
             `;
+
+            movieCard.addEventListener('click', () => {
+                const loggedIn = localStorage.getItem('loggedIn');
+                if (loggedIn != 0) {
+                    // Logic to add a review
+                    alert('Add a review');
+                } else {
+                    window.location.href = './login/login.html';
+                }
+            });
 
             // Append the movie card to the container
             container.appendChild(movieCard);
@@ -338,8 +358,12 @@ function togglePasswordVisibility(passwordFieldId) {
 
 function updateAuthLink() {
     const authLink = document.getElementById('auth-link');
+    const adminLink = document.getElementById('admin-link');
     if (loggedIn != 0) {
         authLink.innerHTML = '<a id="logout-link" href="index.html" onclick="logout()">Disconnect</a>';
+        if (loggedIn == 1) {
+            adminLink.innerHTML = '<a id="admin-link" href="./login/admin.html">Admin</a>';
+        }
     } else {
         authLink.innerHTML = '<a id="login-link" href="./login/login.html">Sign-in/Log in</a>';
     }
