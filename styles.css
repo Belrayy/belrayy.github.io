@@ -95,7 +95,7 @@ header {
     background-color: #222;
     width: 100%; /* Change width to 100% */
     padding: 20px; /* Increase padding for better spacing */
-    margin: 10px 0; /* Adjust margin to only have vertical spacing */
+    margin: 10px 10px; /* Adjust margin to add spacing between cards */
     border-radius: 8px;
     text-align: center;
     color: #f4f4f4;

@@ -167,13 +167,7 @@ async function loadMovies() {
             `;
 
             movieCard.addEventListener('click', () => {
-                const loggedIn = localStorage.getItem('loggedIn');
-                if (loggedIn != 0) {
-                    // Logic to add a review
-                    alert('Add a review');
-                } else {
-                    window.location.href = './login/login.html';
-                }
+                handleMovieCardClick();
             });
 
             // Append the movie card to the container
@@ -226,13 +220,7 @@ async function loadLatestMovies() {
             `;
 
             movieCard.addEventListener('click', () => {
-                const loggedIn = localStorage.getItem('loggedIn');
-                if (loggedIn != 0) {
-                    // Logic to add a review
-                    alert('Add a review');
-                } else {
-                    window.location.href = './login/login.html';
-                }
+                handleMovieCardClick();
             });
 
             // Append the movie card to the container
@@ -648,7 +636,16 @@ async function loadReviews() {
 }
 
 
-
 loadReviewsToLocalStorage().then(() => {
     window.onload=loadReviews();
 });
+
+function handleMovieCardClick() {
+    const loggedIn = localStorage.getItem('loggedIn');
+    if (loggedIn != 0) {
+        // Logic to add a review
+        alert('Add a review');
+    } else {
+        window.location.href = './login/login.html';
+    }
+}
